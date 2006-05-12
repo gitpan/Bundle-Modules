@@ -1,6 +1,6 @@
 package Bundle::Modules::CPAN;
 
-$VERSION = 2006.0510; ## (YYYY.MMDD)
+$VERSION = 2006.0511; ## (YYYY.MMDD)
 
 1;
 
@@ -8,15 +8,26 @@ __END__
 
 =head1 NAME
 
-Bundle::Modules::CPAN - All current stable modules in CPAN
+=over
+
+=item Bundle::Modules::CPAN
+
+All current I<stable> modules in CPAN
+
+=back
 
 =head1 SYNOPSIS
 
-C<perl -MCPAN -e 'install Bundle::Modules::CPAN'>
+=over
 
-C<cpan -i Bundle::Modules::CPAN>
+=item C<% B<perl -MCPAN -e 'install Bundle::Modules::CPAN'>>
+
+=item C<% B<cpan -i Bundle::Modules::CPAN>>
+
+=back
 
 =head1 CONTENTS
+
 Tangram::Type::TimeAndDate
 Authen::Users
 Tangram::Type::Set::FromOne
@@ -22388,8 +22399,8 @@ GD::Image::AnimatedGif
 Module::Optional
 Net::RRP::Exception::MissingCommandOption
 Getopt::CallingName
-Bio::SAGE
 Apache::BlockAgent
+Bio::SAGE
 Hacker
 Gestinanna::XSM
 Bio::Tools::Run::PiseApplication::fastrna
@@ -38394,26 +38405,69 @@ Games::Worms
 Xfce4
 FreePAN::SVKMirror
 Tree::XPathEngine::Boolean
+
 =head1 CHANGES
 
-=over 4
+=over
 
-=item 0.01
+=item 2006.0510 (YYYY.MMDD)
 
-This is Bundle::Modules::CPAN initial version 2006.0510 (YYYY.MMDD)
+Initial version of: Bundle::Modules::CPAN-2006.0510
 
-This C<Bundle::Modules> component package is in pre-alpha state with hash ordering.
+This B<L<Bundle::Modules>> component package is in pre-alpha state with hash ordering.
 
 The ordering of listed modules will eventually be prioritized for efficiency and completeness.
 
-Modules commented out of this module list are either unstable or stable in the C<Bundle::Modules> context.
+Modules commented out of this module list are either I<unstable> or I<stable> in the B<L<Bundle::Modules>> context.
 
-Optimistically, if there are a lot of the modules commented out, then they are stable, and we're listing unstable context.
+Optimistically, if there are a lot of the modules commented out, then they are I<stable>, and we're listing I<unstable> context.
 
-Optimistically, if there are a few of the modules commented out, then they are unstable, and we're listing stable context.
+Optimistically, if there are a few of the modules commented out, then they are I<unstable>, and we're listing I<stable> context.
+
+If you use the command C<B<man Bundle::Modules::CPAN>>, type C<B</#>> to see the commented out modules as they're higlighted for you by B<L<man>>.
 
 =back
 
-=head1 AUTHOR
+=head1 DESCRIPTION
 
-Eric R. Meyers (CPAN author/id/E/ER/ERMEYERS/Bundle-Modules-2006.0510)
+=over
+
+=item This Bundle package will install all of the modules listed, if they're not commented out of the B<L<Bundle::Modules>> context.
+
+=back
+
+=head1 SEE ALSO
+
+=over
+
+=item I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>, I<L<Bundle::Modules::Acme::Everything::Unique::Unstable>>
+
+=back
+
+=head1 AUTHORS
+
+=over
+
+=item Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
+
+=back
+
+=head1 LICENSE for http://www.cpan.org/modules/by-authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0511
+
+=over
+
+=item http://www.perl.com/perl/misc/Artistic.html
+
+=item This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+=back
+
+=head1 COPYRIGHT
+
+=over
+
+=item Copyright 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
+
+=back
+
+

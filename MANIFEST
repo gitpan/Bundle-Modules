@@ -1,12 +1,16 @@
-Makefile.PL
 create_bundle_modules.plx
-README
-Modules
-Modules/Unstable.pm
-Modules/CPAN
-Modules/CPAN/Unstable.pm
-Modules/CPAN.pm
-Modules/Acme
-Modules/Acme/Everything/Unique.pm
-Modules/Acme/Everything.pm
+INSTALL
+Makefile.PL
+MANIFEST			This list of files
 Modules.pm
+Modules/Acme/Everything.pm
+Modules/Acme/Everything/Unique.pm
+Modules/Acme/Everything/Unique/Unstable.pm
+Modules/Acme/Everything/Unstable.pm
+Modules/CPAN.pm
+Modules/CPAN/Unstable.pm
+Modules/Unstable.pm
+README
+SIGNATURE
+t/test1.pl.t
+test.pl

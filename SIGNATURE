@@ -1,0 +1,38 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.53.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 72371f3217c31e8c92331c90cc2153a04f3b07bf INSTALL
+SHA1 174ded3644b3ff0cce29093a04a59681c4ce0d65 MANIFEST
+SHA1 1dab30dbe10e2d47ef6e35f979bb995794ffe38c Makefile.PL
+SHA1 af08b75558ceb2830a1002fb4f9f540e94d88651 Modules.pm
+SHA1 b96f25a797c65dd7ed34c9713eb6438494a23ca0 Modules/Acme/Everything.pm
+SHA1 cdc0b0dc4b286048c5373681133f7ec7b7674764 Modules/Acme/Everything/Unique.pm
+SHA1 52e14760a82c4798c4ab24e4c400a56f37dab7b2 Modules/Acme/Everything/Unique/Unstable.pm
+SHA1 23931b8c423cc240da8338414f3aa69d05bc7786 Modules/Acme/Everything/Unstable.pm
+SHA1 28b3f930928b04f494427ce84c3a66cdd8d2b2d1 Modules/CPAN.pm
+SHA1 79b4088bd1e812f1426cf445cd4f7d3ca32e265f Modules/CPAN/Unstable.pm
+SHA1 5bc354cecc5aff450e485e4f300385adb69d35d2 Modules/Unstable.pm
+SHA1 d2c3c3e43e00d51ddf6bcf6ec472eaad9ef9aee8 README
+SHA1 aab029d6fb7c497dfec6b099f0a588f15aa7f2d5 create_bundle_modules.plx
+SHA1 79e7449706125bf51e4679a1bd70577f56128322 t/test1.pl.t
+SHA1 d432a16d88837bcd589dea9732fb48ab50987823 test.pl
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+
+iD8DBQFEY/UKmYhyuYPOgKMRAk9lAJ95dvG2HLMrZbWOpKW/J1pqdyLeJQCaAqlT
+8VP/YegVSyOb6pAUdCUzVsQ=
+=ET2X
+-----END PGP SIGNATURE-----
