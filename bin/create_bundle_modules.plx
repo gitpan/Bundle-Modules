@@ -5,11 +5,17 @@ use strict;
 
 use warnings;
 
+require FindBin;
+
 require Date::Format;
 
 require IO::File;
 
-my $VERSION =  Date::Format::time2str( '%Y.%m%d', time );
+chdir( $FindBin::Bin ); chdir( $FindBin::Bin ); ## dummy
+
+unshift( @ARGV, time() ) unless ( $ARGV[0] =~ m/^\d+$/ );
+
+our $VERSION =  Date::Format::time2str( '%Y.%m%d', $ARGV[0] );
 
 my $SEEDATE = Date::Format::time2str( '%Y.%m%d', 1147298572 ); ## 2006.0510
 
@@ -27,7 +33,7 @@ my $LTERMS = 'This program is free software; you can redistribute it and/or modi
 
 my $CRIGHT = 'Copyright 2006 by ' . $EMADDR;
 
-my $BNDLROOT = $ENV{'HOME'}. '/ERMEYERS/Bundle-Modules-' . $VERSION;
+my $BNDLROOT = '../lib';
 
 my $CPANROOT = $ENV{'HOME'} . '/.cpan';
 
@@ -38,6 +44,8 @@ my $CPANPLUSROOT = $ENV{'HOME'} . '/.cpanplus';
 ##  ------
 
 my %Bundle__Modules = ();
+
+##rename( $BNDLROOT . '/Modules.pm', $BNDLROOT . '/Modules.pm.bak' );
 
 my $Bundle__Modules = IO::File->new( $BNDLROOT . '/Modules.pm', '+>' ) ||
                       die "opening Bundle::Modules:$!\n";
@@ -76,7 +84,7 @@ my $Bundle__Modules__CPAN__Unstable = IO::File->new( $BNDLROOT . '/Modules/CPAN/
 my %Bundle__Modules__Acme__Everything = ();
 
 my $Bundle__Modules__Acme__Everything = IO::File->new( $BNDLROOT . '/Modules/Acme/Everything.pm', '<' ) ||
-                               die "opening Bundle::Modules::Acme::Everything:$!\n";
+                                        die "opening Bundle::Modules::Acme::Everything:$!\n";
 
 ##  ------
 ##  Bundle::Modules::Acme::Everything::Unstable
@@ -314,7 +322,7 @@ while ( my $Perln = <$Packages__Details> )
       next if ( $Perln =~ m/^[#]/ );
 
       $Perln =~ m/^([^\s]+)/;
- 
+
       $Perln = $1;
 
       ##debug## print "$Perln\n";
@@ -681,7 +689,9 @@ sub Bundle_head
 { my ( $b, $d ) = @_; return (
 'package '. $b . ';' ."\n".
 '' ."\n".
-'$VERSION = ' . $VERSION . '; ## (YYYY.MMDD)' ."\n".
+'use 5.005;' ."\n".
+'' ."\n".
+'our $VERSION = ' . $VERSION . '; ## (YYYY.MMDD)' ."\n".
 '' ."\n".
 '1;' ."\n".
 '' ."\n".
@@ -691,9 +701,7 @@ sub Bundle_head
 '' ."\n".
 '=over' ."\n".
 '' ."\n".
-'=item ' . $b ."\n".
-'' ."\n".
-'' . $d ."\n".
+$b . ' - ' . $d ."\n".
 '' ."\n".
 '=back' ."\n".
 '' ."\n".
@@ -1142,7 +1150,7 @@ while ( my $Perln = <$Packages__Details> )
       next if ( $Perln =~ m/^[#]/ );
 
       $Perln =~ m/^([^\s]+)/;
- 
+
       $Perln = $1;
 
       ##debug## print "$Perln\n";
@@ -1509,7 +1517,7 @@ sub Bundle_head
 '' ."\n".
 '=item ' . $b ."\n".
 '' ."\n".
-'' . $d ."\n".
+$d ."\n".
 '' ."\n".
 '=back' ."\n".
 '' ."\n".

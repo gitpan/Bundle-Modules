@@ -1,6 +1,8 @@
 package Bundle::Modules;
 
-$VERSION = 2006.0511; ## (YYYY.MMDD)
+use 5.005;
+
+our $VERSION = 2006.0512; ## (YYYY.MMDD)
 
 1;
 
@@ -10,9 +12,7 @@ __END__
 
 =over
 
-=item Bundle::Modules
-
-All current I<stable> bundles of modules in CPAN
+Bundle::Modules - All current I<stable> bundles of modules in CPAN
 
 =back
 
@@ -37,8 +37,8 @@ Bundle::DBD::Informix
 Bundle::ParallelUA
 Bundle::Cisco::Conf
 Bundle::MusicBrainz::Server
-Bundle::Perl6
 Bundle::NiceSleep
+Bundle::Perl6
 Bundle::HTMLWikiConverter
 Bundle::Text::Query::BuildSQL
 Bundle::Apache::ASP
@@ -46,6 +46,7 @@ Bundle::TreeDumper
 Bundle::Net::Nessus
 Bundle::Tie::FormA
 Bundle::Math::Numeric
+##Bundle::Cobalt
 Bundle::OurNet
 Bundle::Maypole
 Bundle::DataMint
@@ -106,7 +107,6 @@ Bundle::ePortal
 Bundle::Mail::IspMailGate
 Bundle::MusicBrainz::Client
 Bundle::CPAN
-Bundle::POE::All
 Bundle::W3C::Validator
 Bundle::Combust::Extras
 Bundle::Knetrix
@@ -126,6 +126,7 @@ Bundle::Math::Calculus
 Bundle::Zavitan
 Bundle::Test
 Bundle::Math::Matrix
+##Bundle::POE::All
 Bundle::IspMailGate
 Bundle::perlWebSite
 Bundle::COG
@@ -139,8 +140,8 @@ Bundle::Apache::ASP::Extra
 Bundle::AMBS
 Bundle::DBD::CSV
 Bundle::Business::Shipping::UPS_Offline
-Bundle::GMOD
 Bundle::Ovid
+Bundle::GMOD
 Bundle::WING
 Bundle::ebx
 Bundle::OpenILS
@@ -193,7 +194,6 @@ Bundle::Application::Magic
 Bundle::OS2_default1_2
 Bundle::Catalog
 Bundle::PlRPC
-Bundle::Cobalt
 Bundle::DBI
 Bundle::Math::Interface
 Bundle::Olive
@@ -252,7 +252,7 @@ If you use the command C<B<man Bundle::Modules>>, type C<B</#>> to see the comme
 
 =back
 
-=head1 LICENSE for http://www.cpan.org/modules/by-authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0511
+=head1 LICENSE for http://www.cpan.org/modules/by-authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0512
 
 =over
 

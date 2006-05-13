@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.53.
+signed via the Module::Signature module, version 0.54.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,25 +14,48 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
+SHA1 12951627a5624b05035d589c9e58b04ddd644a2e 2006_MMDD
+SHA1 b79bbdc2607e13352bbe4d4fb1b93cd681661f39 Build.PL
+SHA1 c87154580248fba54cdee0477bf82516b4878b18 Bundle-Modules-2006.0512/MANIFEST.SKIP
+SHA1 3a3848c67a9ca0fa33ece9e234b191d16d66c25a Bundle-Modules-2006.0512/META.yml
 SHA1 72371f3217c31e8c92331c90cc2153a04f3b07bf INSTALL
-SHA1 174ded3644b3ff0cce29093a04a59681c4ce0d65 MANIFEST
-SHA1 1dab30dbe10e2d47ef6e35f979bb995794ffe38c Makefile.PL
-SHA1 af08b75558ceb2830a1002fb4f9f540e94d88651 Modules.pm
-SHA1 b96f25a797c65dd7ed34c9713eb6438494a23ca0 Modules/Acme/Everything.pm
-SHA1 cdc0b0dc4b286048c5373681133f7ec7b7674764 Modules/Acme/Everything/Unique.pm
-SHA1 52e14760a82c4798c4ab24e4c400a56f37dab7b2 Modules/Acme/Everything/Unique/Unstable.pm
-SHA1 23931b8c423cc240da8338414f3aa69d05bc7786 Modules/Acme/Everything/Unstable.pm
-SHA1 28b3f930928b04f494427ce84c3a66cdd8d2b2d1 Modules/CPAN.pm
-SHA1 79b4088bd1e812f1426cf445cd4f7d3ca32e265f Modules/CPAN/Unstable.pm
-SHA1 5bc354cecc5aff450e485e4f300385adb69d35d2 Modules/Unstable.pm
+SHA1 d75a548cc553bb5d45865a8e479e404d70baa8fd MANIFEST
+SHA1 c87154580248fba54cdee0477bf82516b4878b18 MANIFEST.SKIP
+SHA1 98ce91b5ed898c25fc8ffb56b1d1410bd218691c MANIFEST.bak
+SHA1 3a3848c67a9ca0fa33ece9e234b191d16d66c25a META.yml
+SHA1 ae23a363387ff06b3cbf3876a9eecff1cd6a0c99 Makefile.PL
 SHA1 d2c3c3e43e00d51ddf6bcf6ec472eaad9ef9aee8 README
-SHA1 aab029d6fb7c497dfec6b099f0a588f15aa7f2d5 create_bundle_modules.plx
-SHA1 79e7449706125bf51e4679a1bd70577f56128322 t/test1.pl.t
-SHA1 d432a16d88837bcd589dea9732fb48ab50987823 test.pl
+SHA1 5e4f518a7166ac2de9424ffa0b796f2c51855768 bin/build_dist_upload.plx
+SHA1 166bccacc2967688a00ad523a1eaa04da40d7e3b bin/create_bundle_modules.plx
+SHA1 e28cf2d3ba35f6ca3a448acc7bee191b7c390379 inc/Module/Install.pm
+SHA1 e7c1c86f57b6778f4bdc7fd8c1b950e60ef41bc0 inc/Module/Install/Base.pm
+SHA1 cb9aba1d2d38aeced33c6d74e9175577f31af79c inc/Module/Install/Build.pm
+SHA1 e1829448769445cdaac384a888bf9ccf42e0d89a inc/Module/Install/Can.pm
+SHA1 70aa5e2055e8e38b4eecc5fc8c91762c0e97f551 inc/Module/Install/Fetch.pm
+SHA1 8d88f2cb120f2e64f374136df2e25d0bb6f0595b inc/Module/Install/Include.pm
+SHA1 8ac832baf4f9e8e72d3e8f103cee6e8a94ac80e1 inc/Module/Install/Makefile.pm
+SHA1 0807e79d6dbfda4fcd3db0fc7df2e33e0cba263b inc/Module/Install/Metadata.pm
+SHA1 4da0a1fce2339cc3f8c296c7716480d2564d9470 inc/Module/Install/Win32.pm
+SHA1 9a903a1d178954ad864c7dcc98f9fa5c005d1553 inc/Module/Install/WriteAll.pm
+SHA1 f0ebc594cf8ba858ee9a840c344d9b7ea2c3c6f4 inc/Test/Builder.pm
+SHA1 6bb30e9867f6dbcada80acca07cb727fa09fc3a0 inc/Test/Builder/Module.pm
+SHA1 07c750f370de7a44ee7b0ed9ec30a7e89c24c9b9 inc/Test/More.pm
+SHA1 1c245b4ad2a34e67e346459b84ce69343d2ac77c lib/Modules.pm
+SHA1 6a97e698c629e5967079ab65f0ec8d28bcf6e187 lib/Modules/Acme/Everything.pm
+SHA1 e991cca3a7c1b9e4b1a136d00a96a69e2f112622 lib/Modules/Acme/Everything/Unique.pm
+SHA1 ce2190a25ba996a280901f0630b1f2059dae1501 lib/Modules/Acme/Everything/Unique/Unstable.pm
+SHA1 bc9290475c1457953a6c75e1f9fcc27e5c7bb5a7 lib/Modules/Acme/Everything/Unstable.pm
+SHA1 f133ed9a0b754d016d2045bb0a9db7b0bd7fe34d lib/Modules/CPAN.pm
+SHA1 dbc9b227b50da23d3d5bee0032e8d6cec0b3a857 lib/Modules/CPAN/Unstable.pm
+SHA1 313886a861f41fe1a307f35094605df16d30f6ad lib/Modules/Unstable.pm
+SHA1 aaa5ae75f6e123869524eb3c2b1a3963c88924fb public_keys/ERMEYERS2005.pub
+SHA1 37e858c51409a297ef5d3fb35dc57cd3b57f9a4d public_keys/PAUSE2003.pub
+SHA1 8f9fa0f00546860b393746825af0832a571e043e t/test0.pl.t
+SHA1 16aefcee72dd01da9fd8743e71b6de7be6e6a4e9 t/use_me/test0.pl.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.2.2 (GNU/Linux)
 
-iD8DBQFEY/UKmYhyuYPOgKMRAk9lAJ95dvG2HLMrZbWOpKW/J1pqdyLeJQCaAqlT
-8VP/YegVSyOb6pAUdCUzVsQ=
-=ET2X
+iD8DBQFEZR3kmYhyuYPOgKMRAlGxAJ9ehI5tMPYVphM5/w9SFyO9vAuUAwCeL7SK
+8kUgOR1b3mMy5PP2GXDn+ps=
+=jgZi
 -----END PGP SIGNATURE-----

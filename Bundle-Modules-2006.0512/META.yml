@@ -1,0 +1,40 @@
+---
+name: Bundle-Modules
+version: 2006.0512
+author:
+  - 'Eric R. Meyers <ermeyers@adelphia.net>'
+abstract: TBD
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Test::More: 0.34
+provides:
+  Bundle::Modules:
+    file: lib/Modules.pm
+    version: 2006.0512
+  Bundle::Modules::Acme::Everything:
+    file: lib/Modules/Acme/Everything.pm
+    version: 2006.0512
+  Bundle::Modules::Acme::Everything::Unique:
+    file: lib/Modules/Acme/Everything/Unique.pm
+    version: 2006.0512
+  Bundle::Modules::Acme::Everything::Unique::Unstable:
+    file: lib/Modules/Acme/Everything/Unique/Unstable.pm
+    version: 2006.0512
+  Bundle::Modules::Acme::Everything::Unstable:
+    file: lib/Modules/Acme/Everything/Unstable.pm
+    version: 2006.0512
+  Bundle::Modules::CPAN:
+    file: lib/Modules/CPAN.pm
+    version: 2006.0512
+  Bundle::Modules::CPAN::Unstable:
+    file: lib/Modules/CPAN/Unstable.pm
+    version: 2006.0512
+  Bundle::Modules::Unstable:
+    file: lib/Modules/Unstable.pm
+    version: 2006.0512
+generated_by: Module::Build version 0.28
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

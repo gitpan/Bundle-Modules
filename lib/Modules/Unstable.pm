@@ -1,6 +1,8 @@
 package Bundle::Modules::Unstable;
 
-$VERSION = 2006.0511; ## (YYYY.MMDD)
+use 5.005;
+
+our $VERSION = 2006.0512; ## (YYYY.MMDD)
 
 1;
 
@@ -10,9 +12,7 @@ __END__
 
 =over
 
-=item Bundle::Modules::Unstable
-
-All current I<unstable> bundles of modules in CPAN
+Bundle::Modules::Unstable - All current I<unstable> bundles of modules in CPAN
 
 =back
 
@@ -52,7 +52,6 @@ All current I<unstable> bundles of modules in CPAN
 Bundle::WWW::Scraper::Housing
 ##Bundle::Sledge::I18N
 ##Bundle::KohaSupport
-Bundle::Cobalt
 ##Bundle::BricolagePlus
 ##Bundle::Sledge
 ##Bundle::Everything
@@ -118,6 +117,7 @@ Bundle::Cobalt
 ##Bundle::Markup
 ##Bundle::DBD::Informix
 ##Bundle::SDK::COG
+Bundle::POE::All
 ##Bundle::Apache2
 ##Bundle::SNMP::MIB::Compiler
 ##Bundle::CVSMonitor
@@ -139,7 +139,6 @@ Bundle::Cobalt
 ##Bundle::DBD::mSQL
 ##Bundle::CGI::Builder::Complete
 ##Bundle::Combust::Extras
-Bundle::POE::All
 ##Bundle::Perl6
 ##Bundle::Kwiki
 ##Bundle::OS2_default1_2
@@ -194,6 +193,7 @@ Bundle::POE::All
 ##Bundle::QuadPres
 ##Bundle::DBD::mysql
 ##Bundle::NiceSleep
+Bundle::Cobalt
 ##Bundle::Starlink::Base
 ##Bundle::Business::Shipping::DataTools
 ##Bundle::DBD::CSV
@@ -252,7 +252,7 @@ If you use the command C<B<man Bundle::Modules::Unstable>>, type C<B</#>> to see
 
 =back
 
-=head1 LICENSE for http://www.cpan.org/modules/by-authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0511
+=head1 LICENSE for http://www.cpan.org/modules/by-authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0512
 
 =over
 

@@ -1,6 +1,8 @@
 package Bundle::Modules::Acme::Everything::Unique::Unstable;
 
-$VERSION = 2006.0511; ## (YYYY.MMDD)
+use 5.005;
+
+our $VERSION = 2006.0512; ## (YYYY.MMDD)
 
 1;
 
@@ -10,9 +12,7 @@ __END__
 
 =over
 
-=item Bundle::Modules::Acme::Everything::Unique::Unstable
-
-All current I<unstable> and I<unique> modules in Bundle::Modules::Acme::Everything
+Bundle::Modules::Acme::Everything::Unique::Unstable - All current I<unstable> and I<unique> modules in Bundle::Modules::Acme::Everything
 
 =back
 
@@ -501,7 +501,7 @@ If you use the command C<B<man Bundle::Modules::Acme::Everything::Unique::Unstab
 
 =back
 
-=head1 LICENSE for http://www.cpan.org/modules/by-authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0511
+=head1 LICENSE for http://www.cpan.org/modules/by-authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0512
 
 =over
 
