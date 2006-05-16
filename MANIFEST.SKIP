@@ -7,3 +7,5 @@
 ^_build/
 ^_bin/
 [.]bak$
+[.]pl$
+[.]kdev.+$

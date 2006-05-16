@@ -1,6 +1,6 @@
 ---
 name: Bundle-Modules
-version: 2006.0515
+version: 2006.0516
 author:
   - 'Eric R. Meyers <ermeyers@adelphia.net>'
 abstract: All current I<stable> bundles of modules in CPAN
@@ -12,28 +12,28 @@ build_requires:
 provides:
   Bundle::Modules:
     file: lib/Bundle/Modules.pm
-    version: 2006.0515
+    version: 2006.0516
   Bundle::Modules::Acme::Everything:
     file: lib/Bundle/Modules/Acme/Everything.pm
-    version: 2006.0515
+    version: 2006.0516
   Bundle::Modules::Acme::Everything::Unique:
     file: lib/Bundle/Modules/Acme/Everything/Unique.pm
-    version: 2006.0515
+    version: 2006.0516
   Bundle::Modules::Acme::Everything::Unique::Unstable:
     file: lib/Bundle/Modules/Acme/Everything/Unique/Unstable.pm
-    version: 2006.0515
+    version: 2006.0516
   Bundle::Modules::Acme::Everything::Unstable:
     file: lib/Bundle/Modules/Acme/Everything/Unstable.pm
-    version: 2006.0515
+    version: 2006.0516
   Bundle::Modules::CPAN:
     file: lib/Bundle/Modules/CPAN.pm
-    version: 2006.0515
+    version: 2006.0516
   Bundle::Modules::CPAN::Unstable:
     file: lib/Bundle/Modules/CPAN/Unstable.pm
-    version: 2006.0515
+    version: 2006.0516
   Bundle::Modules::Unstable:
     file: lib/Bundle/Modules/Unstable.pm
-    version: 2006.0515
+    version: 2006.0516
 generated_by: Module::Build version 0.28
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

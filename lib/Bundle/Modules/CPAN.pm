@@ -2,7 +2,7 @@ package Bundle::Modules::CPAN;
 
 use 5.005;
 
-our $VERSION = 2006.0515; ## (YYYY.MMDD)
+our $VERSION = 2006.0516; ## (YYYY.MMDD)
 
 1;
 
@@ -38714,7 +38714,7 @@ I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Module
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0515
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0516
 
 perl
 
