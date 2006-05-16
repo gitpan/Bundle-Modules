@@ -2,7 +2,7 @@ package Bundle::Modules::Acme::Everything::Unique;
 
 use 5.005;
 
-our $VERSION = 2006.0512; ## (YYYY.MMDD)
+our $VERSION = 2006.0515; ## (YYYY.MMDD)
 
 1;
 
@@ -10,21 +10,13 @@ __END__
 
 =head1 NAME
 
-=over
-
 Bundle::Modules::Acme::Everything::Unique - All current I<stable> and I<unique> modules in Bundle::Modules::Acme::Everything
-
-=back
 
 =head1 SYNOPSIS
 
-=over
+perl -MCPAN -e B<'install Bundle::Modules::Acme::Everything::Unique'>
 
-=item C<% B<perl -MCPAN -e 'install Bundle::Modules::Acme::Everything::Unique'>>
-
-=item C<% B<cpan -i Bundle::Modules::Acme::Everything::Unique>>
-
-=back
+cpan B<-i Bundle::Modules::Acme::Everything::Unique>
 
 =head1 CONTENTS
 
@@ -140,8 +132,8 @@ NexTrieve::Message
 WIN32::MSI::SummaryInfo
 VMS::Queue
 Algorithm::Munkre
-WWW::Lyrics
 PostScript::Barcode
+WWW::Lyrics
 NexTrieve::Replay
 Text::Banner
 LockFile::Scheme
@@ -172,8 +164,8 @@ Chart::Gdchart
 App::Config
 ex::caution
 PixDraw
-ControlX10::CM10
 Data::FormValidator::Upload
+ControlX10::CM10
 XMLI
 Mail::Maildir
 DBD::Recall
@@ -190,14 +182,14 @@ Apache::StripSession
 GISI
 String::Ruby
 Tern::Size::Heuristic
-Regexp::Func
 Business::OnlinePayment::E2Payments
+Regexp::Func
 NexTrieve::Query
-PDL::LAPACK
 Apache::AuthAny
+PDL::LAPACK
 PerlPoint::Package
-Tree::Menu
 Devel::PerlySense
+Tree::Menu
 Watchdog::MysqlService
 Tk::DBIx
 Text::Bib
@@ -225,12 +217,12 @@ Apache::Timeit
 Cz::Speak
 Orac
 Mail::MH
-OpenCA
 PDF::PlainLayout
+OpenCA
 Class::TOM
 CGI::Session::Encrypted
-BoxBackup
 Remedy::AR
+BoxBackup
 Carp::CheckArgs
 Archive::Cabinet
 Template::TagParser
@@ -256,8 +248,8 @@ MOP
 CGI::Query
 Proc::PID::File::Fcntl
 Apache::ModBT
-RFID::Alien
 Apache::DCELogin
+RFID::Alien
 SQL::QueryBroker
 Devel::Trampoline
 DBD::SQLrelay
@@ -271,20 +263,20 @@ Apache::AuthenDBI
 GD::Barcode::Code93
 Exporter::PkgAlias
 Tk::SignOnDialog
-CGI::Request
 CGI::DBTables
+CGI::Request
 GISI::SHAPE
 Smirch
 Finance::Bank::DE::SpardaBank
-Games::Go::GoPair
 Lemonldap::Portal
+Games::Go::GoPair
 CfgTie
 Apache::AuthzAge
 Finance::Shares::MySQL
 NexTrieve::Targz
-Bio::SAGE
-Apache::BlockAgent
 Apache::LogMail
+Apache::BlockAgent
+Bio::SAGE
 Text::Parser
 Synergy
 FameHLI
@@ -325,8 +317,8 @@ Math::Interpolate
 Crypt::OpenSSL::BN
 Class::Eroot
 Getopt::Long::File
-Parse::YALALR
 NexTrieve::Hitlist::Hit
+Parse::YALALR
 DBD::RDB
 NexTrieve::Collection::Index
 Splash::DB
@@ -336,13 +328,12 @@ Glade
 PDL::IO::HDF5
 CGI::MiniSvr
 Ratpoison
-Genezzo
 Linksys::Config
 RT
 SICStus
 Apache::MimeDBI
-xDash
 Mail::vpopmaild
+xDash
 VMS::Process
 WWW::Search::Excite
 File::Atomic
@@ -363,10 +354,10 @@ Config::Ini
 Unix::UserAdmin
 IPC::Shm::Simple
 PDF::Template
-Tk::PhotoRotate
 Apache::MIME
-DBIx::XMLMEssage
+Tk::PhotoRotate
 Fax::DataFax
+DBIx::XMLMEssage
 Module::MakeDist
 Tk::Autoscroll
 Apache::Htaccess
@@ -377,14 +368,14 @@ Find::File::Object
 VMS::Fileutils::Root
 Clips
 Tie::Mem
-Archive::Tar::Stream
 PDA::Pilot
+Archive::Tar::Stream
 Test::Litmus
 Math::Matrix::SVD
 Win32::AdminMisc
 CGI::WebApp
-HTML::Stripper
 HtDig
+HTML::Stripper
 SIL::Shoe
 Mac::Spotlight
 DBA::Backup::mysql
@@ -400,8 +391,8 @@ Logfile
 Business::OnlinePayment::Cybersource
 Tie::Assert
 Mail::DSN
-CORBA::XPIDL
 Religion::Package
+CORBA::XPIDL
 DCE::RPC
 Apache::SpeedLimit
 Finance::Shares::Chart
@@ -419,8 +410,8 @@ Verilog::GetInfo
 Mail::Vacation::LDAP
 NexTrieve::DBI
 Apache::MimeXML
-PDL::NetCDF
 Apache::AuthNISPlus
+PDL::NetCDF
 EventServer::Functions
 Apache::DayLimit
 RTF::Generator
@@ -445,8 +436,8 @@ X11::Toolkit
 ReleaseAction
 Math::SimpleInterest
 Math::Nocarry
-CGI::BasePlus
 Mac::Serial
+CGI::BasePlus
 Zeta
 Object::Info
 X11::Xforms
@@ -473,50 +464,30 @@ Optimistically, if there are a lot of the modules commented out, then they are I
 
 Optimistically, if there are a few of the modules commented out, then they are I<unstable>, and we're listing I<stable> context.
 
-If you use the command C<B<man Bundle::Modules::Acme::Everything::Unique>>, type C<B</#>> to see the commented out modules as they're higlighted for you by B<L<man>>.
+If you use the command C<B<man Bundle::Modules::Acme::Everything::Unique>>, type C<B</#>> to see the commented out modules as they're higlighted for you by B<man>.
 
 =back
 
 =head1 DESCRIPTION
 
-=over
-
-=item This Bundle package will install all of the modules listed, if they're not commented out of the B<L<Bundle::Modules>> context.
-
-=back
+This Bundle package will install all of the modules listed, if they're not commented out of the B<L<Bundle::Modules>> context.
 
 =head1 SEE ALSO
 
-=over
-
-=item I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>, I<L<Bundle::Modules::Acme::Everything::Unique::Unstable>>
-
-=back
+I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>
 
 =head1 AUTHORS
 
-=over
+Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=item Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0515
 
-=back
+perl
 
-=head1 LICENSE for http://www.cpan.org/modules/by-authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0512
-
-=over
-
-=item http://www.perl.com/perl/misc/Artistic.html
-
-=item This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
-
-=back
+This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =head1 COPYRIGHT
 
-=over
-
-=item Copyright 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
-
-=back
+Copyright (c) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
 

@@ -5,3 +5,5 @@
 ^blibdirs$
 ^Build$
 ^_build/
+^_bin/
+[.]bak$

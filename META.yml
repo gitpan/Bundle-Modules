@@ -1,9 +1,9 @@
 ---
 name: Bundle-Modules
-version: 2006.0512
+version: 2006.0515
 author:
   - 'Eric R. Meyers <ermeyers@adelphia.net>'
-abstract: TBD
+abstract: All current I<stable> bundles of modules in CPAN
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
@@ -11,29 +11,29 @@ build_requires:
   Test::More: 0.34
 provides:
   Bundle::Modules:
-    file: lib/Modules.pm
-    version: 2006.0512
+    file: lib/Bundle/Modules.pm
+    version: 2006.0515
   Bundle::Modules::Acme::Everything:
-    file: lib/Modules/Acme/Everything.pm
-    version: 2006.0512
+    file: lib/Bundle/Modules/Acme/Everything.pm
+    version: 2006.0515
   Bundle::Modules::Acme::Everything::Unique:
-    file: lib/Modules/Acme/Everything/Unique.pm
-    version: 2006.0512
+    file: lib/Bundle/Modules/Acme/Everything/Unique.pm
+    version: 2006.0515
   Bundle::Modules::Acme::Everything::Unique::Unstable:
-    file: lib/Modules/Acme/Everything/Unique/Unstable.pm
-    version: 2006.0512
+    file: lib/Bundle/Modules/Acme/Everything/Unique/Unstable.pm
+    version: 2006.0515
   Bundle::Modules::Acme::Everything::Unstable:
-    file: lib/Modules/Acme/Everything/Unstable.pm
-    version: 2006.0512
+    file: lib/Bundle/Modules/Acme/Everything/Unstable.pm
+    version: 2006.0515
   Bundle::Modules::CPAN:
-    file: lib/Modules/CPAN.pm
-    version: 2006.0512
+    file: lib/Bundle/Modules/CPAN.pm
+    version: 2006.0515
   Bundle::Modules::CPAN::Unstable:
-    file: lib/Modules/CPAN/Unstable.pm
-    version: 2006.0512
+    file: lib/Bundle/Modules/CPAN/Unstable.pm
+    version: 2006.0515
   Bundle::Modules::Unstable:
-    file: lib/Modules/Unstable.pm
-    version: 2006.0512
+    file: lib/Bundle/Modules/Unstable.pm
+    version: 2006.0515
 generated_by: Module::Build version 0.28
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

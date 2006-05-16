@@ -1,9 +1,5 @@
 2006_MMDD
-bin/build_dist_upload.plx
-bin/create_bundle_modules.plx
 Build.PL
-Bundle-Modules-2006.0512/MANIFEST.SKIP
-Bundle-Modules-2006.0512/META.yml
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Build.pm
@@ -18,17 +14,16 @@ inc/Test/Builder.pm
 inc/Test/Builder/Module.pm
 inc/Test/More.pm
 INSTALL
-lib/Modules.pm
-lib/Modules/Acme/Everything.pm
-lib/Modules/Acme/Everything/Unique.pm
-lib/Modules/Acme/Everything/Unique/Unstable.pm
-lib/Modules/Acme/Everything/Unstable.pm
-lib/Modules/CPAN.pm
-lib/Modules/CPAN/Unstable.pm
-lib/Modules/Unstable.pm
+lib/Bundle/Modules.pm
+lib/Bundle/Modules/Acme/Everything.pm
+lib/Bundle/Modules/Acme/Everything/Unique.pm
+lib/Bundle/Modules/Acme/Everything/Unique/Unstable.pm
+lib/Bundle/Modules/Acme/Everything/Unstable.pm
+lib/Bundle/Modules/CPAN.pm
+lib/Bundle/Modules/CPAN/Unstable.pm
+lib/Bundle/Modules/Unstable.pm
 Makefile.PL
-MANIFEST
-MANIFEST.bak
+MANIFEST			This list of files
 MANIFEST.SKIP
 META.yml
 public_keys/ERMEYERS2005.pub

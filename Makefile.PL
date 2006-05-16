@@ -29,19 +29,11 @@ my %params =
 
 );
 
-requires( 'perl' => '5.005' );
+my $TIME = time(); version( Date::Format::time2str( '%Y.%m%d', $TIME ) ); system( "$FindBin::Bin/_bin/create_bundle_modules.plx $TIME" ); ## sync
 
 name( $params{'NAME'} );
 
-my $TIME = time(); version( Date::Format::time2str( '%Y.%m%d', $TIME ) ); system( "$FindBin::Bin/bin/create_bundle_modules.plx $TIME" ); ## sync
-
-author( 'Eric R. Meyers <ermeyers@adelphia.net>' );
-
-abstract( 'TBD' );
-
-license( 'perl' );
-
-##don't##all_from( 'Modules.pm' );
+all_from( 'lib/Bundle/Modules.pm' );
 
 my @missing;
 
@@ -93,7 +85,7 @@ END {
 
    my $make = eval { require Config; $Config::Config{'make'} } || 'make';
 
-   print "Now, please enter 'Build test' to test, and 'Build install' to install.\n";
+   print "Now, please enter 'Build' to make all, 'Build test' to test, and 'Build install' to install.\n";
 
 } ## end END
 

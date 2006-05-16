@@ -2,7 +2,7 @@ package Bundle::Modules::Unstable;
 
 use 5.005;
 
-our $VERSION = 2006.0512; ## (YYYY.MMDD)
+our $VERSION = 2006.0515; ## (YYYY.MMDD)
 
 1;
 
@@ -10,21 +10,13 @@ __END__
 
 =head1 NAME
 
-=over
-
 Bundle::Modules::Unstable - All current I<unstable> bundles of modules in CPAN
-
-=back
 
 =head1 SYNOPSIS
 
-=over
+perl -MCPAN -e B<'install Bundle::Modules::Unstable'>
 
-=item C<% B<perl -MCPAN -e 'install Bundle::Modules::Unstable'>>
-
-=item C<% B<cpan -i Bundle::Modules::Unstable>>
-
-=back
+cpan B<-i Bundle::Modules::Unstable>
 
 =head1 CONTENTS
 
@@ -224,50 +216,30 @@ Optimistically, if there are a lot of the modules commented out, then they are I
 
 Optimistically, if there are a few of the modules commented out, then they are I<unstable>, and we're listing I<stable> context.
 
-If you use the command C<B<man Bundle::Modules::Unstable>>, type C<B</#>> to see the commented out modules as they're higlighted for you by B<L<man>>.
+If you use the command C<B<man Bundle::Modules::Unstable>>, type C<B</#>> to see the commented out modules as they're higlighted for you by B<man>.
 
 =back
 
 =head1 DESCRIPTION
 
-=over
-
-=item This Bundle package will install all of the modules listed, if they're not commented out of the B<L<Bundle::Modules>> context.
-
-=back
+This Bundle package will install all of the modules listed, if they're not commented out of the B<L<Bundle::Modules>> context.
 
 =head1 SEE ALSO
 
-=over
-
-=item I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>, I<L<Bundle::Modules::Acme::Everything::Unique::Unstable>>
-
-=back
+I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>
 
 =head1 AUTHORS
 
-=over
+Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=item Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0515
 
-=back
+perl
 
-=head1 LICENSE for http://www.cpan.org/modules/by-authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0512
-
-=over
-
-=item http://www.perl.com/perl/misc/Artistic.html
-
-=item This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
-
-=back
+This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =head1 COPYRIGHT
 
-=over
-
-=item Copyright 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
-
-=back
+Copyright (c) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
 
