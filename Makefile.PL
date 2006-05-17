@@ -23,17 +23,31 @@ my @tests = glob File::Spec->catfile( 't', '*.pl.t' );
 
 push( @tests, glob File::Spec->catfile( 't', 'use_me', '*.pl.t' ) );
 
-my %params =
-(
+requires( 'perl' => '5.005' );
+
+requires( qw(
+) );
+
+my $param =
+{
    'NAME' => 'Bundle-Modules',
+   'CPANID' => 'ERMEYERS',
+   'AUTHOR' => 'Eric R. Meyers <ermeyers@adelphia.net>',
+   'VERSION' => Date::Format::time2str( '%Y.%m%d', time() ),
+   'LICENSE' => 'perl',
+   'ABSTRACT' => 'Interface to bundle modules',
 
-);
+};
 
-my $TIME = time(); version( Date::Format::time2str( '%Y.%m%d', $TIME ) ); system( "$FindBin::Bin/_bin/create_bundle_modules.plx $TIME" ); ## sync
-
-name( $params{'NAME'} );
+name( $param->{'NAME'} );
+author( $param->{'AUTHOR'} );
+version( $param->{'VERSION'} );
+license( $param->{'LICENSE'} );
+abstract( $param->{'ABSTRACT'} );
 
 all_from( 'lib/Bundle/Modules.pm' );
+
+system( "$FindBin::Bin/_bin/create_bundle_modules.plx $param->{'VERSION'}" );
 
 my @missing;
 
@@ -53,8 +67,9 @@ if ( @missing )
 
     print <<"EOT";
 
-$params{'NAME'} likes to have a lot of test modules for some of its tests.
-The following are modules that would be nice to have, but not required.
+$param->{'NAME'}-$param->{'VERSION'} likes to have a lot of test modules for some of its tests.
+
+The following are modules that would be nice to have, but are not required.
 
 @missing
 
@@ -64,9 +79,9 @@ EOT
 
 locate_gpg();
 
-feature( 'Shell.pm', '-default' => 0, recommendsi( qw( Shell ) ) ) unless can_run( 'sh' );
+feature( 'Shell.pm', '-default' => 0, recommends( qw( Shell ) ) ) unless can_run( 'sh' );
 
-##auto_install( 'prerequisites_policy' => 'follow' );
+auto_install( 'prerequisites_policy' => 'follow' );
 
 build_requires( 'Test::More' => 0.34 );
 
@@ -106,11 +121,11 @@ sub locate_gpg
 
       return ( 1 ) if grep { /^--installdeps/ } @ARGV;
 
-      if ( 1 || prompt( "Import PAUSE and author keys to GnuPG?", 'y' ) =~ /^y/i )
+      if ( prompt( "Import CPAN Author $param->{'CPANID'}'s public key to GnuPG?", 'n' ) =~ /^y/i )
       {
-         print 'Importing... ';
+         print 'Importing public key to GnuPG ... ';
 
-         system 'gpg', '--quiet', '--import', glob('public_keys/*.pub');
+         system 'gpg', '--quiet', '--import', glob('public_keys/'.$param->{'CPANID'}.'*.pub');
 
          print "done.\n";
 
@@ -120,7 +135,7 @@ sub locate_gpg
 
    } ## end if
 
-   print "GnugPG not found anywhere in your PATH, \"eek,\" (said Audrey Tang).\n";
+   print 'GnugPG not found anywhere in your PATH, "eek," said Mr. Audrey Tang.'."\n";
 
    return;
 

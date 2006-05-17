@@ -1,6 +1,9 @@
 2006_MMDD
 Build.PL
+COPYING
+inc/Module/AutoInstall.pm
 inc/Module/Install.pm
+inc/Module/Install/AutoInstall.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Build.pm
 inc/Module/Install/Can.pm
@@ -19,6 +22,8 @@ lib/Bundle/Modules/Acme/Everything.pm
 lib/Bundle/Modules/Acme/Everything/Unique.pm
 lib/Bundle/Modules/Acme/Everything/Unique/Unstable.pm
 lib/Bundle/Modules/Acme/Everything/Unstable.pm
+lib/Bundle/Modules/Apache.pm
+lib/Bundle/Modules/Apache/Unstable.pm
 lib/Bundle/Modules/CPAN.pm
 lib/Bundle/Modules/CPAN/Unstable.pm
 lib/Bundle/Modules/Unstable.pm
@@ -27,7 +32,6 @@ MANIFEST			This list of files
 MANIFEST.SKIP
 META.yml
 public_keys/ERMEYERS2005.pub
-public_keys/PAUSE2003.pub
 README
 SIGNATURE
 t/test0.pl.t

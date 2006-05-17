@@ -2,7 +2,7 @@ package Bundle::Modules::Acme::Everything::Unique;
 
 use 5.005;
 
-our $VERSION = 2006.0516; ## (YYYY.MMDD)
+our $VERSION = 2006.0517; ## (YYYY.MMDD)
 
 1;
 
@@ -30,7 +30,6 @@ WWW::Scrobbler::Stats
 WING
 Neural
 Class::PublicInternal
-Apache::Log::Spread
 Plugin::Language::DML
 WebService::BabelFish
 Proc::times
@@ -39,7 +38,6 @@ Scalar::Footnote
 Data::Dumper::HTML
 MSDOS::SysCalls
 Oracle::OCI
-Apache2::DBI
 Getopt::EvaP
 GD::Gauge
 PGP
@@ -67,9 +65,7 @@ Filesys::mntent
 Lemonolap
 NexTrieve::Mbox
 Bio::Genex
-Apache::Sybase::DBlib
 Slash
-Apache::SawAmpersand
 POE::Session::GladeXML
 Math::FresnalZone
 Text::Wrap::Hyphenate
@@ -78,7 +74,6 @@ ERG
 Math::Geometry
 Win32::ODBC
 ePortal
-Apache::AnonProxy
 Archive::Parity
 NexTrieve::Hitlist
 Fame
@@ -90,7 +85,6 @@ Parse::Lexer
 Pod::MIF
 PerlMenu
 Exporter::Import
-Apache::Upload
 News::Search
 HTML::Demoroniser
 NexTrieve::Collection
@@ -98,20 +92,15 @@ NexTrieve::Querylog
 Tk::FlatCheckbox
 Lexical::Typeglob
 Font::TTF
-Apache::MsqlProxy
-Apache::Command
-Apache::Handler
 GSM::SMS
 Proxy::Tk
 Python
 Boulder
-Apache::AdBlocker
 File::Size
 File::MultiTail
 Business::OnlinePayment::Moneris
 Getopt::Help
 NexTrieve::Docseq
-Apache::AddrMunge
 Text::Wigwam
 Text::Substitute
 Log::Check
@@ -132,14 +121,13 @@ NexTrieve::Message
 WIN32::MSI::SummaryInfo
 VMS::Queue
 Algorithm::Munkre
-PostScript::Barcode
 WWW::Lyrics
+PostScript::Barcode
 NexTrieve::Replay
 Text::Banner
 LockFile::Scheme
 Tk::Statusbar
 Tie::Array::Huge
-Apache2::PageKit
 DBD::Altera
 XML
 Openview::Message
@@ -154,7 +142,6 @@ Win32::Pipe
 Solaris::PerlGcc
 HTML::BarChart
 NexTrieve::Resource
-Apache::Checksum
 SGML::SPGrove
 EventServer::Signal
 RFID::EPC
@@ -178,18 +165,16 @@ Protect
 HTML::Debug
 PostScript::Basic
 DBD::FreeTDS
-Apache::StripSession
 GISI
 String::Ruby
 Tern::Size::Heuristic
-Business::OnlinePayment::E2Payments
 Regexp::Func
+Business::OnlinePayment::E2Payments
 NexTrieve::Query
-Apache::AuthAny
 PDL::LAPACK
 PerlPoint::Package
-Devel::PerlySense
 Tree::Menu
+Devel::PerlySense
 Watchdog::MysqlService
 Tk::DBIx
 Text::Bib
@@ -202,7 +187,6 @@ Tk::Multi
 Thread::Group
 Tie::RndHash
 Frontier::RPC
-Apache::NavBar
 Persistence::Object
 PDF::Report::Table
 Tk::Olwm
@@ -213,24 +197,21 @@ Convert::Base
 Fortran::NameList
 ElectricArc
 NexTrieve::RFC822
-Apache::Timeit
 Cz::Speak
 Orac
-Mail::MH
-PDF::PlainLayout
 OpenCA
+PDF::PlainLayout
+Mail::MH
 Class::TOM
 CGI::Session::Encrypted
-Remedy::AR
 BoxBackup
+Remedy::AR
 Carp::CheckArgs
 Archive::Cabinet
 Template::TagParser
-Apache::AccessLimitNum
 Hardware::Simulator
 AFS
 Time:Compare
-Apache::Magick
 File::Data
 FileSys::Tree
 NexTrieve::MIME
@@ -239,16 +220,11 @@ DBIx::TableAdapter
 SOOP
 RPM::Headers
 Attribute::Abstract
-Apache::PATCH
 SVG::Template
-Apache::QuickCMS
-Apache::Servlet
 Win32::Perfmon
 MOP
 CGI::Query
 Proc::PID::File::Fcntl
-Apache::ModBT
-Apache::DCELogin
 RFID::Alien
 SQL::QueryBroker
 Devel::Trampoline
@@ -259,29 +235,24 @@ Chart::Pie3d
 HTML::Info
 Net::ICAP
 Widget::FixedWidthFont::Input
-Apache::AuthenDBI
 GD::Barcode::Code93
 Exporter::PkgAlias
 Tk::SignOnDialog
-CGI::DBTables
 CGI::Request
+CGI::DBTables
 GISI::SHAPE
 Smirch
 Finance::Bank::DE::SpardaBank
-Lemonldap::Portal
 Games::Go::GoPair
+Lemonldap::Portal
 CfgTie
-Apache::AuthzAge
 Finance::Shares::MySQL
 NexTrieve::Targz
-Apache::LogMail
-Apache::BlockAgent
 Bio::SAGE
 Text::Parser
 Synergy
 FameHLI
 Bio::Affymetrix
-Apache::AuthzSSL
 Tk::ReportBox
 Win32::GUID
 CORBA::Python
@@ -292,9 +263,7 @@ Math::BigIntFast
 Bleach
 Class::Flyweight
 NexTrieve::UTF8
-Apache::AuthzDBI
 Interface::Param
-Apache::WDB
 Chatbot::RiveScript
 W3C::LinkChecker
 HTML::Widgets::DateEntry
@@ -307,7 +276,6 @@ File::ManualFlock
 NexTrieve::Overview
 SMIMEUtil
 Class::Holon
-Apache::LowerCaseGETs
 WWW::Lunarstorm
 CMS::Mediawiki
 VMS::System
@@ -317,8 +285,8 @@ Math::Interpolate
 Crypt::OpenSSL::BN
 Class::Eroot
 Getopt::Long::File
-NexTrieve::Hitlist::Hit
 Parse::YALALR
+NexTrieve::Hitlist::Hit
 DBD::RDB
 NexTrieve::Collection::Index
 Splash::DB
@@ -331,36 +299,31 @@ Ratpoison
 Linksys::Config
 RT
 SICStus
-Apache::MimeDBI
-Mail::vpopmaild
 xDash
+Mail::vpopmaild
 VMS::Process
 WWW::Search::Excite
 File::Atomic
 Business::Payroll::AU::PAYG
-VMS::ICC
 Lingua::EN::Cardinal
+VMS::ICC
 SQL::Routine
 Win32::FileType
-Net::Mac::Vendor
 Image::ASCII
-Apache::Safe
+Net::Mac::Vendor
 JUNOS
 CGI::Base
 DBD::Google
 RFID::Base
-Apache::Forward
 Config::Ini
 Unix::UserAdmin
 IPC::Shm::Simple
 PDF::Template
-Apache::MIME
 Tk::PhotoRotate
-Fax::DataFax
 DBIx::XMLMEssage
+Fax::DataFax
 Module::MakeDist
 Tk::Autoscroll
-Apache::Htaccess
 PDL::Slatec
 ToolTalk
 Text::Stem
@@ -368,14 +331,14 @@ Find::File::Object
 VMS::Fileutils::Root
 Clips
 Tie::Mem
-PDA::Pilot
 Archive::Tar::Stream
+PDA::Pilot
 Test::Litmus
 Math::Matrix::SVD
 Win32::AdminMisc
 CGI::WebApp
-HtDig
 HTML::Stripper
+HtDig
 SIL::Shoe
 Mac::Spotlight
 DBA::Backup::mysql
@@ -391,10 +354,9 @@ Logfile
 Business::OnlinePayment::Cybersource
 Tie::Assert
 Mail::DSN
-Religion::Package
 CORBA::XPIDL
+Religion::Package
 DCE::RPC
-Apache::SpeedLimit
 Finance::Shares::Chart
 Geo::Projection
 CGI::FormFactory
@@ -403,41 +365,34 @@ POE::Component::MPG123
 Tie::WarnGlobal
 TeX::Convert::Image
 NexTrieve::Index
-Datascope
 VMS::Persona
+Datascope
 NexTrieve::Document
-Verilog::GetInfo
 Mail::Vacation::LDAP
+Verilog::GetInfo
 NexTrieve::DBI
-Apache::MimeXML
-Apache::AuthNISPlus
-PDL::NetCDF
 EventServer::Functions
-Apache::DayLimit
+PDL::NetCDF
 RTF::Generator
-Apache::AuthenRaduis
-Apache::AuthzGender
 XML::Validator::RelaxNG
 NexTrieve::HTML
 Gtk::Dialog
 Devel::DebugAPI
 Net::USPS
-Apache::AxKit
 Win32::GD
 VMS::Fileutils::SafeName
-BizTalk
 Mail::Vacation
+BizTalk
 Tie::PerfectHash
 Sort::PolySort
 Sparky
 PHP::MySQL_Session
-Apache::TicketAccess
 X11::Toolkit
 ReleaseAction
 Math::SimpleInterest
 Math::Nocarry
-Mac::Serial
 CGI::BasePlus
+Mac::Serial
 Zeta
 Object::Info
 X11::Xforms
@@ -474,13 +429,13 @@ This Bundle package will install all of the modules listed, if they're not comme
 
 =head1 SEE ALSO
 
-I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>
+I<L<Bundle::Modules>>, I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Apache>>, I<L<Bundle::Modules::Apache::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique::Unstable>>
 
 =head1 AUTHORS
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0516
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0517
 
 perl
 

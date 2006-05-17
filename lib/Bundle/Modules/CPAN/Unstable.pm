@@ -2,7 +2,7 @@ package Bundle::Modules::CPAN::Unstable;
 
 use 5.005;
 
-our $VERSION = 2006.0516; ## (YYYY.MMDD)
+our $VERSION = 2006.0517; ## (YYYY.MMDD)
 
 1;
 
@@ -47,7 +47,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PException
 ##OpenCA::RBAC
 ##KinoSearch::QueryParser::QueryParser
-##Wizard::Examples::Apache::Directory
 ##Babble::Theme
 ##iPodDB::Menu::File
 ##Biblio::ILL::ISO::ShippedVia
@@ -84,7 +83,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::Event::Easter
 ##Curses::Forms::Dialog::Input
 ##Template::PSP
-##Apache::Wyrd::Lattice
 ##Gtk2::Ex::FormFactory::Notebook
 ##Psh::Strategy::Perlfunc
 ##DateTime::TimeZone::Europe::Budapest
@@ -119,7 +117,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Register::System
 ##DateTime::Format::Epoch::DotNet
 ##Net::FTP::Lite
-##Apache::AuthenIMAP
 ##Bio::Tools::Run::PiseApplication::dnapars
 ##Table::ParentChild
 ##Meta::Utils::Text::Counter
@@ -201,7 +198,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Devel::Cover::Statement
 ##DBIx::Tree::NestedSet
 ##Pangloss::Application::TermEditor
-##Apache::ErrorReport
 ##PDL::IO::HDF
 ##Psh::Builtins::Help
 ##Font::TTF::Cmap
@@ -237,7 +233,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::MakeMethods::Emulator::Struct
 ##Regex::CodeGen::Perl5
 ##Geo::Coordinates::OSGB
-##Apache2::RequestIO
 ##CORBA::C::include
 ##Win32API::File
 ##Math::Calculus::TaylorSeries
@@ -256,7 +251,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Perl::Critic::Policy::Subroutines::ProtectPrivateSubs
 ##Geo::IP::Record
 ##OpenInteract::PackageRepository
-##Apache::DAV::HooksLiveprop
 ##Win32::File
 ##Bio::SeqIO::MultiFile
 ##Ace::Graphics::GlyphFactory
@@ -284,7 +278,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Search::FreeText::LexicalAnalysis::Stop
 ##OpenFrame::Slot::Dispatch
 ##ePortal::MethodMaker
-##Apache::DAV::Datum
 ##TEI::Lite::Header
 ##Tie::Persistent
 ##Cache::Cache
@@ -344,12 +337,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Win32::IPHelper
 ##GO::Parsers::obo_xml_parser
 ##Tk::SlideShow::Arrow
-##Apache::TestTieBucketBrigade
 ##DateTime::TimeZone::America::Argentina::San_Juan
 ##Net::Amazon::Response::Power
 ##Data::ObjectDriver::SQL
 ##Perl::BestPractice
-##Apache::Emulator::Test
 ##Tree::Binary
 ##Servlet::FilterChain
 ##Test::Smoke::Database::DB
@@ -363,7 +354,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##GO::Utils::General
 ##Text::Pspell
 ##Pipeline::Segment::Async::IThreads
-##Apache2::TrapSubRequest
 ##Test::Deep::ArrayElementsOnly
 ##WebService::MusicBrainz::Track
 ##Wombat::Connector::HttpRequestBase
@@ -427,7 +417,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tree::File::YAML
 ##Verilog::Pli
 ##Tree::XPathEngine::Variable
-##Apache::DAV::DynProvider
 ##CGI::AppBuilder::Config
 ##Data::Dumper::Simple
 ##Alzabo::ObjectCache::Sync::BerkeleyDB
@@ -445,7 +434,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AI::NeuralNet::Kohonen
 ##Fry::Sub
 ##Wx::Perl::TreeChecker
-##Apache2::CGI::Builder
 ##HTTP::WebTest::Plugin::DateTest
 ##Text::Conversation
 ##Text::DWParse
@@ -458,12 +446,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Image::Filter::Gaussian
 ##Stem::TTY::Sock
 ##CGI::Persistent
-##Apache::DAV::HooksRepository
 ##Video::DVDRip::GUI::MinSizeGroup
 ##Number::WithError
 ##MacOSX::File
 ##AI::Categorizer::Util
-##Apache::SWIT::Maker::Generator
 ##XML::Liberal::Driver
 ##Workflow::Config
 ##WordNet::Similarity::PathFinder
@@ -478,7 +464,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Math::Vec
 ##Tk::Mwm
 ##Nagios::NSCA::InitPacket
-##Apache::Constants
 ##Video::DVDRip::Cluster::Job::TranscodeAudio
 ##Parse::AFP::CFC
 ##SNMP::Monitor::Event::IfStatus
@@ -487,12 +472,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pangloss::Segment::Decline::NoListStatusCodes
 ##Wifi::Manage
 ##Persistent::DataType::String
-##Apache::Peek
 ##Term::Slang::Scroll
 ##Catalyst::Helper::Controller::Scaffold
 ##Gtk2::Ex::FormFactory::Rules
 ##DNS::Config::Statement::Zone
-##Apache::Session::SingleThread
 ##HTML::WordTagRatio::Ratio
 ##xDash::Archive::Pg
 ##web
@@ -503,7 +486,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WebFetch::LinuxDevNet
 ##Pangloss::Segment::Decline::NoUser
 ##Directory
-##Apache2::Filter::HTTPHeadersFixup
 ##Bio::Prospect::Options
 ##EO::Hierarchy
 ##XML::NodeFilter
@@ -548,8 +530,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Encode::InCharset::cp775
 ##CGI::Bus::lngbase::CGI_Bus_ru
 ##UMMF::UML::MetaModel::OCL::Types::BagType
-##OpenFrame::Segment::Apache::NoImages
-##Apache::ProxyStuff
 ##SQL::Translator::Schema::Constraint
 ##Email::LocalDelivery::Mbox
 ##DBI::Transaction
@@ -666,11 +646,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::Widget::Constraint::Maybe
 ##gen::revision
 ##App::Session
-##Apache::TestReport
 ##SQL::Builder::Delete
 ##Acme::MetaSyntactic::pop3
-##Apache::HeavyCGI::Date
-##Apache::AuthTkt
 ##Graph::Writer::DrGeo
 ##Bio::ConnectDots::ConnectorSet::OMIM
 ##Prima::Themes::color
@@ -757,7 +734,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SVK::Resolve::Emacs
 ##Array::IntSpan
 ##Search::Z3950
-##Apache::UploadMeter
 ##XML::EP::Producer::File
 ##Biblio::ILL::ISO::Expired
 ##WWW::Selenium::Launcher::WindowsDefault
@@ -787,7 +763,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Video::DVDRip::GUI::Project::Storage
 ##CGI::Builder::Const
 ##Biblio::ILL::ISO::ConditionalResultsCondition
-##Apache::SWIT::Maker::Conversions
 ##DBIx::DWIW
 ##JavaScript::MochiKit::Base
 ##MKDoc::Authz::Plugin::Authorize
@@ -849,7 +824,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Curses::Widgets::Label
 ##Video::Info::ASF
 ##Net::DRI::Protocol::EPP::Extensions::NSgroup
-##Apache::AxKit::Provider::File::Formatter
 ##UMMF::UML_1_5::Foundation::Core::Relationship
 ##Text::Positional::Ngram
 ##HTML::Mason::Plugin::Context
@@ -893,7 +867,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Alzabo::Display::SWF
 ##CORBA::MICO::NCEntry
 ##Myco::Base::Common
-##Apache::Wombat::Logger
 ##Carp::Notify
 ##Math::PariBuild
 ##Meta::Baseline::Lang::Nrfx
@@ -906,7 +879,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::Avery::5196
 ##Log::FileSimple
 ##Test::Unit::Assertion
-##Apache::AuthzSSL
 ##SOAP::Clean::Client
 ##CGI::Bus
 ##Ellipse
@@ -956,13 +928,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Myco::Base::Entity::Meta::UI::View
 ##CGI::Wiki::Search::DBIxFTS
 ##Device::Ericsson::AccessoryMenu::Menu
-##Apache::Auth::User::Basic
 ##Data::Vitals::Hips
 ##Biblio::ILL::ISO::SupplyMediumInfoType
 ##Video::DVDRip::Cluster::Job::MergeVideoAudio
 ##Perldoc::DOM::Node
 ##NCustom
-##Apache::AuthNetLDAP
 ##Games::Quakeworld::Query
 ##CGI::Carp::DebugScreen::HTML::Template
 ##Lingua::RU::Translit
@@ -971,7 +941,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTTPD::UserAdmin::DBM::netscape
 ##IDfExportOperation
 ##Net::DBus::Binding::Value
-##Apache::App::Mercury::Config
 ##Amethyst
 ##Astro::Catalog::IO::Simple
 ##SNMP::Simple
@@ -1041,7 +1010,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##IO::Socket::SecureSocks
 ##Template::Plugin::FillInForm
 ##Acme::MetaSyntactic::barbarella
-##Apache::RefererBlock
 ##CPAN::YACSmoke::Plugin::Recent
 ##IETF::ACE
 ##GISI::SHAPE
@@ -1058,7 +1026,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Kite::XML::Parser
 ##Geo::CountryFlags
 ##Net::FS::Gmail
-##Logfile::Apache
 ##Math::PRSG
 ##MP3::M3U
 ##WML::Deck
@@ -1132,7 +1099,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Font::TTF::Segarr
 ##AltaVista::BabelFish
 ##Bio::Phylo::Listable
-##Apache::Wyrd::Form::View
 ##YAPC
 ##XML::SAX::PurePerl
 ##Acme::MorningMusume::KusumiKoharu
@@ -1143,7 +1109,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Video::PlaybackMachine::Config
 ##Net::DNS::ToolKit::RR
 ##WebService::Validator::CSS::W3C
-##Apache::RPC::Server
 ##Locale::RecodeData::ISO_8859_11
 ##MIME::Entity
 ##Solaris::DeviceTree::Libdevinfo::Impl
@@ -1160,7 +1125,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AI::NNEasy::NN::feedforward
 ##Mail::Salsa::Action::Return
 ##DBIx::dbMan::Extension::SQLOracleOutput
-##Apache::SiteControl::UserFactory
 ##App::Ack
 ##XML::SAX::Simple
 ##gen::config_h
@@ -1179,7 +1143,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Locale::RecodeData::ISO_8859_16
 ##HTML::FormStructure::Query
 ##Email::FolderType::MH
-##Apache::CodeRed
 ##Acme::Filter::Kenny
 ##Bio::Tools::Run::PiseApplication::banana
 ##Plagger::Plugin::Filter::HatenaDiaryKeywordLink
@@ -1197,7 +1160,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CAD::Drawing::Calculate::Finite
 ##Games::Rezrov::Quetzal
 ##DateTime::TimeZone::Pacific::Midway
-##Apache::Session::Generate::AutoIncrement
 ##WWW::Scraper::Dogpile
 ##Bio::DB::EMBL
 ##MyTest::TopNode
@@ -1266,7 +1228,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DRI::Protocol::RRP::Core::Host
 ##Locale::RecodeData::INIS_8
 ##Pangloss::Segment::Decline::NotTranslator
-##ApacheMagicApp
 ##HTML::FormEngine::DBSQL::Config
 ##WebService::Technorati::SearchMatch
 ##Net::Amazon::Response::Keyword
@@ -1314,7 +1275,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Lingua::EN::Nickname
 ##asynchronous::universal::ready
 ##Crypt::Cracklib
-##Apache::Handler
 ##Kwiki::AnchorLink
 ##PerlActor::Runner
 ##PurpleWiki::Tree
@@ -1334,7 +1294,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Lyskom::AuxItem
 ##Net::SMS::HTTP
 ##T2::Class
-##Apache2::ParseSource
 ##Pipeline
 ##Meta::Pdmt::Cvs::Scanner
 ##Carp::Assert
@@ -1468,14 +1427,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Flash::FLAP
 ##Class::AutoDB::Connect
 ##WWW::Scraper::ISBN::TWSilkbook_Driver
-##RunApp::Control::ApacheCtl
 ##Net::LibLO::Address
 ##Digest::DMAC
 ##Gtk2::Ex::Geo::Renderer
-##Apache::ImageMagick
 ##Class::DBI::FreeTDS
 ##XML::DB::DatabaseManager
-##Apache::Command
 ##Java::Import::ClassProxy
 ##PDL::Pod::Select
 ##App::Info::Lib
@@ -1508,8 +1464,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SVK::I18N
 ##Gopher::Mechanize::Cache
 ##Business::Shipping::ClassAttribs
-##Apache::SWIT::Test::Apache
-##Apache::Wyrd::DBL
 ##CGI::Bus::lngbase::CGI_Bus_upws
 ##Algorithm::Networksort
 ##DateTime::TimeZone::Asia::Pyongyang
@@ -1522,7 +1476,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Audio::TagLib::MPEG::XingHeader
 ##Patch::SREZIC::Tk::HList
 ##Perl::Metric::Basic
-##Apache::test
 ##Acme::MetaSyntactic::dwarves
 ##MailBox::Test::50message::Definition
 ##MyApp::L::Eng
@@ -1548,7 +1501,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Process::Backgroundable
 ##Device::SerialPort
 ##Lingua::LinkParser::Linkage::Sublinkage::Link
-##Apache::ModuleConfig
 ##Locale::Maketext::GutsLoader
 ##Gtk2::Ex::DBITableFilter
 ##DateTime::Locale::iu
@@ -1558,7 +1510,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##BabelObjects::Util::Dvlpt::Log
 ##Mail::Box::Locker::Mutt
 ##Gimp::Net
-##Apache::Wyrd::Services::Tree
 ##Geo::PostalCode
 ##Acme::Magic8Ball
 ##Lingua::SoundChange
@@ -1592,7 +1543,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Hash::Util
 ##Plagger::Plugin::Filter::URLBL
 ##Business::DE::Konto
-##Apache::Emulator::Constants
 ##Syndicate::Channel::image
 ##Region
 ##Date::Japanese::Era
@@ -1630,7 +1580,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##OurNet::BBS::External::Board
 ##Net::ACL::File::Prefix
 ##Array::Frugal
-##Apache::Centipaid
 ##Tie::InsertOrderHash
 ##BBCode::Tag::Simple
 ##Test::Legacy
@@ -1652,7 +1601,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Editor::Vip::Buffer::Plugins::Display
 ##Babble::Processors::Extra
 ##Stem::Boot
-##Apache::Session::TreeStore
 ##Memoize::ExpireLRU
 ##Psh::Strategy::Bang
 ##Mail::Webmail::Yahoo
@@ -1693,7 +1641,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Repository::Simple::Engine::Memory
 ##Embperl::Run
 ##Authen::RBAC::Group::Acl::PolicyFactory::Hostmask
-##Apache::WeSQL::AppHandler
 ##Rose::DateTime
 ##Gtk2::CV::Plugin::NameCluster
 ##Devel::Command::DBSub::DB_5_6
@@ -1705,7 +1652,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PDF::API2::Resource::Pattern
 ##DB::Introspector::MySQL::Introspector
 ##Net::YahooMessenger::NullEvent
-##Apache::Emulator::Apache::Table
 ##Object::POOF::App
 ##Draft::Protozoa::Eml::Line::Draft1
 ##Audio::JackMiniMix
@@ -1749,12 +1695,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTTP::ProxyAutoConfig
 ##CookBookB::Opaque
 ##inter::charset
-##Apache::MP3::L10N::zh_tw
 ##MIPSIM::Stack
 ##POE::Component::FastCGI
 ##autobless
 ##Spork::Registry
-##Apache::CGI::Builder
 ##Audio::MFCC
 ##Image::Filter::Twirl
 ##MKDoc::SQL::Table
@@ -1798,7 +1742,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MQSeries::Message::Storable
 ##Encode::InCharset::euc_tw
 ##Time::Piece
-##Apache::HTPL
 ##Demo1
 ##FileInfo
 ##Myco::Util::Misc
@@ -1940,7 +1883,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::Abuse::Processor::Table
 ##Config::Abstract::Ini
 ##Locale::PO
-##Catalyst::Engine::Apache
 ##Paper::Specs::Avery::5366
 ##Bot::BasicBot::Pluggable::Store::Storable
 ##Aspect::JoinPoint
@@ -1951,7 +1893,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tree::List2Tree
 ##CPAN::YACSmoke::Plugin::NNTPWeb
 ##Wizard::SaveAble::LDAP
-##Apache::Emulator::Apache::Constants
 ##Language::Basic::Token
 ##Tie::Hash::Indexed
 ##GSM::SMS::Transport
@@ -1966,7 +1907,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tree::Binary::Visitor::Base
 ##Net::RRP::Response::n551
 ##Win32::Perfmon
-##Apache::MP3::L10N::no
 ##Test::C2FIT::fat::TableParseFixture
 ##XPlanner::Person
 ##ExtUtils::Constant::ProxySubs
@@ -1997,7 +1937,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CPAN::Mini::Extract
 ##KinoSearch::Index::TermBuffer
 ##Goo::SimpleEmailer
-##Apache::DAV::WalkerCtx
 ##Bio::Tools::Run::PiseApplication::toppred
 ##Image::XBin::Palette::Default
 ##Paw::Menu
@@ -2090,7 +2029,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Audio::LADSPA::LibraryLoader
 ##enum::fields::extending
 ##Audio::WMA
-##Apache::Emulator::Apache
 ##mcoder::bool::set
 ##XML::IODEF
 ##DBD::Unify
@@ -2111,7 +2049,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tk::Panedwindow
 ##Test::C2FIT::eg::ArithmeticFixture
 ##testcases::WebPodView
-##Apache::AuthCookieLDAP
 ##Aspect::Library::Wormhole
 ##Jifty::DBI::Handle::Oracle
 ##Salaire
@@ -2180,13 +2117,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##X11::Protocol::Ext::DPMS
 ##HTML::Tested::Value::Form
 ##PPI::Token::Number
-##SQCAS::Apache::Authentication
 ##IO::Scalar
 ##HH::Unispool::Config::File::Token::Unnumbered
 ##testcases::Catalogs
 ##RRD::Threshold
 ##Oak::Persistent
-##Apache::File::Resumable
 ##TeX::Encode
 ##DateTime::TimeZone::Pacific::Wake
 ##Tk::Zinc::TraceUtils
@@ -2203,7 +2138,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Font::TTF::Mort
 ##Plucene::Analysis::WhitespaceTokenizer
 ##Bio::Factory::MapFactoryI
-##Apache::Session::Lock::Null
 ##Rose::DB::Registry
 ##X11::Muralis
 ##E2::Search
@@ -2231,7 +2165,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Batch::Batchrun::TableFunctions
 ##B::Fathom
 ##Paper::Specs::standard::b2
-##Apache::No404Proxy
 ##AppConfig::Sys
 ##Games::Poker::HistoryParser::Output::Text
 ##Net::DNS::Header
@@ -2267,7 +2200,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Filter::IRC::Compat
 ##TotalCmd::FSPlugin
 ##Class::MakeMethods::Template::Inheritable
-##Apache::PerlRunFilter
 ##CSS::SAC::SelectorList
 ##Net::Traceroute6
 ##Tree::Visualize::Config
@@ -2277,7 +2209,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::Vacation
 ##Tk::Labelframe
 ##Tie::Cacher
-##Apache2::Protocol::ESMTP
 ##Perl::Critic::Policy::Modules::ProhibitMultiplePackages
 ##Gantry::Docs::FAQ
 ##Digest::JHash
@@ -2299,13 +2230,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##App::Control
 ##POE::Wheel::Curses
 ##Net::Delicious::Object
-##Apache::Session::MySQL
 ##Template::Plugin::Cache
 ##Parse::CPAN::Authors::Author
 ##Bio::Align::AlignI
 ##Net::LDAP::Shell::Util
 ##SWISHED::Core
-##Apache::DnsZone::Resolver
 ##POE::Component::Player::Mpg123
 ##Config::Natural
 ##Babble::DataSource
@@ -2374,7 +2303,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tk::ActivityBar
 ##Parrot::Test::Tcl
 ##DateTime::TimeZone::Africa::Tunis
-##XML::ApplyXSLT::Apache
 ##Class::Holon
 ##Unicode::Indic::Telugu
 ##World4
@@ -2392,7 +2320,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PBS::Output
 ##Net::Trackback::Server
 ##CGI::Form::Table
-##Apache::Wyrd::Input::Complex
 ##Class::Maker
 ##AppConfig
 ##Date::Ethiopic::ET::gru
@@ -2457,12 +2384,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::Genx::Constants
 ##Tie::Eudora
 ##Bio::Tools::EMBOSS::Palindrome
-##Apache::XBEL
 ##Object::Trampoline
 ##HTML::AsHTML
 ##FAQ::OMatic::selectBag
 ##DbFramework::Template
-##Apache::Motd
 ##Sort::ArbBiLex
 ##Mac::iPod::DB
 ##Parse::AFP::FNG
@@ -2500,9 +2425,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##JaM::Account
 ##Religion::Bible::Reference
 ##Uttu::Framework::Uttu::Session
-##Apache::HeavyCGI
 ##Tie::Restore
-##OpenInteract::ApacheStartup
 ##SRU::Response::Term
 ##HTML::Stream
 ##DateTime::TimeZone::Asia::Jerusalem
@@ -2531,7 +2454,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Video::DVDRip::FilterList
 ##Paper::Specs::Avery::5895
 ##PPresenter::Program
-##Apache::LogF
 ##Gtk2
 ##Gtk2::Ex::DBI
 ##Lingua::RU::PhTranslit
@@ -2546,7 +2468,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##X11::WM::Sawfish
 ##Data::Tabular::Output::XLS
 ##Mail::Abuse::Reader
-##Apache::Wyrd::Lattice::Header
 ##CGI::WebApp
 ##YAML::Yuyu
 ##AnyData::Format::HTMLtable
@@ -2567,7 +2488,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::RRP::Response::n506
 ##Net::LDAP::RootDSE
 ##UMMF::UML::Export::XMI
-##Apache::DAV::XMLAttr
 ##Graphics::ColorNames::HTML
 ##AddressBook::DB::DBI
 ##Locale::US
@@ -2617,9 +2537,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::AutoDB
 ##Bio::Matrix::IO::phylip
 ##ExtUtils::TBone
-##Apache::JAF
 ##Bio::ConnectDots::ConnectorSet::RG_U34A_annot_csv
-##Apache::MP3::L10N::hr
 ##Net::SFTP
 ##DateTime::Format::Japanese::Era
 ##Win32::Process::Perf
@@ -2646,7 +2564,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AutoSQL::DBSQL::DBContext
 ##Video::DVDRip::Job::CreateCDImage
 ##HTTPD::AdminBase
-##OpenPlugin::Param::Apache
 ##P4::C4::Cache
 ##Net::ACAP
 ##Filesys::SmbClient
@@ -2654,8 +2571,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Acme::MorningMusume::YasudaKei
 ##Data::CTable::Listing
 ##KinoSearch::Util::MathUtils
-##GameBoard
 ##HTTPD::UserAdmin::Text
+##GameBoard
 ##Net::DNS::Check::Test::soa_refresh_compare
 ##Hook::Filter::Plugins::Location
 ##RPM::Specfile
@@ -2707,7 +2624,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##App::Packer::Frontend::MyModuleInfo
 ##GO::Handlers::base
 ##Net::DRI::Protocol::EPP::Extensions::EURid::Sunrise
-##Apache::Mmap::Handle
 ##CGI::Lite::Request::Cookie
 ##Time::Piece::MSSQL
 ##Lingua::ES::Numeros
@@ -2745,7 +2661,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Business::CanadaPost
 ##Net::RRP::Response::n541
 ##Maypole::Plugin::ColumnGroups
-##Apache::Session::Store::Memcached
 ##RT::Client
 ##Tree::Visualize::ASCII::Connectors::LeftSide::LeftRightConnector
 ##Lingua::LinkParser::MatchPath::SMContext
@@ -2755,7 +2670,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::StateMachine::IOStateMachine
 ##Pg
 ##Math::Stat
-##Apache::GD::Thumbnail
 ##Bio::MAGE::BioAssay
 ##Hardware::Verilog::Parser
 ##Astro::WCS::LibWCS
@@ -2772,7 +2686,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::AFP::Triplet::FRMT
 ##Getopt::EvaP
 ##DBIx::TextIndex
-##Apache::MIMEMapper
 ##POE::XUL::Session
 ##Tk::DynaTabFrame
 ##Tie::RemoteVar::Tie
@@ -2787,7 +2700,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Nagios::NSCA::Client::Server
 ##XML::SAX::Base
 ##Verby::Action::Mysql::Util
-##Apache::AxKit::Plugin::AddXSLParams::Request
 ##Hatena::Keyword::Similar
 ##Data::Library::ManyPerFile
 ##Log::Agent::File::Native
@@ -2825,7 +2737,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pod::ProjectDocs::DocManager
 ##MyTest::MultiChild
 ##Bio::Emboss
-##Sledge::Request::Apache::I18N::Upload
 ##Hash::AsObject
 ##HTML::Controls::ArrayOf
 ##Math::FresnelZone
@@ -2898,7 +2809,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UTF8BOM
 ##PPMServer
 ##testcases::Base
-##Apache::iNcom::SessionLocker
 ##JSAN::Index::CDBI
 ##HTML::EP::Parser
 ##Acme::MemorableExit
@@ -2906,13 +2816,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Makefile::GraphViz
 ##File::System
 ##IDfContainment
-##Apache2::Geo::IP::Record
 ##Business::CreditCard::Object
 ##SQL::ReservedWords::DB2
 ##Test::Harness
 ##CDB_File
 ##Tree::XPathEngine::Step
-##Apache::iNcom::Localizer
 ##Math::Matrix
 ##Tree::Visualize::GraphViz::Layouts::Binary::Tree
 ##Net::RRP::Response::n554
@@ -2926,7 +2834,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::WebMake::File
 ##Embperl::Form::Validate::Select
 ##SWISHED::Handler
-##Apache::Layer
 ##Genezzo::Plan
 ##Bio::Index::GenBank
 ##Authen::Simple::ActiveDirectory
@@ -2938,7 +2845,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::AFP::PTD1
 ##Spork::Config::TKSlide
 ##AFS::Object::Volume
-##MKDoc::Apache_Cache
 ##Net::OAI::GetRecord
 ##Lingua::PT::Hyphenate
 ##Mac::CoreMIDI
@@ -2990,7 +2896,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ex::implements
 ##Biblio::Citation::Parser::Templates
 ##UMMF::MOF_1_3::Model::DirectionKind
-##Apache::XPointer::RDQL
 ##RDBAL::Layer::SybaseDBlib
 ##Alzabo::Column
 ##Rose::DB::Object::Metadata::Relationship::ManyToOne
@@ -3062,7 +2967,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::DBI::Schema2Code
 ##Gtk2::Ex::Dialogs::ChooseDirectory
 ##Bio::Annotation::AnnotationFactory
-##Apache::SWIT::HTPage
 ##HTTP::Range
 ##Pod::Lyx
 ##Rose::HTML::Form::Constants
@@ -3074,7 +2978,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::Sablotron::DOM
 ##Template::Plugin::HTML::SuperForm
 ##CORBA::LongDouble
-##Apache::AxKit::Language::XSP::SimpleTaglib
 ##Catalyst::Plugin::Session::Store::File
 ##UMMF::UML::MetaModel::Foundation::Core::Namespace
 ##Text::ASCIITable
@@ -3143,7 +3046,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Data::Quantity::Abstract::Base
 ##HTML::WebMake::DataSources::SVFile
 ##SVN::Notify::Snapshot
-##Apache::MP3::L10N::en
 ##DBIx::CGITables
 ##IO::All::MLDBM
 ##Lingua::ZH::Romanize::Pinyin
@@ -3169,8 +3071,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBstorage::DBI
 ##CONFIG::Hash
 ##PDF::API2::Resource::CIDFont::TrueType::FontFile
-##Apache::GopherHandler::TiedSocket
-##Apache::VMonitor
 ##Games::Battleship::Craft
 ##remove_file_and_try_executable_again
 ##CGI::Application::Plugin::AnyTemplate::Driver::Petal
@@ -3178,7 +3078,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Data::Phrasebook::Loader::DBI
 ##QApplication
 ##MQSeries::Command::MQSC
-##Apache::HeavyCGI::IfModified
 ##Class::DBI::AsXML
 ##Class::Composite
 ##GD::Graph::histogram
@@ -3513,7 +3412,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tie::Filter::Array
 ##Image::Xpm
 ##DateTime::TimeZone::Asia::Damascus
-##Parse::RecDescent::Config::ApacheExtended::Grammar
 ##DBX
 ##Geo::GPS::Data
 ##Graphics::ColorNames::WWW
@@ -3551,7 +3449,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##List::Member
 ##Math::Telephony::ErlangC
 ##Stream::FileOutputStream
-##Apache::FormatLog::Combined
 ##Verby::Action::Mysql::DoSql
 ##PerlPoint::Generator
 ##Fwctl::Services::rsh
@@ -3559,7 +3456,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Echelon
 ##HTML::Template::Pro::Extension
 ##WWW::TVguide::NL
-##Apache::AxKit::Language::Sablot
 ##LWP::ParallelUA
 ##SelfUnzip
 ##RDF::Redland::Node
@@ -3592,7 +3488,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Whois::Raw
 ##Jifty::Continuation
 ##OpenSSL::Cipher
-##Apache::ProxyPassThru
 ##WWW::Search::Scraper::Google
 ##Net::Google::Response
 ##DBIx::HTMLView::N2N
@@ -3602,8 +3497,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Number::Phone::JP::Table::Phs
 ##MHonArc::UTF8::AppleThai
 ##URPM
-##Apache::XMLRPC
-##Apache::LogIgnore
 ##Prima::DetailedOutline
 ##Linux::AIO
 ##Net::RRP::Response::n540
@@ -3628,7 +3521,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DNS::ToolKit::RR::HINFO
 ##Plagger::Plugin::Subscription::DBI
 ##Goo::Emailer
-##Apache::AxKit::StyleChooser::QueryString
 ##Chatbot::Alpha::Tutorial
 ##RTF::HTML::Output
 ##ShiftJIS::CP932::MapUTF
@@ -3722,7 +3614,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PDF::API2::Resource::XObject::Form
 ##JSAN
 ##CGI::MxScreen::Screen
-##Apache::JAF::Session
 ##Perldoc::Reader
 ##Config::Maker::Path::Root
 ##Plugin::Language::DML
@@ -3730,7 +3621,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Delicious::Post
 ##Module::Pluggable
 ##LWP::Protocol::https
-##Apache::CVS::PlainFile
 ##Net::Lite::FTP
 ##Date::Gregorian::Business
 ##Games::Poker::HistoryParser::Sites::PokerStars::Process
@@ -3819,7 +3709,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Gestinanna::Schema
 ##Data::Secs2
 ##OOPS::sqlite
-##OpenPlugin::Upload::Apache2
 ##XML::TiePYX
 ##auto::jit
 ##CGI::MxScreen::Config
@@ -3883,7 +3772,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SMS::Handler::Utils
 ##MyOutSession
 ##PDL::IO::FITS
-##Apache::PAR::ScriptBase
 ##CSS::SAC::Writer
 ##Algorithm::Loops
 ##Games::Worms::Tek4010::Board
@@ -3898,14 +3786,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::Africa::Mbabane
 ##GO::Model::Term
 ##UMMF::UML_1_5::OCL::Expressions::OclMessageExp
-##Apache::ASP::Response
 ##Audio::BASSXS
 ##Digest::Perl::MD5
 ##Net::Pager::Response
 ##Data::RandomPerson::Names::ModernGreekMale
 ##DateTime::TimeZone::Europe::Oslo
 ##Gtk::XmHTML
-##Apache::AuthzDBI
 ##Log::Dispatch::ToTk
 ##Search::Xapian::WritableDatabase
 ##Bio::MAGE::BioMaterial::CompoundMeasurement
@@ -3941,7 +3827,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UNIVERSAL::canAUTOLOAD
 ##URI::Sequin
 ##Math::Random
-##Apache::AxKit::Language::XSP
 ##DBstorage
 ##Autodia
 ##Convert::BER::BER
@@ -3977,9 +3862,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Language::Prolog::Types::Factory
 ##InSilicoSpectro::InSilico::ExpCalibrator
 ##Paper::Specs::standard::c1
-##Apache::Precompress
 ##String::RexxParse
-##Apache::Proxy
 ##Math::Amoeba
 ##Image::ExifTool::RIFF
 ##Template::Provider
@@ -4103,7 +3986,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Rose::HTML::Form::Field::Email
 ##Class::MakeMethods::Emulator
 ##Games::League::Member
-##Log::Dispatch::ApacheLog
 ##Geo::Walkabout::Chain
 ##I18N::LangTags::List
 ##ePortal::Attachment
@@ -4120,7 +4002,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AI::MegaHAL
 ##Text::PORE::Node
 ##Net::OSCAR::Proxy
-##Apache::DnsZone::Config
 ##CPANPLUS::Shell::Curses
 ##GetWeb::Filter
 ##Thread::Tie::Array
@@ -4154,7 +4035,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Filesys::Virtual::DAAP
 ##Data::FormValidator::Util::HTML
 ##Pangloss::Segment::ListConcepts
-##Apache::OneTimeDownload
 ##Aviation::Report
 ##Bio::Tools::Run::PiseApplication::prose
 ##UMMF::UML_1_5::Foundation::Data_Types::ChangeableKind
@@ -4167,7 +4047,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::standard::a6
 ##Tangram::Schema::ClassHash
 ##Class::Data::Reloadable
-##HTTPD::Bench::ApacheBench
 ##Data::Stag
 ##Meta::Info::Address
 ##SQL::Builder
@@ -4191,7 +4070,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Font::TTF::Ttopen
 ##Asmens::Kodas
 ##Bio::Tools::FootPrinter
-##Apache::AxKit::Cache
 ##Catalyst::Plugin::Session::Manager::Client::Rewrite
 ##Paper::Specs::standard::ra0
 ##AxKit::App::TABOO::Data::Story
@@ -4238,7 +4116,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::YYLex
 ##DBIx::dbMan::Extension::DescribeCompleteOracle
 ##MIDI::Track
-##Apache::ParseControl
 ##CGI::MxScreen::Error
 ##Mozilla::DOM::NSRange
 ##Pixie::Store::DBI
@@ -4288,11 +4165,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Config::Find::Win2k3
 ##File::Basename::Object
 ##CGI::Application::Plugin::AutoRunmode
-##OpenPlugin::Upload::Apache
 ##Trinket::Directory::DataAccess::DB_File
-##Apache::WDB
 ##Font::Scripts::Thai
-##Apache::DnsZone::DB::MySQL
 ##Wiki::Toolkit::Formatter::UseMod
 ##Log::Agent::Tag::String
 ##UMMF::UML_1_5::Foundation::Core::BehavioralFeature
@@ -4326,7 +4200,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Graphics::Glyph::minmax
 ##Meta::Tool::Fhist
 ##Tk::DragDrop::Win32Site
-##Apache2::AuthNetLDAP
 ##Net::IANA::Registry
 ##XML::RDDL::Directory
 ##Net::Shaper
@@ -4334,7 +4207,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AutoCode::Compare
 ##Template::Plugin::Mariachi
 ##OurNet::BBSApp::Proposal
-##Apache::Timeit
 ##Net::Peep::Conf
 ##Class::RDF::Cache
 ##Event::ExecFlow::Scheduler::SimpleMax
@@ -4353,7 +4225,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Algorithm::Evolutionary::Op::IncMutation
 ##TT
 ##Unicode::MapUTF8
-##SOAP::Transport::HTTP::Apache
 ##HTML::TagFilter
 ##GO::Parsers::mgi_assoc_parser
 ##FreePAN::Command
@@ -4374,7 +4245,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Win32::ProcFarm::Parent
 ##File::Stat::Ls
 ##Perl::Critic::Policy::InputOutput::ProhibitBarewordFileHandles
-##Apache::AuthPerLDAP
 ##Games::Scrabble
 ##UMMF::MOF_1_4_1::Model::Constraint
 ##UMMF::UML::MetaModel::OCL::Expressions::NumericLiteralExp
@@ -4465,7 +4335,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::EP::CGIEncryptForm
 ##FileSys::Tree
 ##Net::Whois::ARIN::Customer
-##Apache::Session::Generate::ModUsertrack
 ##Froody::Reflection
 ##KDE
 ##Data::Hexdumper
@@ -4481,7 +4350,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##GetWeb::FormatText
 ##Net::RawIP
 ##Sledge::Plugin::Email::Japanese
-##Apache::MP3::L10N::x_marklar
 ##Perlbug::Object::Parent
 ##Parse::AFP::Triplet::FCGCSGI
 ##WWW::PDAScraper::Yahoo::Sport::MotorSports
@@ -4631,7 +4499,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##JavaScript::MochiKit::Color
 ##AxKit::App::TABOO::XSP::Story
 ##BSD::Getfsent
-##Apache::Session::Serialize::Storable
 ##XML::CommonNS
 ##Bio::Tools::Run::PiseApplication::distmat
 ##NetworkInfo::Discovery::NetBIOS
@@ -4686,7 +4553,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Graph::Easy::As_graphviz
 ##ModuleBundle
 ##Net::DHCP::Control::Lease
-##Apache::CVS
 ##XAO::DO::Data::CatalogData
 ##Audio::Play::Net
 ##Image::MetaData::JPEG::Record
@@ -4729,7 +4595,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Uttu::Framework::Uttu
 ##Number::Phone::JP::Table::Ipphone
 ##Net::EPP::Frame::Command::Login
-##Apache2::DebugLog
 ##Regexp::Common::time
 ##Prima::ImageDialog
 ##POE::Filter::CTCP::P10
@@ -4795,7 +4660,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Stem::Log
 ##Pangloss::Collection
 ##Test::Memory::Cycle
-##Apache::SAPSOAPServer
 ##XML::Schema::Factory
 ##Paper::Specs::standard::c
 ##OpenInteract::Template::Provider
@@ -4833,7 +4697,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Genezzo::Row::RSBlock
 ##DBIx::Renderer::Base
 ##Graphics::ColorNames::Netscape
-##Catalyst::Engine::Apache::MP19::Apreq
 ##Getopt::Tabular
 ##Kwiki::GuestBook
 ##Wx::build::Config::Win32_MSVC
@@ -4847,11 +4710,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pattern
 ##Perl6::Rules
 ##XML::RAI::Item
-##Apache::Session::Store::DBI
 ##Tie::Hash
 ##DBIx::Class::CDBICompat::MightHave
 ##Mail::Miner::Recogniser::Keywords
-##Apache2::POST200
 ##DBIx::Sequence
 ##Quilt::DO::XRef
 ##AFS::Object
@@ -4869,7 +4730,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Das::ProServer::SourceAdaptor::Transport::getzc
 ##Audio::DB::DataTypes::Song
 ##SVK::Resolve::TkDiff
-##Apache::Zobel
 ##Astro::Catalog::Item::Morphology
 ##Date::Language::Finnish
 ##Date::DayOfWeek::Sneeze
@@ -4884,7 +4744,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::DBI::AsForm
 ##Model3D::WavefrontObject
 ##Math::VectorReal
-##Apache::Session::Store::PHP
 ##WAIT::Format::CPAN
 ##RepRoot
 ##Number::RGB
@@ -4908,8 +4767,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::Avery::5095
 ##Pangloss::Segment::Decline::NoSelectedUser
 ##XML::Comma::Pkg::Transfer::HTTP_Upload
-##Storable
 ##Video::Info
+##Storable
 ##Unix::Conf::Bind8::Conf::Server
 ##SQL::Amazon::Tables::SysSchema
 ##GnaData::Read::Tsv
@@ -4960,7 +4819,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MyStamp
 ##Log::Log4perl::Config::PropertyConfigurator
 ##Test::PDF
-##Apache::Auth::User::Digest
 ##TiVo::HME::Context
 ##Net::LDAP::Message
 ##Asterisk::LCR::Storage::MyRoutes
@@ -5024,10 +4882,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Font::TTF::Mort::Insertion
 ##Lisp::Fmt
 ##C::Sharp
-##Apache2::PerlSections::Dump
 ##Finance::Bank::Wachovia::Account
 ##CGI::Builder::Auth::UserAdmin::DBM
-##Apache::Servlet
 ##HTML::Prototype
 ##Catalyst::Model
 ##Text::Shoebox
@@ -5050,7 +4906,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::photo::16x20
 ##Net::Peep::Client::Sysmonitor::Disk
 ##MakeEvent
-##HTML::Mason::ApacheHandler2
 ##Bio::Prospect::LocalClient
 ##Video::DVDRip::Convert
 ##Jako::Construct::Expression::Value::Literal
@@ -5077,7 +4932,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ORM::Order
 ##Time:Compare
 ##HTML::Widget::Constraint::AllOrNone
-##Apache::Auth::UserDB::File
 ##POE::Component::SSLify
 ##DateTime::TimeZone::America::Guayaquil
 ##Games::Chess::Coverage::Imager::Board
@@ -5089,7 +4943,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Encode::HanConvert
 ##Data::RandomPerson::Names::ThaiFemale
 ##PPI::Statement::Break
-##Apache::QuickCMS
 ##Log::Agent::Tag_List
 ##Test::HTTPStatus
 ##Unix::Conf::Bind8::DB::CNAME
@@ -5116,7 +4969,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBM_Filter::utf8
 ##Meta::Utils::File::Remove
 ##CC::Version
-##Apache::MP3::L10N::nn
 ##DBIx::SQLEngine::Record::Extras
 ##Text::Hatena::SectionNode
 ##UMMF::UML_1_5::Behavioral_Elements::Common_Behavior::DataValue
@@ -5129,7 +4981,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##xDash::Logger::Dumb
 ##Time::ParseDate
 ##Python
-##Apache::CustomKeywords
 ##Mac::Carbon
 ##Cache::File::Handle
 ##Search::Xapian::RSet
@@ -5173,7 +5024,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Baseline::Lang::Temp
 ##Bio::AnnotatableI
 ##Image::ExifTool::Jpeg2000
-##Apache::Magick
 ##Graphics::VTK::Common
 ##Math::Group::Thompson
 ##DateTime::Locale::zh_Hant_TW
@@ -5196,8 +5046,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::SpamAssassin::NoMailAudit
 ##XML::Parser::SVG2zinc
 ##XML::Handler::Trees
-##Apache::Embperl
-##Apache::Clickable
 ##Net::BGP::Refresh
 ##Tk::CodeText::Pod
 ##Tree::Visualize::ASCII::Connectors::BottomUp::MultiConnector
@@ -5209,9 +5057,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Xml::Parsers::User
 ##Tk::ContextHelp
 ##MyConText::File
-##Apache::MP3::L10N::no_no
 ##Graphics::Simple::Fig
-##Apache::Wyrd::Interfaces::GetUser
 ##Ao
 ##PDF::API2::Basic::TTF::Kern
 ##Template::Plugin::Handel::Constants
@@ -5246,7 +5092,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::Rename
 ##Net::HL7
 ##Config::Constants::XML::SAX::Handler
-##OpenFrame::Segment::Apache2::Request
 ##ASP::NextLink
 ##SVN::Web::Diff
 ##Mail::SpamAssassin::SpamdForkScaling
@@ -5298,7 +5143,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::RRP::Response::n200
 ##EO::Singleton
 ##File::LinearRaid
-##Apache::RandomImage
 ##Net::Z3950::APDU
 ##Pod::ProjectDocs::Parser
 ##UMMF::XForm
@@ -5320,7 +5164,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UMMF::UML::MetaMetaModel::Util
 ##SQL::SqlObject::ODBC
 ##Bot::BasicBot::Pluggable::Module::Vars
-##Apache::AuthzLDAP
 ##Petal::Mail
 ##OpenFrame::WebApp::User::Factory
 ##Tree::Visualize::ASCII::Layouts::Simple::BottomUp
@@ -5507,7 +5350,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Perlcast::Interviews::012
 ##Net::Z3950::AsyncZ::ZLoop
 ##Lingua::StopWords::EN
-##Apache::Album
 ##IO::ScalarArray
 ##Catalyst::Plugin::OrderedParams
 ##Spreadsheet::WriteExcelXML
@@ -5535,7 +5377,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Oak::Filer::XML
 ##Image::Processor::CD
 ##Test::Litmus
-##Apache::Session::Lock::MySQL
 ##Courier::Filter::Module::Parts
 ##Chroniton::BackupContents
 ##Getopt::ExPar
@@ -5577,7 +5418,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Pipe::TwoWay
 ##News::Article
 ##MHonArc::CharEnt::CP1255
-##Apache::Resource
 ##XML::DOM::Lite::Constants
 ##GnuPG::Fingerprint
 ##MyConText::URL
@@ -5600,27 +5440,22 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::XML::DataLoader::DB
 ##Bio::Factory::BlastHitFactory
 ##Bio::Graphics::Glyph::redgreen_box
-##Apache::AntiSpam::Heuristic
 ##AFS::Object::VLDB
 ##SDL_perl
 ##POE::Component::Server::HTTP::Connection
 ##Bio::DB::GFF::Adaptor::memory
-##Apache::ProxyConf
 ##HTML::ElementGlob
 ##QImage
 ##DateTime::Locale::da_DK
 ##RedHat::Kickstart
 ##Parrot::Docs::Section::Examples
 ##RPM::VersionSort
-##Apache::Sybase::ConPool
 ##HTML::Prototype::Useful::Js
 ##Class::DBI::Plugin::Senna
 ##Games::AlphaBeta
 ##DB::Introspector::Base::Table
-##Apache2::Directive
 ##Acme::Fitness
 ##Data::Tabular::Row::Averages
-##Messaging::Courier::ApacheGateway
 ##IO::Stringy
 ##Opcode
 ##Paper::Specs::Avery::8314
@@ -5630,16 +5465,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SNMP::Info::Layer2::Allied
 ##XML::Filter::DataIndenter
 ##Jifty::DBI::Handle::Pg
-##Apache::Session::Store::Oracle
 ##Paw::Radiobutton
 ##VCS::StarTeam
 ##Module::Install::Skip
 ##XUL::Node::Application::GroupBoxExample
 ##Net::NNTP::Proxy
 ##Gtk2::TrayManager
-##Apache::ASP::GlobalASA
 ##GO::Parsers::obo_text_parser
-##Apache::AuthenSmb
 ##DateTime::Locale::aa_ET
 ##Gantry::Stash::Controller
 ##Chart::Clicker::Shape::Rectangle
@@ -5687,7 +5519,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Iterator::Util
 ##Plagger::Plugin::CustomFeed::Debug
 ##Test::Tester::CaptureRunner
-##Apache::AntiSpam::HTMLEncode
 ##DateTime::TimeZone::America::Indiana::Vincennes
 ##SOAP::Transport::HTTP::Server
 ##ETL::Pequel::Parse
@@ -5765,7 +5596,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##List::MoreUtils
 ##Logfile::EPrints::Period
 ##NetStumbler::Speech
-##Apache::JavaScript::DocumentWrite
 ##CGI::Portal::Scripts::logon
 ##Quilt::DO::Author
 ##Language::Ook
@@ -5813,7 +5643,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::BLOB::Handle
 ##MHonArc::CharEnt::KOI8_U
 ##Tk::ChildNotification
-##Apache::TestConfigParrot
 ##World5
 ##Text::KwikiFormatish
 ##Getopt::Tiny
@@ -5833,12 +5662,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Class::Server::UNIX
 ##public
 ##WWW::Search::Scraper::Response::Job
-##Apache::SecSess::Cookie::URL
 ##DateTime::TimeZone::America::Regina
 ##IPC::Run::Win32IO
 ##Chemistry::Pattern::Bond
 ##Proc::Daemontools
-##Apache::SWIT::Maker::GeneratorsQueue
 ##ASP
 ##Lemonldap::NG::Handler::SharedConf
 ##Video::DVDRip::Task
@@ -5870,7 +5697,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SQL::Schema::Function
 ##Net::ICal::Parser
 ##OurNet::BBSApp::Sync
-##Apache::Wyrd
 ##Template::Plugin::CloneVMethods
 ##WWW::Yahoo::Movies
 ##LWP::Sink::HTML
@@ -5878,7 +5704,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::America::Nipigon
 ##CIPP::Stat::Collect
 ##Plucene::Plugin::Analyzer::MetaphoneAnalyzer
-##Mail::Toaster::Apache
 ##gen::parrot_include
 ##Games::Rezrov::ZObjectCache
 ##WWW::SMS::Clarence
@@ -5912,7 +5737,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DynScalar
 ##IO::Socket::PortState::cPanel
 ##Reference_Parser
-##Apache::AuthLDAP
 ##ORM::Db::DBI::MySQLemTa
 ##Text::NSP::Measures::2D::Fisher2
 ##DateTime::Locale::az
@@ -5938,7 +5762,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Lyskom::TextStat
 ##Finance::Huntington::Statement
 ##Wombat::Session
-##Catalyst::Engine::Apache2::MP20
 ##KinoSearch::Store::InStream
 ##Chemistry::InternalCoords::Builder
 ##PDF::API2::Matrix
@@ -5956,7 +5779,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Dunce::time
 ##Text::AutoLink::Plugin::FTP
 ##WWW::B_Rail::Cities::English
-##Apache::Symbol
 ##Kwiki::DB::ClassDBI
 ##RPM4::Transaction
 ##Net::Traces::SSFNet
@@ -6062,8 +5884,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::MimeInfo::Magic
 ##Pod::InputObjects
 ##DateTime::TimeZone::America::Thule
-##KinoSearch::Analysis::PolyAnalyzer
 ##Text::Highlight::SQL
+##KinoSearch::Analysis::PolyAnalyzer
 ##GnaData::Transpose
 ##Pod::Escapes
 ##XAO::DO::Web::URL
@@ -6133,7 +5955,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBM::Any
 ##X11::Protocol::Connection::UNIXFH
 ##SVG::SVG2zinc
-##Apache::SiteControl::ManagerFactory
 ##Astro::SLA
 ##Math::Calc::Units::Convert::Multi
 ##Embperl::Recipe
@@ -6162,7 +5983,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::Run::PiseApplication::prettyplot
 ##Tangram::Expr::LinkTable
 ##Bio::Annotation::Comment
-##CPANXR::Apache::Search
 ##Bio::GMOD::Adaptor::FlyBase
 ##Net::IDN::Encode
 ##Test::TAP::Model::File
@@ -6229,7 +6049,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##inter::make
 ##ExtUtils::MM_AIX
 ##HTMLElements
-##Apache::AuthzNetLDAP
 ##RPM::Database
 ##HTML::Tested::Value::CheckBox
 ##Prima::Const
@@ -6252,7 +6071,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Games::Chess::Coverage::Imager
 ##SQL::Translator::Parser::PostgreSQL
 ##Tk::SignOnDialog
-##Apache::Voodoo::Debug
 ##RCU::Context
 ##Gtk2::Ex::Simple::List
 ##Math::BigFloat
@@ -6284,14 +6102,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bigtop::Keywords
 ##CannonField
 ##Watchdog::Mysql
-##Apache::Earlybird
 ##Data::RandomPerson::Names::EnglishMale
 ##App::Widget::Label
 ##NetPacket::TCP
 ##CGI::LDAPSession
 ##POE::Class
 ##Gestinanna::XSM::Authz
-##Apache::Logmonster::Perl
 ##Mail::Object
 ##Filter::Template
 ##Astro::FITS::HdrTrans::JCMT_GSD
@@ -6368,7 +6184,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Goo::Thing::pm::TypeChecker
 ##Board
 ##Kwiki::PPerl
-##Apache::WebSNMP
 ##Rose::HTML::Form::Field::DateTime::Split::MDYHMS
 ##Debug::Trace
 ##Data::FixedFormat
@@ -6436,7 +6251,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Acme::MorningMusume::KonnoAsami
 ##Geo::GPS::Data::Collection::TrackLog
 ##RouterBase::Module
-##Apache::DBILogger
 ##Parse::Pidl::Samba::SWIG
 ##CGI::GuruMeditation
 ##AI::NeuralNet::SOM
@@ -6504,7 +6318,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MHonArc::UTF8::KOI_7
 ##Devel::ModInfo::Util
 ##Devel::Cover::Report::Text2
-##Apache::XPP::Cache::Store
 ##Mail::Salsa::Action::Subscribe
 ##Psh::Builtins::Fg
 ##HTML::GoogleMaps
@@ -6543,7 +6356,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UI::Dialog::Backend::Nautilus
 ##VRML::VRML2::Standard
 ##Regexp::Common::URI::tv
-##SML::Apache
 ##Graph::Directed
 ##Package::props
 ##DateTime::TimeZone::Pacific::Efate
@@ -6577,11 +6389,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::CDDBScan
 ##Spreadsheet::WriteExcel::FromXML::Worksheet
 ##Exception::LikeTest
-##Apache::CVS::RcsConfig
 ##XML::XPath::Step
 ##Cvs::Cvsroot
-##Test::WWW::Mechanize::CGI
 ##Filesys::dfent
+##Test::WWW::Mechanize::CGI
 ##Bio::MAGE::QuantitationType::PresentAbsent
 ##Class::DBI::View::Having
 ##Audio::MikMod
@@ -6646,7 +6457,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Curses::UI::Dialog::Calendar
 ##Cluster::Init::DFA::Process
 ##Sort::Key::Register
-##Apache2::AUS::RequestRec
 ##Parrot::Docs::Section::Docs
 ##Tangram::Hash
 ##Tk::Submethods
@@ -6656,7 +6466,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WebService::Technorati
 ##RDF::Core::Model::Parser
 ##IOC::Visitor::SearchForService
-##Apache::Singleton::Request
 ##DBIx::dbMan::Extension::CmdClear
 ##AxKit::App::TABOO::Data::Productprices
 ##Petal::CodeGenerator
@@ -6680,7 +6489,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Data::Tabular::Output::HTML
 ##Lingua::ZH::Currency::UpperCase
 ##Mail::SpamAssassin::Message::Metadata::Received
-##Apache::MagicPOST
 ##Embperl::Syntax::EmbperlBlocks
 ##NewSpirit::Project
 ##Font::TTF::OldMort
@@ -6768,7 +6576,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Genex::RelatedCSF
 ##MIPSIM::ALU
 ##Mail::Outlook::Folder
-##OpenFrame::Segment::Apache::Response
 ##Catalyst::Model::EmailStore
 ##VCP::Filter::cvsbkchangeset
 ##Algorithm::CheckDigits::M11_001
@@ -6782,7 +6589,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Sms::Token::DA
 ##Config::Model::HashId
 ##Bio::ConnectDots::SimpleGraph
-##Apache::Safe
 ##CGI::ToXML
 ##DBIx::SearchBuilder::Record::Cachable
 ##DIME::Message
@@ -6805,7 +6611,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::Class::UUIDMaker::Win32::Guidgen
 ##Meta::Xml::Dom
 ##Net::Telnet
-##Apache::DAV::Lock
 ##Parse::AFP::Triplet::FDS
 ##Oak::Web::HTML::I
 ##PDF::API2::Resource::Shading
@@ -6832,7 +6637,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PDF::API2::Basic::TTF::Cmap
 ##Chemistry::3DBuilder
 ##Unix::GroupFile
-##Apache2::Geo::Mirror
 ##PDF::API2::Basic::TTF::Kern::StateTable
 ##Syndication::ESF
 ##Email::Folder::MH
@@ -6881,7 +6685,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::Run::PiseApplication::pars
 ##Asterisk::LCR::Dialer::MinCost
 ##XML::Schema::Handler
-##Apache::Sybase::CTlib
 ##Chronos::Action::Showweek
 ##POE::Resources::Statistics
 ##DBIx::FullTextSearch
@@ -6906,7 +6709,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTTP::Request::Form
 ##Acme::Web20::Validator::Rule::HasAnyFeeds
 ##WWW::Webrobot::SymbolTable
-##MyApache::Mason::ApacheHandler2
 ##HTML::Formulate
 ##Mac::AETE::Parser
 ##WWW::Scrobbler::Stats
@@ -6938,7 +6740,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::Tail
 ##MKDoc::XML::TreePrinter
 ##Meta::Error::Root
-##Apache::Request::Dispatcher
 ##Oak::Web::Additional::Template
 ##Tie::DBI
 ##XML::XPath::Node::Attribute
@@ -7038,7 +6839,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Time::Duration::ja
 ##Babble::Document::Collection
 ##Data::Stag::BaseHandler
-##Apache::StickyQuery
 ##Games::Sudoku::Component::Base
 ##MKDoc::Authz
 ##SDL::App::FPS::MyFont
@@ -7068,7 +6868,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Gestinanna::XSM::Base
 ##File::Basename
 ##Ast
-##OpenFrame::Server::Apache
 ##UMMF::MOF_1_3::Model::Reflective::RefObject
 ##Tangram::Cursor
 ##Net::Safari::Response
@@ -7120,10 +6919,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Perlbal::ReproxyManager
 ##SDL::Tutorial::Images
 ##WWW::YahooMaps
-##Apache::Wombat::Request
 ##Parse::RecDescent::Genezzo::Parse::SQL
 ##PurpleWiki::Rss
-##Apache::UploadSvr::User
 ##Term::Pager
 ##Class::Iter
 ##GSM::SMS::OTA::PictureMessage
@@ -7174,7 +6971,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UMMF::MOF_1_4_1::Model::EnumerationType
 ##Net::Connection::Simple
 ##Class::Object
-##Apache::MP3::Resample
 ##Module::Install::Catalyst
 ##ePortal::ThePersistent::ExtendedACL
 ##PPI::Token::Pod
@@ -7208,7 +7004,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Sys::OutPut
 ##KinoSearch::Index::FieldsReader
 ##Mac::AppleSingleDouble
-##Apache::Action::DesignDB::Feedback
 ##JavaScript::MochiKit::JS::Color
 ##Mail::Message::Convert::Html
 ##XML::RAI::Channel
@@ -7217,7 +7012,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parrot::Test::Regex
 ##Pangloss::Segment::Request::ListUsers
 ##OurNet::BBS::MELIX::Article
-##Apache::Voodoo::Zombie
 ##Win32::GUI::BitmapInline
 ##WWW::Selenium::Launcher::UnixDefault
 ##HTML::DBForm::Search::TableList
@@ -7260,7 +7054,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##BBCode::Tag::Inline
 ##DateTime::TimeZone::Europe::Warsaw
 ##Net::SSH::Perl::Cipher::RC4
-##Apache::ACEProxy
 ##Video::DVDRip::GUI::Project::Title
 ##manager2
 ##XML::RSS
@@ -7285,7 +7078,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Analysis::TCPMonologue
 ##Chart::Sequence::Layout
 ##CGI::Application::Plugin::Authentication::Driver::Filter::crypt
-##Apache::DCELogin
 ##Tk::XDialogBox
 ##DBIx::dbMan::Extension::CmdEditLine
 ##CPANPLUS::Shell::Tk
@@ -7299,7 +7091,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DRI::Protocol::Gandi::Web::Connection
 ##Object::POOF::SQL::Save
 ##Kwiki::CSS
-##SQCAS::Apache::Authorization
 ##Petal::I18N
 ##Test::Deep::ArrayLengthOnly
 ##SQL::Translator::Producer::XML::SQLFairy
@@ -7369,14 +7160,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Babble::Cache::Storable
 ##Stem::DBI
 ##Persistence::Object::Simple
-##LiveGeez::Apache
 ##Net::SSH::Perl::Auth::Rhosts
 ##Video::DVDRip::Preset
 ##Parse::Binary::Iterative
-##Apache::WinBitHack
 ##Acme::PGPSign
 ##Games::Battleship
-##OpenFrame::Example::Apache2Simple
 ##Class::STL::Utilities
 ##Variable::Watcher
 ##Image::Filter::Foo
@@ -7538,7 +7326,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::SQLEngine::Record::Trait::Cache
 ##DateTime::Locale::en
 ##Test::C2FIT::fat::FixtureLoadFixture
-##Apache::TestCharsetModify
 ##Puppet::Log
 ##File::Butler
 ##Proc::Killfam
@@ -7564,7 +7351,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##NetServer::Portal
 ##HTML::Doctype
 ##Formatter::HTML::HTML
-##Apache::Session::DBI
 ##Rose::DB::Object::Util
 ##Business::Shipping::Package::UPS
 ##OLE::Storage::Property
@@ -7594,7 +7380,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::PDAScraper::Yahoo::Health::SeniorsAndAging
 ##PurpleWiki::Database::KeptRevision
 ##Mail::Mbox::MessageParser::MetaInfo
-##Apache::GopherHandler
 ##WordNet::Similarity::lin
 ##Set::IntRange
 ##Class::DBI::Loader::mysql
@@ -7633,7 +7418,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DB::Introspector::Base::Index
 ##HTML::QuickTable
 ##Date::DayOfWeek
-##Apache2::CPAN::SOAP
 ##Win32::Resources
 ##QPicture
 ##LWP::Authen::Digest
@@ -7674,7 +7458,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::ConvertParam::OngetEUC
 ##MHonArc::CharEnt::ISO8859_8
 ##RTSP::Response
-##Apache::Session::Postgres
 ##Module::CoreList
 ##Paper::Specs::standard::c4_envelope
 ##Tangram::Expr::RDBObject
@@ -7706,7 +7489,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::IspMailGate
 ##Petal::CodePerl::Expr::PerlSprintf
 ##Paper::Specs::Avery::5824
-##Apache::Wyrd::Services::Index
 ##Dialog::TInputLine
 ##XTM::mergeMap
 ##ePortal::App::Organizer::Contact
@@ -7760,7 +7542,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Cluster::Init::Daemon
 ##Locale::RecodeData::ISO_8859_15
 ##Sort::ArrayOfArrays
-##Apache2::PPI::HTML
 ##PPresenter::Viewport::SlideControl
 ##Encode::InCharset::koi8_u
 ##AutoSQL::DBSQL::ObjectAdaptor::Store
@@ -7777,9 +7558,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::Asia::Seoul
 ##AltaVista::PerlSDK
 ##Data::MagicTie::DB_File
-##Apache::AuthDigest
 ##RDBAL::Config
-##Apache::ePerl
 ##Acme::Lisp
 ##Bio::Search::HSP::PsiBlastHSP
 ##Xbase
@@ -7791,7 +7570,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Find::Scalar
 ##Lingua::Features::Structure
 ##DateTime::Locale::es_ES
-##Apache::SWIT::Subsystem::Generator
 ##WWW::Link::Tester::Complex
 ##Time::gmtime
 ##DateTime::Fiscal::Year
@@ -7810,7 +7588,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::Locale::cs
 ##OurNet::BBS::MAPLE2::ArticleGroup
 ##IDfQuery
-##Apache::DefaultCharset
 ##Class::Data::Accessor
 ##Goo::Environment
 ##Se::PersonNr
@@ -7886,7 +7663,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##test_div
 ##Data::Page::Navigation
 ##Gtk2Fu
-##Apache::AxKit::Plugin::Fragment
 ##XML::Handler::Dtd2DocBook
 ##DateTime::TimeZone::Europe::Zurich
 ##Goo::Header
@@ -7907,7 +7683,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Email::Folder::POP3
 ##Mail::Miner::Assets
 ##PurpleWiki::Syndication::Rss
-##Apache::Authen::Program
 ##Test::Reporter::Time::Zone
 ##Paper::Specs::Avery::5261
 ##XAO::SimpleHash
@@ -7915,7 +7690,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Search::Profusion
 ##DBIx::dbMan::Extension::AutoSQL
 ##Alzabo::Driver
-##Apache::TestSmokePerl
 ##assertions::activate
 ##Test::C2FIT::ColumnFixture
 ##Sys::Lastlog
@@ -7990,7 +7764,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Lingua::PT::PLNbase
 ##Astro::Coords::Interpolated
 ##Tk::SelFile
-##HTML::Mason::FakeApache
 ##WWW::PDAScraper::Yahoo::Science::DinosaursAndFossils
 ##Acme::MorningMusume::OgawaMakoto
 ##Bio::SearchIO::axt
@@ -8003,14 +7776,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Data::UUID
 ##Parrot::Docs::Section::EditorPlugins
 ##Date::Language::Sidama
-##Apache::TestSSLCA
-##Apache::SawAmpersand
 ##Bio::Graphics::FeatureFile::Iterator
 ##RTx::RightsMatrix::RolePrincipal
 ##Geo::Space
 ##Wizard::Elem::Shell
 ##WWW::Google::SiteMap::URL
-##Apache::Cookie
 ##Mail::Thread
 ##Image::Kimdaba
 ##Catalyst::Plugin::EmailValid
@@ -8059,7 +7829,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Font::TTF::Fdsc
 ##Net::Proxy::Connector::tcp
 ##Sledge::Plugin::Template::Plugin::Comma
-##CGI::Application::Plugin::Apache::Request
 ##Tie::Simple::Array
 ##Geo::TigerLine::Record::E
 ##Math::Vector::SortIndexes
@@ -8129,27 +7898,23 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Chart::Plot
 ##Crypt::Loki97
 ##CORBA::ULongLong
-##Gnome
 ##Net::Whois::RIPE::Object::Template
+##Gnome
 ##Text::Scrub
 ##Email::Folder::IMAPS
 ##IO::File::Lockable
 ##ePortal::App::OffPhones::SearchDialog
-##Apache::PhotoIndex
 ##DateTime::TimeZone::America::Louisville
 ##Pots::SharedObject
 ##CPAN::DistnameInfo
 ##IO::Stty
-##Apache::DAV::Text
 ##Glade::PerlUI
 ##RDF::Core::Storage
 ##Convert::Ethiopic::System
 ##Math::Cephes::Matrix
-##Apache::ReverseProxy
 ##DBIx::Wrapper
 ##DateTime::TimeZone::Africa::Freetown
 ##CGP::CLI
-##Apache::FakeRequest
 ##Luka::Conf
 ##PApp::Package
 ##Net::Blogger::Engine::Slash
@@ -8160,7 +7925,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Workflow::Persister::UUID
 ##Sys::Filesystem::AIX
 ##Randomize
-##Apache2::AuthCookie
 ##Mobile::UserAgent
 ##Win32::Exe::PE
 ##Proc::Application::Daemon::httpd
@@ -8270,7 +8034,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::Avery::3266
 ##Astro::FITS::HdrTrans::UKIRTOld
 ##Test::Unit::InnerClass
-##APR::Request::Apache2
 ##Class::Meta::Types::Boolean
 ##HTML::GenToc
 ##Win32::ActAcc::Test
@@ -8284,7 +8047,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parrot::Assembler
 ##HTML::Link_Miner
 ##Pod::ProjectDocs::Parser::PerlPod
-##Apache::Array
 ##CGI::Kwiki::Cookie
 ##DateTime::TimeZone::Africa::Kigali
 ##Tangram::Sybase
@@ -8318,7 +8080,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PBib::Document::XHTML
 ##Net::HL7::Response
 ##Gestinanna::POF::Secure
-##Apache::Module
 ##WWW::Mechanize::FormFiller::Value::Random::Word
 ##BabelObjects::Runner::Dispatcher
 ##POE::Component::Player::Xmms
@@ -8418,7 +8179,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Handel::Exception
 ##Business::FedEx::Constants
 ##Data::Stag::ChainHandler
-##Apache::Htgroup
 ##Config::Objective::Integer
 ##Mail::IspMailGate::Test
 ##Lingua::Treebank::Const
@@ -8488,7 +8248,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##APR::ThreadMutex
 ##Parse::AFP::PGP
 ##MKDoc::Text::Structured
-##Apache::JAF::MyJAF
 ##Tangram::Type::Abstract::Array
 ##DateTime::TimeZone::Africa::Asmera
 ##Spreadsheet::TieExcel
@@ -8518,7 +8277,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PurpleWiki::Parser::WikiText
 ##Class::DBI::AbstractSearch
 ##Test::Unit::Failure
-##Apache::File
 ##Plagger::Plugin::Filter::Pipe
 ##MemHandle::Tie
 ##Geo::WeatherNOAA
@@ -8586,8 +8344,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::Verify
 ##Net::MarkLogic::XDBC::Result::Item
 ##Math::Calc::Units::Convert::Combo
-##Lufs::NetHood
 ##HTML::Controls
+##Lufs::NetHood
 ##Win32::ShellExt::QueryInfo::PM
 ##GSM::SMS::OTA::VCard
 ##App::Info::Lib::Expat
@@ -8596,7 +8354,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Perl::Critic::Policy::Subroutines::ProhibitBuiltinHomonyms
 ##Net::FTPServer::InMem::DirHandle
 ##HTML::Tag::HIDDEN
-##Apache::FormatLog
 ##Astro::STSDAS::Table::Constants
 ##AI::Perceptron
 ##CGI::Wiki::TestLib
@@ -8623,7 +8380,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Coro::Socket
 ##Email::Folder
 ##POE::Session::Cascading
-##Apache2::PageKit
 ##Parse::AFP::EOC
 ##Games::DungeonMaker::DungeonMaker
 ##Net::Whois::Raw::Data
@@ -8634,7 +8390,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::Europe::Samara
 ##Dumpvalue
 ##SWF::Builder::Character::Bitmap::Lossless::GDPixel
-##Apache::AxKit::Plugins::Session
 ##Oak::Web::HTML::Sup
 ##WAIT::Document::Split
 ##Redirx::Client
@@ -8697,7 +8452,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Lingua::PT::Speaker::Prosody
 ##Gtk2::Ex::MindMapView::ItemFactory
 ##Oryx::DBM::Association::Reference
-##Apache::SecSess::Cookie
 ##GIFgraph::pie
 ##DBIx::Class::RandomStringColumns
 ##Set::NestedGroups
@@ -8706,14 +8460,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Catalyst::Plugin::Authentication::CDBI::Basic
 ##Geo::TigerLine::Record::6
 ##VUser::ResultSet
-##Apache::DnsZone::Language
 ##KinoSearch
 ##Algorithm::BinPack
 ##DateTime::Locale::uz_UZ
 ##Test::Nightly::Report::Template
 ##Python::Bytecode::SAX
 ##Font::TTFMetrics
-##Apache::Wombat::Connector
 ##Glib::Object::Subclass
 ##MQSeries::PubSub::Stream
 ##Class::Multimethods
@@ -8749,7 +8501,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Myco
 ##Lingua::EN::Numbers
 ##PDL::Basic
-##Apache::AxKit::Language::AxPoint
 ##Data::Faker::Company
 ##Jifty::Web::Form::Field::Unrendered
 ##UMMF::UML_1_5::Behavioral_Elements::Common_Behavior::Reception
@@ -8803,7 +8554,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Font::Metrics::CourierBold
 ##XML::Grove::AsString
 ##Acme::RemoteINC
-##Apache::Admin::Config
 ##EB::Tools::Schema
 ##DateTime::Locale::so
 ##XML::OPML::SimpleGen
@@ -8841,14 +8591,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::Roles::Hook
 ##Acme::PM::Dresden::TWikiClient
 ##Meta::Utils::String
-##Apache::XPP::Cache::Expiry::Duration
 ##Cache::Memory::HeapElem
 ##Image::ExifTool::Panasonic
 ##NewsClipper::Types
 ##Math::SymbolicX::Error
 ##MQSeries::Message
 ##Bio::Variation::IO
-##Apache::DnsZone::DB::Postgresql
 ##RDF::Core::Resource
 ##Watchdog::MysqlService
 ##Geo::StormTracker
@@ -8861,7 +8609,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tree::Simple::Visitor::CreateDirectoryTree
 ##Net::ParseWhois
 ##Bio::Restriction::IO::base
-##Apache::Wyrd::Lattice::Footer
 ##Gestinanna::Shell::Package
 ##GO::AnnotationProvider::AnnotationParser
 ##Envy::UI
@@ -8906,10 +8653,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBI::ProfileDumper
 ##Petal::CodePerl::Expr::DerefTAL
 ##Mail::Milter::Object
-##Apache::Icon
 ##Win32::Palm::Install::UsersDat
 ##Bio::RangeI
-##Apache::WAP::MailPeek
 ##HTML::Macro::Loop
 ##CPANXR::Indexer
 ##RDF::Service::Cache
@@ -8935,7 +8680,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Email::Date
 ##Bio::MAGE::Protocol::Software
 ##Blatte::HTML
-##Apache::MsqlProxy
 ##DateTime::TimeZone::Pacific::Rarotonga
 ##DateTime::TimeZone::America::Port_au_Prince
 ##Config::General::Extended
@@ -8948,8 +8692,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Test::NoXS
 ##Bio::Assembly::ScaffoldI
 ##File::Maker
-##CORBA::ORBit
 ##Bio::Affymetrix::CHP
+##CORBA::ORBit
 ##Parse::AFP::Triplet::OAMU
 ##GSM::SMS::EMS
 ##Project::Gantt::Task
@@ -8969,7 +8713,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Algorithm::CheckDigits::M11_004
 ##SyslogScan::Group
 ##Inline::Module
-##Apache::AxKit::Language::XSP::ObjectTaglib
 ##Tibco::Rv::Msg::DateTime
 ##Bio::Tools::Run::PiseApplication::blimps_matrix
 ##Pod::ProjectDocs::ArrowImage
@@ -9044,10 +8787,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##JaM::Filter::IO
 ##Sniffer::Connection
 ##JavaScript::Code::Expression::Op::GreaterEqual
-##Apache::TopicMaps::text::html::index
 ##Text::Tmpl
 ##Image::Compare
-##Apache::AuthCookieNTLM
 ##Gnome::URL
 ##PDF::API2::Resource::ColorSpace::Indexed::ACTFile
 ##X11::Toolkit::WidgetClass
@@ -9072,8 +8813,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##TipJar::fields
 ##Video::DVDRip::GUI::Setting
 ##CGI::FormBuilder
-##Catalyst::Engine::Apache::MP20::Base
-##Apache::TestConfigPHP
 ##Thread::Specific
 ##PDL::Pod::Usage
 ##POE::Wheel::ReadWrite
@@ -9117,7 +8856,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##QFrame
 ##GDS2
 ##URI::ldaps
-##Apache::PageKit::Model
 ##Tk::HexEntry
 ##Lingua::Phonology::Syllable
 ##RayApp::Request::Upload
@@ -9132,7 +8870,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Oracle::SQL
 ##HTML::Tag::PASSWORD
 ##Business::SLA
-##Apache::Session::Counted
 ##Pangloss::Segment::Request::ListConcepts
 ##Bio::Chaos::Parser::gff3
 ##Net::DAAP::Client::v2
@@ -9220,7 +8957,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::AFP::OCD
 ##Gestinanna::Shell::Site
 ##Exception::Like
-##Apache::ASP::State
 ##Visio::Layout
 ##DateTime::Locale::lv_LV
 ##Devel::Tinderbox::Reporter
@@ -9233,7 +8969,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::WhiteHole
 ##JavaScript::Code::Type
 ##SVN::Pusher
-##Apache::JAF::Cookies
 ##Class::Composite::Container
 ##Lingua::Phonology::Default
 ##Spork::S5ThemeRedSimple
@@ -9278,7 +9013,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Config::Abstract
 ##DateTime::TimeZone::Antarctica::Mawson
 ##Net::RRP::Codec
-##Data::Phrasebook::Loader::ApacheFormat
 ##Uttu::Resource
 ##Image::PNGwriter
 ##Games::Chess::Coverage::GD
@@ -9333,7 +9067,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::DB::UpdateableSeqI
 ##Goo::DatabaseThing::Maker
 ##Color::Rgb
-##Apache::Session::Serialize::Base64
 ##Audio::Xmpcr::Serial
 ##Mail::Mbox::MessageParser::Perl
 ##Data::Quantity::Size::Inches
@@ -9353,7 +9086,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Acme::EyeDrops
 ##Bio::ASN1::Sequence
 ##Text::CSV_XS
-##Apache::MP3::L10N::nb_no
 ##Meta::Xml::Parsers::Deps
 ##SQL::Library
 ##Verby::Action::MakefilePL
@@ -9430,7 +9162,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##VCS::Vss::Version
 ##Unicode::Indic::Phonetic
 ##Encode::Encoder
-##Apache::Session::Lock::Sybase
 ##LWP::Conn::HTTP
 ##MQSeries::Command::Response
 ##CIPP
@@ -9439,7 +9170,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Selenium::Utils::PostResults
 ##VCS::LibCVS::Client::Request
 ##Gestinanna::Util
-##CPANXR::Apache::Symbol
 ##Sucksub::Divxstation
 ##CGI::Application::Plugin::CAPTCHA
 ##XML::Validator::Schema::RootNode
@@ -9523,7 +9253,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Sundance
 ##Algorithm::Bucketizer
 ##Poem
-##Apache::AuthDigestDBI
 ##Pod::HtmlEasy::TiehHandler
 ##Module::Build::Platform::Amiga
 ##Module::Starter::Plugin::Template
@@ -9548,7 +9277,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Math::Brent
 ##POE::Driver
 ##Finance::Quote::Yahoo::Australia
-##Apache::DummyScoreboard
 ##SVK::Command::Cat
 ##Authen::Htpasswd
 ##Quizzer::Element::Dialog::Multiselect
@@ -9557,7 +9285,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Business::Bof::Server::Connection
 ##WebService::LastFM
 ##DateTime::TimeZone::Asia::Sakhalin
-##Apache::CVS::HTML
 ##LibZip::Build::PerlBin
 ##SWIFT::Factory::Tag::Tag30V
 ##HTML::CheckArgs::cc_number
@@ -9699,7 +9426,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Mixi::OO::ViewCommunity
 ##DBIx::HTMLView
 ##Tk::BarberPole
-##Data::ObjectDriver::Driver::Cache::Apache
 ##Myco::Entity::Test
 ##DateTime::TimeZone::Asia::Karachi
 ##WWW::Search::Yahoo::Korea
@@ -9708,13 +9434,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Babble::Output::HTML
 ##Hoobot
 ##PLP::Functions
-##Apache::SWIT::Test::Request
 ##Bio::Genex::Species
 ##Regex::CodeGen::IMCC
 ##Boulder::String
 ##Catalyst::Plugin::Markdown
 ##MARC::Detrans::Names
-##Apache::MP3::L10N::nn_no
 ##Win32API::MIDI::SysEX::MIDIbox
 ##PBJ::JNI::Native
 ##UMMF::MOF_1_3::Model::Reflective::RefPackage
@@ -9749,13 +9473,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##OurNet::BBS::MAPLE3::FileGroup
 ##XML::Tape::Index
 ##XML::Template::Element::User
-##Apache::Backhand
 ##HTML::StripScripts
 ##DNS::Config::Statement
 ##Bio::DB::GFF::Aggregator::coding
 ##Algorithm::Evolutionary::Individual::BitString
 ##FileMetadata::Store
-##Apache::Wyrd::Lookup
 ##MIDI::Music
 ##Palm::Timesheet::TaskRecordList
 ##Iterator::Misc
@@ -9775,7 +9497,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Data::Postponed::OnceOnly
 ##Geo::Coder::Canada::Response
 ##Pangloss::Language
-##Apache::CVS::Revision
 ##Device::ParallelPort::drv::win32
 ##I18NFool
 ##WWW::Selenium::RpcCommandProcessor
@@ -9791,7 +9512,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::AFP::CPI
 ##Test::NoWarnings::Warning
 ##Bio::SearchDist
-##Apache::TestRunPHP
 ##Chroniton::Backup
 ##Acme::Beatnik
 ##Tk::Optionbox
@@ -9820,7 +9540,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::MakeMethods::Emulator::mcoder
 ##Encode::InCharset::euc_cn
 ##Number::Phone::DE::Mobile
-##Apache::WeSQL::Session
 ##Courier::Filter::Logger::IOHandle
 ##vmsish
 ##File::Find::Similars
@@ -9834,7 +9553,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Gimp::basewidget
 ##PDF::API2::Resource::ColorSpace::Separation
 ##Inline::Perl
-##Apache::Wombat::FileLogger
 ##Bio::DB::RandomAccessI
 ##XML::Idiom
 ##JUNOS::Access::clear_text
@@ -9856,7 +9574,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ORM::Base
 ##OpenOffice::Parse::SXC
 ##Paper::Specs::base::brand
-##Sledge::Pages::Apache::I18N
 ##Concurrent::Object::Proxy
 ##XML::SAX::ByRecord
 ##Net::DNS::RR::NAPTR
@@ -9869,7 +9586,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Plucene::Search::DateFilter
 ##Bio::SeqIO::metafasta
 ##List::Compare::Base::_Engine
-##Apache::TaintRequest
 ##RT::GroupMember
 ##Embperl::Form::Control::addremove
 ##Bio::Tools::Analysis::Protein::Scansite
@@ -9888,7 +9604,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AI::jNeural::nets
 ##POSIX::SchedYield
 ##DBIx::SQLEngine::Mixin::NoComplexJoins
-##Apache::ASP::Server
 ##Foo::SubCodec
 ##Net::SNMP::HostInfo::IpAddrEntry
 ##MathML::Entities
@@ -9918,7 +9633,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::AlignIO::mase
 ##DateTime::TimeZone::America::Halifax
 ##XML::Comma::Indexing::Iterator
-##Apache2::ExplorerDestroyer::Level2
 ##Bio::Search::HSP::HSPFactory
 ##XTM::AsTMa::CParser
 ##WWW::CheckSite::Validator
@@ -9933,7 +9647,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Embperl::Form::Validate::FQDN_IPAddr
 ##Parse::AFP::PTX::BSU
 ##IO::Tty
-##Apache::AxKit::Provider::RDBMS::ContentProvider::MultiSQL
 ##HTML::WebDAO::Activator
 ##LibZip
 ##XML::Generator::RSS10::gcl
@@ -9984,13 +9697,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Devel::ebug::Backend::Plugin::Ping
 ##Locale::RecodeData::IBM870
 ##Image::ExifTool::GIF
-##Apache::Request::Controller
 ##files
 ##Mail::ListDetector::Detector::GoogleGroups
 ##Locale::RecodeData::IBM851
 ##Gtk2::Ex::MindMapView::HotSpot::Grip::Lentil
 ##Template::Plugin::XSLT
-##Apache::LoadAvgLimit::GetAvg
 ##RDF::Core::ModelSet
 ##Devel::Monitor::Common
 ##WWW::PDAScraper::Yahoo::World::Asia
@@ -10076,7 +9787,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::Class::CDBICompat::LiveObjectIndex
 ##Bigtop::Backend::HttpdConf::Gantry
 ##GSM::SMS::OTA::RTTTL
-##CPANXR::Apache::File
 ##DateTime::TimeZone::Indian::Antananarivo
 ##Sys::Statgrab
 ##Math::Currency::JPY
@@ -10087,10 +9797,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##GD
 ##Template::TAL::Output
 ##WWW::Search::Scraper::BAJobs
-##Apache::RewritingProxy
 ##RRDTool::OO
 ##Number::Phone::NANP::CA
-##Wizard::Examples::Apache::VirtualServer
 ##Spreadsheet::WriteExcelXML::XMLwriter
 ##Win32::Script
 ##MMDS::Output::Latex::Latin9T1
@@ -10117,11 +9825,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Audio::SID
 ##URI::imap
 ##MILA::Transliterate
-##Apache::httpd_conf
 ##MHonArc::UTF8::AppleRoman
 ##Chart::Graph::Xmgrace::Dataset
 ##Rubric::Entry
-##Apache::Session::Store::Sybase
 ##SML::Document
 ##PBib::BibItemStyle::IEEE
 ##NewSpirit::PerlCheck
@@ -10148,7 +9854,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::ListDetector::Detector::Yahoogroups
 ##XML::XMetaL
 ##Arc::Connection::Client
-##Apache::AutoLogin
 ##WWW::SearchBroker::Broker
 ##SPOPS::Import::DBI::Table
 ##Unicode::Indic::Malayalam
@@ -10156,7 +9861,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pangloss::Segment::TemplateLoader
 ##Flash::FLAP::App::Executive
 ##OurNet::BBS::BBSAgent::Article
-##Apache2::AuthCookieDBI
 ##AnnoCPAN::Dump
 ##Class::DBI::BaseDSN
 ##Mac::Speech
@@ -10225,8 +9929,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Spreadsheet::ParseExcel::FmtJapan
 ##LibZip::MyArchZip
 ##Meta::Ds::PartitionedSet
-##Sun::Solaris::Project
 ##CGI::Session::Driver
+##Sun::Solaris::Project
 ##DateTime::TimeZone::Europe::Rome
 ##Log::WithCallbacks
 ##Net::FTPServer::DirHandle
@@ -10245,7 +9949,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CPANPLUS::Internals::Utils
 ##DBIx::HTMLView::Tree
 ##Acme::Goedelize
-##Apache::AxKit::Provider
 ##XTM::Memory
 ##Business::ISBN
 ##Register::Generic
@@ -10262,7 +9965,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBD::Chart
 ##CGI::Application::Plugin::Authorization::Driver::Dummy
 ##XML::SAX::Writer::XML
-##Apache::Wyrd::Services::Key
 ##Test::NoBreakpoints
 ##Amethyst::Brain::Infobot::Module::Nslookup
 ##Bio::Symbol::ProteinAlphabet
@@ -10352,7 +10054,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PBibTk::LitRefs
 ##Meta::Tool::More
 ##DateTime::TimeZone::MST7MDT
-##Apache::WeSQL::SqlFunc
 ##Net::OSCAR::Constants
 ##Plagger::Plugin::Widget::HatenaBookmark
 ##Editor
@@ -10378,7 +10079,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##RDF::Sesame::Connection
 ##DateTime::Locale::hy_AM
 ##Games::Sudoku::General
-##Apache::AuthenSecurID
 ##DateTime::Locale::sa
 ##Games::Checkers::BoardConstants
 ##HTML::XHTML::Lite
@@ -10387,11 +10087,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Rose::DB::Object::Metadata::PrimaryKey
 ##XAO::DO::Data::Category
 ##EB::Report::Balres
-##Apache::TestHandler
 ##DBIx::dbMan::Extension::StandardSQL
 ##WWW::ImageSpool::Source::Google
 ##DBIx::Class::Loader::Writing
-##Apache::Options
 ##PPI::HTML
 ##DateTime::TimeZone::America::Iqaluit
 ##Wombat::Core::EngineValve
@@ -10550,17 +10248,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##IDfList
 ##Catalyst::Plugin::Cache::Memcached
 ##PPM::XML::Element
-##Apache::Access::Abuse
 ##Data::ACL
 ##HTML::Template::Pro::Extension::HEAD_BODY
 ##HTML::Manipulator::Document
 ##Mail::Freshmeat::Utils
-##Apache::RequestNotes
 ##Games::Chess::Coverage::GD::Board
 ##Video::DVDRip::PSU
-##Apache::Wyrd::Handler
 ##EO
-##ExBase::ApacheHandler
 ##LWP::ConnCache
 ##DateTime::TimeZone::Pacific::Funafuti
 ##AltaVista::SearchSDK
@@ -10581,7 +10275,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Inline::Java::PerlNatives
 ##PDL::Demos::TkTriD_demo
 ##Bio::MAGE::Measurement::VolumeUnit
-##Apache::Session::Informix
 ##Paper::Specs::standard::b3_jis
 ##CGI::FormBuilder::Field::textarea
 ##Bio::Phylo::Matrices::Datum
@@ -10594,21 +10287,18 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::America::La_Paz
 ##Chart::Clicker::Renderer::Area
 ##Kwiki::Session
-##Apache::AxKit
 ##UMMF::UML::MetaMetaModel::Factory
 ##Meta::Utils::Text::Lines
 ##RCU::Lirc
 ##Biblio::ILL::ISO::ResponderRECEIVED
 ##Video::DVDRip::GUI::Logger
 ##DB::Introspector::SerializeUtil
-##Apache::FakeSSI
 ##MP3::Icecast
 ##Pobject
 ##ETL::Pequel::Type::Option::Option
 ##ShellScript::Env
 ##ACME::Error::31337
 ##Devel::ModInfo::ParamHash::Key
-##CPANXR::Apache::Distribution
 ##Win32::ASP::Field::text
 ##Net::OpenDHT
 ##Tk::SearchDialog
@@ -10633,7 +10323,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Business::OnlinePayment::Jettis
 ##html::hello_world
 ##JSON
-##Apache::AxKit::LibXMLSupport
 ##Text::BibTeX::BibFormat
 ##Perl::Critic::Policy::ControlStructures::ProhibitUnlessBlocks
 ##Encode::InCharset::x0213_2
@@ -10676,7 +10365,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##OpenSSL::RSA
 ##Log::Log4perl::Appender::Limit
 ##ObjStore::Config
-##Apache2::ShowStatus
 ##ObjStore::Table2
 ##CAM::Session
 ##Prima::ImageViewer
@@ -10691,14 +10379,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::SearchBuilder
 ##Lip::Pod
 ##PBS::Attr
-##YAML::YuyuPress
 ##AutoSQL::DBSQL::ObjectAdaptor::OnlyFetch
+##YAML::YuyuPress
 ##XAO::DO::FS::Glue::SQL_DBI
 ##Net::SCP::Expect
 ##Text::Highlight::CPP
 ##Encode::MAB2
 ##Myco::Base::Entity::Event::Test
-##Apache::PerlRun
 ##Digest::Whirlpool
 ##Goo::Thing::pm::Perl5Adder
 ##Bio::MAGE::BioMaterial::Treatment
@@ -10742,7 +10429,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Scraper::ISBN::TWCwbook_Driver
 ##Uttu
 ##Prima::Label
-##Apache::DBI::Cache::mysql
 ##Devel::ModInfo::ParamArray
 ##VUser::Email::authlib
 ##Math::Symbolic::Constant
@@ -10788,8 +10474,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Ace::Graphics::Glyph::transcript
 ##Rose::HTML::Form::Field::DateTime::StartDate
 ##Text::Hatena::H4Node
-##WWW::PDAScraper::Yahoo::Entertainment::Celebrity
 ##Net::SSH::W32Perl
+##WWW::PDAScraper::Yahoo::Entertainment::Celebrity
 ##Code::Perl::Expr::DerefArray
 ##String::Parity
 ##Net::MySQL
@@ -10815,7 +10501,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Factory::ObjectFactory
 ##Data::Quantity::Time::YearAndMonth
 ##Chronos::Action::DelFile
-##Apache::Request::Redirect
 ##Text::MessageFormat
 ##Petal::Parser::HTB
 ##Bryar::Document
@@ -10834,7 +10519,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##String::Ediff
 ##Macro::Micro
 ##UMMF::UML::Export::DataDumper
-##Apache::LoggedAuthDBI
 ##GD::Text::Wrap
 ##KinoSearch::Store::OutStream
 ##P4::C4::Fstat
@@ -10849,7 +10533,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::Class::UTF8Columns
 ##IO::Sockatmark
 ##Freq::Isr
-##Apache::Toe
 ##IO::Redirect
 ##Meta::Ds::Carray
 ##Devel::WarnGlobal::Scalar
@@ -10858,8 +10541,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::Tables::mysql
 ##Template::TAL::Output::HTML
 ##Perl::Critic::Policy::Subroutines::ProhibitExplicitReturnUndef
-##Text::Editor::Vip::CommandBlock
 ##Ace::Graphics::Glyph::box
+##Text::Editor::Vip::CommandBlock
 ##Gtk2::Ex::FormFactory::Button
 ##HTTPD::GroupAdmin::Text::cern
 ##UMMF::UML::MetaModel::OCL::Expressions::NavigationCallExp
@@ -10898,7 +10581,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::SNMP::Transport
 ##Config::Find::WinNT
 ##HTML::Tested::Value::EditBox
-##Apache::ASP::STDERR
 ##MHonArc::UTF8::MapUTF8
 ##DBIx::HTMLView::CGIListView
 ##Lingua::PT::Words2Nums
@@ -10965,7 +10647,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Finance::TW::TSEQuote
 ##Imager::Font::Wrap
 ##Oak::Web::HTML::Samp
-##Apache::Session::SharedMem
 ##Pangloss::Search::Request
 ##Plagger::Plugin::Publish::Delicious
 ##Config::Generic::UnnamedSection
@@ -11004,7 +10685,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##slackget10::Network::Auth
 ##Lingua::EN::NameCase
 ##WWW::Scraper::ZIPplus4
-##Apache::TestHarness
 ##XS::Typemap
 ##Sys::Manage::CmdEscort
 ##Bio::Tools::Run::PiseApplication::coderet
@@ -11045,7 +10725,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Search::Ebay
 ##Parrot::PackFile::ConstTable
 ##PDF::Labels::Layout::Simple
-##Apache::Quota::BerkeleyDB
 ##Wx::Help
 ##Wizard::Examples::ISDN::Settings
 ##Bio::Tools::Run::PiseApplication::infoalign
@@ -11066,7 +10745,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Buscador
 ##Chart::Strip
 ##Biblio::ILL::ISO::ElectronicDeliveryServiceSequence
-##Apache::AxKit::StyleChooser::Hostname
 ##Net::IRC::DCC
 ##WWW::Topica::Mail
 ##QMessageBox
@@ -11103,9 +10781,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##FLAT::Legacy::FA::PRE
 ##XUL::Node::Application::PeriodicTable::StacksAndDecks
 ##Asterisk::LCR::Importer::RichMedium
-##Apache::OneTimeURL
 ##Date::Horoscope
-##Apache2::ClickPath::Decode
 ##Config::Maker::Encode
 ##MHonArc::UTF8::Encode
 ##Finance::Quote::Yahoo::Europe
@@ -11153,8 +10829,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DNSBLLookup::Result
 ##Paper::Specs::Avery::8315
 ##Encode::InCharset::cp850
-##Apache::ProxyScan
-##Apache::PageKit::Config
 ##testcases::imagecache
 ##Meta::Chess::Side
 ##Ex1::Storage
@@ -11166,14 +10840,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Graphics::VTK::Imaging
 ##XML::Code
 ##OurNet::BBS::Cola::FileGroup
-##Apache::AuthenRadius
 ##PDL::Graphics::PGPLOT
-##Catalyst::Engine::Apache::MP13::Apreq
 ##Net::Libdnet
 ##OurNet::BBS::Firebird3::User
 ##Event::signal
 ##SystemC::Netlist::Method
-##Apache2::AuthenSmb
 ##Class::AutoClass
 ##Email::Store::DBI
 ##Cvs::Command::Tag
@@ -11229,7 +10900,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Biblio::ILL::ISO::Recall
 ##OpenInteract::Error::Main
 ##Net::DNS::RR
-##OpenFrame::Segment::Apache::Request
 ##Audio::DB::DataTypes::ArtistList
 ##Paper::Specs::Avery::5163
 ##URI::URL::news
@@ -11278,7 +10948,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Module::Bundled::Files
 ##Lingua::HU::Numbers
 ##CGI::Wiki::Kwiki
-##Apache::DBI
 ##Mac::PropertyList
 ##HTML::WebDAO::Comp::Image
 ##MQSeries::Command::Base
@@ -11352,7 +11021,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DNS::RR::X25
 ##LibZip::Info
 ##Algorithm::CheckDigits
-##Apache::MP3::L10N::es
 ##OnSearch::WebLog
 ##Font::TTF::GDEF
 ##CGI::Query
@@ -11376,7 +11044,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Thread::Tie
 ##Mail::SpamCannibal::BDBclient
 ##WWW::Mechanize::FormFiller::Value::Random::Date
-##Apache::Wyrd::Defaults
 ##Rose::HTML::Form::Field::Checkbox
 ##Parse::BACKPAN::Packages::Distribution
 ##My::LDAPConnect
@@ -11397,7 +11064,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##VCS::File
 ##Business::BancaSella::Ris
 ##POP::Error
-##Apache::SWIT::Test::Mechanize
 ##Net::RRP::Response::n503
 ##Cvs::Command::Release
 ##CGI::MxScreen::Form::Button
@@ -11454,7 +11120,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tk::GraphItems::GraphItem
 ##Rose::HTML::Form::Field::Compound
 ##Bio::AnnotationI
-##Apache::Wyrd::Services::SearchParser
 ##Class::STL::Algorithms
 ##Bio::Tools::Run::PiseApplication::rnafold
 ##XBase::SQL
@@ -11489,7 +11154,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##JaM::GUI::Search
 ##Tk::TM::wApp
 ##Template::Plugin::Calendar::Simple
-##Apache::MP3::L10N::pl
 ##Pod::Simple::Checker
 ##Video::DVDRip::Term::Progress
 ##Parallel::ForkControl
@@ -11507,7 +11171,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Artera
 ##GIFgraph::points
 ##Paper::Specs::Avery::74541
-##Apache2::SiteControl::PermissionManager
 ##Convert::RACE
 ##IS::Conf
 ##CGI::Kwiki::Privacy
@@ -11586,7 +11249,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##QWizard::Storage::CGIParam
 ##ExtUtils::XSBuilder::MapUtil
 ##Perlbug::Format
-##Apache::Pod::Text
 ##Data::Phrasebook::Loader::YAML
 ##Script::Toolbox
 ##Plagger::Plugin::Search::Estraier
@@ -11604,7 +11266,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::CGI::Email::Valid
 ##Test::AutoBuild::Output::PackageCopier
 ##WWW::Postini::UserAgent
-##Apache::Voodoo
 ##Text::BarGraph
 ##Bio::Tools::Run::PiseApplication::etandem
 ##PPI::Statement::Variable
@@ -11632,7 +11293,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::Avery::8160
 ##Tree::File
 ##Astro::VO::VOEvent
-##Apache::SessionX::Generate::MD5
 ##SQL::SqlObject::Pg
 ##XBase::Base
 ##Config::Objective::String
@@ -11650,7 +11310,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Disassemble::X86
 ##Mail::POPRelay::Daemon
 ##RDF::Notation3
-##Pangloss::Apache::Handler
 ##Net::ICal::Alarm
 ##AutoCurry
 ##Devel::TraceSAX
@@ -11740,7 +11399,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Font::Metrics::TimesBoldItalic
 ##Mail::SpamAssassin::Plugin::Karmasphere
 ##Heap::Elem
-##Apache::Request
 ##NewSpirit::Object::Install
 ##Locales::Language::am
 ##URI::file
@@ -11749,14 +11407,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##FFmpeg::Stream::Audio
 ##PDF::API2::IOString
 ##Acme::MetaSyntactic::MultiList
-##PPresenter::Viewport::TagControl
 ##Math::Trig::Units
+##PPresenter::Viewport::TagControl
 ##Lego::Ldraw
 ##Test::C2FIT::eg::ArithmeticColumnFixture
 ##Locale::RecodeData::KOI_8
 ##Module::Selector
 ##News::NNTPFetchProgress
-##Apache::Session::DaemonLocker
 ##MKDoc::Text::Structured::SIG
 ##Lingua::GA::Gramadoir::Languages::ga
 ##Games::DungeonMaker
@@ -11830,7 +11487,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Lingua::IW::Logical
 ##POE::Component::Client::Ident::Agent
 ##CPANPLUS::Backend
-##Apache::TestRunPerl
 ##Sybase::Simple
 ##Text::Typography
 ##RPC::XML::Client
@@ -11850,7 +11506,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Exporter::Lite
 ##Verilog::Netlist::Module
 ##Cac::Bind
-##RunApp::Template::Apache
 ##WWW::Search::Scraper::eBay
 ##Perlbug::Object::Category
 ##Authen::OPIE
@@ -11869,7 +11524,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Gedcom::Event
 ##Win32::ShellExt::CtxtMenu::RenameMP3
 ##CookBookA::Ex_SDV
-##Apache::ASP::Lang::PerlScript
 ##Jemplate
 ##Tangram::Driver::Sybase
 ##WWW::B_Rail
@@ -11886,8 +11540,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Development::Patch
 ##Getopt::GetArgs
 ##Template::Plugin::GD::Graph::mixed
-##DBIx::SQLEngine::Driver::Trait::NoLimit
 ##YAML::Loader::Base
+##DBIx::SQLEngine::Driver::Trait::NoLimit
 ##Bloom::Filter
 ##XUL::Node::Application::PeriodicTable::Cropping
 ##Tie::Hash::MultiValue
@@ -11925,7 +11579,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::Message::Head::Complete
 ##Bio::Search::BlastUtils
 ##Pangloss::Segment::Decline::NoLanguage
-##Apache::NNTPGateway
 ##PNGgraph::utils
 ##Math::Matrix::SVD
 ##Net::Blogger::Engine::Userland::metaWeblog
@@ -11944,7 +11597,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pod::Coverage::Overloader
 ##Biblio::ILL::ISO::TransportationMode
 ##DateTime::Locale::pa_IN
-##Apache2::SizeLimit
 ##Bio::Symbol::DNAAlphabet
 ##Jifty::Notification
 ##Resource::Loader
@@ -11993,7 +11645,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Adaptor::DBI
 ##Java::SJ
 ##AI::jNeural::nets::backprop
-##Apache2::Request
 ##Lingua::FeatureSet
 ##HTML::Template::Expr
 ##Meta::Projects::Md5::Node
@@ -12009,7 +11660,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Baseline::Lang::Rtfx
 ##Bio::PopGen::Population
 ##MIDI::XML::InstrumentName
-##Apache::AxKit::Plugin::OpenOffice
 ##CDB_File_Thawed
 ##POE::Component::IRC::State::Lite
 ##Bio::ConnectDots::Config
@@ -12018,7 +11668,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Perl6::Gather
 ##Physics::Springs::Friction
 ##WWW::Webrobot::SendMail
-##Apache::Util
 ##Decision::Markov::State
 ##DBIx::HTML::PopupRadio
 ##Log::Log4perl::JavaMap::SyslogAppender
@@ -12045,7 +11694,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::iTMS::Genre
 ##Test::Deep::ArrayEach
 ##SPOPS::Exception::DBI
-##Apache::Bwlog
 ##Text::Hatena::Node
 ##AppConfig::File
 ##MusicBrainz::Client::Simple
@@ -12058,7 +11706,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Plagger::Plugin::Subscription::HatenaRSS
 ##Algorithm::SkipList::PurePerl
 ##UMMF::UML_1_5::OCL::Types::BagType
-##Apache::EnvDir
 ##PPresenter::Fontset
 ##Module::Build::Kwalitee
 ##inter::shlibs
@@ -12087,8 +11734,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTTP::Date
 ##Tie::Handle::HTTP
 ##CGI::Imagemap
-##Oak::Web::Additional::TableList
 ##GD::Image::CopyIFS
+##Oak::Web::Additional::TableList
 ##HTML::CheckArgs::email
 ##Module::CPANTS::Generator::Authors
 ##Event::RPC::Connection
@@ -12098,12 +11745,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::MAGE::BioAssayData::QuantitationTypeMapping
 ##Dimedis::Ddl
 ##Mail::Client::Yahoo
-##Apache::ACEProxy::SJIS_RACE
 ##MHonArc::UTF8::CP1250
 ##PugsConfig
 ##GridBagConstraints
 ##Locales::Language::el
-##Apache::AuthenURL::Cache
 ##IPC::SharedCache
 ##Locale::RecodeData::MACINTOSH
 ##WWW::Scraper::Opcode::MACROX
@@ -12112,7 +11757,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::Find::Rule::Perl
 ##DateTime::TimeZone::Australia::Perth
 ##Digest::UserSID
-##App::Info::HTTPD::Apache
 ##Graph::Renderer
 ##Test::C2FIT::Fixture
 ##ThreatNet::Filter::ThreatCache
@@ -12168,7 +11812,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::Class::Validation
 ##POE::Request::Upward
 ##XML::Excel
-##Apache::Template
 ##Moose::Meta::Class
 ##SQL::Translator::Parser
 ##Event::RPC::Message
@@ -12192,7 +11835,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##RT::URI::svn
 ##Algorithm::Combinatorics::Iterator
 ##Convert::CEGH::Gematria
-##Apache::AuthDigest::API::Full
 ##Bio::Tools::Run::PiseApplication::matcher
 ##RN::RealText
 ##CGI::Kwiki::Database
@@ -12205,7 +11847,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Mixi::OO::Home
 ##Class::MakeMethods::Composite::Array
 ##GO::TermFinder
-##Apache::Sybase::CTlib2
 ##BingoX::Cobalt
 ##Geo::Cache
 ##Tk::CanvasFig
@@ -12255,7 +11896,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Template::Plugin::Cycle
 ##GSM::SMS::NBS::Stack
 ##Pod::MultiLang::Dict::ja
-##Apache::iNcom::UserDBAuthen
 ##Meta::Projects::Fortune::Edge
 ##Gtk2::Ex::Simple::Menu
 ##Meta::Baseline::Lang::Txtx
@@ -12281,9 +11921,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##RiveScript::Util
 ##Class::LazyObject
 ##Tk::Configure
-##Apache::Session::PHP
 ##WWW::Link::Tester
-##Apache::GeoIP
 ##MHonArc::UTF8::ISO8859_6
 ##Tree::Simple::Visitor::LoadClassHierarchy
 ##Zanas::Install
@@ -12339,13 +11977,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Device::WS2500PC
 ##X11::Protocol::Connection
 ##ObjStore::notify
-##Apache::Symdump
 ##Weather::Com::Base
 ##Net::UploadMirror
 ##InSilicoSpectro::Spectra::MSSpectra
 ##Net::DNS::Check::Test::ns_count
 ##UMMF::UML_1_5::OCL::Types::TupleType
-##Apache::App::Mercury::DBI
 ##Perl::Editor::Plugin::Squish
 ##RDFStore::Vocabulary::RSS
 ##BBCode::Tag::SIZE
@@ -12377,11 +12013,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::DBI::Plugin::CountSearch
 ##Array::Stream::Transactional::Matcher::Rule
 ##Class::Role
-##Apache::XPointer::XPath
 ##CGI::MiniFramework
 ##VCS::LibCVS::Branch
 ##Net::ACL
-##Apache::Roaming::LiPrefs
 ##Paper::Specs::standard::monarch_envelope
 ##JAF::DBI
 ##Perl6::Junction::One
@@ -12394,7 +12028,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::Run::PiseApplication::scope
 ##Rose::DB::Object::ConventionManager::Null
 ##Math::Expr::TypeDB
-##MasonX::Request::WithApacheSession
 ##Catalyst::Model::DBIC::Schema
 ##Psh::Builtins::Bg
 ##HTTP::WebTest::XMLParser
@@ -12441,20 +12074,16 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Catalyst::Response
 ##ePortal::ThePersistent::Session
 ##Log::Dispatch::Email
-##Wizard::Examples::Apache::Host
-##Apache2::ConstantsTable
 ##DocSet::Util
 ##Perl::Critic::Policy::Modules::ProhibitEvilModules
 ##Bio::MAGE::BioAssayData::BioDataValues
 ##DocSample::DocEntryGroup
 ##X11::Keyboard
-##Apache::DAV::LockupResult
 ##Image::Signature::Grayscale
 ##CGI::Portal::Scripts::changepw
 ##Bio::SeqIO::asciitree
 ##IO::File::CompressOnClose
 ##IO::LockedFile::Flock
-##Apache::AuthCAS
 ##Tindermail::Http
 ##CAM::SOAPApp::Std
 ##Lufs::Stub
@@ -12506,7 +12135,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Video::DVDRip::Cluster::Master
 ##AxKit::XSP::Handel::Order
 ##JavaScript::MochiKit::JS::Logging
-##Apache::AxKit::Provider::File::Syntax
 ##PRSG
 ##Jifty::DBI::Filter::base64
 ##Excel::Template::Container::Worksheet
@@ -12517,8 +12145,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SDL::Event
 ##Spoon::Trace
 ##Log::Agent::Driver::Syslog
-##SVG::Extension
 ##Parrot::BuildUtil
+##SVG::Extension
 ##PITA::XML::Request
 ##Bio::ExtractNE::GAPSCORE::Scorer::GeneralCase
 ##SWIFT::Factory::Tag::Tag15
@@ -12568,7 +12196,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MIPSIM::BasicEmulator::Command
 ##Language::m4::Input
 ##Chart::PNGgraph::mixed
-##Apache::TestMB
 ##MP3::ID3v1Tag
 ##DBIx::DataSource
 ##Heap::Elem::RefRev
@@ -12580,7 +12207,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::PObject::Iterator
 ##CGI::QuickForm
 ##Penguin::Rights
-##Apache2::DBI
 ##Bio::MAGE::XML::Writer
 ##Class::DBI::MSSQL
 ##Catalyst::Plugin::Authentication::Store::LDAP::User
@@ -12644,7 +12270,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Win32::NetName
 ##Meta::Baseline::Lang::Clas
 ##Plagger::Plugin::Filter::Markdown
-##Apache::Wyrd::Query
 ##Catalyst::Plugin::Authentication::User
 ##Games::Literati
 ##WWW::Dilbert
@@ -12679,7 +12304,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DHCP::Control::Generic
 ##Search::Xapian::PositionIterator
 ##Net::SSH2::Dir
-##Apache2::Module
 ##Class::Accessor::Class
 ##Convert::TimeUnits
 ##POE::Component::LaDBI::Request
@@ -12692,7 +12316,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Component::IRC::Plugin::BotAddressed
 ##Pod::WSDL::Param
 ##Mac::iPod::GNUpod::iTunesDBread
-##Apache2::Filter
 ##Parse::AFP::PTX::AMB
 ##Bio::Search::Result::HMMERResult
 ##Verilog::Netlist::Subclass
@@ -12767,7 +12390,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::standard::c3
 ##Parse::Pidl::Samba::EJS
 ##Gestinanna::Upload
-##Apache::XPP::PreParse
 ##Device::SCSI
 ##MasonX::Request::WithMultiSession2
 ##Lucene::QueryParser
@@ -12778,7 +12400,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MHonArc::CharEnt::KOI_7
 ##IO::All::Gopher
 ##Audio::TagLib::APE::ItemListMap
-##Apache::AuthAny
 ##Docs::US_DOD::DBDD
 ##Mail::TempAddress::Addresses
 ##MonetDB::CLI::MapiXS
@@ -12807,7 +12428,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Utils::Xoptions
 ##CGI::Kwiki::Backup::SVN
 ##Data::Stag::DTDWriter
-##Apache::DProf
 ##SWF::Builder::Character::Bitmap::Lossless::GD
 ##Net::YMSG::ChatRoomLogoff
 ##c_plus_plus
@@ -12843,7 +12463,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Editor::Vip::Buffer::DoUndoRedo
 ##Bio::Tools::Run::PiseApplication::mview_alig
 ##Games::Cards::Poker
-##Apache::AxKit::Provider::Scalar
 ##Text::QuickTemplate
 ##Gtk::HandyCList
 ##Win32::ASP::Extras
@@ -12877,7 +12496,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Introspector::CrossReference
 ##Sys::AlarmCall
 ##MIPSIM::Config
-##Apache::Wyrd::ErrField
 ##HTML::Display::OSX
 ##Class::HasA
 ##Tk::Pod::Text
@@ -12903,7 +12521,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::CounterSS
 ##UMMF::UML::Export::Java
 ##XML::Sablotron::DOM::YYLex
-##SOAP::Transport::ActiveWorks::HTTP::Apache
 ##VFS::Filesystem::SVN
 ##X11::SendEvent
 ##Mail::DKIM::Canonicalization::DkimCommon
@@ -13006,7 +12623,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UMMF::UML_1_5::Behavioral_Elements::Common_Behavior::LinkObject
 ##GPIB::ni
 ##ASNMTAP::IO
-##Apache::MP3::L10N::sk
 ##Bio::MAGE::BioAssayData::BioAssayDatum
 ##Devel::Diagram
 ##DBIx::SearchBuilder::Handle::mysqlPP
@@ -13017,7 +12633,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Algorithm::MarkovChain
 ##SNMP::Info::Layer2::Orinoco
 ##WordNet::Similarity::DepthFinder
-##Apache::TestRequest
 ##FindEvent::Manual
 ##Net::SSH::Perl::Key::RSA1
 ##DBIx::SQLEngine::Schema::Column
@@ -13051,7 +12666,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::SpamAssassin::PersistentAddrList
 ##Tangram::Relational
 ##Win32::ASP::Action
-##Apache2::ServerRec
 ##GO::Parsers::ncbi_taxonomy_parser
 ##Bot::Babelfish
 ##Locales::Country::fa
@@ -13099,7 +12713,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##FAQ::OMatic::Bags
 ##POP::Environment
 ##Oak::Web::HTML::Table
-##Devel::Profiler::Apache
 ##Pangloss::Segment::Decline::NoListCategories
 ##QT
 ##PML
@@ -13122,7 +12735,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pangloss::Error
 ##FFI
 ##Net::LMTP
-##Apache::Wyrd::Redirect
 ##CPAN::WWW::Testers
 ##HyperWave::CSP
 ##Volity::WinnersList
@@ -13137,15 +12749,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Email::Store::Entity
 ##HTML::Widget::Constraint::Time
 ##RDF::Query::Model::SQL::Statement
-##DBI::ProfileDumper::Apache
 ##IPDevice::RouterBase::IPHost
 ##Tie::Sub
 ##DNS::Config::Server
 ##VCS::Rcs::Version
 ##PurpleWiki::Database::User
 ##VCS::Lite::Repository
-##Apache::StatINC
-##Apache::LangURI
 ##PlotCalendar::DateTools
 ##PerlBean::Attribute::Factory
 ##UMMF::Core::Object
@@ -13232,13 +12841,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::HTMLView::Fmt
 ##Text::BibTeX::Entry
 ##AudioFile::Identify::MusicBrainz::Album
-##Apache::AuthzSplitDomainUser
 ##NBU::StorageUnit
 ##Paper::Specs::Avery
 ##Pangloss::Segment::LoadConcept
-##Data::Serializer::XML::Simple
 ##Net::Gopher::Response::MenuItem
 ##POE::Component::Pcap
+##Data::Serializer::XML::Simple
 ##Catalyst::Plugin::SanitizeUrl
 ##Audio::DSP
 ##File::Dircmp
@@ -13262,10 +12870,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::Run::AnalysisFactory::Pise
 ##Module::Release::NIKC
 ##HTML::ERuby
-##Apache::MP3::Skin
 ##DateTime::TimeZone::Europe::Riga
 ##WWW::SMS::LoopDE
-##Apache::SWIT::Maker
 ##Meta::Ds::Ochash
 ##Pixie::ObjectGraph
 ##example4
@@ -13284,8 +12890,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pgreet::I18N::fr_fr
 ##KinoSearch::Search::HitDoc
 ##SVL::Command::Share
-##CPAN::Nargile
 ##Test::Env
+##CPAN::Nargile
 ##Config::Generic
 ##Class::Tie::InsideOut
 ##Fry::Lib::Inspector
@@ -13311,7 +12917,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Language::Prolog::Yaswi::Low
 ##Data::Iterator::EasyObj
 ##Email::LocalDelivery::Maildir
-##Apache::Action
 ##Meta::Types::Enumerated
 ##Data::Flow
 ##Net::Whois::ARIN::AS
@@ -13343,8 +12948,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::Locale::es_CO
 ##Image::ParseGIF
 ##Oryx
-##Games::Euchre::AI::Human
 ##SQL::Catalog::Test::Pg
+##Games::Euchre::AI::Human
 ##CORBA::IDL::node
 ##HTTP::Client
 ##DB_File::Lock2
@@ -13368,14 +12973,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Number::Phone::NANP::DM
 ##Language::Prolog::Interpreter
 ##Bio::GMOD::Adaptor::WormBase
-##Apache::Wyrd::Interfaces::SmartInput
 ##Thread::Pool::Resolve
 ##Paper::Specs::photo::30x20
 ##Parse::AFP::IOB
 ##DateTime::TimeZone::Antarctica::Syowa
 ##Net::DRI::Protocol::EPP::Extensions::GracePeriod
 ##Net::FTPServer::PWP::FileHandle
-##Apache::mod_pml
 ##ConvertSMIL
 ##DBD::Google::st
 ##Text::PDF::SFont
@@ -13398,7 +13001,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##test_2
 ##OpenPlugin::Session
 ##Embperl::Form::Control::password
-##Apache::DnsZone
 ##Money::ChangeMaker::Presets
 ##Blatte::Syntax
 ##Event::ExecFlow::Callbacks
@@ -13479,11 +13081,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Linux::Inotify::Watch
 ##Time::Avail
 ##prefork
-##Apache::Storage
 ##Bot::BasicBot::Pluggable::Module::Search
 ##Dicop::Data
 ##MIDI::XML::DeviceName
-##Template::Service::Apache
 ##Class::Member::GLOB
 ##Mail::Box::Thread::Manager
 ##POE::Filter::FastCGI
@@ -13508,7 +13108,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Logfile::NCSA
 ##DocSet::Doc::POD2HTML::View::HTMLPS
 ##Win32::Exe::Section::Code
-##Apache::DnsZone::DB::Oracle
 ##Email::Store::Mail::Language
 ##TestApp3
 ##DBIx::SQLEngine::Default
@@ -13527,7 +13126,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Games::Boggle::Board
 ##Pangloss::Segment::SearchRequest::Update
 ##Mac::EyeTV::Channel
-##Apache::HTTunnel::Keeper
 ##Parse::AFP::PTX::RMB
 ##Data::SearchReplace
 ##Parse::ExCtags
@@ -13595,9 +13193,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MARC::Detrans::Rule
 ##PerlIO::via::Bzip2
 ##Pangloss::User::Privileges
-##Apache::TestBuild
 ##UMMF::UML::MetaModel::Model_Management::Subsystem
-##Apache::CryptHash
 ##CGI::MxScreen::Tie::Stdout
 ##Embperl::Form::Control
 ##OurNet::BBS::CVIC::Board
@@ -13627,7 +13223,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::XMPP::Stanza
 ##Plucene::Index::SegmentsReader
 ##Myco::Base::Entity::Meta::Util::Test
-##Wizard::Examples::Apache::Admin
 ##EB::Booking::Delete
 ##Getopt::Mixed
 ##Bio::Annotation::TypeManager
@@ -13639,7 +13234,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Genex::AM_SuspectSpots
 ##dbsh::Panel
 ##Image::ExifTool::Sigma
-##Apache::BlockAgent
 ##WWW::Streamripper::WebUI
 ##Math::Symbolic::Compiler
 ##BTRIEVE::FileIO
@@ -13678,12 +13272,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ClearCase::Wrapper
 ##MMM::Sylk
 ##Lemonldap::NG::Portal
-##Apache::App::Mercury
 ##MHonArc::CharEnt::ISO8859_2
 ##Geo::TigerLine::Record::B
 ##DateTime::Locale::bg
 ##Package::Install::Configure
-##Apache2::WebStart
 ##IO::Tokenized::Scalar
 ##SVK::Patch
 ##Doc::Perlish::Parser::Kwid
@@ -13692,7 +13284,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tk::DummyEncode
 ##InfoSys::FreeDB::Response::Read
 ##Spoon::Installer
-##Apache2::SiteControl::User
 ##Bio::MAGE::HigherLevelAnalysis::Node
 ##Bio::Das::Segment::Transcript
 ##Crypt::Imail
@@ -13706,7 +13297,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Video::DVDRip::Task::Transcode
 ##Verilog::Netlist::Net
 ##Mail::SpamAssassin::Util::RegistrarBoundaries
-##Wizard::Examples::Apache::Config
 ##Net::Amazon::S3::Bucket
 ##DB::Appgen
 ##PeekPoke
@@ -13752,7 +13342,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::Classgen::New
 ##Bio::Tools::Blast::Run::Webblast
 ##Meta::Compress::Bzip2
-##Apache2::SOAP
 ##Mac::Glue::Apps::AddressBookExport
 ##Embperl::Form::Control::file
 ##APR::Brigade
@@ -13775,7 +13364,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Gtk
 ##QMenuBar
 ##Dimedis::SqlDriver::Informix
-##Apache::Scoreboard
 ##XAO::TestUtils
 ##Attribute::TieClasses
 ##No::KontoNr
@@ -13822,7 +13410,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::Wiki::Search::Plucene
 ##CPAN::Admin
 ##GBPVR::CDBI::Channel
-##Apache::Test5005compat
 ##Ace::Sequence::GappedAlignment
 ##fields::aliased
 ##Date::Holidays::NZ
@@ -13848,7 +13435,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::PDAScraper::Yahoo::Sport::Boxing
 ##XAO::DO::Data::Product
 ##Lingua::StopWords::FR
-##Apache::TopicMaps::text::html::search
 ##DBIx::Class::Relationship::Base
 ##WWW::2ch::Plugin::Base
 ##XML::Stream::Tree
@@ -13891,7 +13477,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::DB::CUTG
 ##Data::Taxonomy::Tags
 ##Oracle::SQLLoader
-##Apache2::SubProcess
 ##Syndicate::Channel::TMSS
 ##DBIx::Class::Relationship::HasOne
 ##Net::LDAP::Search
@@ -13993,7 +13578,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##VCS::LibCVS::DirectoryBranch
 ##Bio::SeqUtils
 ##POE::Component::LaDBI::Response
-##Apache::Upload::I18N
 ##POEST::Plugin
 ##Bus_mySUBS
 ##VBTK::Objects::ChangeActions
@@ -14002,7 +13586,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SystemC::Vregs::File
 ##Splash::DB
 ##Inline::Java::Array
-##Apache::Voodoo::ServerConfig
 ##DateTime::TimeZone::Asia::Tashkent
 ##DemoX10
 ##SPOPS::Import::DBI::TableTransform::Sybase
@@ -14042,7 +13625,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Query::ParseAdvanced
 ##Tk::ItemStyle
 ##DBIx::SearchProfiles
-##Apache::DAV::LockDB
 ##Template::Plugin::JavaSQL
 ##Mail::Addressbook::Convert::Ldif
 ##Encode::RAD50
@@ -14069,7 +13651,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Oak::Web::Additional::Include
 ##DateTime::TimeZone::Australia::Sydney
 ##Business::Shipping::Template::RateRequest
-##Apache2::FilterRec
 ##WordNet::Similarity::Visual::SimilarityInterface
 ##Tie::SaveLater
 ##Catalyst::Plugin::ConfigLoader::General
@@ -14105,7 +13686,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Kwiki::Pages::Perldoc
 ##Petal::Utils::Limit
 ##File::Headerinfo
-##Apache::ASP::CGI::Table
 ##Mail::Abuse::Processor::ArchiveDBI
 ##Fry::Lib::CDBI::Load
 ##Net::Jabber::Dialback::Verify
@@ -14116,7 +13696,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Contextual::Return
 ##Excel::Template::Container::Hidden
 ##POE::Component::BlogCloud::SAXHandler
-##Apache::SharedMem
 ##Template::Plugin::IO::All
 ##Net::DNS::ToolKit::RR::CNAME
 ##Params::Style
@@ -14161,7 +13740,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Spreadsheet::ParseExcel_XLHTML
 ##Pod::PP::State
 ##StatsView::Graph::Vmstat
-##Apache::AxKit::Language::Svg2AnyFormat
 ##Tk::ChooseDate
 ##Bio::MAGE::BioEvent::Map
 ##Workflow::Condition::HasUser
@@ -14176,7 +13754,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Genex::Protocol
 ##SVN::Web::List
 ##Business::Payroll::AU::PAYG
-##Apache::SmallProf
 ##Digest::HMAC_SHA1
 ##Module::Crypt
 ##Bio::Tools::Run::PiseApplication::hmoment
@@ -14233,7 +13810,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##BerkeleyDB::Lite
 ##HTML::WebMake
 ##DBIx::XMLServer::DateField
-##Apache::OWA
 ##Log::Log4perl::Appender::ScreenColoredLevels
 ##Samba::LDAP
 ##CDDB_cache
@@ -14253,7 +13829,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Cac::Routine
 ##Lingua::JA::Regular::Table::Macintosh
 ##Tk::Wm
-##Apache::iNcom::OrderManager
 ##Callback
 ##Object::Array::Plugin::Builtins
 ##CGI::Session
@@ -14264,7 +13839,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##W3C::LogValidator::CSSValidator
 ##Lingua::ZH::Toke
 ##Net::FTPServer::DBeg1::FileHandle
-##Apache::MimeXML
 ##Syndicate::Channel
 ##NewsClipper::Cache
 ##Pod::Tree::PerlLib
@@ -14387,7 +13961,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Search::SFgate
 ##NexTrieve::Document
 ##URI::http
-##Apache2::porting
 ##STADAF
 ##Win32::ShellExt::CtxtMenu
 ##Games::Trackword
@@ -14429,7 +14002,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DNS::RR::NXT
 ##Math::Fractal::Curve
 ##Oryx::DBI::Util::SQLite
-##OpenPlugin::Request::Apache
 ##Net::YMSG::GoesOffline
 ##Mail::GPG::Result
 ##HPUX::Ioscan
@@ -14444,7 +14016,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::Template::Extension::DOC
 ##DateTime::Locale::it_IT
 ##CGI::Session::Auth
-##Apache::Session::Store::Postgres
 ##CPANPLUS::Module::Fake
 ##IO::All::Link
 ##Astro::Coord::ECI::TLE
@@ -14462,14 +14033,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Locale::RecodeData::NEXTSTEP
 ##animate
 ##UMMF::UML_1_5::OCL::Expressions::EnumLiteralExp
-##Apache::Syntax::Highlight::Perl
 ##Tree::Simple::Visitor::PreOrderTraversal
 ##Net::Delicious::Constants
 ##Cdk::Slider
 ##DBD::FreeTDS
 ##AnyData::Storage::FileSys
 ##URI::_server
-##Apache::SecSess::Cookie::BasicAuth
 ##DBIx::SQLEngine::Record::Accessors
 ##Tk::CodeText::Perl
 ##Audio::Daemon::MPG123
@@ -14518,11 +14087,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SVG::Template
 ##Business::NETeller::Direct
 ##Tk::HList
-##Apache::AxKit::Language::XPathScript
-##Apache::Queue
 ##DWH_File
 ##Net::RRP::Request::Check
-##MasonX::Request::WithApache2Session
 ##Text::Query::BuildSQLFulcrum
 ##UMMF::UML_1_5::Behavioral_Elements::State_Machines::Guard
 ##Regex::RegexOps
@@ -14538,7 +14104,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Term::VT102
 ##IPC::Filter
 ##Net::SinFP::DB::SystemClass
-##Apache::Wyrd::CSSGene
 ##MIDI::XML::TextEvent
 ##Regexp::Bind
 ##Plagger::Plugin::Filter::Base
@@ -14567,7 +14132,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::Spec::Cygwin
 ##Lingua::EN::StopWords
 ##iPodDB::Menu
-##PurpleWiki::Apache1Handler
 ##CGI::Widget::FilloutForm::Base
 ##Slauth::AAA::Authen
 ##RouterBase::StaticRoute
@@ -14576,9 +14140,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SNMP::Info::Layer3::C6500
 ##Palm::Timesheet::EntryRecord
 ##Uttu::Handler::axkit::ContentProvider
-##Catalyst::Engine::Apache::MP13
 ##OpenPlugin::Authenticate::DBI
-##Maypole::Plugin::Config::Apache
 ##OurNet::BBS::RAM::BoardGroup
 ##Acme::use::strict::with::pride
 ##UMMF::UML_1_5::Foundation::Core::Generalization
@@ -14600,10 +14162,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Date::Holidays::Super
 ##Db::Documentum::Tools
 ##Device::ParallelPort::drv::linux
-##Apache::MP3::L10N::nl_nl
 ##Goo::Thing::pm::MethodProfileOption
 ##Tk::ListboxDnD
-##Apache2::SiteControl::UserFactory
 ##Dimedis::Ddl::Index::Oracle
 ##WWW::Search::Tv::Sweden::TvDotNu
 ##Parse::AFP::PTD
@@ -14612,7 +14172,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Encode::InCharset::cp874
 ##Bio::MAGE::DesignElement::Reporter
 ##Schedule::Chronic::Constraint::InXs
-##Wizard::Examples::Apache::Server
 ##Lingua::PT::Speaker::AdjWords
 ##Posy::Plugin::BinFile
 ##Class::Meta::AccessorBuilder
@@ -14658,7 +14217,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Archive::Zip
 ##Template::Plugin::HTML
 ##Prima::MDI
-##Apache::AuthenNTLM
 ##Data::DRef
 ##Cool
 ##Pod::Tree::Pod
@@ -14702,9 +14260,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Games::Shogi::Heian
 ##UMMF::UML::MetaModel::OCL::Expressions::SendAction
 ##HTML::Template::Compiled::Utils
-##GStreamer
 ##XML::IDMEF
 ##NetServer::Portal::Top
+##GStreamer
 ##Video::DVDRip::CPAN::Scanf
 ##Locale::RecodeData::IBM274
 ##Imager::Filter::DynTest
@@ -14765,7 +14323,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##JSAN::Librarian
 ##Axis
 ##XAO::DO::Web::IdentifyUser
-##Apache2::Command
 ##Fry::Type
 ##PDF::API2::Resource::Font::CoreFont::timesitalic
 ##DateTime::Locale::is_IS
@@ -14810,7 +14367,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Acme::MetaSyntactic::toto
 ##Gdcode
 ##Parse::RecDescent::Module::ExtractUse::Grammar
-##DynaPage::Apache2
 ##Plagger::Plugin::Subscription::PingServer
 ##WebService::Technorati::BaseTechnoratiObject
 ##ObjStore::Job::Table
@@ -14825,7 +14381,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UMMF::UML_1_5::Foundation::Data_Types::BooleanExpression
 ##POP::Id_factory
 ##POE::Component::Child
-##Apache2::Access
 ##Gestinanna::Shell
 ##Posy::Plugin::LocalDepth
 ##SLOOPS::Tut::WDW
@@ -14853,8 +14408,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##OpenInteract::UI::Main
 ##Bio::Species
 ##GNOME::GOAD
-##Kwid::HTML
 ##Bot::BasicBot::Pluggable::Module::Nickometer
+##Kwid::HTML
 ##DemoApp
 ##CPANPLUS::Configure
 ##Class::DBI::Factory::Howto
@@ -14863,7 +14418,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::Feed::Content
 ##Term::Screen
 ##Template::TAL::TALES
-##Apache::AuthDBI
 ##DBIx::SearchBuilder::Handle::mysql
 ##Class::MakeMethods::Emulator::accessors
 ##DBIx::Class::Core
@@ -14879,7 +14433,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pangloss::Search::Filter::DateRange
 ##Parrot::Pmc2c::Library
 ##Genezzo::Index::btHash
-##CIPP::Apache
 ##Parse::YALALR::Parser
 ##Lisp::Special
 ##Language::Mumps
@@ -14894,7 +14447,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Smart::Plugin
 ##Mail::SpamAssassin::Plugin::AccessDB
 ##Document::Repository
-##Apache::MP3::L10N::ja
 ##Verby::Action::Template
 ##Net::MirrorDir
 ##Template::Provider::Encode::Guess
@@ -14928,7 +14480,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::DBI
 ##WWW::AdServer::Logger::Text
 ##Bio::ConnectDots::DB
-##Apache::MP3::L10N::nl_be
 ##TPINIT_PTR
 ##ExtUtils::Installed
 ##JaM::GUI::MailAsText
@@ -14940,7 +14491,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::Comma::Storage::Output::HMAC_MD5
 ##Bot::BasicBot::Pluggable::Module::Status
 ##Chart::Clicker::Drawing
-##Apache::PerlSections
 ##Text::Query::Advanced
 ##Devel::DProf
 ##POE::Component::NomadJukebox::Device
@@ -15029,11 +14579,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UMMF::UML::MetaModel::Foundation::Data_Types::Name
 ##SQL::Snippet
 ##slackget10::Log
-##Apache::TopicMaps::application::xtmPLUSxml::topic
 ##Cache::FileBackend
 ##Encode::InCharset::cp869
 ##Embperl::WrapXS
-##Apache::SSIChain
 ##SQL::Translator::Schema::Table
 ##GD::SecurityImage
 ##Exporter::NoWork
@@ -15048,7 +14596,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::SNMP::Dispatcher
 ##Verilog::Netlist::File
 ##Quiz
-##Apache::SiteControl::User
 ##Openview::Message::cliopcmsg
 ##RDF::Redland::URI
 ##SDBM_File
@@ -15184,7 +14731,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBI::DBD
 ##Gtk2::Ex::PrintDialog
 ##Authen::Challenge::Basic
-##Apache::MP3::L10N::uk
 ##InSilicoSpectro::InSilico::MassCalculator
 ##Module::API::Server
 ##Rose::Class::MakeMethods::Set
@@ -15212,8 +14758,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::Internet
 ##XML::LibXML::Tools
 ##Utils
-##Bio::SeqIO::game::gameHandler
 ##Parrot::Key
+##Bio::SeqIO::game::gameHandler
 ##vga
 ##MySQL::Config
 ##Test::Cmd
@@ -15270,7 +14816,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Email::Delete
 ##Text::WagnerFischer::Amharic
 ##LaTeX::Authors
-##Apache::SimpleTemplate
 ##Test::C2FIT::fat::ExampleFixture
 ##Batch::Batchrun::Dbfunctions
 ##Net::Blogger::Engine::Slash::slashcode
@@ -15325,7 +14870,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Chess::PGN::Moves
 ##PDF::Writer::pdfapi2
 ##Bio::SearchIO::hmmer
-##Apache::RSS
 ##Kwiki::AdSense
 ##ESPPlus::Storage::Record
 ##Arc
@@ -15361,7 +14905,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Elexol::EtherIO24
 ##QWMatrix
 ##OpenGuides::Config
-##Apache::App::Mercury::Display
 ##ETL::Pequel::Script
 ##Imager::Album
 ##Tie::Collection
@@ -15393,7 +14936,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Query::Optimize
 ##Bio::Tools::Run::WrapperBase
 ##Phone
-##Apache::Language::Constants
 ##MP3::TAG::ID3v2
 ##HTML::Index::Document
 ##Goto::Cached
@@ -15522,7 +15064,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Jako::Compiler
 ##XMLTV::Grep
 ##Bio::DB::Flat::OBDAIndex
-##Config::ApacheExtended::Grammar
 ##Sql::Preproc::Teradata
 ##Bio::Seq::Meta
 ##Attribute::Unimplemented
@@ -15563,7 +15104,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Archive::Tar::Streamed
 ##DBIx::SQLEngine::Driver::Trait::NoPlaceholders
 ##Probe::MachineInfo::NumCPUs
-##Apache::PassExec
 ##Bot::BasicBot::Pluggable::Module::Title
 ##Paper::Specs::standard::c0
 ##Net::BGP::ASPath
@@ -15616,19 +15156,16 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Packet::Frame
 ##Object::Registrar
 ##AFS::Command::Base
-##Apache::TransLDAP
 ##Term::Visual::StatusBar
 ##Goo::ThingFinder
 ##OpenFrame::Server::SOAP
 ##Template::Plugin::Dumpvar
 ##Net::UPS
-##Apache::WeSQL
 ##OurNet::BBS::MailBox::BBS
 ##Wizard::LDAP::Net
 ##Sun::Solaris::Exacct
 ##UMMF::UML_1_5::Behavioral_Elements::State_Machines::CallEvent
 ##Quizzer::Element::Web::Container
-##Apache::MP3::L10N::sh
 ##Win32::ASP::Error
 ##Linux::Inotify
 ##SQL::Builder::PrefixOp
@@ -15636,11 +15173,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Palm::Progect::Record
 ##PDF::API2::Resource::XObject::Image::PNG
 ##DBIx::ProcedureCall::PostgreSQL
-##Apache::Htpasswd::Perishable
 ##Sirc::URL
 ##Data::Hierarchy
 ##PPM::Repositories
-##Apache::Auth::UserDB::File::Basic
 ##Petal::Utils::US_Date
 ##POE::Component::Client::HTTP::Request
 ##Test::DatabaseRow
@@ -15658,8 +15193,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##RandomFilePassesPathsToCheckRoutine
 ##Locale::MakePhrase::BackingStore
 ##HTTP::Proxy::Engine::NoFork
-##Wombat::Core::Host
 ##Repository::Simple::Type::Property
+##Wombat::Core::Host
 ##Data::Tabular::Row::Titles
 ##Net::SSH2
 ##Meta::Pdmt::FileNode
@@ -15720,22 +15255,18 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##FreePAN::IndexPages
 ##integer
 ##FFmpeg::ImageFormat
-##Apache::AxKit::StyleChooser::PathInfo
 ##Variable::Strongly::Typed
 ##SRU::Request
 ##Alzabo::RDBMSRules::MySQL
 ##FEAR::API::Extract
 ##VUser::Log::Syslog
-##Apache::RSS::Encoding
 ##DateTime::Locale::as
 ##Chronos::Action::EditEvent
 ##Genetics::TissueSample
-##Apache::BioChrome
 ##Regexp::Common::delimited
 ##SDL::Build
 ##Net::RRP::Response::n504
 ##Text::Editor::Vip::Buffer::Plugins::FindReplace
-##Apache::SessionX::Store::File
 ##Mail::Summary
 ##Module::API::Queue
 ##PDL::LinearAlgebra
@@ -15760,7 +15291,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Coro::Select
 ##MIDI::XML::EndOfExclusive
 ##Tk::English
-##Apache::TestClient
 ##Cache::SharedMemoryCache
 ##Bio::MAGE::Array::FeatureDefect
 ##SQL::Translator::Producer::HTML
@@ -15768,7 +15298,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pangloss::Segment::Search
 ##Finance::SE::PPM
 ##DateTime::TimeZone::America::Campo_Grande
-##Apache::ProxyPass
 ##AnnoCPAN::Config
 ##Net::OSCAR::Common
 ##MIME::Fast
@@ -15778,11 +15307,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##LWP::MemberMixin
 ##Oak::Web::Additional::UsernameField
 ##Class::RHash
-##Apache::AxKit::Provider::OpenOffice
 ##Template::TAL::Provider::Disk
 ##Encode::InCharset::cp1253
 ##Goo::Thing::pm::Perl6Adder
-##Apache::Throttle::Log
 ##Javascript::Select::Chain::Nested
 ##XML::ASX
 ##MMDS::Output::Latex209
@@ -15804,7 +15331,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Data::Tabular::Config::Output
 ##Pangloss::Application::Searcher
 ##HTML::CalendarMonthSimple
-##Apache::AxKit::Util::LibXSLTAddonFunction
 ##System::Index
 ##Acme::Innuendo
 ##EvilBoss::Config
@@ -15867,7 +15393,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MHonArc::CharEnt::ISO8859_7
 ##HH::Unispool::Config::File::Token::Comment::Scope
 ##Workflow::Persister::File
-##CPANXR::Apache::Header
 ##BBCode::Tag::xEMAIL
 ##Time::SoFar
 ##Crypt::OpenPGP::ErrorHandler
@@ -15884,7 +15409,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::PDF::Utils
 ##HTML::WikiConverter::WakkaWiki
 ##Gtk2::Ex::MindMapView::HotSpot::Grip::RightAngle
-##Apache::PHLogin
 ##Myco::Query
 ##Language::Prolog::SWI::base
 ##HTML::Mason::Error
@@ -15901,7 +15425,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Language::Homespring::Visualise::GraphViz
 ##Finance::Bank::Cahoot
 ##Acpi::Temperature
-##Apache2::Log
 ##WebService::Postcodeanywhere::BACS::REST
 ##AxKit::XSP::Demo::SimpleInputAttributes
 ##Test::C2FIT::fat::DocumentParseFixture
@@ -15943,7 +15466,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::Query
 ##RDFStore::Vocabulary::RDF
 ##HTML::TableLayout
-##Apache::AxKit::Provider::RDBMS::DBCacheAdapter
 ##CfgTie::TieAliases
 ##Filesys::MakeISO
 ##Net::IRC
@@ -15959,9 +15481,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Chronos::Action::UserPrefs
 ##DateTime::Locale::es_VE
 ##Project::Gantt
-##Apache::ModBT
 ##Template::Plugin::ShellQuote
-##Apache::Constants::Exports
 ##Config::YAML
 ##RT::Journal
 ##Crypt::HCE_MD5
@@ -16029,13 +15549,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##App::Exceptions
 ##HTML::EP::Locale
 ##DBIx::XML_RDB
-##Apache::FileManager
 ##Quilt::Objs
 ##HTML::Widget::Plugin::Input
 ##Regexp::Common::SEN
 ##Bio::LiveSeq::IO::SRS
 ##Mail::Salsa::Action::Post
-##Apache2::StructureTable
 ##Audio::DB::DataTypes::SongList
 ##Text::MicroMason::Cache::Null
 ##QWizard::Storage::Memory
@@ -16061,11 +15579,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##IDfAliasSet
 ##XML::Generator::RSS10::ipsv
 ##Descriptions
-##File::Tasks::Provider
 ##P4::C4::Unknown
+##File::Tasks::Provider
 ##Params::Validate
 ##AxKit::Plugin::DisableXSLTParams
-##Apache2::CPAN::Search
 ##Net::Netrc
 ##Tk::TableMatrix::SpreadsheetHideRows
 ##XTM
@@ -16086,8 +15603,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::WikiConverter::Kwiki
 ##HTML::Display::Dump
 ##HTML::Widgets::Index::Format::Item
-##OpenFrame::Segment::Apache
-##Apache::AuthPAM
 ##Paper::Specs::standard::c6_c5_envelope
 ##SQL::Translator::Parser::Access
 ##Brackup::Target::Amazon
@@ -16104,7 +15619,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PostScript::BasicTypesetter
 ##Nagios::NSCA::Base
 ##Gantry::Stash
-##Apache::PerlRunXS
 ##Quizzer::Element::Noninteractive::Select
 ##CGI::Wiki::Setup::SQLite
 ##Pangloss::Segment::ModifyCategory
@@ -16117,7 +15631,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::SAGE::DataProcessing::MinimumPhredFilter
 ##Pod::HtmlPsPdf::RunTime
 ##Encode::InCharset::cp862
-##Apache::Pod
 ##XUL::Node::Server::SessionTimer
 ##XML::XBEL::Folder
 ##Cac
@@ -16134,7 +15647,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Locale::RecodeData::ISO_8859_3
 ##DateTime::TimeZone::Australia::Broken_Hill
 ##Bio::Tools::Run::PiseApplication::pepwheel
-##Apache::DBILogConfig
 ##SAL::WebDDR
 ##Bio::MAGE::BioAssayData::Transformation
 ##Goo::Thing::pm::Method
@@ -16144,8 +15656,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Component::IRC::Plugin::Whois
 ##Alzabo::ObjectCache::Store::Memory
 ##Net::DRI
-##DateTime::Locale::zh_Hans_SG
 ##Plagger::Plugin::Filter::BloglinesContentNormalize
+##DateTime::Locale::zh_Hans_SG
 ##GD::Barcode
 ##IO::Pager::Unbuffered
 ##Encode::Mapper
@@ -16179,7 +15691,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##JavaScript::Squish
 ##Debug::ShowStuff
 ##PBS::Check
-##Apache::DAV::PropsResult
 ##Petal::Functions
 ##Catalyst::Engine::Test
 ##AxKit::XSP::CharsetConv
@@ -16314,7 +15825,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Module::Dependency::Grapher
 ##Mail::Maildir
 ##PITA::Scheme::Perl5
-##Apache::PAR::Static
 ##String::Multibyte::ShiftJIS
 ##UberBot::OpBot
 ##Bio::Seq::QualI
@@ -16339,7 +15849,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBomb::Base::Private
 ##XML::Comma::Util
 ##Audio::TagLib::ID3v2::FrameList::Iterator
-##Apache::MP3::L10N::nl
 ##Maypole::Plugin::Loader
 ##Bio::SeqIO::staden::read
 ##Psh::Options
@@ -16397,7 +15906,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Finance::Bank::PSK
 ##Upload::Controller::Upload
 ##MQSeries::Message::DeadLetter
-##Apache::TopicMaps::application::xtmPLUSxml::search
 ##Finance::Bank::IE::MBNA
 ##Text::Templar
 ##Local::DBD::ADO::DSN
@@ -16434,10 +15942,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Config::Model::Loader
 ##Locales::Language::fi
 ##HTTP::Headers::ETag
-##Apache::Session::SQLite3
 ##Chemistry::File::VRML
 ##Continuity::Util::Component
-##OpenFrame::Example::ApacheSimple
 ##Tangram::Driver::Sybase::Expr::Date
 ##Finance::Quote::FinanceCanada
 ##Plagger::Plugin::Publish::Feed
@@ -16457,7 +15963,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DRI::Protocol::EPP::Extensions::SE::Extensions
 ##App::Modular::Module
 ##Lingua::HE::Sentence
-##Apache2::Connection
 ##DCQ
 ##Convert::PEM::CBC
 ##DateTime::TimeZone::Pacific::Gambier
@@ -16484,7 +15989,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Graph::Layout::Aesthetic::Force::MinEdgeIntersect2
 ##Brackup::Chunk
 ##Acme::Oil::Ashed::Array
-##Apache::Session::Lazy
 ##WWW::Webrobot
 ##Tibco::Rv::IO
 ##Rose::HTML::Form::Field::OnOff::Checkable
@@ -16573,7 +16077,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Test::C2FIT::ScientificDouble
 ##Data::MagicTie::BerkeleyDB
 ##Palm::Progect::DB_23::Record
-##Apache::ASP::CGI
 ##HTML::Widgets::NavMenu::Tree::Node
 ##Data::Quantity::Number::Bytes
 ##File::Wildcard::Find
@@ -16590,7 +16093,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Business::Associates::XML
 ##Time::Tradedates
 ##Text::Hatena::Context
-##Apache::MP3
 ##BTree
 ##SDL::Build::Netbsd
 ##Win32API::Registry
@@ -16614,7 +16116,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##flo::plugin::Shop::Basket::Modify
 ##Kwiki::ModPerl
 ##SOAP::Transport::LOCAL
-##Apache2::ClickPath
 ##Psh::Builtins::Export
 ##Parse::Pidl::Samba4::NDR::Client
 ##Alzabo::SQLMaker::PostgreSQL
@@ -16652,7 +16153,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Finance::Quote::Yahoo::Brasil
 ##Pod::POM::View::Text
 ##Expect::Simple
-##Apache2::Reload
 ##Locale::PGetText
 ##Genetics::API::DB::Delete
 ##SVK::Command::Move
@@ -16664,7 +16164,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Devel::Dumpvar
 ##SOAP::Struct
 ##Module::Checkstyle
-##Apache::AxKit::Plugin::Upload
 ##Encode::InCharset::cp950
 ##SQLite::Work
 ##Test::Unit::Result
@@ -16713,7 +16212,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SQL::ReservedWords::ODBC
 ##DateTime::Locale::cs_CZ
 ##SVK::Resolve::KDiff3
-##Apache2::Const
 ##RT::CustomField
 ##NCGI
 ##Astro::Catalog::IO::TST
@@ -16741,11 +16239,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Thread::Queue::Duplex
 ##Acme::MetaSyntactic::octothorpe
 ##XML::STX::Buffer
-##Apache::UploadSvr::Dictionary
 ##TeX::Convert::Image
 ##CSS::SAC::Condition::Negative
 ##CGI::ArgChecker
-##Apache::Table
 ##CGI::Portable::AdapterCGI
 ##Class::DBI::Relationship::HasVariant
 ##HTML::HTPL::Lib
@@ -16797,7 +16293,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Games::Worms::PS
 ##Introspector::TranslateClasses
 ##DateTime::TimeZone::Africa::Cairo
-##Apache2::AUS::Util
 ##XML::RSS::Headline::UsePerlJournals
 ##Text::NWrap
 ##Class::MakeMethods::Template::InsideOut
@@ -16808,7 +16303,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Catalyst::Plugin::Account::AutoDiscovery
 ##Chart::PNGgraph::colour
 ##Palm::Timesheet::List
-##Apache::Gallery
 ##KGS::Protocol::Client
 ##Games::Rezrov::ZIO_Win32
 ##XML::Filter::XInclude
@@ -16844,7 +16338,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SOAP
 ##Business::TPGPost
 ##Encode::HanExtra
-##Apache::DAV::Error
 ##FTN::Nodelist::Node
 ##HTML::FromMail::Format::OODoc
 ##Regexp::Ignore
@@ -16868,8 +16361,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::Path::Stderr
 ##Games::Euchre::Trick
 ##IMAPGet
-##Apache2::compat
-##Apache::Mason
 ##EC::ECIcon
 ##Config::Manager::Conf
 ##Parse::AFP::PTX::RPS
@@ -16887,7 +16378,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##slackget10::Config
 ##Purple::Sequence
 ##HTML::Paginator
-##Apache::AxKit::CharsetConv
 ##File::Slurp
 ##Finance::Bank::Norisbank
 ##Data::Type::Tied
@@ -16901,8 +16391,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Search::Xapian::Query
 ##Video::DVDRip::GUI::Component
 ##Code::Perl::Expr::Infix
-##Wombat
 ##POE::Component::IRC::Qnet
+##Wombat
 ##Business::BancaSella::Ris::File
 ##Bio::IdCollectionI
 ##Mail::SpamAssassin::Plugin::TextCat
@@ -16938,7 +16428,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Fido
 ##Regexp::Subst::Parallel
 ##DBIx::Class::Loader
-##Apache::AxKit::Plugin::Session
 ##Regex::Ops::List
 ##OpenInteract::Session::SQLite
 ##Catalyst::Plugin::Geography
@@ -16963,7 +16452,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::Milter::Module::HeloRegex
 ##Paper::Specs::Avery::74520
 ##Module::Starter::Plugin::ModuleStore
-##Apache::TableHash
 ##Astro::Catalog::Transport::WebService
 ##XMLTV::AskTk
 ##MySQL::GUI::connection
@@ -16978,13 +16466,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Chart::PNGgraph::linespoints
 ##SPOPS::SQLInterface
 ##XML::SAXDriver::Excel
-##Apache::AxKit::Provider::RDBMS::DBCacheAdapter::SQLite
 ##Text::Hatena::AutoLink::FTP
 ##File::CachingFind
 ##UberBot::Joiner
 ##init::hints::aix
 ##Pod::Simple::TranscodeDumb
-##Apache::MP3::Sorted
 ##Net::ICal::Calendar
 ##Bio::Tools::BPlite::Sbjct
 ##Bio::DB::Query::WebQuery
@@ -17002,8 +16488,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##OpenFrame::WebApp::Segment::User::EnvLoader
 ##My::Filter
 ##ORM::Broken
-##Regexp::IgnoreHTML
 ##IO
+##Regexp::IgnoreHTML
 ##Ref
 ##App::Serializer::Ini
 ##POE::Component::NomadJukebox
@@ -17022,13 +16508,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Inline::C::ParseRegExp
 ##Plagger::Cache::Null
 ##Encode::Arabic::Buckwalter
-##Froody::Server::Apache
 ##MKDoc::Auth::TempUser
 ##SVK::Command::Mirror
 ##CGI::Ex::Validate
 ##JaM::GUI::Mail
 ##Mac::AppleScript
-##Apache2::Response
 ##Games::LMSolve
 ##Net::RRP::Response::n536
 ##Parse::Pidl::Samba4::Header
@@ -17090,14 +16574,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Revision::Entry
 ##Benchmark::Harness::Handler::ValuesHighRes
 ##PostScript::Graph::Bar
-##Apache::AntiSpam::SpamTrap
 ##Bio::Ontology::TermI
 ##HTML::Mason::CGIHandler
 ##Mail::Message
 ##SAVI
 ##MKDoc::Auth::Plugin::Recover_Login
 ##POE::Component::Client::Dashboard
-##Apache::ContentHandler
 ##Bot::MetaSyntactic
 ##Net::RRP::Exception::ServerError
 ##Games::Maze::SVG::RectHex
@@ -17155,7 +16637,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::SeqIO::abi
 ##UMMF::UML_1_5::Behavioral_Elements::State_Machines::SynchState
 ##RPC::pClient
-##Apache::SiteControl::Radius
 ##DateTime::Locale::sr
 ##Perl::Critic::Policy::Modules::RequireBarewordIncludes
 ##VRML::PNG
@@ -17189,7 +16670,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::OntologyIO::simpleGOparser
 ##Text::Diff::Parser
 ##App::Info::Lib::OSSPUUID
-##Apache::VimColor
 ##Math::PartialOrder::Std
 ##Qt
 ##DocSet::Source::POD
@@ -17289,9 +16769,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Notes::Object
 ##Repository::Simple::Engine
 ##Tk::FileSave
-##SQCAS::Apache
 ##SVG::TT::Graph
-##Apache::TimedRedirect
 ##DBD::Yaswi
 ##Geo::TigerLine::Record::8
 ##Paper::Specs::photo::5x7
@@ -17349,7 +16827,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Crypt::RSA::Primitives
 ##Net::Chat::Jabber
 ##CAD::Drawing::Calculate
-##Apache::MultiAuth
 ##Graph::Easy::Layout::Repair
 ##Bio::Metabolic::Dynamics::Substrate
 ##Psh::Support::TiedOption
@@ -17382,11 +16859,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Quizzer::Element::Dialog::Password
 ##CGI::Test::Form::Widget
 ##Unicode::CheckUTF8
-##Class::Prevayler::CommandLogger
 ##Module::Install
 ##Audio::Daemon::MPG321
 ##CGI::FormBuilder::Field::checkbox
 ##Bio::ExtractNE::MakeDict
+##Class::Prevayler::CommandLogger
 ##SVK::Editor::Combine
 ##File::Find::Duplicates
 ##CGI::Session::Serialize::json
@@ -17450,10 +16927,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Location::GeoTool::Direction
 ##Quizzer::Element::Web::Multiselect
 ##RDF::Core::Model::Serializer
-##Apache::ConfigParser::Directive
 ##Math::Nocarry
 ##Net::IPv4Addr
-##Apache2::HookRun
 ##News::Scan::Article
 ##PGP::Pipe
 ##HH::Unispool::Config::File::Token::Numbered::Device::7
@@ -17511,7 +16986,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::Avery::5970
 ##Games::Worms::Beeler
 ##URI::_ldap
-##Apache::PSP
 ##CGI::Untaint::printable
 ##PPI::Token::Quote::Interpolate
 ##Petal::Utils::UriEscape
@@ -17542,7 +17016,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pod::MultiLang
 ##Net::Analysis::Constants
 ##Locale::Hebrew::Calendar
-##Apache::Wyrd::MySQLForm
 ##GCC::Node::Constant
 ##Pangloss::Segment::Decline::NoTerm
 ##Tk::Multi::Manager
@@ -17598,7 +17071,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Draft::TkGui::Entity::Reference
 ##Test::C2FIT::WikiRunner
 ##Lingua::GA::Gramadoir::Languages
-##Apache::SpeedLimit
 ##Concurrent::Object
 ##Mysql::Statement
 ##MP3::Album::Layout::Fetcher
@@ -17652,11 +17124,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SyslogScan::SendmailUtil
 ##Parse::PhoneNumber::Number
 ##Devel::Diagram::Render::UXF20
-##Apache2::AuthColloquy
 ##Visio::Hyperlink
 ##Dimedis::Sql::CSV
-##Jifty::DBI::Collection::Unique
 ##Continuus
+##Jifty::DBI::Collection::Unique
 ##VUser::Email::courier::mysql
 ##Oak::Web::Session
 ##RayAppStyleParams
@@ -17686,11 +17157,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SNMP::Info::Layer1
 ##Find::File::Object
 ##Net::DNS::RR::RT
-##Apache::LowerCaseGETs
 ##Data::RandomPerson::Names::ArabicMale
 ##Class::Adapter
 ##Bio::GMOD::Admin::Monitor
-##Apache::LangPrefCookie
 ##Introspector::SQLGenerator
 ##Devel::Cover::Truth_Table
 ##DBX::Connection
@@ -17751,7 +17220,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tk::DBIx::Tree
 ##Rose::DB::Object::Metadata::Relationship
 ##Project::Gantt::GanttHeader
-##Apache::DAV::PropCtx
 ##Tangram::Driver::Sybase::Storage
 ##Meta::Db::Constraint
 ##HTTP::Lite
@@ -17846,7 +17314,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Buzznet::Profile
 ##Bio::Align::StatisticsI
 ##Prospect::LocalClient
-##Apache2::ClickPath::_parse
 ##Env::PS1
 ##FAQ::OMatic::delPart
 ##Net::Gadu
@@ -17857,11 +17324,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Graph::Easy::As_txt
 ##Video::DVDRip::FixLocaleTextDomainUTF8
 ##WWW::PDAScraper::WeeklyWorldNews
-##Apache::AxKit::Provider::CGI
 ##Meta::Info::Credit
-##Apache::PAR::PerlRun
 ##Software::Packager::Rpm
-##Apache::Session::Lock::Semaphore
 ##POE::NFA
 ##Mail::SpamAssassin::SQLBasedAddrList
 ##PDF::Template::Container::Section
@@ -17876,7 +17340,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Slauth::Storage::Confirm_DB
 ##UMMF::UML::MetaModel::Foundation::Data_Types::Boolean
 ##Log::Agent::Logger
-##Apache::Session::Win32
 ##SystemC::Vregs::Rules
 ##Bio::Genex::AM_Spots
 ##Graph::SocialMap
@@ -17901,7 +17364,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Filter::Crypto::Decrypt
 ##ObjectivePerl::Parser
 ##MailBot::UI::AdvCGI
-##Apache::Wyrd::LogDump
 ##Math::CDF
 ##Goo::Thing::pm::Adder
 ##Net::Jabber::Server
@@ -17927,7 +17389,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::Class::ResultSetProxy
 ##AxKit::App::TABOO::Data
 ##Config::Universal
-##Apache::Sybase::DBlib
 ##Acme::Abuse
 ##VMS::Device
 ##Template::Magic::HTML
@@ -17959,10 +17420,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::dbMan::Extension::TrimCmd
 ##NewsClipper::Server
 ##PPI::PowerToys
-##Apache::Include
 ##Bio::Das::Type
 ##Docs::US_DOD::SSS
-##Apache::MP3::L10N::de
 ##Parse::AFP::BDX
 ##NewSpirit::SqlShell::HTML
 ##Font::Metrics::HelveticaOblique
@@ -18003,7 +17462,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SLOOPS::Tut::Person
 ##Kwiki::User::Cookie
 ##Bio::Tools::Run::PiseApplication::tfscan
-##Apache::Blog
 ##Crypt::OpenPGP::Signature
 ##CGI::Application::Plugin::HTDot
 ##Bio::Matrix::PSM::InstanceSiteI
@@ -18079,17 +17537,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::MySQLite
 ##Bio::Tools::Run::PiseApplication::pepwindowall
 ##Convert::BER
-##Apache::ExtUtils
-##Apache::CVS::Diff
 ##Net::Server::Mail
 ##Audio::AMaMP
 ##Net::Z3950::OID
 ##Bio::ConnectDots::ConnectorSet::DoTS
 ##Goo::Thing::gml::Profiler
 ##Aspect::Trace
-##Apache::XPointer::RDQL::RDFStore
-##Apache::TableEntry
-##MasonX::Request::ExtendedCompRoot::WithApacheSession
 ##Unix::Conf::Bind8::DB::SOA
 ##MIME::Decoder::UU
 ##Number::Phone::NANP::JM
@@ -18098,7 +17551,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UberBot::Factoid
 ##Email::LocalDelivery::Store
 ##Db::Mediasurface::ReadConfig
-##Apache2::TomKit::Processor::XPathScript
 ##QWizard::Generator::Tk
 ##XML::Schema::Particle::Element
 ##Catalyst::Helper::View::PSP
@@ -18126,7 +17578,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##InSilicoSpectro::Spectra::MSRun
 ##OpenPlugin::Authenticate::PAM
 ##Crypt::OOEnigma::Reflector
-##Apache::SecSess::Cookie::X509
 ##Gestinanna::Schema::User
 ##AxKit::XSP::Auth
 ##EO::Class
@@ -18156,7 +17607,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Aspect::Symbol::Enum
 ##Meta::Utils::File::Purge
 ##UNIVERSAL::dump
-##Apache::Compress
 ##Servlet::Http::HttpSessionBindingEvent
 ##Games::Shogi::MakaDaiDai
 ##Gestinanna::Schema::Context
@@ -18201,7 +17651,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##OnSearch::Base64
 ##Search::FreeText
 ##PPM::XML::RepositorySummary
-##Apache2::ClickPath::Store
 ##Tie::LazyFunction
 ##HTTP::OAI::MetadataFormat
 ##Plagger::Plugin::Publish::2chdat
@@ -18283,7 +17732,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::Miner
 ##VFS::Gnome
 ##Data::Tabular::Output::CSV
-##Apache::TestReportPerl
 ##List::Util::Superpositions
 ##OS2::WinObject
 ##DC
@@ -18305,8 +17753,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Beautify
 ##Class::DBI::Pg
 ##Gx
-##SPOPS::Tool::DBI::DiscoverField
 ##XML::Ximple
+##SPOPS::Tool::DBI::DiscoverField
 ##Jako::Construct::Block::Conditional::If
 ##GDA::Config
 ##Text::Patch
@@ -18367,7 +17815,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Audio::TagLib::ID3v2::UniqueFileIdentifierFrame
 ##Tk::Pgplot
 ##DBIx::dbMan::Extension::CmdComments
-##Apache::XAO
 ##Perl::Visualize
 ##AxKit::App::Gallery::Provider
 ##Bio::Tools::Analysis::Protein::Domcut
@@ -18427,16 +17874,16 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::Server
 ##Jifty::Web::Form::Field::Textarea
 ##SGML::DTDParse::Catalog
-##CGI::FormMagick::TagMaker
 ##re
+##CGI::FormMagick::TagMaker
 ##Class::MixinFactory::InsideOutAttr
 ##APR::Date
 ##Kolab::Templates
 ##Gtk2::Ex::GraphViz
 ##WWW::PDAScraper::Yahoo::Business
 ##Term::TUI
-##String::Multibyte::Bytes
 ##CSS::SAC::SelectorFactory
+##String::Multibyte::Bytes
 ##P6C::Context
 ##Embperl::Form::Control::display
 ##Test::C2FIT::eg::music::Simulator
@@ -18445,7 +17892,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Froody::Server::CGI
 ##NCGI::Singleton
 ##Data::TableAutoSum
-##Apache::Wyrd::Services::CodeRing
 ##Win32::CtrlGUI::Window
 ##DBIx::Wrapper::SelectExecLoop
 ##XML::Sablotron
@@ -18466,7 +17912,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Array::IntSpan::IP
 ##Acme::Meta
 ##PApp::Exception
-##Apache::BruteWatch
 ##Alzabo::Display::SWF::Table
 ##DBIx::XMLMEssage
 ##SOAP::Message
@@ -18477,7 +17922,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##EC::ECConfig
 ##Chronos::Authen
 ##Text::MicroMason::PostProcess
-##Apache::SSI
 ##Graphics::ColorNames::IE
 ##Catalyst::Log::Log4perl
 ##Tk::Menubutton
@@ -18525,11 +17969,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tangram::Oracle
 ##SVG::Element
 ##ExtProc::Code
-##Apache::MP3::L10N::ms
 ##Win32::MBCS
 ##KinoSearch::Store::Lock
-##IPA::Local
 ##Mail::Box::Dbx
+##IPA::Local
 ##XML::Generator::Essex
 ##Template::Plugin::ExifTool
 ##Perl::Critic::Policy::CodeLayout::RequireTrailingCommas
@@ -18542,7 +17985,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Football::League::Match
 ##Net::OpenID::Association
 ##ModPerl::Registry
-##Apache::SecSess::DBI
 ##WordNet::Similarity::lch
 ##Aspect::PointCut::NotOp
 ##MKDoc::Core::Response
@@ -18558,7 +18000,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Encode::InCharset::cp737
 ##VMS::IndexedFile
 ##Net::Server::Daemonize
-##Apache2::SiteControl::Radius
 ##Color::Calc::WWW
 ##Devel::ModInfo::ParameterScalar
 ##Test::AutoBuild::Cache
@@ -18590,7 +18031,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MPEG::Info::Constants
 ##Tie::Static
 ##Psh::Support::Builtins
-##Apache::SecSess::Cookie::X509PIN
 ##Math::Function::Roots
 ##SystemC::Vregs::Subclass
 ##Bio::SimpleAnalysisI
@@ -18602,7 +18042,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::CanonicalizeXML
 ##GSM::SMS
 ##Net::SSH::Perl::Util::RSA
-##Apache::Wyrd::Input::Condenser
 ##Net::FTPServer::PWP::DirHandle
 ##Log::Agent
 ##Stream::StringInputStream
@@ -18669,11 +18108,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##GPS::Magellan::Coord
 ##WWW::Search::Simple
 ##Astro::Coord::ECI
-##Apache2::DocServer
 ##File::Find::Rule::MMagic
 ##Win32::GUI::Grid
 ##DISCO
-##Apache::DebugLog
 ##PITA::XML::Command
 ##Devel::Cover::Time
 ##WWW::Page::Author
@@ -18720,8 +18157,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mac::iTunes::Library::Write
 ##Tie::Array::Sorted
 ##SWF::File
-##Lib::ModuleSymbol
 ##Log::Agent::File::Rotate
+##Lib::ModuleSymbol
 ##Class::AutoDB::SmartProxy
 ##Pangloss::Shell
 ##XML::RSS::LibXML::V20
@@ -18750,12 +18187,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Flickr::API::Request
 ##CPAN::Metrics
 ##Tie::DataDumper
-##Apache::HTTunnel::Handler
 ##QRegion
 ##HTTP::Status
 ##Aw::ConnectionDescriptor
 ##UMMF::UML::MetaModel::Foundation::Data_Types::MappingExpression
-##RunApp::Apache
 ##Config::AutoConf
 ##URI::Find::Delimited
 ##Data::SecsPack
@@ -18764,7 +18199,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Module::Build::Platform::os2
 ##Mobile::Location
 ##Pquota
-##Apache::SetWWWTheme
 ##Email::Delete::Mbox
 ##Parse::Vipar::State
 ##Lingua::LinkParser::Definitions
@@ -18791,7 +18225,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Thread::Isolate::Thread
 ##AddressBook::DB::HTML
 ##WWW::Webrobot::Util
-##Catalyst::Engine::Apache2
 ##MHonArc::CharEnt::CP1254
 ##Text::PORE::Node::Attr
 ##PerlIO
@@ -18802,7 +18235,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::TOM
 ##Imager
 ##Tie::CArray
-##CPANXR::Apache::Stats
 ##Jako::Construct::Block::Module
 ##Brackup::Target::Gmail
 ##Parrot::Docs::POD2HTML
@@ -18927,9 +18359,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Alzabo::Runtime::RowCursor
 ##Data::RandomPerson::Names::LatvianFemale
 ##List::Indexed
-##OpenPlugin::Cookie::Apache
 ##XML::Handler::Machine2GraphViz
-##Apache::App::Mercury::SMTP_Message
 ##PITA::Test::Dummy::Perl5::Build
 ##Inline::C
 ##Business::Bof::Server::Session
@@ -18963,14 +18393,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##slackget10::PackageList
 ##Paginator
 ##Data::Dimensions::Map
-##Apache::Wyrd::Datum
 ##AI::NNFlex::reinforce
 ##GO::IO::XML
 ##mcoder::array::get
 ##Module::Template::Setup
 ##Video::DVDRip::GUI::Progress
 ##Net::hostent
-##Apache::AxKit::MediaChooser::WAPCheck
 ##Maypole::Plugin::Authentication::Abstract
 ##CGI::AppToolkit::Template::Filter::Money
 ##Plagger::Plugin::Filter::HatenaDiaryKeywordUnlink
@@ -18991,7 +18419,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Curl
 ##JavaScript::MochiKit::JS::LoggingPane
 ##TripleStore::Update
-##Apache::WeSQL::Journalled
 ##Net::Z3950::AsyncZ::ErrMsg
 ##Catalyst::Plugin::Continuation
 ##Business::US_Amort
@@ -19008,7 +18435,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PerlIO::via::QuotedPrint
 ##Test::AutoBuild::Output::ISOBuilder
 ##POE::Resources::Extrefs
-##Apache::DAV::Response
 ##Pgreet::CGIUtils
 ##ResourcePool::Command::DBI::SelectRow
 ##Wx::build::MakeMaker::Win32
@@ -19023,14 +18449,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PurpleWiki::Search::Arts
 ##MailBox::Test::55locking::Definition
 ##Plagger::Plugin::CustomFeed::Simple
-##Apache::SessionX
 ##Business::Shipping::Package::USPS
 ##Audio::Daemon::Shout
 ##SGML::ISO8859::S9
 ##Text::Original
 ##Tk::JFileDialog
 ##PDF::API2::Basic::TTF::Anchor
-##Apache::AxKit::Language::XSP::TaglibHelper
 ##Data::RandomPerson::Names::ModernGreekLast
 ##SVK::Notify
 ##Siesta::Plugin::UnSubscribe
@@ -19054,7 +18478,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Myco::Util::DateTime
 ##Wizard::Examples::LDAP::Config
 ##Search::InvertedIndex::Update
-##Apache::AuthExpire
 ##ASNMTAP::Asnmtap::Plugins::IO
 ##Parse::SVNDiff::Instruction
 ##Kwiki::Widgets::Links
@@ -19075,7 +18498,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HH::Unispool::Config::Entry::Device::3
 ##Bio::ConnectDots::DB::ConnectorTable
 ##DBIx::Class::CDBICompat::Constructor
-##Apache::Wyrd::User
 ##Tree::Simple::Visitor::Sort
 ##IDfQueryResultListener
 ##AFS::Object::PTServer
@@ -19088,10 +18510,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::Run::PiseApplication::codontree
 ##Application::Pipeline::Services::DBI
 ##Test::Smoke::Patcher
-##Apache2::Translation
 ##Date::Language::Oromo
 ##RT::ScripCondition
-##ENH::Apache
 ##Pangloss::Segment::AddCategory
 ##Purple::Server
 ##Parse::Vipar
@@ -19177,14 +18597,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tie::ShareLite
 ##Mail::Message::Head::Subset
 ##VLGal::Style
-##Apache::EP
 ##Imager::Plot::Axis
 ##PerlActor
 ##Lingua::EN::VarCon
 ##Win32::File::VersionInfo
 ##Term::Cap
 ##Bio::Genex::TreatmentLevel
-##Apache::Wyrd::ShowParams
 ##Jifty::Script::Server
 ##Spork::Hilite
 ##Email::Simple
@@ -19199,7 +18617,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::SNMP::Security::USM
 ##String::Substrings
 ##Finance::Quote::ESPA
-##Apache::Status
 ##Kwiki::ShortcutLinks
 ##URI::Heuristic
 ##Tree::FP
@@ -19341,7 +18758,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Weather::Com::Simple
 ##Template::Config
 ##HTTPD::ADS::Times
-##Apache::DebugLog::Config
 ##Wetware::llyrisWeb
 ##File::Comments::Plugin::Perl
 ##WWW::Scraper::ISBN::ISBNnu_Driver
@@ -19389,12 +18805,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Wombat::Core::HostMapper
 ##JSAN::Shell
 ##Filesys::Virtual::DPAP
-##Trinket::DataType::default
 ##HTML::Tidy::Message
+##Trinket::DataType::default
 ##WWW::Pipeline::Services
 ##DBD::DB2::Constants
 ##NDBM_File
-##Apache::PageKit::Edit
 ##Text::Tiki
 ##MHonArc::UTF8::CP932
 ##Term::VT102::Boundless
@@ -19403,7 +18818,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::Mix
 ##Basket
 ##Net::IP
-##Apache::Session::Sybase
 ##Template::Plugin::String::Compare
 ##Lingua::FeatureMatrix
 ##Gadabout::Pie
@@ -19418,8 +18832,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tk::Menubar
 ##Parse::Yapp::Driver
 ##XML::SAX::PurePerl::Reader::Stream
-##DBD::Salesforce::dr
 ##Bio::Cluster::UniGene
+##DBD::Salesforce::dr
 ##String::Buffer
 ##W3C::LogValidator::LogProcessor
 ##Net::Yadis::Object
@@ -19434,7 +18848,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Config::Irssi::Lexer
 ##HTML::WebMake::FormatConvert
 ##XML::Validator::Schema::SimpleTypeNode
-##Apache::AuthenPasswd
 ##Bio::Tools::Run::PiseApplication::notseq
 ##Object::Info
 ##Perlbug::File
@@ -19491,7 +18904,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Business::OnlinePayment::VirtualNet
 ##VCS::LibCVS::Datum::Time
 ##File::Find::Rule::ImageSize
-##Apache::AntiSpam
 ##POE::Component::DebugShell
 ##petmarket::api::cartservice
 ##Data::Stag::SxprParser
@@ -19512,11 +18924,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SQL::Builder::ColumnList
 ##Acme::RedShirt
 ##NewSpirit::LKFile
-##DateTime::Locale::ar_EG
 ##Gnome2::Vte
+##DateTime::Locale::ar_EG
 ##Debug::EchoMessage
 ##AxKit::App::TABOO::Data::Plurals::Stories
-##Apache::Wyrd::Number
 ##WebService::StreetMapLink::Streetdirectory
 ##MKDoc::Core::Language
 ##Net::Telnet::Cisco::IOS
@@ -19593,14 +19004,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Module::MetaInfo::DirTree
 ##Bio::Tree::TreeI
 ##HTML::Widgets::NavMenu::Tree::Iterator::Stack
-##Siesta
 ##MusicBrainz::Client::Simple::Artist
+##Siesta
 ##Rose::Conf::FileBased
 ##JOT::GD
 ##Plagger::Plugin::Subscription::Odeo
 ##POE::Component::Server::SMTP
-##Tangram
 ##RT::Extension::ActivityReports
+##Tangram
 ##Debug::DumpCore
 ##Audio::SPX
 ##PurpleWiki::User
@@ -19617,11 +19028,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PNGgraph::bars
 ##Acme::MetaSyntactic::buffy
 ##WWW::Mixi::OO::Page
-##App::Control::Apache
 ##Crypt::CipherSaber
 ##Filter::Macro
 ##XML::RSS::TimingBot
-##Apache::AddrMunge
 ##MIPSIM::Pipeline::Register
 ##Net::Netmask
 ##DBIx::dbMan::Extension::CmdInputFile
@@ -19677,8 +19086,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##TestChunks
 ##Crypt::OpenPGP::Compressed
 ##Ekahau::Response
-##HTML::TagCloud::Extended::TagList
 ##AI::DecisionTree::Instance
+##HTML::TagCloud::Extended::TagList
 ##MKDoc::Text::Structured::Block
 ##Module::Install::InstallDirs
 ##Module::Install::Compiler
@@ -19692,9 +19101,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##IO::NestedCapture
 ##SQLite::Abstract
 ##Net::DNS::RR::PTR
-##PDF::Template::Element
 ##Devel::Hints
 ##XML::PatAct::MatchName
+##PDF::Template::Element
 ##Jako::Construct::Type::Object
 ##Bio::Assembly::Scaffold
 ##Data::RandomPerson::Names::ModernGreekFemale
@@ -19712,10 +19121,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Development::Version
 ##Catalyst::Model::EVDB
 ##ResourcePool::Factory
-##Apache::Archive
 ##Paper::Specs::standard::no9_envelope
 ##Bio::UnivAln
-##Apache::AddReqHeader
 ##XML::Filter::DetectWS
 ##AxKit::App::TABOO::Provider::NewsList
 ##InfoSys::FreeDB::Entry::Track
@@ -19757,9 +19164,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Msmgr::Connection
 ##Simulation::Automate
 ##PerlIO::via::CBC
-##DBIx::dbMan::Extension::Extensions
 ##Crypt::GPG
 ##Meta::Projects::Movie::Movie
+##DBIx::dbMan::Extension::Extensions
 ##IMS::ReleaseMgr::Utils
 ##Algorithm::RandomMatrixGeneration
 ##Audio::MPD
@@ -19801,8 +19208,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Promotion
 ##WWW::BookBot::Chinese::Agriculture::GreenHouse::Market
 ##Crypt::DSA::Key
-##Spreadsheet::WriteExcel::FromXML
 ##Gtk2::CV::PostScript
+##Spreadsheet::WriteExcel::FromXML
 ##XML::EasyOBJ
 ##Froody::API::XML
 ##Lingua::ZH::CEDICT::Storable
@@ -19861,7 +19268,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UMMF::UML_1_5::Foundation::Data_Types::Boolean
 ##P6C::IMCC::ExtRegex::TreeOps
 ##Text::Chump
-##XML::MetaGenerator::Formula::Collector::Apache
 ##Memoize::Storable
 ##Bio::Genex::UserSequenceFeature
 ##CSV::Template
@@ -19874,7 +19280,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Math::Symbolic::Parser::Precompiled
 ##Data::RuledValidator
 ##Language::Zcode::Runtime::State
-##Apache::ParseFormData
 ##SQL::Builder::Text
 ##UMMF::UML_1_5::OCL::Expressions::LiteralExp
 ##ORM::DbLog
@@ -19895,8 +19300,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Resources::Signals
 ##DBIx::SQLEngine::Criteria::NumericLesser
 ##WWW::Search::Null::Error
-##FileUpload::Filename
 ##Imager::Font::FreeType2
+##FileUpload::Filename
 ##Bio::SearchIO::sim4
 ##InfoSys::FreeDB::Connection::HTTP
 ##Games::Irrlicht
@@ -19910,8 +19315,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Module::Install::Run
 ##Bio::Tools::Phylo::PAML::Result
 ##Digest::file
-##File::Tools
 ##Jifty::Web::Form::Element
+##File::Tools
 ##Gestinanna::Schema::XSLT
 ##Algorithm::Verhoeff
 ##Pangloss::Segment::GetConcept
@@ -19962,11 +19367,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Regexp::Log::WMS
 ##Mail::Addressbook::Convert::Juno
 ##WWW::Search::Search97
-##Apache::Lint
 ##Interval
 ##Lingua::GA::Gramadoir::Languages::af
 ##Regexp::Common::URI::prospero
-##Apache::Session::Generate::ModUniqueId
 ##GO::OntologyProvider::OntologyParser
 ##Mail::SpamAssassin::BayesStore::SDBM
 ##Paper::Specs::Avery::5096
@@ -19995,7 +19398,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::Menu::Hierarchical
 ##Crypt::OpenPGP::Signature::SubPacket
 ##Data::Diver
-##Apache::Wyrd::Form::Preload
 ##Net::Amazon::Attribute::Review
 ##HTML::EP::Glimpse
 ##DateTime::TimeZone::Asia::Kuwait
@@ -20062,7 +19464,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Das::AGPServer::SQLStorage::MySQL::DB
 ##Rose::DB::Object::Metadata::Auto::Informix
 ##LiveGeez::Request
-##Apache::DAV::DynContext
 ##Tree::XPathEngine::Root
 ##Return::Value
 ##Chemistry::File
@@ -20087,7 +19488,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::Run::PiseApplication::prophecy
 ##ePortal::App::SquidAcnt::SAurl
 ##Mail::Graph
-##Apache::Session::Serialize::PHP
 ##XML::Smart::Parser
 ##Bio::Align::PairwiseStatistics
 ##B::C
@@ -20153,14 +19553,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::Wiki::Plugin::Categoriser
 ##Locale::Msgcat
 ##KinoSearch::Search::BooleanQuery
-##Apache::Wyrd::Services::TicketPad
 ##SWIFT::Factory::Tag::Tag17U
 ##Mail::Miner::Recogniser::Date
 ##ModPerl::Global
 ##CIPP::OutputHandle
 ##Finance::QIF
-##Ovid::IORedirector
 ##WWW::SourceForge
+##Ovid::IORedirector
 ##Image::ButtonMaker
 ##File::Spec::Mac
 ##XML::XPathScript::Template::Tag
@@ -20176,7 +19575,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::netent
 ##Proc::times
 ##Net::ITE
-##SQCAS::Apache::EditAccount
 ##Rosetta::L::en
 ##Bio::Tree::NodeI
 ##Bio::ConnectDots::DotQuery::InnerCt
@@ -20205,7 +19603,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SOAP::Clean::Security
 ##XML::LibXML::Fixup
 ##Puppet::VcsTools::GraphWidget
-##Apache::TestRunParrot
 ##WebService::Livedoor::Weather
 ##Speech::Synthesiser
 ##Carp::Mailer
@@ -20220,7 +19617,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MonetDB::CLI::MapiLib
 ##Cairo
 ##Bio::Symbol::Symbol
-##Apache::AuthCookieDBI
 ##Encode::InCharset::koi8_r
 ##GO::Utils
 ##GetWeb::Chain
@@ -20234,8 +19630,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tree::Compat::Tree::Simple
 ##Python::Bytecode::v21
 ##Audio::SoundFile::Reader
-##Net::Telnet::Brcd
 ##Class::Util
+##Net::Telnet::Brcd
 ##POE::Component::Client::UserAgent
 ##File::MMagic
 ##Astro::GCN::Constants
@@ -20243,7 +19639,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::MxScreen::Constant
 ##Net::SSH::W32Perl::SSH2
 ##Win32::AD::Constant
-##Apache::Htpasswd
 ##Math::Symbolic::Custom::Contains
 ##CPAN::Unwind
 ##Graphics::VTK::Tk::HistogramWidget
@@ -20269,7 +19664,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POEST::Plugin::General
 ##Bio::Factory::EMBOSS
 ##PerlPoint::Anchors
-##Apache::ImageShoehorn
 ##DBIx::dbMan::Extension::CmdClipboard
 ##POE::Pipe::OneWay
 ##Servlet::ServletContextAttributeListener
@@ -20355,7 +19749,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Siesta::Plugin::Resume
 ##File::MimeInfo
 ##Net::DNS::RR::A
-##Apache::PAR
 ##Acme::MetaSyntactic::booze
 ##SQL::Snippet::ExampleRepository
 ##OpenFrame::WebApp
@@ -20363,10 +19756,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Perl::MinimumVersion
 ##PDF::Reuse::OverlayChart
 ##Class::PObject::Type::CHAR
-##WebService::Technorati::Author
 ##PBib::LabelStyle::Name
 ##App::Config
 ##Test::Metadata
+##WebService::Technorati::Author
 ##Tangram::Set
 ##QTabBar
 ##Net::FTP::File
@@ -20461,7 +19854,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Games::Nintendo::Mario::SMB2
 ##BoxBackup::Config::Accounts
 ##Plagger::Plugin::Publish::PSP
-##Apache::Session::Store::DB_File
 ##Sms::Token::PID
 ##Bio::Index::AbstractSeq
 ##auto::headers
@@ -20472,9 +19864,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PerlBean::Method
 ##Bio::DB::GFF::Typename
 ##Time::DayOfWeek
-##Apache::Wyrd::Var
 ##Regexp::Common::net
-##Apache::AppCluster::Server
 ##Test::File::Contents
 ##Protect
 ##Win32::IIS:SMTP
@@ -20519,7 +19909,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Loop::Event
 ##Lingua::EN::AddressParse
 ##Catalyst::Plugin::Authentication::Credential::HTTP::User
-##Apache::ForwardedFor
 ##Bio::DB::SQL::AbstractQuery
 ##Acme::MorningMusume::NakazawaYuko
 ##Mail::SimpleList::Aliases
@@ -20565,7 +19954,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::HeadParser
 ##POE::Component::Lightspeed::Hack::Kernel
 ##Net::SSH::Perl::Cipher::DES3
-##Apache::AuthCookieDBIRadius
 ##Games::AlphaBeta::Position
 ##DateTime::TimeZone::Europe::Dublin
 ##UMMF::MOF_1_3::Model::Association
@@ -20616,7 +20004,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##KinoSearch::InvIndexer
 ##DirDB::Storable
 ##Date::Transform::Constants
-##Apache2::AuthenNTLM
 ##WWW::Search::Fireball
 ##RDFStore::Object
 ##Cluster::Init::Process
@@ -20680,7 +20067,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::FullTextSearch::StopList
 ##TextDialog
 ##Gtk2::Ex::MindMapView::Border::Rectangle
-##Apache::TopicMaps
 ##UMMF::UML_1_5::Behavioral_Elements::State_Machines::Pseudostate
 ##FLV::Base
 ##Kwiki::Pane
@@ -20712,10 +20098,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Wizard::Examples
 ##Email::Store::Mail
 ##Introspector::dyncall
-##Chart::Clicker::Log
 ##Authen::Krb5::Simple
 ##Cvs::Result::StatusList
 ##HPUX::Pstat
+##Chart::Clicker::Log
 ##Froody::Walker::XMLToTerse
 ##MIDI::Pitch
 ##WWW::Scraper::Grub
@@ -20731,8 +20117,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UNIVERSAL::exports
 ##Bio::Metabolic::Network
 ##SGML::ISO8859::S5
-##IDfWorkitem
 ##Data::TimeSeries::ChronoKey
+##IDfWorkitem
 ##POE::Session::Attribute
 ##FFmpeg::FileFormat
 ##OurNet::BBS::Cola::BoardGroup
@@ -20747,8 +20133,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::SearchIO::SearchWriterI
 ##ExtUtils::ModuleMaker
 ##Paper::Specs::standard::ra4
-##Tk::Text
 ##DBD::Fulcrum
+##Tk::Text
 ##Win32::ShellExt::QueryInfo::MP3
 ##Jifty::Action::Redirect
 ##JaM::GUI::Config
@@ -20777,16 +20163,15 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Pipeline::Example
 ##OpenGuides::RDF::Reader
 ##Gtk2::Ex::DBITableFilter::FilterWidget
-##Aspect::PointCut::AndOp
 ##Buscador::Attachment
+##Aspect::PointCut::AndOp
 ##HTML::Mason::Lexer
 ##PPI::Transform
 ##DBIx::Class::PK::Auto::Oracle
 ##Business::BankAccount::NZ
 ##Package::groups
-##Glade::Two::Run
 ##Trinket::Directory::FilterParser::LDAP
-##Apache::MakeCapital
+##Glade::Two::Run
 ##Genezzo::GenDBI
 ##WWW::Selenium::Launcher::Base
 ##CPAN::Forum::Users
@@ -20826,8 +20211,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Unicode::Collate::Standard::V3_1_1
 ##Games::Irrlicht::Timer
 ##Audio::TagLib::ID3v2::UnknownFrame
-##Log::Agent::Driver::Apache
-##Apache::ConfigParser
 ##IO::LCDproc
 ##SPOPS::Tool::DBI::MaintainLinkedList
 ##Trinket::Directory::DataAccess::BerkeleyDB
@@ -20872,7 +20255,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Locale::RecodeData::CP1254
 ##Template::Trivial
 ##Mail::Box::Dir
-##Sledge::Request::Apache::I18N
 ##DateTime::TimeZone::Africa::Sao_Tome
 ##XML::FOAF::ErrorHandler
 ##Net::SinFP::DB::Signature
@@ -20882,7 +20264,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##TEI::Lite::Utility
 ##HTTP::MobileAgent::Plugin::Extension::EZwebData
 ##Oryx::Attribute
-##Apache::SWIT::Maker::GeneratorBase
 ##Mozilla::LDAP::Entry
 ##Solaris::ACL
 ##Catalyst::Plugin::Authentication::Credential::CHAP
@@ -20904,7 +20285,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ExtUtils::testlib
 ##Digest::DJB
 ##SOAP::Clean::XML
-##Apache::NavBarDD
 ##Regex::Rewrite::Re
 ##Net::Jabber::Data
 ##News::Web
@@ -20918,7 +20298,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Data::Stack
 ##SVK::Command::Proplist
 ##DB::Introspector::Base::BooleanColumn
-##Apache::Application::Plus
 ##Text::NASA_Ames::FFI2160
 ##Plagger::Subscription
 ##XAO::DO::FS::Glue
@@ -20952,7 +20331,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Packet::Simple
 ##Chart::LinesPoints
 ##FAQ::OMatic::submitPass
-##Apache::CVS::File
 ##Kwiki::PageTemplate
 ##OpenFrame::Slot::Exception
 ##UMMF::Core::Factory
@@ -21025,18 +20403,15 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Inline::Octave
 ##List::Compare::Base::_Auxiliary
 ##Lingua::DetectCyrillic
-##Apache::PageKit::Param
 ##DBIx::SQLEngine::Record::Table
 ##Device::MiniSSCII
 ##String::Multibyte::UTF16LE
-##Apache::MP3::L10N::sl
 ##Lisp::Reader
 ##UMMF::UML_1_5::Foundation::Core::TemplateArgument
 ##Parse::AFP::Triplet::CGCSGI
 ##Net::WhoisNG
 ##Audio::File::Flac::Tag
 ##WWW::Search::AltaVista::AdvancedWeb
-##Apache2::ServerUtil
 ##XML::EP::Install
 ##Bio::Phenotype::OMIM::OMIMentryAllelicVariant
 ##StateMachine::Gestinanna::Examples::MailForm
@@ -21052,13 +20427,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::Grove::Scalar::Iter
 ##Tie::Hash::Regex
 ##WWW::Scraper::ISBN::ORA_Driver
-##Catalyst::Plugin::DateTime
 ##SNMP::MIB::Compiler
+##Catalyst::Plugin::DateTime
 ##MMS::Mail::Provider::UKOrange
 ##Config::Model::Searcher
 ##DBD::Altera
 ##CGI::Application::Dispatch
-##Siesta::Web::FakeApache
 ##DBIx::dbMan::Interface
 ##HTML::FormatTableCellNroff
 ##HTML::Widgets::Table
@@ -21066,7 +20440,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Business::OnlinePayment::Cardstream
 ##Tree::Visualize::ASCII::Node::PlainBox
 ##Catalyst::Plugin::FillInForm
-##Apache::TestRun
 ##Fry::Lib::CDBI::Tags
 ##PerlBean::Dependency::Import
 ##Event::msg
@@ -21201,7 +20574,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Log::Check
 ##Test::Stochastic
 ##IPC::DirQueue::Job
-##HTTP::WebTest::Plugin::Apache
 ##Fwctl::Services::traceroute
 ##SQL::Preproc::Exception
 ##CGI::Session::CGI
@@ -21217,7 +20589,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Chemistry::Mol
 ##Arch
 ##ExtUtils::XSBuilder
-##Apache::AxKit::Language::HtmlDoc
 ##Audio::Daemon::MPG123::Server
 ##Sledge::Plugin::PluginLoader
 ##ContentManager::DBI
@@ -21253,7 +20624,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::Bus::lngbase::CGI_Bus_upws_ru
 ##Math::BaseCalc
 ##Net::RVP::Session
-##Apache::JAF::Util
 ##Class::Clone
 ##POE::Component::Client::LDAP
 ##Devel::ebug::HTTP::View::TT
@@ -21300,11 +20670,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::Pacific::Kosrae
 ##Glade::PerlSource
 ##URI::Bookmark::Netscape
-##Apache::AuthenProgram
 ##Log::Dispatch::Atom
-##RePrec::Ceiling
 ##testcases::WebContent
-##Apache::Access::Headers
+##RePrec::Ceiling
 ##auto::cgoto
 ##CGI::Validate
 ##Jifty::Upgrade::Internal
@@ -21460,7 +20828,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Snort::Rule
 ##DBIx::SQLEngine::Driver::Pg
 ##File::Transaction
-##MasonX::Resolver::File::Apache2Handler
 ##HTML::Mason::Buffer
 ##Cvs::Result::DiffItem
 ##Trinket::DataType::object_list
@@ -21484,8 +20851,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Palm::Zetetic::Strip::Version
 ##Docs::US_DOD::SDR
 ##Class::Method::Auto
-##NetworkInfo::Discovery::Traceroute
 ##Net::Server
+##NetworkInfo::Discovery::Traceroute
 ##Finance::Quote::Troweprice
 ##Data::Transformer
 ##Logfile::EPrints
@@ -21494,7 +20861,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Memoize::SDBM_File
 ##Class::Attrib
 ##PApp::XSLT
-##Apache2::RequestRec
 ##Bio::MAGE::QuantitationType::PValue
 ##POE::Wheel::Null
 ##Babble::Document
@@ -21534,7 +20900,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Arch::SharedIndex
 ##POE::Filter::XML::Node
 ##Proc::Construct_output
-##Apache::SWIT::Session
 ##Bio::MAGE::BioAssay::PhysicalBioAssay
 ##MHonArc::CharEnt::GB2312
 ##POE::Stage::Receiver
@@ -21545,7 +20910,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::MapBlast
 ##DateTime::Locale::en_GU
 ##UMMF::UML::MetaModel::Model_Management::Model
-##Apache::Voodoo::Theme
 ##Class::DBI::Plugin::Iterator::mysql
 ##Business::OnlinePayment::PayflowPro
 ##SyslogScan::ByGroup
@@ -21581,15 +20945,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Wombat::ContainerServlet
 ##Mail::Bulkmail::Dynamic
 ##AnnoCPAN::Control
-##SOAP::Apache
 ##Moose::Meta::TypeConstraint
 ##Encode::InCharset::cp861
 ##AFS::Command::VOS
 ##Bio::SearchIO::blasttable
-##Goo::Thing::pm::ProgramMaker
 ##PDL::Graphics::TriD::MathGraph
-##Catalyst::Plugin::JSONRPC
+##Goo::Thing::pm::ProgramMaker
 ##Text::Hatena::AutoLink
+##Catalyst::Plugin::JSONRPC
 ##SVN::Churn
 ##MagicWebApp
 ##Mail::IspMailGate::Filter::Banner
@@ -21624,8 +20987,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::ExtractNE::Tokenize
 ##Tk::Table
 ##SQL::Translator::Producer::Oracle
-##Script::Toolbox::Util::Formatter
 ##OLE::Storage::Std
+##Script::Toolbox::Util::Formatter
 ##Text::Hatena::HTMLFilter
 ##Net::FS::Flickr
 ##VCS::LibCVS::IgnoreChecker
@@ -21636,7 +20999,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Jabber::Message
 ##Fwctl::Services::snmp
 ##DfException
-##CPANXR::Apache::Footer
 ##Tie::ExecHash
 ##CGI::XMLForm
 ##Safe
@@ -21659,7 +21021,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Data::Taxi
 ##Bio::Tools::Run::PiseApplication::patmatmotifs
 ##Stream::Reader
-##Apache::TopicMaps::text::html::topic
 ##IDfRegistry
 ##PerlBean::Attribute::Multi::Unique::Ordered
 ##Games::Go::SGF
@@ -21671,7 +21032,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Lang::Docb::Params
 ##Acme::Chef::Ingredient
 ##Nagios::NSCA::Client
-##Apache::Wyrd::Form::Template
 ##WWW::Shorten::TinyClick
 ##CGI::Session::ID::MD5_Base64
 ##DBIx::Wrapper::SelectLoop
@@ -21779,7 +21139,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::ICal
 ##Crypt::SSLeay::MainContext
 ##Goo::Thing::pm::Perl5Compiler
-##Apache::Imager::Resize
 ##Meta::Utils::Hash
 ##Genezzo::Contrib::Clustered::ModPerlWrap
 ##Solaris::Disk::Mnttab
@@ -21802,7 +21161,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Devel::CallTrace
 ##File::Version
 ##Handel::L10N
-##Apache::PageKit::View
 ##slackget10::SpecialFiles::CHECKSUMS
 ##Biblio::ILL::ISO::SEQUENCE_OF
 ##Jabber::RPC::HTTPgate
@@ -21838,7 +21196,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::Avery::5386
 ##LWP::Authen::basic
 ##DateTime::Locale::ky_KG
-##Apache::Watchdog::RunAway
 ##Graph::Easy::Base
 ##Jako::Construct::Statement::Assign
 ##Docs::US_DOD::COM
@@ -21864,7 +21221,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Scraper::Response
 ##RPM4::Media
 ##Audio::RaveMP
-##Apache::AxKit::Exception
 ##CGI::Untaint::Filenames
 ##Genezzo::XEval::Prepare
 ##Module::Install::Admin::Find
@@ -21875,20 +21231,16 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ExtUtils::DynaGlue
 ##PBib::Document::OpenOfficeSXW
 ##Regexp::Func
-##Apache::SWIT::Maker::FileWriter
 ##Alzabo::Runtime::Index
 ##Pangloss::Segment::ModifyUser
 ##Image::Info::JPEG
 ##Pod::MultiLang::Dict
 ##HTML::Tested::Value
 ##File::Find::Rule
-##Catalyst::Engine::Apache::MP13::Base
-##Apache::CIPP
 ##CGI::NoPoison
 ##Tree::XPathEngine::Number
 ##Buscador::Decorate
 ##Tie::Plural::Scalar
-##Apache::TicketAccess
 ##Module::Dependency::Info
 ##POE::Component::Growl
 ##Driver::WrapperLibXSLT
@@ -21927,7 +21279,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Test::Builder::Module
 ##Lufs::Benchmark
 ##Sms::Token::SCTS
-##Apache::TestCommonPost
 ##Log::Message::Handlers
 ##RDF::Core::Enumerator::Postgres
 ##Data::CTable::Script
@@ -21938,7 +21289,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Maypole::FormBuilder::View
 ##FactorOracle
 ##Bio::DB::GFF::Util::Rearrange
-##Apache::App::Mercury::Base
 ##Tk::HTML
 ##LSF::Queue
 ##Net::SMTP::SSL
@@ -21973,7 +21323,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Digest::SHA1
 ##Pieces
 ##Tk::MListbox
-##Apache::AuthzUserDir
 ##Sledge::Charset::UTF8::I18N
 ##Lemonldap::Handlers::AuthorizationHeader
 ##Docs::Site_SVD::File_PM2File
@@ -22073,7 +21422,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Thread::Apartment::Container
 ##Table
 ##Net::Whois::RIPE::Syncupdates::Response
-##MasonX::Request::HTMLTemplate::WithApacheSession
 ##Pod::Constants
 ##Cluster::Init::Kernel
 ##WWW::Scraper::ISBN::TWBooks_Driver
@@ -22086,9 +21434,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##URI::Escape
 ##UMMF::UML_1_5::Behavioral_Elements::Use_Cases::Include
 ##Net::RULI
-##SyslogScan::SendmailLineTo
 ##Heap::Simple::Hash
-##Apache::Stage
+##SyslogScan::SendmailLineTo
 ##Bio::Tools::Run::PiseApplication::extractfeat
 ##ObjStore::AVHV
 ##Glist::Pickup
@@ -22139,24 +21486,21 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tree::Node
 ##Net::USPS
 ##Net::Trackback::Client
-##OODoc::Text::Example
 ##MIPSIM::BasicEmulator::Config
+##OODoc::Text::Example
 ##DateTime::TimeZone::Antarctica::DumontDUrville
-##QColor
 ##Bio::DB::Annotation
+##QColor
 ##P6CTest
 ##SWF::Builder::Character::Bitmap
-##Apache::SecSess::Cookie::LoginForm
 ##IMDB::Movie
 ##Language::Befunge::IP
 ##Introspector::dynload
-##Apache::Gestinanna
 ##Meta::Pdmt::Pdmt
 ##Locales::Country::es
 ##POE::Component::IRC
 ##XML::Atom::Syndication
 ##IRC::Crypt
-##Apache::MIME
 ##Device::ParallelPort::drv
 ##HTML::Widget::Accessor
 ##Module::PortablePath
@@ -22165,8 +21509,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MasonX::Resolver::CVS
 ##ExtUtils::CBuilder::Platform::Unix
 ##Paper::Specs::standard::no12_envelope
-##Net::SSH::Perl::Util::Authfile
 ##Games::Tournament::BlackJack::Utilities
+##Net::SSH::Perl::Util::Authfile
 ##XML::LibXML
 ##Net::Random
 ##Lingua::DE::Wortschatz
@@ -22181,8 +21525,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MusicBrainz::Client
 ##DBIx::Class::Storage::DBI::MSSQL
 ##Nagios::Cmd
-##CGI::Portal
 ##MIDI::Simple
+##CGI::Portal
 ##Petal::TranslationService::Noop
 ##Paper::Specs::standard::b7
 ##Perl6::Pugs
@@ -22313,16 +21657,15 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::CreationTime
 ##Bio::Das::Request::Features
 ##Video::DVDRip::Job::Rip
-##Apache::MP3::L10N::ru
 ##Drupal::Module::Starter::4_6_2
 ##HTML::EscapeEvil
 ##Module::CPANTS::Kwalitee::Uses
 ##Games::LogicPuzzle
 ##RFID::Matrics::Reader
-##Business::FR::SIREN
 ##Mail::SimpleList::Alias
-##Authen::PAAS::ConsoleCallback
+##Business::FR::SIREN
 ##Schema::RDBMS::AUS::Crypt::None
+##Authen::PAAS::ConsoleCallback
 ##POE::Filter::PPPHDLC
 ##OpenFrame::Slot::Debugger
 ##Jifty::Action::Record::Update
@@ -22374,7 +21717,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Video::DVDRip::Job::ExtractPS1
 ##Log::Log4perl::Appender::Socket
 ##Mail::Salsa::Archive
-##Apache2::UploadProgress
 ##Xmms::Streamcast
 ##XML::miniXQL::Parser
 ##Gedcom::Item
@@ -22394,11 +21736,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Devel::Profiler::Visualizer::BasicGraphViz
 ##Class::Data::Inheritable
 ##DBomb::Meta::TableInfo
-##Apache::XPP::Cache::Expiry
 ##CSS::SAC::Selector::Simple
 ##SVG::Parser::Base
 ##Term::Screen::ReadLine
-##Apache::SiteControl::PermissionManager
 ##Image::ExifTool::Casio
 ##CPAN::WWW::Testers::Generator::Article
 ##Meta::Baseline::Lang::Dlls
@@ -22437,9 +21777,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bigtop::Docs::Syntax
 ##Parse::AFP::Triplet::OSFO
 ##Test::MockClass::MyClass
-##Apache::RegistryLexInfo
-##UMMF::UML_1_5::Foundation::Core::AssociationClass
 ##CGI::Session::DB2
+##UMMF::UML_1_5::Foundation::Core::AssociationClass
 ##VCS::CMSynergy::Helper
 ##MT::Import::Mbox
 ##RPM2::LocalInstalled
@@ -22450,7 +21789,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tree::Visualize::ASCII::Connectors::RightSide::MultiConnector
 ##PDF::API2::Basic::TTF::OS_2
 ##DateTime::Calendar::Hebrew
-##Apache::AuthzDigest
 ##Parse::Pyapp::Parser
 ##Audio::FLAC::Header
 ##Bio::CodonUsage::IO
@@ -22473,7 +21811,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SPOPS::Iterator::LDAP
 ##DateTime::Locale::ur_PK
 ##Concurrent::Object::Forked
-##Apache2::Util
 ##XML::Template::Element::Condition
 ##Pod::PseudoPod::Checker
 ##Image::WMF
@@ -22493,11 +21830,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Amazon::Attribute::ReviewSet
 ##Number::Phone::UK
 ##Schedule::Chronic::Constraint::Freq
-##Apache::AddHostPath
 ##Babble::Cache::Class::Hash
 ##ZooZ::Options
 ##Paper::Specs::Avery::5361_1
-##Apache::FilteringProxy
 ##HTML::Form
 ##File::Find::Object::internal
 ##DateTime::TimeZone::Asia::Aqtobe
@@ -22538,14 +21873,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Synergy
 ##Finance::Bank::Wachovia::ErrorHandler
 ##MARC::Detrans
-##Apache::MP3::L10N::he
 ##IPv4
 ##Acme::Scurvy::Whoreson::BilgeRat::Backend::insultserver
 ##Thread::Synchronized
-##Apache::AuthCookie
 ##Term::Screen::Wizard
 ##DBD::Oracle::GetInfo
-##Apache2::ExplorerDestroyer::Level1
 ##Gtk2::Ex::FormFactory::CheckButton
 ##VCS::LibCVS::Client::Connection::Pserver
 ##RDFStore::Vocabulary::DC
@@ -22596,7 +21928,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Stream::Streamable
 ##Pugs::Runtime::Grammar
 ##Bio::Range
-##Apache::iNcom::Session
 ##FileHandle::Deluxe
 ##Silly::Werder::English
 ##Palm::Timesheet::DayRecordList
@@ -22633,9 +21964,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##BaseLib
 ##Chroniton::State
 ##Java::Import
-##Apache::Auth::UserDB::File::Digest
 ##WebService::weblogUpdates
-##Apache::Reload
 ##UMMF::UML_1_5::OCL::Expressions::IntegerLiteralExp
 ##IO::String
 ##Jifty::Script::Po
@@ -22708,7 +22037,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Kwiki::Theme::Bluepole
 ##Video::DVDRip::Job::BurnCD
 ##RFID::Matrics::Reader::Serial
-##Apache2::FunctionTable
 ##POE::Filter::LZW
 ##Math::Orthonormalize
 ##Trash::Park
@@ -22767,7 +22095,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTTP::WebTest::Plugin::Hooks
 ##Gopher::Mechanize::History
 ##Net::DRI::Protocol::Message
-##Apache::Wyrd::Template
 ##Business::PayPal
 ##DWH_File::Tie::Foreign
 ##Event::File::tail
@@ -22794,14 +22121,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Haver::Logger
 ##Nmap::Scanner::Scanner
 ##CPAN::YACSmoke::Plugin::NNTP
-##Apache::AccessLimitNum
 ##Slauth::Storage::DB
 ##FAQ::OMatic::editGroups
 ##String::CRC::Cksum
 ##Class::Accessor::Lvalue
 ##Heap::Priority
 ##phi
-##Apache::Wyrd::SQLForm
 ##PerlIO::nline
 ##Maypole::Plugin::Exception
 ##SQCAS::_config
@@ -22817,8 +22142,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Geo::Storm_Tracker::Data
 ##DBI::Dumper::Grammar
 ##LibZip::MyZlib
-##DateTime::TimeZone::America::Recife
 ##SPOPS::Secure::Hierarchy
+##DateTime::TimeZone::America::Recife
 ##Net::iTMS::Search::Advanced
 ##DBIx::FullTextSearch::File
 ##Comma
@@ -22862,7 +22187,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Search::PLweb
 ##Net::RRP::Exception::InvalidCommandSequence
 ##Array::AsHash
-##Apache::DAV::TextHeader
 ##Hints::X
 ##POE::Component::Client::Whois
 ##Acme::MetaSyntactic::shadok
@@ -22916,7 +22240,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Win32::Security::Recursor
 ##Build::ppc
 ##XML::Liberal::Remedy::UnquotedAttribute
-##Apache2::GeoIP
 ##WWW::Scraper::ISBN::Pearson_Driver
 ##Module::Depends::Intrusive
 ##MHonArc::UTF8::ISO8859_4
@@ -22952,7 +22275,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Oak::Web::HTML::Legend
 ##Text::Label::Prepender
 ##Math::String::Charset::Wordlist
-##Apache::DAV::DynModule
 ##Email::Auth::AddressHash
 ##ExtUtils::CBuilder::Platform::Windows
 ##TV::Anytime::Group
@@ -22967,9 +22289,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Email::Envelope
 ##Moose::Meta::Attribute
 ##Bot::BasicBot::Pluggable::Module::Botsnack
-##Bio::Genex::HotSpots
 ##SDL::Video
 ##Tree::Binary::Dictionary
+##Bio::Genex::HotSpots
 ##HTML::Breadcrumbs
 ##Paper::Specs::photo::8x12
 ##Proc::PID_File
@@ -22992,7 +22314,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Context::EitherSide
 ##GraphViz::DBI::General
 ##Myco::Entity::Meta::Test
-##Apache::Mmap
 ##Asterisk::LCR::Importer::CanonicalCSV
 ##Location::Area::DoCoMo::iArea
 ##WWW::Orphea
@@ -23043,7 +22364,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Perldoc::Base
 ##PPM::Make::Util
 ##CGI::Panel::MainPanel
-##Apache::Wyrd::Bot
 ##OpenGuides::Build
 ##Mac::CoreMIDI::Device
 ##Bio::Genex::Chromosome
@@ -23091,21 +22411,20 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##GSS
 ##POE::Filter::SMTP
 ##HTML::TableExtract
-##Uttu::Resource::resources
 ##CPANPLUS::Internals::Constants
 ##DateTime::Locale::ur
+##Uttu::Resource::resources
 ##UMMF::UML_1_5::Foundation::Core::Attribute
 ##Bio::Tools::Run::PiseApplication::getorf
 ##Net::FTP::blat
 ##XML::Generator::RSS10::Module
 ##Quilt::XRef
 ##DateTime::TimeZone::America::Martinique
-##Apache2::ModSSL
 ##Myco::Test::EntityTest
 ##Oak::Web::Additional::LabeledInput
 ##B::Asmdata
-##Wombat::Core::RequestDispatcher
 ##Wx::build::MakeMaker::Core
+##Wombat::Core::RequestDispatcher
 ##Gtk2::Ex::MindMapView::BorderFactory
 ##Parse::AFP::IDD
 ##XML::Filter::Tee
@@ -23161,7 +22480,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Module::Install::With
 ##Bio::MAGE::QuantitationType::QuantitationType
 ##MHonArc::CharEnt::KOI8_E
-##Apache::MP3::L10N::fi
 ##ExtUtils::MM_Cygwin
 ##Detect::Module
 ##SVK::Churn
@@ -23180,7 +22498,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::QuoteWrap
 ##Net::OSCAR::Connection::Direct
 ##XMLTV::Version
-##Apache::TieBucketBrigade
 ##Games::LMSolve::Plank::Hex
 ##apache_test_config
 ##Mail::SendEasy::AUTH
@@ -23215,8 +22532,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##StatsView::Graph::Vxstat
 ##Ovid::RunQuiet
 ##Text::Editor::Vip::Buffer::Plugins::File
-##XAO::Commerce
 ##JavaScript::Code::Condition
+##XAO::Commerce
 ##Mail::SpamCannibal::Session
 ##DateTime::TimeZone::America::Tortola
 ##Lingua::En::Victory
@@ -23229,7 +22546,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SQL::Amazon::Spool
 ##ACME::Error::IgpayAtinlay
 ##Net::Server::Proto::SSL
-##Apache::AliasList
 ##Tk::PathEntry
 ##User::Identity::Collection
 ##Net::EPP::Client
@@ -23243,7 +22559,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##VRML::GLBackEnd
 ##X::Osd
 ##WWW::Search::Scraper::Lycos
-##Apache2::DebugFilter
 ##Joystick
 ##Astro::Fluxes
 ##Tk::HTML::Handler
@@ -23316,7 +22631,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##NNML::Active
 ##Template::Plugin::Clone
 ##Variable::Alias
-##Apache::GD::Graph
 ##Zoidberg::Contractor
 ##Introspector::MetaMethod
 ##Net::SNPP::Server
@@ -23340,7 +22654,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::Find::Rule::WellFormed
 ##Psh::Support::Functions
 ##Servlet::Http::HttpServletResponse
-##Apache::CacheContent
 ##UMMF::UML_1_5::Foundation::Extension_Mechanisms::Stereotype
 ##POE::Component::IRC::Onjoin::EventProcessor
 ##Net::DRI::Data::Contact::PL
@@ -23435,7 +22748,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pgreet::DaemonUtils
 ##DemoUsage
 ##Mail::Toaster::Darwin
-##Apache::Session::Serialize::UUEncode
 ##Batch::Batchrun
 ##FabForce::DBDesigner4::SQL
 ##test_1_sub_3_c
@@ -23481,8 +22793,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::FormEngine::DBSQL
 ##Video::DVDRip::Job::Probe
 ##Win32::CtrlGUI::State::fork
-##Docs::US_DOD::SDD
 ##Jifty::Result
+##Docs::US_DOD::SDD
 ##Polyglot::iTunes
 ##Inline::Java::Init
 ##UMMF::UML::MetaModel::Foundation::Core::Interface
@@ -23494,8 +22806,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SVGGraph::Pie
 ##EasyDB::Query::Select
 ##IDfChangeDescription
-##XML::Validator::RelaxNG
 ##Tk::MARC::Subfield
+##XML::Validator::RelaxNG
 ##File::Inplace
 ##Image::XBin::Font
 ##Calendar::Functions
@@ -23517,7 +22829,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Catalyst::Plugin::Authentication::Credential::TypeKey
 ##Prima::Markup
 ##Class::DBI::SearchGenerator
-##Apache::Singleton::Server
 ##X11::GUITest
 ##Bio::Tools::SeqWords
 ##WAIT::Server
@@ -23548,13 +22859,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##IO::Socket::INET
 ##File::Headerinfo::Video
 ##Text::iPerl
-##Apache::SmartProxy
 ##CGI::Portal::Scripts::profile
 ##Getopt::Compact
 ##Astro::NED::Query::Objects
 ##Paper::Specs::Avery::8376
-##CVX::Utils
 ##Win32::CtrlGUI::Criteria::pos
+##CVX::Utils
 ##Archive::Any::Tar
 ##IP::Country::Fast
 ##Mail::ListDetector::Detector::LetterRip
@@ -23572,7 +22882,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PDL::Graphics::TriD::Object
 ##Myco::Entity::Meta::Attribute::UI
 ##WWW::SMS::Vizzavi
-##Apache::MP3::L10N::fr
 ##HTML::Widget::Constraint::Number
 ##Fry::ReadLine::Gnu
 ##Geo::GPS::Data::Ellipsoid
@@ -23619,7 +22928,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UMMF::UML_1_5::Foundation::Data_Types::Mapping
 ##SNMP::Info::Layer2
 ##XML::Filter::Cache
-##Apache::PassHtml
 ##XML::Mini::Element::Comment
 ##Exporter::Easiest
 ##WWW::Postini::Exception
@@ -23631,7 +22939,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SVK::Resolve::P4WinMerge
 ##Gtk2::Ex::Constants
 ##DateTime::TimeZone::Pacific::Yap
-##Apache::Usertrack
 ##Bio::Tools::Analysis::Protein::Mitoprot
 ##DateTime::Locale::et
 ##AutoCode::ModuleFactory
@@ -23684,12 +22991,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Acme::Spinner
 ##PPresenter::Formatter::Markup
 ##MIME::Decoder::NBit
-##Apache::Session::Store::MySQL
 ##Devel::ebug::Backend::Plugin::Pad
 ##Catalyst::Helper::Model::EVDB
 ##Mail::Audit::List
-##Gtk2::TrayIcon
 ##Math::Gradient
+##Gtk2::TrayIcon
 ##XTM::AsTMa::Parser
 ##URI::urn
 ##Widget::Meta
@@ -23728,7 +23034,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::AutoDB::Registration
 ##Arch::Test::Framework
 ##Mail::Toaster::Ezmlm
-##Apache::AxKit::Plugin::Passthru
 ##Memoize::ExpireFile
 ##Text::AutoLink::Plugin
 ##POD2::IT
@@ -23768,10 +23073,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::SeqIO::game::featHandler
 ##Plucene::Search::Filter
 ##Data::Phrasebook::Loader::JSON::Syck
-##SPOPS::ClassFactory::DefaultBehavior
 ##DateTime::Locale::sw
+##SPOPS::ClassFactory::DefaultBehavior
 ##DBIx::HTMLView::SubTab
-##Apache::ASP::Collection
 ##Document::Object
 ##Bot::BasicBot::Pluggable::Module::Dice
 ##DateTime::TimeZone::Africa::Dar_es_Salaam
@@ -23796,7 +23100,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::AFP::BR
 ##AMF::Perl::Util::RemotingService
 ##GO::Handlers::obj_yaml
-##Apache::Debug
 ##Term::Size
 ##DocSample::DB
 ##Class::Mixin
@@ -23831,7 +23134,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::Pidl::Samba::TDR
 ##Text::EtText::LinkGlossary
 ##Data::Tabular::Row::Header
-##Apache::SiteControl::Rule
 ##Data::Tabular::Table::Extra
 ##Net::Starnet::DataAccounting
 ##Generate
@@ -23853,9 +23155,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Chart::PNGgraph::bars
 ##Biblio::ILL::ISO::StatusOrErrorReport
 ##Graphics::VTK::Pipeline
-##Apache::DAV::IfHeader
-##Tie::Storable
 ##Win32::ShellExt::CopyHook::Veto
+##Tie::Storable
 ##Tk::DragDrop::Rect
 ##DateTime::TimeZone::Europe::Copenhagen
 ##DateTime::TimeZone::Antarctica::Casey
@@ -23863,8 +23164,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SVGExtension
 ##WWW::Shorten::TinyURL
 ##Benchmark::Harness::Handler::Trace
-##Apache::AuthenURL
-##Apache::Session::Embperl
 ##Template::Preprocessor::TTML
 ##Net::PSYC::Event::Event
 ##SETI::WebStats
@@ -23887,7 +23186,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Config::Setting::IniParser
 ##Locale::RecodeData::IBM861
 ##pmi
-##Apache::AppCluster::Client
 ##Code::Perl::Expr::Constant
 ##HTML::FormRemove
 ##MySQL::GUI::connector::dbase
@@ -23922,7 +23220,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Peep::Peck
 ##ParseEmptyTagsTest
 ##String::Alignment
-##Apache::Session::PosixFileLocker
 ##Tk::MouseGesture
 ##Sort::Radix
 ##Quantum::Superpositions
@@ -23933,7 +23230,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Hash::Case::Lower
 ##DWH_File::Tie::Subscripted
 ##Bio::Expression::Microarray::Affymetrix::Array
-##Apache::AuthCookieURL
 ##Plagger::Plugin::CustomFeed::Frepa::FriendStatus
 ##Audio::TagLib::ID3v2::FrameListMap::Iterator
 ##CGI::FileManager::Templates
@@ -23948,8 +23244,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PurpleWiki::View::rawtext
 ##Rc::Csh
 ##SQL::Translator::Schema::Graph::CompoundEdge
-##HOP::Parser
 ##Encode::InCharset::cp875
+##HOP::Parser
 ##DBIx::SQLEngine::CSV
 ##Flash::FLAP::IO::InputStream
 ##XML::Atom::Client
@@ -23976,18 +23272,16 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Google::Groups
 ##Catalyst::View::JSON
 ##Catalyst::Helper::Model::Gedcom
-##Crypt::SecurID
 ##ExtUtils::ModuleMaker::Licenses::Local
 ##Aspect::PointCut::BinOp
+##Crypt::SecurID
 ##Devel::SearchINC
 ##Win32::ASP::Field::datetime
 ##base
-##Apache::OutputChain
 ##Proc::SafePipe
 ##ObjStore::Posh::Remote
 ##ZooZ::TiedVar
 ##Image::Button
-##Apache::AuthDigest::API::Session
 ##Jifty::Action::Record::Create
 ##WWW::PDAScraper::Yahoo::Business::StockMarkets
 ##UMMF::UML_1_5::OCL::Types::VoidType
@@ -24005,7 +23299,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Acme::Buffy
 ##Class::MakeMethods::Template::Flyweight
 ##Gantry::Utils::Validate
-##HTML::Mason::Request::ApacheHandler2
 ##Email::Filter
 ##Dimedis::Ddl::Column
 ##CGI::ConvertParam::OnsetUTF8
@@ -24040,7 +23333,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Crypt::DH
 ##File::Comments::Plugin::Java
 ##POE::Component::Lightspeed::Hack::Events
-##Apache2::SiteControl
 ##Math::Symbolic::AuxFunctions
 ##Psh::Builtins::Fallback::Ls
 ##DynaPage::Template
@@ -24052,7 +23344,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Xml::Parsers::Type
 ##Bio::Tools::Run::PiseApplication::gibbs_scan
 ##HTML::Puzzle::Format
-##Apache::Session::CacheAny
 ##CGI::Test::Form::Widget::Input::Text_Field
 ##SAP::Config
 ##Software::Packager::Tar
@@ -24092,8 +23383,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Jifty::Web
 ##EventServer::Signal
 ##Test::Unit::tests::NoTestCaseClass
-##Font::TTF::Anchor
 ##Tree::Visualize::GraphViz::Layouts::Simple::Tree
+##Font::TTF::Anchor
 ##Jabber::Component::Proxy
 ##Moose::Role
 ##Dicop::Handler
@@ -24121,7 +23412,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Win32::ActAcc::Event
 ##TestApp9
 ##AxKit::XSP::Swish
-##Apache::SWIT::Maker::FileWriterData
 ##Biblio::ILL::ISO::Preference
 ##Math::LogRand
 ##Oak::Action
@@ -24164,7 +23454,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::SSH::Perl::Agent
 ##Net::Gnutella::Packet::Reply
 ##QWizard::Plugins::Bookmarks
-##Apache::Session::NullLocker
 ##Games::Go::TDFinder
 ##Astro::SIMBAD::Query
 ##HTML::TextToHTML
@@ -24192,7 +23481,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Kwiki::DB::DBI
 ##Bio::Tools::Run::PiseApplication::readnexus
 ##HTML::FromMail::Default::HTMLifiers
-##Apache::Wyrd::Input::Set
 ##Data::RandomPerson::Names::Female
 ##DateTime::TimeZone::America::Dominica
 ##POE::Class::Conn::UNIXStream
@@ -24200,8 +23488,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Authen::PAAS::Subject
 ##GD::Barcode::ITF
 ##xdSRA
-##Font::FreeType::Glyph
 ##Algorithm::CheckDigits::MXX_004
+##Font::FreeType::Glyph
 ##Chart::Base
 ##Audio::TagLib::ID3v2::FrameListMap
 ##Parse::Pidl::Test
@@ -24243,7 +23531,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Anarres::Mud::Driver::Program::Method
 ##constant::Atom::Strict
 ##Image::Density::TIFF
-##Apache::AnonProxy
 ##Config::Objective::Hash
 ##Catalyst::Engine::Server::PreFork
 ##Time::Available
@@ -24259,7 +23546,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Kwiki::VimMode
 ##XML::Template::Element::File::Load
 ##CGI::ClientError
-##Apache::Voodoo::Loader
 ##Palm::Timesheet::PreferenceRecord
 ##Bigtop::Parser
 ##Dimedis::Ddl::Constraint
@@ -24267,7 +23553,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HtDig
 ##WWW::Mixi::OO::ViewEvent
 ##Festival::Client::Async
-##Apache::SessionManager
 ##Mail::Audit::MailInternet
 ##Bio::Tools::Run::PiseApplication::transeq
 ##Text::FixedLength
@@ -24295,12 +23580,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##FAQ::OMatic::Slow
 ##AutoSession
 ##Oxford::Calendar
-##Apache::DAV::XMLElem
 ##DBIx::Migration::Directories::Base::mysql
 ##Java::JVM::Classfile
 ##Crypt::OpenSSL::SMIME
 ##Template::Plugin::JavaScript::Compactor
-##Apache::JumpByReferer
 ##Devel::ModInfo::Feature
 ##App::Serializer::XMLSimple
 ##StatsView::Oracle::DataDictionaryCache
@@ -24308,7 +23591,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Locale::RecodeData::IBM863
 ##POE::Component::FastCGI::Response
 ##Bio::OntologyIO
-##Apache::Wyrd::CGISetter
 ##EO::Collection
 ##MARC::META
 ##Palm::Progect
@@ -24329,8 +23611,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Rose::HTML::Form::Field::Time::Split::HourMinuteSecond
 ##SVL::Command::Tag
 ##Mac::AppleEvents::Simple
-##Pod::Perldoc::ToText
 ##Data::Validator::Item
+##Pod::Perldoc::ToText
 ##Acme::Voodoo
 ##Image::Filter::Floyd
 ##DateTime::Util::DayOfWeek
@@ -24373,8 +23655,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##LockFile::Lock
 ##BBCode::Tag::BR
 ##Penguin::Channel::TCP::Server
-##Font::TTF::Kern::Subtable
 ##XML::RSS::Parser::Characters
+##Font::TTF::Kern::Subtable
 ##Mac::Glue
 ##GSSAPI::Status
 ##Crypt::OpenPGP::PacketFactory
@@ -24392,13 +23674,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Audio::DB::Adaptor::dbi::sqlite
 ##DBD::File
 ##String::CodiceFiscale
-##Apache::SessionX::Manager
 ##Net::SSH::Perl::Util::Hosts
 ##Carp::Trace
 ##Parse::AFP::Triplet::CR
-##Catalyst::Plugin::Authentication::Store::Minimal
 ##Devel::Cover::Condition_or_3
 ##XML::Filter::XSLT
+##Catalyst::Plugin::Authentication::Store::Minimal
 ##Psh::Builtins::Setenv
 ##Text::WordGrams
 ##Hook::PrePostCall
@@ -24413,13 +23694,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CBT::debug
 ##Gtk2::Ex::Geo::Composite
 ##RDFStore::Stanford::Digest::Generic
-##Acme::Signum
 ##Module::CPANTS::Analyse
+##Acme::Signum
 ##Win32::DriveInfo
 ##Gimp::Data
 ##SWF::BinStream::Codec::Zlib
 ##Palm::Zetetic::Strip::CryptV10
-##Apache::Session::Serialize::SOAPEnvelope
 ##Sx
 ##SuperSplit::Obj
 ##Sys::CpuLoad
@@ -24492,12 +23772,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::DBI::SAK
 ##SDL::Music
 ##Wx::build::MakeMaker::Win32_MSVC
-##Apache::ModuleDoc
 ##Video::TeletextDB::Constants
 ##Lingua::GA::Gramadoir
 ##DNS::TinyDNS::dnscache
 ##OurNet::BBSApp::Consensus
-##Apache::Geo::Mirror
 ##Net::LDAP::Express
 ##Gtk2::Ex::RecordsFilter
 ##PHP::Session::Serializer::PHP
@@ -24518,7 +23796,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Image::Grab::RequestAgent
 ##Net::Jabber::Log
 ##Myco::Base::Entity::Test
-##Apache::Template::Provider::Gestinanna
 ##Net::Packet::ARP
 ##Persistent::LDAP
 ##HTML::TagCloud::Extended
@@ -24566,8 +23843,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PDF::API2::Basic::TTF::Mort::Ligature
 ##PreLoad
 ##Graph::Layout::Aesthetic::Force::MinEdgeLength
-##Spreadsheet::WriteExcel::BIFFwriter
 ##Bio::Tools::Run::PiseApplication::rnaga
+##Spreadsheet::WriteExcel::BIFFwriter
 ##Email::MIME::Attachment::Stripper
 ##OpenGuides::SuperSearch
 ##Fry::List
@@ -24591,7 +23868,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Algorithm::Hamming::Perl
 ##Parse::ALex
 ##POE::Wheel::Run
-##HTML::Mason::Resolver::File::ApacheHandler
 ##Math::PartialOrder::Loader
 ##Audio::DB::Util::Warnings
 ##ObjectRowMapTest
@@ -24599,7 +23875,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::SeqIO::ace
 ##Net::DHCP::Watch
 ##Perl::Critic::Policy::InputOutput::ProhibitReadlineInForLoop
-##Apache::AuthenNISPlus
 ##EB::Tools::Opening
 ##Bio::SeqIO::game::gameWriter
 ##Class::AutoDB::StoreCache
@@ -24629,8 +23904,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MHonArc::CharEnt::CP1252
 ##orac_Monitor
 ##Bio::Graphics::Pictogram
-##FFI::Library
 ##Solaris::DeviceTree::Node
+##FFI::Library
 ##Meta::Info::Vcard
 ##Getopt::Yagow
 ##Module::Load
@@ -24658,7 +23933,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Date::Simple
 ##SVN::Pusher::CmdLine
 ##XML::SAX::ExpatXS::Encoding
-##Apache2::SafePnotes
 ##Solaris::Procfs
 ##WWW::Scraper::Lycos
 ##Parse::AFP::BOC
@@ -24680,7 +23954,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CDB_File::BiIndex
 ##Test::C2FIT::PrimitiveFixture
 ##HPUX::SDUX
-##Apache::App::Gallery::Simple
 ##Catalyst::Engine::Zeus::Base
 ##Net::DRI::Protocol::EPP
 ##VBTK::DBI
@@ -24700,8 +23973,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Locale::RecodeData::ISO_8859_10
 ##Pod::HtmlPsPdf::Common
 ##OurNet::BBS::CVIC::BBS
-##WebService::TestSystem::Host
 ##XML::Driver::HTML
+##WebService::TestSystem::Host
 ##Date::Language::Afar
 ##Locales::Country::zh
 ##Biblio::ILL::ISO::Received
@@ -24730,7 +24003,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Encode::UTR22
 ##Doc::Perlish::Sender
 ##Crypt::Random::Provider::devurandom
-##Apache::Profiler
 ##PBib::Document::OpenOffice
 ##DNS::Config::File::Bind9
 ##Pangloss::Segment::Decline::NoUserInSession
@@ -24757,9 +24029,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::standard::no11_envelope
 ##MQSeries::Command::Request
 ##ddb
-##Apache::RegistryFilter
 ##Class::MakeMethods::Template
-##Apache::Authen::Generic
 ##Search::InvertedIndex::Query
 ##OpenGuides::Statistics
 ##Astro::Catalog::Query::GSC
@@ -24767,15 +24037,15 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::Spool
 ##Lisp::Subr::All
 ##Proc::Forkfunc
-##Smil
 ##PDL::Char
+##Smil
 ##CogBase
 ##Jabber::PubSub::JEAI
 ##DateTime::TimeZone::Asia::Anadyr
 ##PerlBean::Attribute::Multi::Unique::Associative
 ##auto::perldoc
-##Oak::Web::HTML::Th
 ##Bio::ExtractNE::HandPicked
+##Oak::Web::HTML::Th
 ##Bio::MAGE::DesignElement::CompositeCompositeMap
 ##DBIx::FullTextSearch::Blob
 ##VCS::LibCVS::Datum::DirectoryName
@@ -24800,7 +24070,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Email::Send::Sendmail
 ##Mac::iPod::GNUpod::Utils
 ##GPS::Garmin::Constant
-##Apache::HeavyCGI::Layout
 ##RDBAL::Layer::DBI
 ##MailBot::Profile
 ##WWW::SourceForge::User
@@ -24808,7 +24077,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mac::Spotlight::MDItem
 ##Sig::PackageScoped::Paranoid
 ##Devel::ebug::Plugin::Run
-##Apache::MimeDBI
 ##PPresenter
 ##Math::Gsl::Polynomial
 ##Tk::IFrame
@@ -24822,7 +24090,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##OpenCA::DB
 ##Inline::XSH
 ##Sys::Manage::Schedule
-##Apache2::ExplorerDestroyer::Level3
 ##Games::Chess::Piece::General
 ##Class::Flyweight
 ##XML::MetaGenerator::Formula
@@ -24882,8 +24149,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MKDoc::XML::Decode::XHTML
 ##XDR::CallReply
 ##Lingua::EN::Segmenter::Evaluator
-##LWP::Parallel::UserAgent
 ##Net::DNS::RR::SOA
+##LWP::Parallel::UserAgent
 ##Class::Prevayler
 ##DBD::Multiplex
 ##Win32::ProcFarm::TkPool
@@ -24919,7 +24186,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::Validator::Schema::Parser
 ##Palm::Timesheet::Utilities
 ##Bio::MAGE
-##Apache::AuthenMT
 ##URI::telnet
 ##Paper::Specs::standard::c6_envelope
 ##DBIx::Class::CDBICompat::Pager
@@ -24949,8 +24215,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tree::Visualize::ASCII::Node::Brackets
 ##Mail::Audit::MAPS
 ##Bio::Location::WidestCoordPolicy
-##GBPVR::CDBI::RecordingSchedule
 ##File::Fetch
+##GBPVR::CDBI::RecordingSchedule
 ##CGI::Panel::Tutorial
 ##Elements
 ##Crypt::Random
@@ -24967,7 +24233,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MARC::Descriptions::Data
 ##HTML::TagParser
 ##Bio::SeqIO::swiss
-##Text::MicroMason::ApacheHandler
 ##Lingua::FA::MacFarsi
 ##Devel::StealthDebug
 ##Wx::View
@@ -24983,8 +24248,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ShiftJIS::Regexp::Equiv
 ##Acme::MetaSyntactic::facecards
 ##Thesaurus::BerkeleyDB
-##Mac::Apps::MacPGP
 ##Heap
+##Mac::Apps::MacPGP
 ##Data::Serializer::Data::Taxi
 ##MARC::File::SAX
 ##Email::Store::HTML
@@ -25008,8 +24273,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Video::DVDRip::GUI::FormFactory::SubtitlePreviews
 ##DBIx::dbMan::Extension::CmdCount
 ##LWP::Auth_UA
-##Buscador::Date
 ##DBIx::Perform::Forms
+##Buscador::Date
 ##I18NFool::ExtractorMerger
 ##CGI::Application::Plugin::Authentication::Driver::Generic
 ##version::AlphaBeta
@@ -25031,7 +24296,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Socket::NonBlock
 ##Lingua::JA::Jtruncate
 ##Text::Highlight::PHP
-##Apache::Session::SQLite
 ##Algorithm::Diff
 ##Tie::StorableDir::Slot
 ##Test::Deep::HashKeys
@@ -25043,7 +24307,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pangloss::WebApp
 ##StateML::Event
 ##XML::XSLT
-##Apache::MP3::Playlist
 ##Acme::ButFirst
 ##Meta::Baseline::Lang::Perl
 ##SVK::Simple
@@ -25051,7 +24314,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Algorithm::Merge
 ##Tk::FontDialog
 ##CGI::Session::BitBucket
-##Apache::AxKit::Language::LibXSLTEnhanced
 ##DBIx::dbMan::Extension::DescribePg
 ##Template::Plugin::RSSLite
 ##Rose::DB::Object::MakeMethods::Std
@@ -25079,7 +24341,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##P6C::Builtins
 ##SPOPS::Import::DBI::Update
 ##POE::Loop::Gtk
-##Apache::iNcom::CartManager
 ##News::Search
 ##CGI::ConvertParam::JIS
 ##Bio::DB::GFF::Adaptor::dbi::oracleace
@@ -25103,9 +24364,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::Class::PK::Auto::MySQL
 ##SQL::Amazon::Request::ItemSearch
 ##Jifty::Web::PageRegion
-##GraphViz::Parse::RecDescent
 ##SQL::Preproc
 ##Astro::Coords::Elements
+##GraphViz::Parse::RecDescent
 ##Perl::Repository::APC2SVN
 ##Text::MicroMason::Cache::File
 ##Sub::Context
@@ -25113,7 +24374,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tangram::Type::Date::Cooked
 ##Workflow::Persister::DBI
 ##Test::C2FIT::eg::AllFilesExpand
-##Apache::CookieToQuery
 ##NSNMP::Mapper
 ##FileMetadata::Miner::HTML
 ##SVG::Manual
@@ -25146,13 +24406,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Crypt::CAST5
 ##Sub::Exporter::Util
 ##Lingua::Identify
-##Apache::DAV::StateList
 ##FAQ::OMatic::spaceImage
 ##Chatbot::Alpha::Syntax
 ##ClearCase::CRDB::Dumper
 ##CGI::Kwiki::Driver
 ##CGI::Session::SQLite
-##Apache::Log::Spread
 ##KGS::Game::Tree
 ##auto::byteorder
 ##Win32::CaptureIE
@@ -25184,7 +24442,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Netscape::eg::Redirect
 ##Test::Chunks
 ##Wx::Grid
-##CGI::Application::Plugin::Apache
 ##Sys::Manage::Conn
 ##Data::Page::Pageset
 ##Win32::ShellExt::CtxtMenu::Base64Decode
@@ -25197,8 +24454,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Business::FR::SSN
 ##Net::MarkLogic::XDBC
 ##Image::Caa::DriverCurses
-##MIPSIM::Pipeline::Emulator
 ##Tk::Menu::Item
+##MIPSIM::Pipeline::Emulator
 ##Paper::Specs::standard::no10_envelope
 ##Acme::Rant
 ##IO::InSitu
@@ -25207,7 +24464,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##X11::Fvwm::Defaults
 ##HTML::ToDocBook
 ##Catalog::tools::main
-##OpenPlugin::Param::Apache2
 ##Paper::Specs::Avery::5972
 ##Bio::Tools::Run::StandAloneBlast
 ##KinoSearch::Search::Hits
@@ -25215,12 +24471,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tk::JListbox
 ##OpenFrame::Slot::ErrorText
 ##RDF::Notation3::XML
-##Apache::AxKit::Plugin::BasicAuth
 ##Biblio::ILL::ISO::ShippedServiceType
 ##Template::Plugin::File
-##CGI::Session::Serialize::Base64
 ##Catalyst::Plugin::FormValidator::Simple
 ##Tie::Hash::KeysMask
+##CGI::Session::Serialize::Base64
 ##MIME::Body
 ##Bio::DB::Flat
 ##Lingua::EN::Segmenter
@@ -25234,18 +24489,15 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Jabber::XDB
 ##Bio::DB::GFF::Aggregator::ucsc_genscan
 ##Video::PlaybackMachine::FillProducer
-##Apache::Handlers
 ##Unicode::Regex::Set
 ##Data::Rmap
 ##ObjStore::AV::Set
-##Apache2::LogF
 ##RDF::Core::Evaluator
 ##XUL::Node::Server::ViewSourceHandler
 ##QLayout
 ##Log::Delimited
-##Net::ParseWhois::Domain::Registrar::DomainDiscover
 ##Jifty::DBI::Filter::DateTime
-##Apache::ASP::CGI::Test
+##Net::ParseWhois::Domain::Registrar::DomainDiscover
 ##Net::FTP::L
 ##Fwctl::Services::icmp_pkt
 ##HTML::Latemp::GenMakeHelpers
@@ -25283,7 +24535,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##RDFStore::Serializer::RDFXML
 ##X::Toolkit
 ##Geo::Storm_Tracker::Advisory
-##Apache2::XSLoader
 ##Params::Smart
 ##Pangloss::Segment::AddUser
 ##Verby::Action::Copy
@@ -25329,7 +24580,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##GBPVR::CDBI::RT
 ##Meta::Baseline::Lang::Swig
 ##Iglu::LMLM::Types::Iglu
-##Apache::AxKit::Provider::PodSAX
 ##Log::TraceMessages
 ##B::JVM::Utils
 ##POE::Filter::MSN
@@ -25356,7 +24606,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##InfoSys::FreeDB::Response::Write::1
 ##Image::ANSI::Font::8x8
 ##CGI::AppToolkit::Data::Object
-##Apache::AuthNISPlus
 ##Embperl::Syntax::Test
 ##Experimental::Sample
 ##Text::TWikiFormat::SAX
@@ -25388,7 +24637,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AI::Genetic::IndListVector
 ##Bio::MAGE::Measurement::DistanceUnit
 ##Inline::Nouse
-##Apache::Wyrd::Services::FileCache
 ##Text::FormatTable
 ##Microarray::DataMatrix::PclFile
 ##DBIx::dbMan::Extension::EditObjects
@@ -25426,7 +24674,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tie::Autotie
 ##Math::Symbolic::Parser
 ##Test::C2FIT::Summary
-##Apache::SiteControl::GrantAllRule
 ##Bio::Map::OrderedPositionWithDistance
 ##Sparse
 ##WWW::Blog::Metadata
@@ -25442,7 +24689,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Make::Cache::Obj
 ##Bio::CodonUsage::Table
 ##Class::C3
-##Apache2::SiteControl::Rule
 ##GO::Handlers::go_xref
 ##Win32::AbsPath
 ##Lisp::Vector
@@ -25461,16 +24707,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::BEEP::Lite::BaseProfile
 ##Crypt::Skipjack
 ##SQL::Builder::Select
-##Apache::HTMLView
 ##Win32::Exchange::SMTP::Security
 ##Math::FitRect
 ##Class::Visitor
 ##Psh::Builtins::Modules
 ##Class::Serializer
-##Apache::Wyrd::Input::Opt
 ##Bio::FASTASequence
-##Crypt::OpenPGP::Key::Secret
 ##WWW::PDAScraper::Yahoo::Sport::Soccer
+##Crypt::OpenPGP::Key::Secret
 ##WWW::Topica::Index
 ##Number::Tolerant::BasicTypes
 ##Locale::RecodeData::KOI8_R
@@ -25498,7 +24742,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::HTMLView::CGIGermanListView
 ##DBomb::DBH::Owner
 ##AsciiDB::TagFile
-##Apache::JSONRPC
 ##VMS::Process
 ##GraphViz::Parse::Yapp
 ##Plagger::Plugin::CustomFeed::Frepa::RecentComment
@@ -25511,7 +24754,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DNS::Check::HostsList
 ##Lingua::JA::Mail
 ##Sub::Lexical
-##Apache::Logmonster::Utility
 ##Net::AIM
 ##Bio::SeqFeature::Gene::ExonI
 ##Gtk2::Ex::FormFactory
@@ -25523,7 +24765,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parrot::Test::Punie
 ##DBIx::Class::Storage::DBI::Oracle
 ##Jifty::Handler
-##Apache::AxKit::Language::LibXSLT
 ##Qmail::Mysql
 ##OpenCA::Session
 ##Class::Tangram
@@ -25545,7 +24786,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Servlet::Http::HttpSession
 ##PixDraw
 ##Statistics::Basic::Correlation
-##Apache::Auth::UserDB
 ##Data::Display
 ##DateTime::Locale::nl
 ##MKDoc::Text::Structured::PRE
@@ -25553,7 +24793,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::AFP::Triplet::C
 ##MARC
 ##Catalyst::Helper::View::HTML::Template
-##Apache::Backend::POE
 ##CGI::Dispatcher::Simple
 ##XML::Parser::Style::Subs
 ##Mozilla::ProfilesIni
@@ -25578,7 +24817,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##String::Strip
 ##Mail::SpamAssassin::Timeout
 ##Embperl::Recipe::Embperl
-##Apache::TinyCP
 ##Array::Splice
 ##OpenCA::OpenSSL
 ##Paper::Specs::Avery::2163_1
@@ -25592,8 +24830,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Psh::Builtins::Hash
 ##App::Widget::TabbedView
 ##Plagger::Plugin::Filter::FeedFlareStripper
-##Apache::AxKit::Language::Query
-##Apache::iNcom::UserDBAuthz
 ##PDF::Template::Iterator
 ##Bio::OntologyIO::Handlers::InterProHandler
 ##YAML::Tag
@@ -25632,9 +24868,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Test::Class
 ##App::Condition::HasUserAndTicket
 ##Perlcast::Interviews::006
-##Apache::Session::Store::File
 ##Net::DAAP::Client::Auth::Protocol
-##Apache::UploadSvr::Directory
 ##Acme::MetaSyntactic::groo
 ##PDF::API2::Resource::Font::CoreFont::verdana
 ##TestCGI
@@ -25659,7 +24893,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Sort::Fields
 ##Expect
 ##Data::SpreadPagination
-##Apache::Traffic
 ##MHonArc::UTF8::KOI_0
 ##CGI::ConvertParam::OnsetJIS
 ##test_mul
@@ -25680,7 +24913,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Weather::NWS::NDFDgen
 ##Fry::View::CLI
 ##Text::LevenshteinXS
-##Apache::AxKit::StyleChooser::FileSuffix
 ##Bio::Expression::MicroarrayIO::mas50txt
 ##Algorithm::Evolve
 ##iPodDB::Database
@@ -25692,27 +24924,23 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Docs::US_DOD::CDRL
 ##Context::Handle::RV::Bool
 ##HTML::Widget::Constraint::Regex
-##Apache::DoCoMoUID
 ##IP::Country::MaxMind
-##Apache::DBILogin
 ##Myco::Query::Part::Filter
 ##Tk::Application::Stadaf
 ##KIF::Bootloader::lilo
 ##Pangloss::Segment::Decline::NoSelectedSearch
 ##Gtk2::Ex::FormFactory::Entry
 ##CGI::AppToolkit::Template::Filter
-##Apache::Session::Oracle
 ##Aspect::Hook::LexWrap
 ##Tree::Compat::Tree::DAG_Node
-##SVN::Notify::Mirror::Rsync
 ##Text::Hatena
 ##App::CLI
+##SVN::Notify::Mirror::Rsync
 ##Make::Cache::Hash
 ##Net::DNS::Check::Test::mx_compare
 ##No::Giro
 ##Parse::Pidl::Samba4::NDR::Server
 ##XRI::Descriptor::LocalAccess
-##Apache::PAR::RegistryCooker
 ##Lingua::EN::Summarize::Filters
 ##HTML::Merge::Tags
 ##Meta::Utils::Opts::Sopt
@@ -25800,8 +25028,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::Run::PiseApplication::pam
 ##CORBA::IOP::TaggedProfile
 ##Pod::HtmlPsPdf::Config
-##WWW::Search::Gopher
 ##Mail::Message::Replace::MailHeader
+##WWW::Search::Gopher
 ##Paper::Specs::Avery::2180_2
 ##HTML::GMUCK
 ##Devel::Monitor::Hash
@@ -25836,7 +25064,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Date::DayOfWeek::Birthday
 ##Genezzo::Contrib::Clustered::PrepUndo
 ##OpenInteract::Config::Ini
-##Apache::Wyrd::Lib
 ##HTML::EP::Session::Dumper
 ##Getopt::Janus::SessionBase
 ##Spoon::Registry
@@ -25871,7 +25098,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Chart::Clicker::Drawing::Border
 ##Net::Packet::Consts
 ##DBD::Informix::TechSupport
-##Apache::SecSess::Wrapper
 ##RTF::Writer::TableRowDecl
 ##CQL::Utils
 ##Class::AccessorMaker::Private
@@ -25926,8 +25152,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Myco::Config::Test
 ##Win32::Exe::Section
 ##Gtk2::Ex::FormFactory::Container
-##Algorithm::NaiveBayes
 ##IPC::Door::Server
+##Algorithm::NaiveBayes
 ##init::miniparrot
 ##Compress::LeadingBlankSpaces
 ##InfoSys::FreeDB::Response::Stat
@@ -25971,7 +25197,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Excel::Template::Element::Formula
 ##XML::Tidy
 ##MHonArc::UTF8::KOI8_F
-##Apache::TestMM
 ##NewSpirit::Param1x
 ##Docs::US_DOD::SPS
 ##Text::Hatena::AutoLink::HatenaGraph
@@ -25989,7 +25214,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::Diff
 ##Bio::Tools::Run::PiseApplication::hmmconvert
 ##Froody::Base
-##Apache::TestUtil
 ##Mail::SpamAssassin::Plugin::Hashcash
 ##Math::BigInt::Named::English
 ##AI::DecisionTree
@@ -26010,9 +25234,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::HL7::Segment
 ##Data::Reporter::Filesource
 ##Win32::Exe::PE::Header
-##selector
 ##Uttu::Handler::axkit
 ##Dimedis::Ddl::Column::Oracle
+##selector
 ##Bio::FastaStream
 ##DBIx::ProcedureCall::Oracle
 ##UMMF::UML::XForm
@@ -26072,7 +25296,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##test_1_sub_3_a
 ##Image::WorldMap
 ##Event::ExecFlow::Job
-##Apache::AxKit::Provider::Filter
 ##Net::CUPS
 ##Biblio::ILL::ISO::DeliveryAddress
 ##Acme::MetaSyntactic::currency
@@ -26098,9 +25321,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SQL::Amazon::StorageEngine
 ##Sman::IndexVersion
 ##String::Multibyte::EUC_TW
-##Apache::AxKit::Provider::FileWrite
 ##GPS::Serial
-##Apache::PATCH
 ##Catalyst::Plugin::Session::Store::DBIC
 ##Audio::M4P::Atom
 ##Carp::Datum
@@ -26139,18 +25360,16 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Errors::Errors
 ##TieFile
 ##Environment
-##Apache::Leak
 ##DateTime::Locale::lt_LT
 ##Config::DBI
 ##Business::Associates
-##Gtk2::Ex::FormFactory::CheckButtonGroup
 ##SOAP::Lite
+##Gtk2::Ex::FormFactory::CheckButtonGroup
 ##Gedcom::FOAF
 ##Data::Structure::Util
 ##HTML::Lister
 ##DemoRedirect
 ##Payroll::AU::PAYG
-##Apache::Session::IPC
 ##Net::ParseWhois::Domain::Registrar::Register
 ##MIME::Base64
 ##Mail::SpamAssassin::Plugin::RelayCountry
@@ -26243,7 +25462,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Component::Enc::Mp3
 ##Repository::Simple::Engine::FileSystem
 ##Workflow::Persister::DBI::AutoGeneratedId
-##Apache::Wyrd::FileSize
 ##Coro::AIO
 ##Kwiki::Edit::Scode
 ##LocalConfig
@@ -26284,7 +25502,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##BingoX::Chromium
 ##WWW::Search::Scraper::Response
 ##PXR::Utils
-##Apache::Session::DBIStore
 ##Image::ExifTool::Minolta
 ##Kwiki::Autoformat
 ##Scrape::USPS::ZipLookup
@@ -26327,7 +25544,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Graph::Reader::Dot
 ##Tie::RDBM::Cached
 ##Colloquy::Data
-##Apache::LogFile::Config
 ##Stem::ChatLabel
 ##Config::Extensions
 ##Text::Table
@@ -26338,11 +25554,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Regexp::Common::profanity_us
 ##XML::DOM::ValParser
 ##DBO::Visitor::RenderHTML
-##App::TemplateEngine::TemplateToolkit
 ##PerlBean::Attribute::Multi::Unique::Associative::MethodKey
 ##Math::BigInt::FastCalc
 ##Petal::Utils::Each
-##Apache::WeSQL::Auth
+##App::TemplateEngine::TemplateToolkit
 ##Catalyst::Plugin::Params::Nested::Expander
 ##DBIx::DBH
 ##Net::LDAP::Filter
@@ -26357,7 +25572,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##BBCode::Tag::Q
 ##Data::Tabular::Extra
 ##RDF::Core::NodeFactory
-##Apache2::Resource
 ##Gemstone
 ##Biblio::ILL::ISO::StatusQuery
 ##Algorithm::CheckDigits::M11_010
@@ -26451,21 +25665,17 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##RDFStore::Stanford::VirtualModel
 ##Devel::FindGlobals
 ##Encode::InCharset::euc_jp
-##Apache::Wyrd::Attribute
 ##FAQ::OMatic::pickerImage
 ##CPANPLUS::Shell::Default
 ##Date::Simple::Month
 ##Class::AutoDB::Object
-##Apache::Framework::App
 ##XML::Mini::Document
 ##UMMF::UML_1_5::Behavioral_Elements::Common_Behavior::Link
 ##Rosetta::Model::L::en
-##Apache::FormatLog::Common
 ##Gtk2::PodViewer::Parser
 ##Bio::ClusterIO::unigene
 ##Image::ExifTool::Unknown
 ##Basset::Test::More
-##Apache::Wyrd::Services::LoginServer
 ##Perl::Critic::Policy::Documentation::RequirePodAtEnd
 ##Locale::RecodeData::LATIN_GREEK_1
 ##HTTP::Cookies::Omniweb
@@ -26487,7 +25697,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Arch::TempFiles
 ##Config::Constants::Perl
 ##AxKit::XSP::BasicAuth
-##Apache::Connection
 ##BabelObjects::Component::Data::Configurator
 ##EB::Shell::Base
 ##Perlbal::Socket
@@ -26523,21 +25732,20 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Froody::Response::XML
 ##Meta::Info::Certificate
 ##Parse::Pidl::Samba::EJSHeader
-##Text::Decorator::Filter::URIFind
 ##UMMF::MOF_1_3::Model::Feature
+##Text::Decorator::Filter::URIFind
 ##TestGen4Web::Runner
 ##WWW::Selenium::Utils::CGI
 ##Algorithm::Evolutionary::Op::CanonicalGA
 ##ETL::Pequel::Engine::Inline
-##Astro::Constants
 ##Graph::Usage
+##Astro::Constants
 ##RandomFileWithUnknownParameters
-##Alzabo::Create::Table
 ##XML::DOM::BagOfTricks
+##Alzabo::Create::Table
 ##DWH_File::Tie::Hash::Node
 ##AOLserver::CtrlPort
 ##POE::Component::Tie
-##Apache::JemplateFilter
 ##WWW::Webrobot::WebrobotLoad
 ##HTML::WebMake::CGI::FindWmkf
 ##Pixie::LiveObjectManager
@@ -26559,7 +25767,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::HTPL::Fixed
 ##CGI::Wiki::Search::DB
 ##APR::XSLoader
-##Apache::XPP::Inline
 ##PerlBean::Attribute::Multi::Ordered
 ##Rose::DateTime::Util
 ##CGI::Prototype::Mecha
@@ -26611,11 +25818,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##NestedMap
 ##Pixie::ObjectInfo
 ##Pod::Sdf
-##Apache::AuthenRaduis
 ##strict
 ##Image::Magick::Chart::HorizontalBars
 ##Net::Amazon::Request
-##Apache::RPC::Status
 ##Bio::Tools::Genscan
 ##PostScript::Barcode
 ##XML::NamespaceSupport
@@ -26636,7 +25841,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::Fields
 ##Net::SNMP::Interfaces
 ##Point
-##Apache::DnsZone::DB
 ##CGI::Application::Plugin::ConfigAuto
 ##Mail::Message::Body
 ##Getopt::Attribute
@@ -26686,7 +25890,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##RunApp::Control::AppControl
 ##Rubric::Entry::Formatter::KwikiFormatish
 ##Template::Utils
-##Slauth::Config::Apache
 ##Plucene::Document
 ##PerlBean::Attribute::Multi
 ##Games::Mines
@@ -26701,7 +25904,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MyHandler
 ##FFmpeg::Stream::Data
 ##Tangram::Type::Date::Raw
-##Apache::Auth::User
 ##Kwiki::Kwiki::Command::Init
 ##Paper::Specs::photo::15x10
 ##Pangloss::Segment::ListStatusCodes
@@ -26719,8 +25921,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##FAQ::OMatic::search
 ##Coro::SemaphoreSet
 ##PDL::Gaussian
-##XML::RSS::Parser::Element
 ##MHonArc::UTF8::CP1252
+##XML::RSS::Parser::Element
 ##Lingua::AR::Word
 ##DateTime::Locale::he
 ##MetaTrans::SmsCz
@@ -26753,9 +25955,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MP3::Daemon::Simple
 ##Convert::Number::Digits
 ##Cvs::Result::Tag
-##SDL::App::FPS::Button
 ##SVL::Mirror
 ##Biblio::ILL::ISO::ProviderErrorReport
+##SDL::App::FPS::Button
 ##Proc::Command
 ##Font::TTF::Kern::StateTable
 ##Algorithm::CheckDigits::M89_001
@@ -26776,9 +25978,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::Alert
 ##SDL::App::FPS::Color
 ##Rose::HTML::Image
-##RT::User
 ##OpenFrame::Constants
 ##VCS::PVCS::Attributes
+##RT::User
 ##Spreadsheet::WriteExcel::Formula
 ##Devel::WarnGlobal
 ##POE::Component::Server::Syslog
@@ -26803,7 +26005,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Blatte
 ##CGI::Wiki::Simple::Plugin::Static
 ##Bigtop::Backend::CGI
-##Apache::HEADRegistry
 ##OpenFrame::WebApp::Session::FileCache
 ##Rose::HTML::Form::Field::Input
 ##Image::Timeline
@@ -26866,8 +26067,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AutoSession::Base64
 ##Meta::Shell::Shell
 ##Pangloss::Segment::Request::ListTerms
-##Contize
 ##Genezzo::Havok::SysHook
+##Contize
 ##Kwiki::Textile
 ##Test::Unit::Runner
 ##Xmms::Remote
@@ -26904,7 +26105,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MHonArc::UTF8::EUC_JP
 ##WAIT::IndexScan
 ##Crypt::Simple
-##Froody::Request::Apache
 ##Bio::ExtractNE::EventPattern
 ##WWW::Comic::Plugin::VenusEnvy
 ##Meta::Utils::TextTable
@@ -26917,8 +26117,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Template::Plugin::Tooltip
 ##Net::HTTP::Methods
 ##DBD::mSQL
-##Catalyst::Helper::View::JSON
 ##Patch::SREZIC::Tk::Text
+##Catalyst::Helper::View::JSON
 ##SVK::Command::Checkout
 ##Docs::Site_SVD::Data_Str2Num
 ##Querylet::Output
@@ -26935,7 +26135,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Lingua::Tolkien::BURL
 ##Math::MVPoly::Integer
 ##DateTime::TimeZone::America::Swift_Current
-##Apache::SearchEngineLog
 ##Net::Cmd
 ##MIDI::XML::Channel
 ##loose
@@ -27005,8 +26204,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::AFP::EBC
 ##SDL::Joystick
 ##Net::SFTP::Util
-##Meta::Sql::Stats
 ##IDfVirtualDocumentNode
+##Meta::Sql::Stats
 ##DBD::mysql::AutoTypes
 ##Number::Format::Calc
 ##Win32::Word::Writer::Table
@@ -27031,11 +26230,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::Atom::Server
 ##Suites::TS_SubSuite3
 ##Catalyst::Plugin::Session::Manager::Storage
-##Apache2::JSONRPC
 ##SVG::Parser
 ##Search::Dict
 ##WWW::Search::AP
-##Apache::AxKit::Plugin::Param::Expr
 ##MHonArc::CharEnt::ISO8859_1
 ##Net::Jabber::Key
 ##Parse::AFP::IOC
@@ -27062,7 +26259,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Introspector::ConnectionTypes
 ##Mail::Folder::Emaul
 ##Email::Send::Jifty::Test
-##Apache::ACEProxy::UTF8_RACE
 ##Bio::Genex::ExperimentFactors
 ##Test::Cmd::Common
 ##Video::PlaybackMachine::TimeLayout::RangeLayout
@@ -27091,8 +26287,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::WikiConverter::Oddmuse
 ##Net::Trackback::Data
 ##Mozilla::Mechanize::Form
-##Date::GoldenNumber
 ##XMMS::InfoPipe
+##Date::GoldenNumber
 ##NetServer::Portal::Login
 ##Log::Log4perl::Filter::Boolean
 ##Business::OnlinePayment::TransactionCentral
@@ -27105,7 +26301,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Test::LectroTest::Property
 ##FameHLI::API::HLI
 ##WWW::PDAScraper::Yahoo::Tech::Communications
-##Apache::DnsZone::AuthCookie
 ##AI::Categorizer::Collection::DBI
 ##Net::FTPServer::DBeg1::Server
 ##Chipcard::PCSC
@@ -27145,7 +26340,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ORM::ResultSet
 ##Net::DRI::Protocol::EPP::Core::Session
 ##Wx::Metafile
-##Apache::AxKit::Provider::RDBMS::ContentProvider::SQL
 ##Math::FixedPrecision
 ##Template::Plugin::String
 ##Imager::ExtUtils
@@ -27194,7 +26388,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PDL::Graphics::PGPLOT::Window
 ##POE::Component::Server::IRC
 ##Win32::GUI::HyperLink
-##Apache::Session::Generate::MD5
 ##Log::Logger
 ##XAO::testcases::FS::lists
 ##Template::Plugin::Java::Constants
@@ -27208,8 +26401,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PatchReader::NarrowPatch
 ##Tree::Trie
 ##Set::Array
-##IO::Pipe::Producer
 ##init::hints::mswin32
+##IO::Pipe::Producer
 ##IO::Socket::UNIX
 ##PurpleWiki::View::text
 ##Bio::Tools::Run::PiseApplication::stride
@@ -27222,7 +26415,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Lingua::LinkParser::Linkage
 ##Geo::Proj
 ##CGI::Application::Plugin::Phrasebook
-##Apache::Session::Lock::File
 ##Graph::BitMatrix
 ##Games::Shogi::Chu
 ##HTML::LinkChanger::URLFilter
@@ -27237,7 +26429,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Win32::FirewallParser
 ##Person
 ##PurpleWiki::Sequence
-##Apache::Session::Manager
 ##Email::FolderType::Local
 ##kdocLib
 ##WWW::Search::Scraper::Request
@@ -27274,7 +26465,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Siesta::Plugin::SubjectTag
 ##Test::Unit::TkTestRunner
 ##Devel::Pointer
-##Apache::ShowRequest
 ##Net::DNS::RR::AAAA
 ##Template::Plugin::Java
 ##GIFgraph::Map
@@ -27292,7 +26482,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##OpenCA::Crypto
 ##Math::Symbolic::Custom::LaTeXDumper
 ##Acme::True
-##Apache::AuthCookiePAM
 ##Algorithm::Evolutionary::Wheel
 ##Meta::Development::Module
 ##Wombat::Deploy::SecurityCollection
@@ -27305,7 +26494,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Win32::PingICMP
 ##Gantry::Engine::MP20
 ##Bio::Tools::Run::PiseApplication::pepnet
-##Apache2::Status
 ##Bio::Tools::Run::PiseApplication::supermatcher
 ##Meta::Projects::Fortune::Item
 ##ePortal::PageSection
@@ -27326,7 +26514,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Date::Handler::Range
 ##Meta::Baseline::Lang::Bdbx
 ##SETI::Stats
-##Apache::SecSess
 ##NSNMP
 ##Net::DNS::RR::MR
 ##Geo::TigerLine::Record::3
@@ -27370,7 +26557,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SQL::String
 ##Bio::MAGE::ArrayDesign::ReporterGroup
 ##XML::RAI::Object
-##Apache::Sandwich
 ##Parse::AFP::EIM
 ##Carp::Clan
 ##Flickr::API::Response
@@ -27396,12 +26582,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Devel::Carnivore
 ##AxKit::XSP::ObjectTaglib::Demo::Course
 ##WWW::UsePerl::Journal
-##Apache::DAV::XMLDoc
-##Carp::Datum::Cfg
 ##Net::Yadis::Object::TypeKey
+##Carp::Datum::Cfg
 ##Biblio::ILL::ISO::StateTransitionProhibited
 ##Text::Hatena::AutoLink::HatenaMap
-##CPANXR::Apache::Util
 ##Audio::Moosic
 ##ePortal::App::SquidAcnt
 ##List::Part
@@ -27417,7 +26601,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Glade::PerlUIGtk
 ##Catalyst::Plugin::FormValidator::Simple::OwnCheck
 ##WebService::StreetMapLink::Google
-##Apache::Session::MemoryStore
 ##Set::CheckList
 ##Parse::AFP::BSG
 ##POE::Framework::MIDI::Rule::Contour
@@ -27453,7 +26636,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::Session::Auth::DBI
 ##List::Comprehensions
 ##Locale::Object
-##Apache::Voodoo::Table
 ##Ekahau::Base
 ##OpenPlugin::Exception::Template
 ##Paper::Specs::Avery::8763
@@ -27509,7 +26691,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Template::Plugin
 ##Regexp::DeferredExecution
 ##SQL::Translator::Schema::Graph
-##Apache::AuthLDAPBind
 ##ShopCard
 ##Pangloss::Application::CollectionEditor
 ##MQSeries::Message::PCF
@@ -27576,7 +26757,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MIPSIM::Hub
 ##NexTrieve::RFC822
 ##Docs::US_DOD::CPM
-##Config::ApacheFormat
 ##WWW::PDAScraper::Yahoo::World::Canada
 ##Lingua::Ispell
 ##XAO::PageSupport
@@ -27604,8 +26784,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Games::Sudoku::Component::Table::Cell
 ##HTML::Widget::Factory
 ##Number::Phone::UK::Data
-##UMMF::UML_1_5::Behavioral_Elements::State_Machines::Transition
 ##Taint::Runtime
+##UMMF::UML_1_5::Behavioral_Elements::State_Machines::Transition
 ##DateTime::TimeZone::America::Argentina::ComodRivadavia
 ##Persistent::Hash::Dumper
 ##Bio::SearchIO::FastHitEventBuilder
@@ -27644,7 +26824,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::Mason::Utils
 ##Meta::Tool::Cincl
 ##SVG::Graph::File
-##Apache::SiteControl
 ##String::Multibyte::UTF32LE
 ##Gantry::Stash::View
 ##XTM::Path::CParser
@@ -27669,10 +26848,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::SAX::PurePerl::Reader::String
 ##Net::SMPP
 ##Geo::Proj4
-##Apache::MONITOR
 ##Parse::AFP::Triplet::POCP
 ##Tk::MiniScale
-##Apache::AuthTicket
 ##CGI::Auth::Basic
 ##Font::TTF::OS_2
 ##Tangram::IntrArray
@@ -27701,9 +26878,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Catalyst::Plugin::Compress::Zlib
 ##ToolSet::SWC
 ##Meta::Tool::Doxygen
-##Oracle::DML::Common
 ##Servlet::ServletRequestWrapper
 ##Courier::Filter::Logger::Syslog
+##Oracle::DML::Common
 ##Regexp::Common::URI::file
 ##SystemC::Vregs
 ##Bio::LiveSeq::IO::Loader
@@ -27723,17 +26900,17 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::Africa::Bamako
 ##Tk::DataTree
 ##DateTime::TimeZone::America::St_Lucia
-##PHP::Serialization
 ##MHonArc::CharEnt::AppleTurkish
+##PHP::Serialization
 ##DBomb::Tie::PrimaryKeyList
 ##String::Escape
 ##Math::Round::Var
 ##SyslogScan::Delivery
 ##Parse::YALALR
 ##Nmap::Scanner
-##Text::I18N
 ##Arch::Changes
 ##Class::Param::Tie
+##Text::I18N
 ##Wombat::Connector::ResponseBase
 ##UMMF::UML::MetaModel::OCL::Expressions::PrimitiveLiteralExp
 ##UMMF::MOF_1_3::Model::ModelElement
@@ -27809,7 +26986,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SQL::Translator::Schema
 ##ZooZ::Base
 ##DBIx::Class::CDBICompat
-##Apache::Session::DBIBase64Store
 ##Net::Subnets
 ##Continuity::Adapt::HttpDaemon
 ##Kwiki::SOAP
@@ -27835,7 +27011,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::SSH::Perl
 ##UMMF::MOF_1_3::Model::ViolationType
 ##Language::Prolog::Types::overload
-##Apache::SWIT::Test
 ##Mail::Milter::Module::SPF
 ##KinoSearch::Util::StringHelper
 ##Module::Start::Base
@@ -27868,8 +27043,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::FormEngine::DBSQL::SkinClassic
 ##WWW::Scraper::Opcode::NEXT
 ##Finance::Quote::SEB
-##FAQ::OMatic::Part
 ##POE::Filter::Log::Procmail
+##FAQ::OMatic::Part
 ##XTM::parameters
 ##Employee
 ##CAM::PDF::GS::NoText
@@ -27902,7 +27077,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SQL::QueryBuilder::Simple
 ##XML::Schema::Particle::Sequence
 ##Plagger::Plugin::Filter::HatenaBookmarkTag
-##Apache::CompressClientFixup
 ##RunApp::Template
 ##Jifty::DBI::Collection::Union
 ##CfgTie::TieHost
@@ -27961,8 +27135,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Finance::Bank::IE::BankOfIreland
 ##POE::Component::Lightspeed::Server
 ##Stem::Codec::YAML
-##Apache::Session::Store::SQLite3
-##Apache::TestSort
 ##Tk::DateEntry
 ##Alzabo::ObjectCache::Sync::DBM
 ##GO::Parsers::go_def_parser
@@ -27973,14 +27145,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Dimedis::Ddl::Column::mysql
 ##SVG::Graph::Glyph::axis
 ##SWISH::API::Remote::FunctionGenerator
-##Apache::ASP::Application
 ##Meta::Utils::File::Group
 ##DBIx::dbMan::Extension::OutputPager
 ##HTML::WikiConverter
 ##Tk::MenuHash
 ##Jifty::Web::Form::Field::Upload
 ##Pod::PseudoPod::Text
-##OpenPlugin::HttpHeader::Apache
 ##Tie::CountLoop
 ##WWW::ImageSpool::Dictionary
 ##Wx::Perl::RadioBoxWizardPage
@@ -27989,7 +27159,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Plagger::Plugin::Subscription::HatenaGroup
 ##FAQ::OMatic::ImageRef
 ##UMMF::UML::MetaModel::OCL::Types::CollectionType
-##Apache::AxKit::Provider::RDBMS
 ##OpenFrame::Slot::SessionSaver
 ##Video::DVDRip::SrtxFile
 ##Biblio::ILL::ISO::IntermediaryProblem
@@ -28071,13 +27240,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::ConnectDots::ConnectorSet::EPconDBmousechip5
 ##Meta::Baseline::Lang::Manx
 ##slackget10::Plugin::Test2
-##Apache::DAV::LockTokenList
 ##Math::Matlab::Server
 ##Mail::Message::Head::FieldGroup
 ##Doc::Perlish
 ##PPM::RelocPerl
 ##HTML::EP::Wizard
-##Apache::Session::FileStore
 ##XAO::DO::Web::Search
 ##Template::Plugin::GD
 ##Nmap::Scanner::OS::IPIdSequence
@@ -28191,7 +27358,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##IPDevice::RouterBase::Prefixlist
 ##UMMF::UML::MetaModel::Behavioral_Elements::Use_Cases::Extend
 ##File::Locate
-##Apache::Wyrd::Services::Auth
 ##XTM::member
 ##Cache::FastMmap::CImpl
 ##Data::ResultsHelper
@@ -28213,8 +27379,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Encode::CNMap
 ##OODoc::Manifest
 ##URI::file::OS2
-##Apache
-##Apache::AxKit::StyleChooser::UserAgent
 ##DBomb::Util
 ##Ace::Graphics::Track
 ##PITA::Image
@@ -28231,7 +27395,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Benchmark::Timer
 ##GD::Barcode::Code93
 ##Plucene::SearchEngine::Index::RSS
-##Apache::Voodoo::Pager
 ##reform
 ##Algorithm::Evolutionary::Op::Creator
 ##Lingua::Alphabet::Phonetic::NATO
@@ -28241,9 +27404,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Video::DVDRip::Job::ProbeTitleCount
 ##Gantry::Control::C::Groups
 ##Paper::Specs::Avery::2162_1
-##Mail::SimpleList
 ##Oryx::DBI
 ##Finance::Bank::Commonwealth
+##Mail::SimpleList
 ##PPM::Make
 ##Patch::SREZIC::Tk::Entry
 ##CGI::Session::Test::Default
@@ -28298,7 +27461,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CPANPLUS::Dist::Build::Constants
 ##Template::Plugin::PodSimple
 ##Net::RRP::Exception::InvalidAttributeValueSyntax
-##OpenPlugin::Request::Apache2
 ##AFS::Command::BOS
 ##Bio::Root::HTTPget
 ##Regexp::List
@@ -28314,34 +27476,29 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PPrint
 ##Lingua::ZH::CCDICT::Storage::BerkeleyDB
 ##XML::Comma::Storage::Output::MailMessageReader
-##Apache::CVS::Directory
 ##AudioFile::Identify::MusicBrainz::Store
 ##P6C::IMCC::prefix
 ##XML::Comma::SQL::DBH_User
 ##OpenFrame::WebApp::Segment::Decline::UserInSession
 ##Bio::Tools::Run::PiseApplication::blast2
-##Apache::AxKit::Plugin::SvgCgiSerialize
 ##ExtUtils::PerlPP
 ##Memory::Cache::HeapElem
 ##Module::Install::External
 ##Bio::MAGE::Experiment::ExperimentDesign
 ##Number::Latin
-##Apache::AntiSpam::NoSpam
-##Wizard::Examples::LDAP
 ##VRML::Quaternion
+##Wizard::Examples::LDAP
 ##Mail::Abuse::Incident::Log
 ##POE::Sugar::Args
 ##Jifty::ClassLoader
 ##MKDoc::Core::Plugin::Not_Found
 ##OurNet::BBS::MAPLE3::BoardGroup
-##Apache::src
 ##bigint
 ##Biblio::Catalog::News
 ##UMMF::UML_1_5::OCL::Types::CollectionType
-##Apache::ProxyRewrite
-##PDF::API2::NamedDestination
 ##Image::ButtonMaker::Lexicon
 ##Number::Phone::NANP::MP
+##PDF::API2::NamedDestination
 ##Catalyst::View::REST::Data::Serializer
 ##Devel::Pointer::PP
 ##Net::Yadis
@@ -28352,7 +27509,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Gantry::Plugin::Validate
 ##Finance::Bank::INGDirect
 ##Devel::Size
-##Apache::FakeCookie
 ##Wx::ActiveX
 ##Paper::Specs::photo::4x6
 ##UMMF::UML::MetaMetaModel
@@ -28425,7 +27581,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Link::Reporter::RepairForm
 ##Module::Starter::Plugin::Template::TeTe
 ##Tree::Simple::Visitor::GetAllDescendents
-##Apache::Geo::IP
 ##Mac::iTunes
 ##OpenPlugin::Config::XML
 ##Math::Calculator
@@ -28447,7 +27602,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Shell::Do
 ##My::db
 ##Heap::Simple
-##Apache::App::Mercury::UserManager::Demo
 ##Math::Project3D::Function
 ##Myco::Base::Entity::Meta::Test
 ##ExtUtils::MM_OS2
@@ -28473,16 +27627,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::standard::no14_envelope
 ##EB::Shell
 ##Arch::Run
-##JavaArray
 ##ctflags::memory
+##JavaArray
 ##CGI::Application::Generator
 ##MHonArc::Char
-##Apache::TestSmoke
 ##Parse::YALALR::Vector
 ##OpenCA::Logger::Syslog::Net
 ##Class::Proxy
 ##Algorithm::InversionList
-##OpenPlugin::Cookie::Apache2
 ##CGI::Application::Plugin::ValidateRM
 ##XML::EP::Control
 ##Gtk2::Ex::MindMapView::Layout::Cluster
@@ -28508,7 +27660,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::ExtractNE::Dict
 ##GO::Parsers::locuslink_parser
 ##RDFStore::Serializer::NTriples
-##Apache::AuthzAge
 ##Encode::InCharset::cp864
 ##PDF::API2::Basic::TTF::Cvt_
 ##AI::Genetic::OpCrossover
@@ -28568,7 +27719,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Module::Install::Admin::Metadata
 ##Tangram::DMDateTime
 ##Bio::PrimerDesigner::epcr
-##Apache::Cache
 ##Oak::Web::Additional::Datefield
 ##Slash::Repository
 ##Net::DRI::Protocol::EPP::Extensions::PL::Contact
@@ -28578,7 +27728,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PressKeys
 ##Mail::Message::Field::Structured
 ##Algorithm::Evolutionary::Op::Mutation
-##Apache::SecSess::URL
 ##DBIx::ModelUpdate::Oracle
 ##Unix::Process
 ##DBIx::Class::Test::SQLite
@@ -28590,14 +27739,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Biblio::TechReport
 ##WWW::Search::Scraper::Response::generic
 ##Tangram::Expr::CursorObject
-##Apache::XPP::Cache
 ##Kwiki::Installer
 ##RDF::Query
 ##Zeta
 ##Service
 ##Gtk2::Ex::MindMapView::ArgUtils
 ##HTML::Widget::JavaScript::Constraint::All
-##Apache::MP3::L10N::RightToLeft
 ##RDFStore::Serializer
 ##AutoSQL::SQLGenerator
 ##Video::Info::Quicktime
@@ -28643,8 +27790,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Server::Mail::LMTP
 ##Kwiki::Archive::SVK
 ##List::Util
-##Apache::Pod::HTML
-##Apache::SWIT::Subsystem::Maker
 ##Tk::DragDrop::XDNDSite
 ##Class::DBI::Replicated
 ##Config::Vars
@@ -28676,7 +27821,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::Run::PiseApplication::hmmscore
 ##CMS::MediaWiki
 ##HTML::Lint::HTML4
-##Apache::RedirectDBI
 ##Lingua::Features::StructureType
 ##Device::ISDN::OCLM::SystemStatistics
 ##Convert::IBM390
@@ -28687,14 +27831,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Solaris::DeviceTree::PathToInst
 ##Tie::ShadowHash
 ##Template::Plugin::Translit::RU
-##Apache::MiniWiki
 ##Benchmark::Harness::Profile
 ##Language::Frink::Eval
 ##DateTime::Locale::es_PR
 ##Kwiki::Config
 ##Mail::Abuse::Processor::Explain
 ##Bio::Biblio::MedlineBook
-##Apache::Voodoo::DisplayError
 ##Business::OnlinePayment::TCLink
 ##Paper::Specs::standard::a
 ##JavaScript::Librarian::Book
@@ -28717,9 +27859,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PBJ::JNI::JNIEnv
 ##Parse::Pidl
 ##Geo::TigerLine::Record::Parser
-##Curses::Widgets::Calendar
 ##Derived
 ##Tk::ToolBar
+##Curses::Widgets::Calendar
 ##Catalyst::Plugin::Authentication::Credential::HTTP
 ##DBIx::Recordset
 ##Catalyst::Example::InstantCRUD
@@ -28728,7 +27870,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##QWizard::Generator::HTML
 ##Nmap::Scanner::Backend
 ##XML::Comma::Storage::Store
-##Apache::ASP::Load
 ##Rose::DB::Object::Metadata::Auto::Pg
 ##UML::Sequence::SimpleSeq
 ##HTTP::MobileAgent::Plugin::Extension::AirHPhoneData
@@ -28740,7 +27881,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Plagger::Plugin::Subscription::XOXO
 ##SQL::Translator::Parser::Storable
 ##Kolab
-##Apache::RegistryLoader
 ##XML::RDB
 ##Tie::FieldVals::Join::Row
 ##UMMF::MOF_1_4_1::Model::GeneralizableElement
@@ -28788,7 +27928,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Object::I18n::Storage
 ##Imager::DTP::Textbox
 ##Net::SSH::Perl::Packet
-##Apache::Wyrd::Interfaces::XMLer
 ##Kwiki::Revisions
 ##Text::Metaphone
 ##Embperl::Mail
@@ -28834,7 +27973,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::ScriptTemplate
 ##UMMF::Import
 ##Pangloss::Segment::AddLanguage
-##CPANXR::Apache::SubBrowser
 ##Mozilla::LDAP::Conn
 ##Win32::ShellExt::DragAndDropHandler
 ##Spork::S5ThemePixel
@@ -28842,7 +27980,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::Avery::5364_2
 ##XML::XPath::Node
 ##Software::Packager::Object
-##Apache2::SubRequest
 ##Haver::Config
 ##Net::DHCP::Control::ServerHandle
 ##Paper::Specs::standard::a0
@@ -28857,7 +27994,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::QMQP
 ##Perl::Critic::Policy::ValuesAndExpressions::ProhibitLeadingZeros
 ##KinoSearch::Analysis::LCNormalizer
-##Apache::Language
 ##XUL::Node::Application::PeriodicTable::BoxLayout
 ##Perl::Critic::Policy::CodeLayout::ProhibitHardTabs
 ##Devel::Caller::Perl
@@ -28899,11 +28035,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Template::Plugin::Colour
 ##Bio::MAGE::Array::ArrayManufactureDeviation
 ##Bio::MAGE::DesignElement::ReporterPosition
-##Introspector::LoadMetaInfo
 ##SPOPS::DBI::Pg
+##Introspector::LoadMetaInfo
 ##Text::Sequence
-##Bio::DB::GFF::Aggregator::transcript
 ##UMMF::UML::MetaModel::OCL::Expressions::OclMessageArg
+##Bio::DB::GFF::Aggregator::transcript
 ##PPI::Token::Magic
 ##WordNet::Similarity
 ##JavaScript::Code::Number
@@ -28914,7 +28050,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::XMLWriter
 ##Text::WrapI18N
 ##Babble::Theme::planet_ttk
-##Apache::Language::DBI
 ##P4::Client
 ##UMMF::UML_1_5::Foundation::Data_Types::OrderingKind
 ##WWW::Dropload
@@ -28942,9 +28077,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Games::Irrlicht::TechDemo
 ##XML::XPathEngine::Boolean
 ##WWW::Search::Livelink
-##Crypt::Rabbit
 ##init::hints::solaris
 ##User
+##Crypt::Rabbit
 ##Tie::Array::Packed::Auto
 ##NetStumbler::Stumbler
 ##Tangram::Type::Dump
@@ -28965,7 +28100,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PerlPoint::Generator::LANGUAGE::Formatter
 ##Acme::Hoge
 ##Gtk2::Ex::FormFactory::DialogButtons
-##Apache::AwSOAP
 ##Java::SJ::Classpath
 ##XML::Validate::Xerces
 ##Dicop::Client::wget
@@ -29002,7 +28136,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Gestinanna::POF::Repository
 ##Bio::MAGE::BioEvent
 ##Net::Gnats
-##Apache::Keywords
 ##WWW::Gazetteer::FallingRain
 ##Text::CSV2TXT
 ##Goo::Perl5ModuleMaker
@@ -29041,14 +28174,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::MXplus
 ##BBCode::Tag::CODE
 ##SQL::Builder::AnyObject
-##Win32::API::OutputDebugString
 ##Software::Packager::Object::Aix
+##Win32::API::OutputDebugString
 ##Net::OAI::Record::OAI_DC
 ##XDR::Decode
 ##GD::Graph::bars3d
 ##Win32::ASP::DB
 ##Bio::Tools::Run::PiseApplication::scan_for_matches
-##Apache::App::Mercury::Message
 ##Number::Range
 ##MARC::Detrans::Rules
 ##Geo::Approx
@@ -29081,8 +28213,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pugs::Runtime::Match
 ##forks::shared
 ##DateTime::TimeZone::Indian::Comoro
-##String::Multibyte::UTF16BE
 ##HTML::CalendarMonthDB
+##String::Multibyte::UTF16BE
 ##Tk::Optionmenu
 ##Catalyst::Engine::Server::Net::Server::PreFork
 ##Meta::Baseline::Lang::Aspe
@@ -29108,9 +28240,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::CompoundMethods
 ##Data::Compare
 ##Tangram::Driver::mysql::Expr::Date
-##NetAddr::IP::Obfuscate
 ##Gtk::GLArea::Constants
-##Apache::Wyrd::Services::SAK
+##NetAddr::IP::Obfuscate
 ##flo::plugin::Shop::Order::WorldPay
 ##CAM::PDF::Renderer::Text
 ##Archive::Tar
@@ -29126,8 +28257,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Ace::SocketServer
 ##Business::Shipping::Template::Shipment
 ##Lingua::MSWordSpell
-##Encode::InCharset::adobeStdenc
 ##PDF::Report::Table
+##Encode::InCharset::adobeStdenc
 ##XML::Atom::Filter
 ##Attribute::Persistent
 ##Froody::Walker
@@ -29139,7 +28270,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::Vipar::ParseView
 ##inc::Module::Install
 ##Win32::CtrlGUI::Criteria::arbitrary
-##Apache::Session::Lock::Memorycached
 ##Log::Dispatch::Email::MailSender
 ##Audio::LADSPA::Network
 ##CompBio::Simple::ArrayFile
@@ -29152,7 +28282,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::Calendar::FrenchRevolutionary
 ##ShellScript::Env_auxiliary
 ##HH::Unispool::Config::Entry::System
-##Apache::iTunes
 ##DBIx::Web
 ##Test::Unit::TestLoader
 ##RDF::Notation3::SAX
@@ -29167,16 +28296,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Number::Tolerant::Type::plus_or_minus_pct
 ##DBIx::SQLEngine::File
 ##Bio::GMOD::Adaptor
-##Apache2::Geo::IP
 ##POE::Loop::TkCommon
-##Apache::TestConfigC
 ##Teradata::BTET
 ##Chart::PNGgraph::lines
 ##Attribute::Abstract
-##Cache::BaseCache
 ##EasyCGI
-##Apache::Geo::IP::Record
 ##Module::CPANTS::Generator::ModuleInfo
+##Cache::BaseCache
 ##Image::ExifTool::JVC
 ##App::GUI::Notepad::Frame
 ##DateTime::TimeZone::Pacific::Chatham
@@ -29206,7 +28332,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Seshat
 ##Embedix::ECD::Util
 ##SGML::Parser
-##Apache::PrettyText
 ##Bio::Tools::Run::Mdust
 ##Video::DVDRip::Cluster::Job::AddAudioMerge
 ##Tree::Visualize::ASCII::Layouts::Simple
@@ -29217,7 +28342,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PAR::Packer
 ##Inline::Befunge
 ##Theodor::Wagner
-##Apache::MP3::L10N::cs
 ##Log::Agent::Driver::Mail
 ##GnaData
 ##ePortal::UserSection
@@ -29244,13 +28368,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UMMF::UML::MetaModel::OCL::Expressions::AssociationEndCallExp
 ##Audio::File::Type
 ##Games::LMSolve::Numbers
-##AFS::Object::FileServer
 ##CPANPLUS::Internals::Fetch
+##AFS::Object::FileServer
 ##Net::PSYC::Event::IO_Select
 ##POE::Class::Server::PreFork::TCP
 ##CGI::Kwiki::New
 ##POSIX::RT::Semaphore
-##Apache::AxKit::Provider::File
 ##IsamData
 ##SWISH::API::Remote::Result
 ##Froody::Invoker::Remote
@@ -29275,7 +28398,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::SFTP::Foreign::Constants
 ##HTML::WebMake::SiteMap
 ##Test::C2FIT::ScientificDoubleTypeAdapter
-##Apache::ASP::Request
 ##Module::API::Payload
 ##File::Spec
 ##Shell
@@ -29329,7 +28451,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##InfoSys::FreeDB::Response::LsCat
 ##RDF::Simple::Serialiser
 ##Yahoo::Search::Request
-##Apache::MP3::L10N::Aliases
 ##PDF::API2::Resource::Font::CoreFont::helveticabold
 ##Net::Lyskom::DynamicSession
 ##RT::Client::Property
@@ -29349,8 +28470,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Scraper::CraigsList
 ##Language::Prolog::Clause
 ##CORBA::Perl::cdr
-##Net::Blogger::Engine::Movabletype
 ##DBIx::HTMLinterface
+##Net::Blogger::Engine::Movabletype
 ##IPC::Shareable
 ##PDL::LinearAlgebra::Special
 ##XTM::subjectIdentity
@@ -29364,7 +28485,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Lingua::LinkParser::MatchPath::BuildSM
 ##XML::Parser::Style::Objects
 ##Proc::Wait3
-##Apache::AutoIndex
 ##Win32::Semaphore
 ##Maildir::Quota
 ##ePod
@@ -29386,7 +28506,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::Param
 ##Module::Release::Extras
 ##Goo::Thing
-##Apache::PageKit
 ##SQL::Translator::Producer::DBIx::Class::File
 ##Test::C2FIT::GenericArrayAdapter
 ##Genezzo::Havok::OO_Examples
@@ -29488,7 +28607,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Biblio::ILL::ISO::CheckedIn
 ##Env::Modulecmd
 ##Acme
-##Apache::AxKit::Language::XMLNewsRDF
 ##Bio::GMOD::Util::CheckVersions::WormBase
 ##AFS::FS
 ##Math::Units
@@ -29507,7 +28625,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tie::LLHash
 ##File::Append::TempFile
 ##PDF::API2::Version
-##Apache::SWIT::Subsystem::Base
 ##GnaData::Load::RDB
 ##Algorithm::MinMax
 ##Goo::TabConverter
@@ -29521,7 +28638,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::BEEP::Lite::MgmtProfile
 ##WWW::Webrobot::AssertConstant
 ##Template::Plugin::GD::Polygon
-##Apache::AuthTypeKey
 ##CORBA::MICO::IR
 ##Aspect::Weaver
 ##GPS::Lowrance::LSI
@@ -29579,7 +28695,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBI::Dumper::C
 ##Crypt::Cipher
 ##Gtk2::Ex::FormFactory::VSeparator
-##Apache::LoadAvgLimit
 ##POE::Framework::MIDI::Rest
 ##Frontier::RPC
 ##OpenPlugin::Application
@@ -29588,8 +28703,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::DomainKeys::Message
 ##Ace
 ##Math::BigInt
-##ePortal::PageView
 ##Data::Undumper
+##ePortal::PageView
 ##Graph::Template
 ##File::RsyncP::FileIO
 ##Bio::Genex::UserCanonicalLink
@@ -29640,7 +28755,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##P2P::pDonkey::Packet
 ##Unix::Conf::Bind8::Conf::Controls
 ##LibWeb::Crypt
-##Apache::ACEProxy::RACE
 ##Devel::Refactor
 ##PerlPoint::Tags::Basic
 ##Acme::Web20::Validator::Rule::ReferToDelicious
@@ -29657,7 +28771,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::Locale::ka_GE
 ##Crypt::OpenPGP::Armour
 ##DateTime::Locale::te
-##Apache::SIG
 ##Kwiki::MindMap
 ##XML::ASX::Repeat
 ##Params::Coerce
@@ -29689,18 +28802,16 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::Run::PiseApplication::primo
 ##Font::Scripts::Volt
 ##Parse::AFP::EFG
-##Apache::libapreq
 ##Class::DBI::utf8
 ##DBIx::SQLEngine::Criteria::Or
 ##NexTrieve::DBI
 ##Locale::RecodeData::EBCDIC_FI_SE
 ##ASNMTAP::Asnmtap::Plugins::Nagios
 ##Data::Fallback::ConfFile
-##Apache2::PerlSections
 ##KGS::Listener::Roomlist
 ##subs::parallel
-##OurNet::BBS::CVIC::BoardGroup
 ##Froody::Upload
+##OurNet::BBS::CVIC::BoardGroup
 ##RDF::Core::Serializer
 ##DBIx::Class::Relationship::CascadeActions
 ##Gtk::MozEmbed
@@ -29732,7 +28843,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AuditLog
 ##Text::MicroMason::TextTemplate
 ##StrTree
-##Apache::AntiSpam::JavaScript
 ##Glib::CodeGen
 ##XML::Template::Element
 ##MyTest::SingleChild
@@ -29742,7 +28852,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Exception::Cxx
 ##MailBot::UI::Loop
 ##SymbolicMode
-##Apache::AxKit::Language::XMLNewsNITF
 ##vptk_w::VPTK_Widget::Menubutton
 ##Video::PlaybackMachine::FillProducer::RandomStillFrame
 ##Bio::ConnectDots::ConnectorSet::Mouse430A_2_annot_csv
@@ -29775,7 +28884,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Shorten::_dead
 ##Net::DNS::ToolKit::RR::PTR
 ##Date::Language::Danish
-##Catalyst::Engine::Apache::MP19::Base
 ##Data::Pager
 ##Class::Publisher
 ##Kwiki::Registry
@@ -29788,13 +28896,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##OurNet::BBS::MAPLE2::Board
 ##Filter::Util::Exec
 ##Mail::Milter::Module::ConnectMatchesHostname
-##Catalyst::Engine::Apache::MP20
 ##DateTime::Locale::sq
 ##XML::CompareML::DTD::Generate
 ##optimizer
 ##Solaris::Disk::SVM
 ##ebXML::Message::DOMReader
-##Apache::Application::Magic
 ##XML::Template::Element::Block::Load
 ##QPixmap
 ##Term::ExprUI
@@ -29822,7 +28928,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Crypt::VERPString
 ##Test::Prereq::Build
 ##Net::FTPServer::Proxy::Server
-##Apache::AuthDigest::API::Multi
 ##Lingua::ZH::PinyinConvert
 ##Net::Z3950::PQF::Node
 ##Acme::Tango
@@ -29834,15 +28939,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::MacMap
 ##Moose::Util::TypeConstraints
 ##JavaScript::Code::Element
-##Catalyst::Engine::Apache2::MP19
 ##DBIx::OracleSequence
 ##Dimedis::Ddl::PrimaryKey::Sybase
 ##XML::XMetaL::Mock::DOMNode
 ##CGI::FormFactory
 ##Stem::File
 ##DateTime::TimeZone::LMT
-##XAO::DO::Web::Footer
 ##Crypt::DES
+##XAO::DO::Web::Footer
 ##ConfigReader::Spec
 ##Netscape::Bookmarks
 ##Catalyst::Plugin::CDBI::Transaction
@@ -29875,8 +28979,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ExtUtils::XSBuilder::ParseSource
 ##GD::Graph::pie
 ##WWW::Wikipedia
-##Apache::AuthCookie::Util
-##Apache::SWIT::DB::Connection
 ##SLOOPS::Tut::Plane
 ##WWW::Postini::Assert
 ##Wx::build::Config::Any_wx_config
@@ -29888,13 +28990,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UMMF::MOF_1_3::Model::Operation
 ##Meta::Baseline::Lang::Late
 ##GraphViz::Traverse::Filesystem
-##Maypole::Plugin::Upload
 ##SVL::Command::Unshare
+##Maypole::Plugin::Upload
 ##Regexp::Common::IRC
 ##Glade::PerlRun
 ##Chart::Clicker::Shape
 ##Win32API::ProcessStatus
-##Template::Plugin::Apache::SessionManager
 ##DateTime::TimeZone::Alias
 ##UMMF::UML_1_5::Foundation::Core::TemplateParameter
 ##Myco::Association
@@ -29905,13 +29006,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::DB::BiblioI
 ##Class::Hash
 ##Logfile::EPrints::Repeated
-##Apache::Wyrd::Debug
 ##Class::DBI::Replication
 ##Business::OnlinePayment::Moneris
 ##Bio::GMOD::Adaptor::generic
 ##Email::Store::List::Language
 ##XML::XBEL::thingy
-##Apache::Session
 ##DBomb::Test::Util
 ##InfoSys::FreeDB::Response::Hello
 ##Tk::TiedListbox
@@ -29936,8 +29035,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Chart::PNGgraph::pie
 ##Unicode::Indic::Translate
 ##Tk::ColorEditor
-##Apache::URI2param
-##SQCAS::Apache::Login
 ##Net::TCP::ConnHandler
 ##Business::BancaSella::Decode
 ##Date::Calendar::Profiles
@@ -29951,7 +29048,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Linux::Pid
 ##variable
 ##Net::RRP::Toolkit
-##Apache::Dynagzip
 ##Lingua::AM::Abbreviate
 ##Module::CPANTS::Site::C::Highscores
 ##WWW::Google::Groups::SearchResult
@@ -29988,7 +29084,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XPC
 ##OpenFrame::Request
 ##HTML::Widget::Constraint::Length
-##Apache::DBI::Cache
 ##Astro::Sunrise
 ##CGI::Application::Plugin::Authentication::Driver::Filter::md5
 ##DWH_File::Value::Undef
@@ -29998,7 +29093,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##OurNet::BBS::MAPLE3::BBS
 ##Embperl::Recipe::EmbperlPODXSLT
 ##Graph::Template::Container::Scope
-##Apache::AxKit::StyleChooser::Cookie
 ##App::Modular
 ##Net::Jabber::Presence
 ##PostScript::Simple
@@ -30017,7 +29111,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##FAQ::OMatic::ColorPicker
 ##File::chmod
 ##Date::Object
-##Acme::Apache::Werewolf
 ##Net::Syslog
 ##Search::Kinosearch
 ##Parse::RecDescent::Config::Scoped::Precomp
@@ -30030,10 +29123,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Business::PT::BI
 ##Sub::Name
 ##Net::LDAP::Control::EntryChange
-##Apache::TopicMaps::application::xtmPLUSxml::index
+##Data::Reporter::RepFormat
 ##Bio::GMOD::Admin::Update::WormBase
 ##Tie::StorableDir::BackedArray
-##Data::Reporter::RepFormat
 ##SQL::AnyDBD::SQLite
 ##Devel::RegExp
 ##Config::Builder::Parser
@@ -30043,8 +29135,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##BioGraph::FileAccess
 ##Bio::DB::BioSeqI
 ##Bio::AlignIO::clustalw
-##Mail::SPF::Mech::IP6
 ##Archive::Ipkg
+##Mail::SPF::Mech::IP6
 ##Sprite
 ##GO::Model::Ontology
 ##Template::TAL::Language::METAL
@@ -30085,7 +29177,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Fwctl::Services::name_service
 ##Biblio::ILL::ISO::DateDue
 ##Tree::Numbered::DB
-##Apache::PAR::Registry
 ##HTML::Toc
 ##HTML::Subtext
 ##HTTP::Headers::Auth
@@ -30103,7 +29194,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tk::Application
 ##Net::DAAP::Client::Auth::Protocol::vAny
 ##Lingua::Zompist::Barakhinei
-##Apache::ASP::CollectionItem
 ##XML::Schema::Facet::Builtin
 ##Unix::Conf::Bind8::DB::PTR
 ##Thread::Iterator
@@ -30164,7 +29254,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::DBI::Plugin::FilterOnClick
 ##Template::Plugin::AutoLink
 ##Bio::Matrix::IO
-##Apache::App::Mercury::UserManager
 ##HOP::Stream
 ##Geo::TigerLine::Record::T
 ##Time::Fields
@@ -30176,7 +29265,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::Bus::lngbase::CGI_Bus
 ##Games::Maze::SVG
 ##XML::Overlay::target
-##Apache::Filter
 ##Jifty::Script::Schema
 ##Text::Chomp
 ##XML::Elemental
@@ -30214,24 +29302,19 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Module::License::Report::CPANPLUS
 ##Class::Null
 ##DBD::mSQL1::Install
-##Apache::MP3::L10N::zh_cn
 ##WWW::Scraper::Opcode::GRUB
-##CPANXR::Apache::Visualizer
 ##OurNet::BBS::ShmScalar
 ##Text::Editor::Vip::Buffer::Test
 ##Class::Classless::DBI
 ##Plagger::Rule::Fresh
-##Apache::Dispatch
 ##Class::DBI::ToSax
 ##Kwiki::Cache
-##Apache::Forward
 ##Games::GuessWord
 ##Crypt::Random::Provider::rand
 ##Gtk::Dialog
 ##Net::UPnP::Service
 ##Net::SSH::Perl::Util::SSH1MP
 ##Cache::SizeAwareSharedMemoryCache
-##Apache::Session::File
 ##P6C::Parser
 ##Config_mO
 ##Bio::SearchIO::psl
@@ -30322,7 +29405,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Factory::SeqAnalysisParserFactoryI
 ##Games::Worms
 ##Kwiki::Template::TT2::UTF8
-##Apache::Wombat
 ##Win32::ShellExt::CtxtMenu::MagickConvertJPG
 ##HTML::Tested
 ##XML::SemanticDiff
@@ -30339,8 +29421,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Genezzo::Block::Std
 ##Number::Phone::NANP::BM
 ##RFID::Reader::TestBase
-##Tie::RefHash
 ##Bio::LiveSeq::Translation
+##Tie::RefHash
 ##GO::AnnotationProvider
 ##Object::POOF::SQL::Select
 ##FormValidator::Simple::Data
@@ -30373,7 +29455,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Games::Go::Dg2PDF
 ##Mail::ListDetector::Detector::Ecartis
 ##DB::Introspector::Base::DateTimeColumn
-##Apache::AxKit::Provider::Gestinanna
 ##CfgTie::filever
 ##DBIx::dbMan::Extension::Output
 ##inter::types
@@ -30387,8 +29468,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Astro::Aladin::LowLevel
 ##CGI::MxScreen::Form::Field
 ##Class::PObject::Test::HAS_A
-##Apache::RSS::Encoding::JcodeUTF8
-##Apache::Test
 ##Class::Contract::Production
 ##Data::Password::BasicCheck
 ##Babble::Transport::LWP
@@ -30409,7 +29488,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##measure3d
 ##RRD::Query
 ##WWW::PDAScraper::Yahoo::Science::WeatherNews
-##Wizard::Examples::Apache
 ##CGI::Application::GDGraph::lines_ap
 ##AI::Genetic::Individual
 ##DBIx::Repgen
@@ -30437,7 +29515,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::ICal::Daylight
 ##Jako::Construct::Statement::Increment
 ##Pointer::int
-##Apache::AuthzCache
 ##WebCache::Digest
 ##Catalyst::Exception
 ##PBib::ReferenceStyle::BookmarkLink
@@ -30448,8 +29525,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Cluster::Init
 ##Acme::MorningMusume::TsujiNozomi
 ##Win32::Exe::Resource::GroupIcon
-##QClipboard
 ##Image::WMF::Rectangle
+##QClipboard
 ##Relations::Display::Table
 ##PPresenter::Viewport::Phases
 ##Text::WrapProp
@@ -30462,7 +29539,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Business::Shipping::KLogging
 ##ESPPlus::Storage::Util
 ##Bio::Tools::Run::PiseApplication::nthseq
-##Apache::Session::Serialize::Dumper
 ##CGI::Pager
 ##Win32::Net::Session
 ##Catalyst::Plugin::Scheduler
@@ -30482,10 +29558,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Component::RSS
 ##Froody::Method
 ##Chatbot::Eliza
-##Apache::Wyrd::Cookie
 ##Goo::Profile
-##Acme::Pythonic
 ##Tangram::PerlDump
+##Acme::Pythonic
 ##Boulder::Blast::WU
 ##EO::Method
 ##Bio::LiveSeq::Repeat_Region
@@ -30495,8 +29570,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##IO::Page
 ##InSilicoSpectro::InSilico::Peptide
 ##Crypt::DSA::Key::SSH2
-##WWW::Cache::Google::Imode
 ##Bio::SearchIO::blastxml
+##WWW::Cache::Google::Imode
 ##Video::DVDRip::GUI::BitrateCalc
 ##Bio::Tools::Run::Analysis::soap
 ##EO::File
@@ -30559,14 +29634,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##RTF::Tokenizer
 ##Anarres::Mud::Driver::Program::Variable
 ##Perl::Critic::Policy::Subroutines::ProhibitSubroutinePrototypes
-##Apache2::JemplateFilter
 ##Inline::CPP::grammar
 ##RDF::Redland::Iterator
 ##Term::ShellKit::AutoPager
 ##Rose::HTML::Form::Field::PhoneNumber::US::Split
 ##Mail::DomainKeys::Policy
 ##News::FormArticle
-##HTML::Mason::ApacheHandler
 ##Device::MX240
 ##HTML::WikiConverter::DokuWiki
 ##Plucene::Index::FieldInfo
@@ -30632,13 +29705,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::dbMan::Interface::tkgui
 ##SVN::Notify::Config
 ##PPI::Document::Normalized
-##Apache::SMTP
 ##Games::Board
 ##Rubric::DBI::Setup
 ##Lemonldap::NG::Handler::Vhost
 ##Unix::MyPathToInc
 ##Siesta::Build
-##Catalyst::Engine::Apache::Base
 ##Object::I18n
 ##Tie::Array::Iterable
 ##Chart::Clicker::Drawing::Component
@@ -30665,10 +29736,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##pdftest
 ##HTTP::Proxy::BodyFilter::save
 ##Net::RRP::Exception::DomainNameNotAvailable
-##Apache::SecSess::URL::Cookie
 ##Text::DeDuper
 ##Device::SCSI::CDROM
-##Apache::NavBar
 ##DBIx::HTMLView::Id
 ##DateTime::Event::Sunrise
 ##POE::Kernel::Exception
@@ -30682,14 +29751,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##JUNOS::DOM::Parser
 ##Bio::Tools::Analysis::Protein::NetPhos
 ##Catalyst::Plugin::Authentication::LDAP
-##Apache::Voodoo::Loader::Static
 ##Astro::ADS::Result::Paper
 ##Bio::PopGen::MarkerI
 ##Net::OSCAR::TLV
 ##Test::LectroTest::Compat
 ##Macro::Micro::perl56
 ##InfoSys::FreeDB::Response::Query
-##OpenInteract::Cookies::Apache
 ##Algorithm::Numerical::Shuffle
 ##Class::DBI::Relationship::HasMany
 ##Jabber::RPC::Server
@@ -30716,10 +29783,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Graph::UnionFind
 ##CGI::Session::Driver::aus
 ##Oracle::Sqlldr
-##Authen::Simple::Apache
 ##Data::HexDump
 ##Bio::StructureI
-##Apache::Session::SysVSemaphoreLocker
 ##SVG::Graph::Glyph::line
 ##Jako::Construct::Statement::Return
 ##Bio::Tools::Run::PiseApplication::fastdnaml
@@ -30738,8 +29803,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tk::TableMatrix
 ##CAD::Drawing
 ##Net::RRP::Response::n533
-##Rose::DB::Object::Metadata::Relationship::OneToMany
 ##Meta::Chess::Board
+##Rose::DB::Object::Metadata::Relationship::OneToMany
 ##Net::Blogger::Engine::Manila
 ##Goo::WebDBLite
 ##Test::XML::Simple
@@ -30769,24 +29834,20 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SystemC::Vregs::Define
 ##Bio::Tools::Run::PiseApplication::backtranseq
 ##Win32::MSAgent
-##Image::ExifTool::Sony
 ##Bio::MAGE::Protocol::Protocol
+##Image::ExifTool::Sony
 ##Gtk2::Ex::FormFactory::Window
 ##PPresenter::Viewport::SlideButtonBar
 ##WordNet::SenseRelate::AllWords
 ##Biblio::Citation::Parser::Citebase
-##HTML::Mason::Request::ApacheHandler
 ##Image::Filter::Level
 ##ExtUtils::PkgConfig
 ##SMIL::XMLTag
-##Apache::MVC
 ##Wais::Dict
 ##Amethyst::Store
 ##Lingua::ZH::CCDICT::ResultSet::Array
 ##Net::EPP::Frame::Command::Poll
-##Apache::Session::Store::Informix
 ##Puppet::LogBody
-##Apache::Description
 ##Kwiki::GoogleLink
 ##XML::Comma::Element
 ##Catalyst::Plugin::Compress::Deflate
@@ -30802,13 +29863,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##vptk_w::VPTK_Geometry
 ##Config::Backend::SQL
 ##Text::Query::SolveSimpleString
-##Apache::AuthenLDAP
 ##GD::OrgChart
 ##DBIx::Wrapper::DBIDelegator
 ##Math::Expr::Num
 ##OpenFrame::Slot::SimpleGenerator
-##WebService::ChangesRSS
 ##Math::PartialOrder::LRUCaching
+##WebService::ChangesRSS
 ##Acme::ProgressBar
 ##PDL::Demos::TriD1
 ##Kwiki::Edit::HatenaAuthRequired
@@ -30826,7 +29886,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##IDfOperationError
 ##Meta::Widget::Gtk::XmlTree
 ##Biblio::Database
-##Apache::Session::Store::Memorycached
 ##Ace::Browser::SearchSubs
 ##Locale::RecodeData::INIS_CYRILLIC
 ##Regexp::Genex
@@ -30872,7 +29931,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::System::Layered
 ##Kwiki::Infobox
 ##Data::JavaScript
-##Apache::Session::Tree
 ##Test::Inline::Util
 ##Catalog::implementation
 ##Devel::ModInfo::Dependency
@@ -30920,8 +29978,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::BookBot::Chinese
 ##File::SubPM
 ##SimpleCDB
-##Continuity::Adapt::FCGI::Request
 ##CSS::SAC::Selector::Descendant
+##Continuity::Adapt::FCGI::Request
 ##Dicop::Event
 ##Data::Tabular::Group::Interface
 ##CPAN::Version
@@ -31091,8 +30149,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Finance::YahooChart
 ##Kwiki::Blog
 ##XML::Feed::JavaScript
-##Bio::Das::ProServer::SourceAdaptor::Transport::generic
 ##Introspector::NodeVisitors
+##Bio::Das::ProServer::SourceAdaptor::Transport::generic
 ##Oryx::Value::Integer
 ##Authen::SASL::CRAM_MD5
 ##XAO::Templates
@@ -31127,7 +30185,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::Locale::kl_GL
 ##XML::Comma::Storage::Output::Gzip
 ##Compress::LZW
-##Apache::ChildExit
 ##Net::SNMP::Message
 ##Class::DBI::Extension
 ##FreePAN::SVKMirror
@@ -31137,8 +30194,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PurpleWiki::Search::Engine
 ##Variable::Strongly::Typed::Code
 ##SPOPS::Tool::DBI::Datasource
-##MailBot::Sendable
 ##X11::ToolkitCons
+##MailBot::Sendable
 ##Test::DoubleEncodedEntities::Entities
 ##Net::FTP::Versioning
 ##Authen::Simple::Kerberos
@@ -31153,7 +30210,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Solaris::loadavg
 ##DocSet::Doc::HTML2HTML
 ##Tie::Hash::Longest
-##Apache::CVS::Graph
 ##Goo::Thing::gml::Reader
 ##slackget10::ServerList
 ##WAIT::Wais
@@ -31257,7 +30313,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Compress::AsciiFlate
 ##Net::Server::Proto::TCP
 ##Filesys::Type::Plugin::Windows
-##Apache::AuthChecker
 ##DateTime::Locale::byn_ER
 ##Catalyst::Plugin::CodeEval
 ##Astro::NED::Query::NearName
@@ -31274,7 +30329,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::SAX::Writer
 ##Win32::VolumeInformation
 ##Text::RecordParser::Tab
-##Apache::Cookie::Encrypted
 ##Maypole::View::TT
 ##UMMF::UML_1_5::OCL::Expressions::AttributeCallExp
 ##Beautifier
@@ -31320,7 +30374,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Devel::Trampoline
 ##Shell::Format
 ##Persistent::Hash::TestHash
-##Apache::TestServer
 ##Haver::Server::Wheel::Login
 ##XML::Validate
 ##Fwctl::Services::ip_pkt
@@ -31332,7 +30385,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBomb::GluedUpdate
 ##Parrot::Test::m4
 ##SpeedyFile
-##Apache2::ModBT::LeechNuker
 ##B::TerseSize
 ##Introspector::LoadNodes
 ##Handel
@@ -31340,9 +30392,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Matrix::PSM::IO::mast
 ##Probe::MachineInfo::Distribution
 ##Wx::DocView
-##Lexical::Util
 ##DBIx::dbMan::Extension::OutputQuiet
 ##Time::UTC
+##Lexical::Util
 ##TCUtils
 ##Bot::BasicBot::Pluggable::Module::HTTPIRCGW
 ##CGI::Session::Tutorial
@@ -31359,9 +30411,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SIL::Shoe::Lang
 ##InfoSys::FreeDB::Connection::CDDBP
 ##DBIx::Roles::StoredProcedures
-##CSS::Adaptor::Test
 ##Bio::DB::GFF::Adaptor::dbi::mysqlopt
 ##POE::Component::Client::NNTP
+##CSS::Adaptor::Test
 ##Bio::SeqIO::EMBL
 ##Games::Battleship::Player
 ##Algorithm::HITS
@@ -31402,11 +30454,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Framework::MIDI::Musician::Test
 ##Getopt::Help
 ##DateTime::TimeZone::America::Bahia
-##Apache::iNcom::Request
 ##Bio::DB::Ace
 ##POE::TIKC
 ##Log::Channel
-##Apache::MSIISProbes
 ##Win32::ShellExt::CtxtMenu::LinkExtor
 ##Number::Tolerant::Constant
 ##SDL::SFont
@@ -31435,7 +30485,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::Driver
 ##Bio::ExtractNE::GAPSCORE::TokenStreamBuilder::SentenceSpliter
 ##WWW::Scraper::Response::Job::FlipDog
-##Apache2::RequestUtil
 ##Lingua::Shakespeare::Character
 ##Tk::MinMaxScale
 ##Encode::InCharset::cp936
@@ -31469,7 +30518,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Jifty::LetMe
 ##Net::DNS::SEC
 ##POE::Component::IRC::Plugin::BotTraffic
-##Apache::WAP::AutoIndex
 ##Bio::Tools::BPpsilite
 ##IDfTypedObject
 ##Tk::LineGraph
@@ -31482,8 +30530,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Diff3::Factory
 ##MARC::Lint::CodeData
 ##WWW::SearchBroker::Common
-##Email::Store::Addressing
 ##Handel::Checkout::Stash
+##Email::Store::Addressing
 ##Bio::OntologyIO::dagflat
 ##WWW::PDAScraper::Yahoo::Sport::Tennis
 ##PDL::Graphics::OpenGL
@@ -31506,8 +30554,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Fax::DataFax::DateTime
 ##Template::Plugin::GD::Graph::lines
 ##SML::Template
-##Business::Payroll::US::MO::StateIncome
 ##DBD::ADO
+##Business::Payroll::US::MO::StateIncome
 ##CGI::Wiki::Formatter::Multiple
 ##UNIVERSAL::isa
 ##HTTP::WebTest::Request
@@ -31515,8 +30563,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tree::XPathEngine::Literal
 ##DBIx::Class::WebForm
 ##MacOSX::File::Constants
-##Perl::AtEndOfScope
 ##Bio::MAGE::BioAssayData::BioAssayDimension
+##Perl::AtEndOfScope
 ##Wombat::Core::EngineMapper
 ##Net::SSH::Perl::Key::DSA
 ##types
@@ -31536,10 +30584,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Devel::Trace
 ##Bio::Tools::Prediction::Exon
 ##Autodia::Handler::umbrello
-##KGS::Messages
 ##Tk::DBI::Table
+##KGS::Messages
 ##Sed
-##Apache::AuthKrb5Afs
 ##Linux::LVM
 ##Heap::Elem::NumRev
 ##Data::CGIForm
@@ -31559,7 +30606,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Bugzilla
 ##CGI::Session::ID::MD5
 ##UMMF::UML_1_5::Behavioral_Elements::State_Machines::FinalState
-##Apache2::Protocol
 ##Gestinanna::XSM::Workflow
 ##Project::Gantt::TimeSpan
 ##Tangram::Type::Date::DateTime
@@ -31580,7 +30626,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parrot::Docs::Item
 ##perlmenu
 ##Games::Shogi::Tenjiku
-##Apache::AxKit::Provider::DOM
 ##SPOPS::DBI::Sybase
 ##String::SetUTF8
 ##GO::Model::Graph
@@ -31628,7 +30673,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Plagger::Rule::EntryTag
 ##Authen::PAAS::Principal
 ##Tuxedo::Admin::TDomain
-##Apache::SizeLimit
 ##Bio::Expression::FeatureI
 ##Cdk::Fselect
 ##Algorithm::Dependency::Weight
@@ -31675,7 +30719,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::AppToolkit::Data::Automorph
 ##Mail::SpamAssassin::Plugin::SPF
 ##Algorithm::CurveFit
-##Apache2::AUS
 ##GD::SecurityImage::Magick
 ##Zanas::Request::Upload
 ##Bio::MAGE::BioMaterial
@@ -31711,7 +30754,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Rose::DB::Object::Metadata::Column::Scalar
 ##PITA::Guest::Driver::Local
 ##Net::SSH::Perl::Key
-##Apache::SubProcess
 ##SVG::TT::Graph::BarLine
 ##Astro::Catalog::IO::GaiaPick
 ##WWW::Find
@@ -31721,8 +30763,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Games::Rezrov::ZIO_Tools
 ##Net::Hesiod
 ##Perl6::Builtins
-##AI::Fuzzy::Set
 ##Prima::sys::win32::FileDialog
+##AI::Fuzzy::Set
 ##Astro::Telescope
 ##Tie::IxHash::Easy
 ##Net::FTPServer
@@ -31741,9 +30783,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SGML::ISO8859::S10
 ##DocSet
 ##Gestinanna::Exception
-##Apache::DB
 ##PDF::API2::Resource::Font::CoreFont::courierbold
-##PurpleWiki::Apache2Handler
 ##Digest::MD5::M4p
 ##CGI::Session::Serialize::DataDumper
 ##Class::DBI::UUID
@@ -31760,7 +30800,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::NFSLock
 ##Pixie::Object
 ##Logfile::EPrints::arXiv
-##Apache::Action::State
 ##Class::EHierarchy
 ##Test::Data::Scalar
 ##EB::Report::Journal
@@ -31784,9 +30823,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Lingua::EN::Syllable
 ##Goo::TrailGoBack
 ##Spline
-##Apache::Singleton
-##Arc::Command
 ##Oryx::DBI::Association::Hash
+##Arc::Command
 ##OpenInteract::SPOPS::LDAP
 ##PPI::Token::Regexp::Transliterate
 ##DBIx::dbMan::Extension::BenchmarkStart
@@ -31808,7 +30846,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Wombat::Valve
 ##Gestinanna::XSM::ContentProvider
 ##ZooZ::varRefs
-##Apache::Quota
 ##HTML::Tag::Lang::it
 ##DateTime::Locale::tt_RU
 ##Lingua::Phonology::Segment::Tier
@@ -31816,7 +30853,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::Locale::ar_IQ
 ##File::Extract::Result
 ##IDfVDMPlatformUtils
-##Apache::AxKit::Language::SAXMachines
 ##SPOPS::Exception::LDAP
 ##Bio::Cluster::SequenceFamily
 ##Puppet::Any
@@ -31861,7 +30897,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Algorithm::CheckDigits::M11_012
 ##Amethyst::Connection::Anarres
 ##XTM::subjectIndicatorRef
-##Apache::ChefProxy
 ##DB::Introspector::Base::ForeignKey
 ##DateTime::Locale::ps_AF
 ##JOAP::Proxy::Package::Server
@@ -31876,8 +30911,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MyLib::L::Eng
 ##CGI::Bus::file
 ##UMMF::UML::MetaModel::Foundation::Data_Types::MultiplicityRange
-##Regexp::IgnoreTextCharacteristicsHTML
 ##Bio::MAGE::BioAssayData::BioAssayMap
+##Regexp::IgnoreTextCharacteristicsHTML
 ##JaM::Import::Netscape
 ##Genezzo::Plan::TypeCheck
 ##WWW::Mechanize::FormFiller::Value::Default
@@ -31901,7 +30936,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Solaris::Lgrp
 ##Gtk2::Ex::ICal::Recur
 ##Bio::Search::Result::ResultI
-##Apache::DAV::HooksDb
 ##Biblio::Document::Parser::Brody
 ##P6C::TestCompiler
 ##Time::Decimal
@@ -31947,15 +30981,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##GraphViz::XML
 ##Acme::MetaSyntactic::viclones
 ##Wizard
-##Text::NSP::Measures::2D::Fisher2::left
 ##Locale::Recode
+##Text::NSP::Measures::2D::Fisher2::left
 ##HTML::DBTable
-##RDBAL::Layer::ApacheSybaseDBlib
 ##LibWeb::CGI
 ##Net::HL7::Segments::MSH
 ##Astro::Catalog::Query::Sesame
-##Module::Build::Platform::darwin
 ##PBS::Shell::SSH
+##Module::Build::Platform::darwin
 ##Games::Checkers::MoveConstants
 ##Image::Signature::ColorHistogram
 ##OurNet::BBS::PTT::BoardGroup
@@ -31965,14 +30998,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Unix::ConfigFile
 ##Text::Wigwam
 ##XML::Comma::Pkg::Textsearch::Preprocessor_En
-##Apache::App::Mercury::Message::Attachment
-##Text::Editor::Vip::Buffer::List
 ##Tree::Base
+##Text::Editor::Vip::Buffer::List
 ##GFF::Filehandle
 ##OpenCA::OpenSSL::SMIME
 ##POE::Loop::Kqueue
 ##XML::GXML
-##Apache::Filter::HanConvert
 ##Exception::Class::DBI
 ##News::Newsrc
 ##Cache::FastMemoryCache
@@ -32032,7 +31063,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Qt::isa
 ##LibZip::Scan
 ##Pangloss::Search::Filter::Translator
-##Apache::DAV::DynHooks
 ##VRML::VRML2
 ##Net::ICal::Freebusy
 ##Class::MakeMethods::Attribute
@@ -32073,7 +31103,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::Application::Plugin::LogDispatch
 ##Encode::CN::HZ
 ##CGI::Bus::lngbase::CGI_Bus_wg
-##Apache::Recorder
 ##Data::Presenter
 ##Stem::Cron
 ##Text::NSP::Measures::2D::Fisher::left
@@ -32099,7 +31128,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##List::Compare::Functional
 ##XML::XSH2::LibXMLCompat
 ##Games::3D::Template
-##Apache2::ExplorerDestroyer
 ##DDL::Oracle
 ##Bigtop::Backend::HttpdConf
 ##Goo::Thing::pm::Perl5Profiler
@@ -32119,7 +31147,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Goo::Thing::conf::ConfigProfiler
 ##FAQ::OMatic::recent
 ##Class::Persistent::StructTemplate
-##Apache::XPP
 ##Maypole::FormBuilder::Model::Plain
 ##FAQ::OMatic
 ##Module::Checkstyle::Check::Package
@@ -32157,7 +31184,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::ConnectDots::ConnectorSet::HG_U95Av2_annot_csv
 ##WordNet::SenseRelate::Context::NearestWords
 ##XAO::DO::Web::Cookie
-##Apache2::AuthenDBMCache
 ##Paper::Specs::standard::e
 ##AnnoCPAN::PodToHtml
 ##Test::Unit::GTestRunner::Worker
@@ -32168,13 +31194,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::dbMan::Extension::SQLOutputNULL
 ##Catalyst::Plugin::Email
 ##POE::Component::IRC::Service
-##Apache::ASP::Session
 ##Text::Tags::Parser
 ##FastGlob
 ##PostScript::TextBlock
 ##Net::Whois
 ##RandomFileMethodBase
-##Apache2::CPAN::Query
 ##Crypt::DES_EDE3
 ##Bio::MAGE::QuantitationType::ExpectedValue
 ##Win32
@@ -32219,7 +31243,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::MakeMethods::Template::Universal
 ##Parallel::MPI::Simple
 ##Bio::ExtractNE::GAPSCORE::Scorer::GeneralCase::Appearance
-##Apache::Wyrd::ErrTag
 ##SNMP::Info::Layer2::ZyXEL_DSLAM
 ##Text::NSP::Measures::2D::Fisher
 ##PHP::Include
@@ -32233,7 +31256,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##slackget10::File
 ##DBD::SQLite2
 ##X11::Motif::URLChooser
-##Apache::Voodoo::ValidURL
 ##Games::Sudoku::OO::Board
 ##MMS::Mail::Provider::UK02
 ##XML
@@ -32325,7 +31347,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##IPC::Run3::ProfArrayBuffer
 ##WebService::Mappoint
 ##Bio::Tree::RandomFactory
-##Apache::Backend::POE::Connection
 ##Bio::ExtractNE::Recognizer
 ##LWP::Sink::rot13
 ##Biblio::ILL::ISO::ReasonNotAvailable
@@ -32356,10 +31377,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ModuleFindTest::SubMod::SubSubMod
 ##PurpleWiki::Search::Result
 ##Encode::KR::2022_KR
-##Apache::testold
-##Apache::SAPSOAP
 ##MHonArc::UTF8::CP1251
-##Apache::SimpleReplace
 ##Catalyst::Helper::View::Mason
 ##JaM::GUI::Compose
 ##UMMF::UML::MetaModel::Foundation::Core::BehavioralFeature
@@ -32379,9 +31397,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTTP::OAI::Metadata::OAI_DC
 ##Catalyst::Model::DBI::SQL::Library
 ##XML::Template::Exception
-##Apache::XPP::Cache::Store::File
 ##GnaData::Read
-##Apache::MP3::L10N::sr
 ##Algorithm::SVMLight
 ##PHP::Session
 ##Ratpoison
@@ -32441,7 +31457,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tie::Cache::LRU::Array
 ##Net::PSYC::MMP::Compress
 ##Bio::Tools::Run::PiseApplication::fitch
-##Apache2::ClickPath::StoreClient
 ##Mail::Abuse::Processor::Store
 ##Thread::Signal
 ##Tk::JComboBox
@@ -32455,7 +31470,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DNS::ToolKit
 ##Unix::PasswdFileOps
 ##MIDI::Event
-##Apache::Roaming
 ##Rubric::DBI
 ##Regex::Rewrite
 ##Tools
@@ -32487,7 +31501,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTTP::Proxy::BodyFilter::tags
 ##CGI::Wiki::Plugin::Locator::UTM
 ##Device::Gsm::Sms
-##Apache::PerlVINC
 ##File::SearchPath
 ##Tk::Pane
 ##Regexp::Log::BlueCoat
@@ -32517,8 +31530,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Ace::Graphics::Glyph::ex
 ##Chart::Clicker::Decoration::Base
 ##Gestinanna::POF::Iterator
-##Bio::Tools::Run::PiseApplication::consensus
 ##Video::PlaybackMachine::FillProducer::UpNext
+##Bio::Tools::Run::PiseApplication::consensus
 ##DateTime::TimeZone::Asia::Colombo
 ##DateTime::Locale::hi_IN
 ##orac_Print
@@ -32541,9 +31554,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Quizzer::Element::Dialog::Note
 ##Spreadsheet::WriteExcel
 ##DateTime::Locale::en_SG
-##Math::ODE
 ##SMS::Ringtone::RTTTL::Parser
 ##XAO::DO::Indexer::Foo
+##Math::ODE
 ##GO::Handlers::obo_html
 ##Thread::Use
 ##Acme::PM::Dresden
@@ -32561,9 +31574,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##VCS::Hms::File
 ##CPAN::Mini
 ##Chemistry::File::MidasPattern
-##Audio::TagLib::Shell
 ##Docs::Site_SVD::Data_Secs2
 ##KGS::Listener
+##Audio::TagLib::Shell
 ##Mail::Message::Field
 ##Net::Meerkat
 ##PerlBean::Dependency::Use
@@ -32580,14 +31593,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Devel::Symdump::Export
 ##PDL::Audio::Pitches
 ##NCGI::Cookie
-##Apache::WeSQL::Display
 ##CGI::Portable::AppSplitScreen
 ##XML::XSPF::Base
 ##Bio::MAGE::XML::Handler::ContentHandler
 ##Digest::ManberHash
 ##Config::Context::ConfigGeneral
 ##Pangloss::Segment::Decline::NoListProofreaders
-##Apache::Language::PlainFile
 ##URI::Find::Schemeless
 ##Test::Unit::Debug
 ##Meta::Utils::Text::Checker
@@ -32628,7 +31639,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##slackget10::Networking
 ##CGI::MxScreen
 ##Module::API::Request
-##Apache::Wyrd::CGICond
 ##URI2::URL
 ##Spork::Slides
 ##SWISH::Fork
@@ -32673,14 +31683,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Mail::Hotmail
 ##PApp::DataRef
 ##Mail::SPF::Mech::Exists
-##Apache::Wyrd::Interfaces::Indexable
 ##Net::SFTP::Buffer
 ##Babble::DataSource::RSS
 ##CogBase::Factory
 ##Test::TAP::Model::Subtest
 ##LSF::JobGroup
 ##Net::Analysis::Packet
-##Apache::SWIT
 ##SVN::SVNLook
 ##Imager::Plot::Util
 ##IPTables::IPv4::Chain
@@ -32708,7 +31716,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bigtop::Docs::Tutorial
 ##Font::TTF::LTSH
 ##HTML::TreeBuilder::XPath
-##Apache::Dir
 ##BIND::Conf_Parser
 ##Maypole::Component
 ##LWP::Conn::FILE
@@ -32718,7 +31725,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##filex
 ##Games::Blackjack
 ##HTML::WordTagRatio::WeightedRatio
-##Apache::ASP::ApacheCommon
 ##Perl::Configure::Questions
 ##Net::SinFP::DB::Vendor
 ##Net::APP
@@ -32748,7 +31754,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pod::Simple::BlackBox
 ##HTML::Widgets::NavMenu::Tree::Iterator
 ##Kwiki::Theme::Basic
-##Apache::HeavyCGI::ExePlan
 ##Gestinanna::SchemaManager::Schema
 ##Unicode::Decompose
 ##Module::Install::AutoInstall
@@ -32766,7 +31771,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Utils::File::Match
 ##Regex::Parse
 ##Net::AOLIM
-##Apache2::AuthenMSAD
 ##Pugs::Grammar::Base
 ##Bio::Variation::IO::flat
 ##Readonly::XS
@@ -32789,7 +31793,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::Parser::Style::Stream
 ##perliso9660
 ##Net::Peep::Client::Pinger::Host
-##Apache::Log
 ##PPI::Structure::ForLoop
 ##XML::RSS::FOXSports
 ##Plagger::UserAgent
@@ -32802,7 +31805,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::AFP::Triplet::DP
 ##DBIx::dbMan::Extension::CountPost
 ##XML::Sablotron::Situation::DOMHandlerDispatcher
-##Apache::MP3::L10N::ca
 ##HH::Unispool::Config::File::Token::Comment::RSys
 ##Meta::Info::User
 ##CPANPLUS::Module::Signature
@@ -32824,8 +31826,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Wizard::Examples::LDAP::User
 ##Bio::ConnectDots::ConnectorSet::Unigene
 ##WWW::Wikipedia::Entry
-##Doc::Perlish::DOM::Node
 ##FileMetadata::Store::XML
+##Doc::Perlish::DOM::Node
 ##SPOPS::Export::DBI::Data
 ##Bio::Tools::Run::PiseApplication::xpound
 ##KIF::Bootloader
@@ -32838,7 +31840,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Test::Unix::Group
 ##Mail::Milter::Module::HeloUnqualified
 ##Meta::Baseline::Lang::Java
-##Apache::GuessCharset
 ##Mail::Message::Convert::MailInternet
 ##POE::Component::Basement
 ##HTML::TableBracket
@@ -32865,7 +31866,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PDL::IO::Grib
 ##Real::Encode
 ##Tk::Graph
-##Apache::ASP
 ##NexTrieve::Daemon
 ##Test::C2FIT::eg::net::GeoCoordinate
 ##Net::DBus::Binding::Bus
@@ -32882,12 +31882,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##FAQ::OMatic::addItem
 ##slackget10::Date
 ##Bio::ExtractNE::GAPSCORE::TokenFilter::SpecificWordFilter
-##PPI::Token::Attribute
 ##Cache::Repository
+##PPI::Token::Attribute
 ##Code::Perl::Expr::DerefHash
 ##Boulder::Blast::NCBI
 ##HTML::Index::Store::BerkeleyDB
-##Apache::XPointer::RDQL::Parser
 ##Net::DNS::Resolver::Win32
 ##Net::Z3950::Manager
 ##DBIx::dbMan::Extension::CmdSetTracing
@@ -32936,7 +31935,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::API::Hooks
 ##Test::AutoBuild::Output::LogCopier
 ##Config::FreeForm
-##Apache2::ModBT
 ##XML::SAX::PurePerl::DebugHandler
 ##CGI::Builder::Auth::User
 ##LaBrea::NetIO
@@ -32946,7 +31944,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Test::Manifest
 ##Class::Factory
 ##XML::Atom::Syndication::Object
-##Apache::MP3::L10N::is
 ##OpenPlugin::Log
 ##Nagios::NSCA::Client::InputFilter
 ##DBI::Const::GetInfoType
@@ -32969,7 +31966,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MmapHandler
 ##Solaris::PerlGcc
 ##Mail::Stats::Parser
-##Apache::Session::Store::CacheAny
 ##Mac::Spotlight::MDQuery
 ##File::Policy
 ##X10::Scheduler
@@ -32984,9 +31980,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::PINT::DataTypes::Bitmask
 ##XML::RSS::FOXSports::Utils
 ##Docs::Site_SVD::File_Maker
-##SVG::Parser::Expat
 ##PDL::Graphics2D
 ##XAO::DO::Indexer::Base
+##SVG::Parser::Expat
 ##HTTP::Request::FromTemplate
 ##spice
 ##Tie::CharArray
@@ -33046,11 +32042,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Lingua::Phonology::Boundary
 ##Parse::Binary::FixedFormat::Variants
 ##MIDI::Realtime
-##Apache::LogRegex
 ##TXTCOD
 ##Authen::Htpasswd::User
 ##Kwiki::NewPage
-##Apache::LogFile
 ##MailBot::UI
 ##DBIx::Composer
 ##GMail::Checker
@@ -33111,7 +32105,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ObjStore::ServerDB::Top
 ##Mail::IMAPTalk
 ##Net::UPnP::AV::Container
-##Apache::AxKit::Plugin::BasicSession
 ##Paper::Specs::Avery::2160_2
 ##Bio::SearchIO::chado
 ##PApp::Hinduism::Default
@@ -33140,15 +32133,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##BSD::Ipfwgen
 ##Tk::InputO
 ##Paper::Specs::standard::a1
-##Apache2::AuthCookieDBImg
 ##Date::Convert::French_Rev
 ##ZM::Session
-##HTTP::OAI::ResumptionToken
 ##GPIB::hp3585a
+##HTTP::OAI::ResumptionToken
 ##HTML::Tempi
 ##Geography::Country::TZ::Zone
 ##JOAP::Server::Object
-##Apache::Wombat::Response
 ##Slurp
 ##Inline::Select::Register
 ##Bio::Tools::QRNA
@@ -33208,7 +32199,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Time::TimeTick
 ##RPC::ONC
 ##Business::Shipping::Shipment::USPS
-##Apache::TestTrace
 ##TM
 ##PostScript::EPSF
 ##Image::ANSI::Utils
@@ -33239,7 +32229,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Curses::UI::Language::norwegian
 ##Meta::Baseline::Lang::Objs
 ##Acme::MetaSyntactic::opcodes
-##Apache::Emulator
 ##KIF::Build::alpha
 ##Repository::Simple::Property
 ##Weather::Com::Units
@@ -33272,7 +32261,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::SVNDiff
 ##Net::CDP::Packet
 ##Locale::RecodeData::MACTURKISH
-##Apache::TestCommon
 ##PDF::API2::Basic::TTF::Vmtx
 ##MIME::Explode
 ##UMMF::UML_1_5::OCL::Expressions::NumericLiteralExp
@@ -33299,7 +32287,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Test::Deep::Any
 ##Tangram::Lazy::Ref
 ##DBIx::dbMan::Extension::SQLResultPreprocess
-##Apache::HeavyCGI::SquidRemoteAddr
 ##Perlbug::Interface::Email
 ##DateTime::Locale::nb
 ##Test::Deep::Number
@@ -33325,10 +32312,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MyApp::L::Homer
 ##Mail::Abuse::Incident
 ##Bio::Tools::Run::PiseApplication::seqgen
-##Email::Store::Thread
-##Stem::LoadBalance
 ##RDF::Core
-##Apache::MP3::L10N::ga
+##Stem::LoadBalance
+##Email::Store::Thread
 ##PXP::Plugin
 ##Paper::Specs::Avery::8463
 ##Config::Context::ConfigScoped
@@ -33342,11 +32328,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::Policy::Default
 ##Sybase::ObjectInfo
 ##Net::Blogger::API::Core
-##Apache::AuthzNIS
 ##CGI::Application::Plugin::AnyTemplate::Base
 ##Games::Mastermind
 ##DateTime::Locale::cy_GB
-##Apache::No404Proxy::Google
 ##Module::MetaInfo::AutoGuess
 ##File::ManualFlock
 ##Data::XML::Variant::Build
@@ -33360,7 +32344,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::Display::Opera
 ##Coro::State
 ##Authen::PAAS::BasicUser
-##Apache::Throttle
 ##Ogg::Vorbis::Header::PurePerl
 ##WebMoney::WMSigner
 ##Term::ReadPassword::Win32
@@ -33369,9 +32352,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##GO::Model::GraphNodeInstance
 ##Parrot::PackFile::FixupTable
 ##KinoSearch::Store::FSLock
-##Lingua::Zompist::Cadhinor
 ##SPOPS::DBI::Oracle
 ##Bio::Tools::Run::PiseApplication::scopparse
+##Lingua::Zompist::Cadhinor
 ##DateTime::Locale::en_AS
 ##Gnome::Sound
 ##XML::Validator::Schema::ComplexTypeNode
@@ -33497,14 +32480,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Math::Cephes::Fraction
 ##HTML::Debug
 ##Hash::Merge
-##Apache::AxKit::Plugin::QueryStringCacheRegexp
 ##UMMF::UML_1_5::Foundation::Core::Component
 ##Tie::RemoteVar
 ##NBU::Schedule
 ##ObjStore::AppInstance
 ##PXP::ExtensionPointClass
-##DateTime::Calendar::Pataphysical
 ##DBIx::FullTextSearch::Table
+##DateTime::Calendar::Pataphysical
 ##UMMF::UML_1_5::Foundation::Core::PresentationElement
 ##Math::Zap::Rectangle
 ##Net::EPP::Frame::Greeting
@@ -33560,15 +32542,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Shorten::EkDk
 ##Compress::PPMd
 ##QRect
-##AppConfig::Getopt
 ##Set::FA
 ##Bio::Align::Utilities
 ##DB::Introspector::RelInspectTest
 ##Mail::GPG
+##AppConfig::Getopt
 ##Fry::Base
 ##Test::Deep::String
 ##Net::Whois::IP
-##Apache::SMTP::Server
 ##WWW::Blog::Metadata::OpenID
 ##Mod_EUCJP
 ##Geo::Walkabout::Utils
@@ -33586,8 +32567,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Test::C2FIT::ActionFixture
 ##DateTime::Locale::gl_ES
 ##PPresenter::StyleElem
-##Astro::FITS::HdrTrans::UKIRTDB
 ##Meta::Info::Im
+##Astro::FITS::HdrTrans::UKIRTDB
 ##DateTime::Locale::ar_LY
 ##Costume::Doublet
 ##Paper::Specs::Avery::5262
@@ -33599,7 +32580,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tie::Hash::Cache::MRU
 ##PITA::Scheme
 ##PerlIO::via::Rotate
-##Apache::AxKit::Language::SpellCheck
 ##Lingua::Romana::Perligata
 ##DateTime::Locale::es_MX
 ##WWW::Search::Test
@@ -33607,12 +32587,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##IPC::UPDmsg
 ##PBS::Graph::Snapshots
 ##SDL::App::FPS::Group
-##Apache::DumpHeaders
 ##Net::FTPServer::RO::DirHandle
-##Glade
 ##Coro::Semaphore
-##DBSchema::Sample::Pg
+##Glade
 ##Log::Log4perl::JavaMap
+##DBSchema::Sample::Pg
 ##POE::Component::IKC
 ##Oak::AAS::AuthorizationError
 ##VCS::LibCVS::Slice
@@ -33633,21 +32612,19 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PDF::Template::Element::HorizontalRule
 ##OpenPlugin::Authenticate::Template
 ##DateTime::Format::Baby
-##Test::Deep::Blessed
-##Proc::ProcessTable::Process
 ##Meta::Tool::Aegis
+##Proc::ProcessTable::Process
+##Test::Deep::Blessed
 ##Win32::CtrlGUI::Criteria
 ##Devel::ebug::Backend::Plugin::Filenames
 ##Bio::SearchIO::chadosxpr
 ##Genezzo::PushHash::HPHRowBlk
 ##Net::RRP::Response::n556
-##OpenFrame::Segment::Apache2::Response
 ##NNML::Connection
 ##TreeHash
 ##Bio::Tools::Run::PiseApplication::hmmalign
 ##Plagger::Plugin::SmartFeed::All
 ##Nmap::Scanner::OS::TCPTSSequence
-##Apache::Session::Wrapper
 ##Quizzer::FrontEnd::Tty
 ##Encode::TECkit
 ##MKDoc::Forum::IMAP::Post
@@ -33694,7 +32671,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Locale::Framework
 ##init::headers
 ##Cvs::Result::Logout
-##Apache::HeavyCGI::Exception
 ##HTML::EmbperlObject
 ##ObjStore::Serve
 ##Games::Nintendo::Mario::SMB3
@@ -33710,7 +32686,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::Index::Store::DataDumper
 ##Net::XWhois
 ##CacheWeather
-##Apache::SpellingProxy
 ##Devel::ModInfo
 ##RDF::Service
 ##PBib::Document::PBib
@@ -33772,8 +32747,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##FileCache::Handle
 ##DateTime::TimeZone::Atlantic::Stanley
 ##Class::DBI::Search::Basic
-##Lingua::ZH::CEDICT::Textfile
 ##Fry::Opt
+##Lingua::ZH::CEDICT::Textfile
 ##Class::MakeMethods::Template::PackageVar
 ##CGI::Bus::lngbase::CGI_Bus_tmsql_ru
 ##ExtUtils::ModuleMaker::SecondStyle
@@ -33848,7 +32823,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::2ch::Subject
 ##Maypole::FormBuilder::Model
 ##LWP::Sink::Tee
-##MasonX::Request::WithApacheSession2
 ##JeevesUtil
 ##UMMF::UML_1_5::OCL::Expressions::CollectionRange
 ##Kwiki::Markdown
@@ -33868,9 +32842,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::Format::Roman
 ##Volity::Server
 ##POE::Filter::Grep
-##Courier::Filter::Module::DNSBL
 ##Telephone::Number
 ##Perlcast::Interviews::001
+##Courier::Filter::Module::DNSBL
 ##Cz::Sort
 ##MQSeries::FDC::Tail
 ##Bio::SeqFeature::Gene::GeneStructure
@@ -33893,8 +32867,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Crypt::UnixCrypt
 ##WebService::GoogleHack::Text
 ##CIPP::Compile::PerlCheck
-##Verilog::Netlist::Port
 ##SVL::Command
+##Verilog::Netlist::Port
 ##DBomb::Base::Defs
 ##GO::Handlers::obo
 ##Mail::Addressbook::Convert::Genr
@@ -33948,9 +32922,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::Avery::5766
 ##Schedule::Cron
 ##XML::Filter::XML_Directory_2RSS::Base
-##Text::Kakasi
 ##Wizard::Elem::Title::HTML
 ##Tk::DBI::DBGrid
+##Text::Kakasi
 ##Posy::Plugin::CgiCarp
 ##XML::Generator::RSS10::content
 ##Gestinanna::ContentProvider::TT2
@@ -33967,8 +32941,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Crypt::CFB
 ##Myco::Entity::Meta::Query
 ##WWW::Postini::Exception::InvalidParameter
-##TAM::Admin::User
 ##Business::OnlinePayment::StGeorge
+##TAM::Admin::User
 ##Net::IChat
 ##Config::Manager::Base
 ##MHonArc::CharEnt::ISO8859_15
@@ -33992,9 +32966,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Device::ParallelPort::drv::parport
 ##BBCode::Tag::ABBR
 ##Bio::GMOD::Util::Mirror
-##Goo::TrailManager
 ##PeopleSoft
 ##Meta::File::MMagic
+##Goo::TrailManager
 ##Device::SCSI::linux
 ##Acme::MetaSyntactic::pop2
 ##Lemonldap::Portal::Authntsso
@@ -34034,10 +33008,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SVG::Graph::Glyph::bar
 ##HTML::TagCloud
 ##Plucene::Analysis::CJKTokenizer
-##Apache::Htaccess
 ##Scheme::Builtins
-##SNMP::NPAdmin::Neon
 ##DateTime::TimeZone::Local
+##SNMP::NPAdmin::Neon
 ##FormValidator::Simple::Plugin::Japanese
 ##Device::ISDN::OCLM::ManualStatistics
 ##Algorithm::Evolutionary::Op::Base
@@ -34053,8 +33026,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::PDAScraper::Yahoo::World::MiddleEast
 ##BeerDB
 ##Acme::Buckaroo
-##Net::LDAP::Server
 ##Geo::Coder::US::Import
+##Net::LDAP::Server
 ##DateTime::TimeZone::America::Indiana::Knox
 ##Data::ObjectDriver::BaseObject
 ##Kwiki::Kwiki::Command::Source
@@ -34093,8 +33066,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SWIFT::Factory::Tag::Tag17T
 ##Net::FCP
 ##Doc::Perlish::HTML
-##MasonX::Request::Apache2Handler
-##Apache2::Build
 ##Net::HTTPServer::Session
 ##Authen::SASL::Perl::DIGEST_MD5
 ##PurpleWiki::View::xhtml
@@ -34111,9 +33082,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Module::API::Encoder::Storable
 ##Bio::Tools::Run::Phylo::Phylip::ProtPars
 ##HTML::WebMake::MetaTable
-##OpenPlugin::Session::ApacheSession
 ##Dimedis::SqlDriver::Oracle
-##CGI::Lite::Request::Apache
 ##Net::Jabber::Stanza
 ##WWW::Search::Yahoo::China
 ##Curses::UI::Calendar
@@ -34121,13 +33090,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::EPP::Frame::Hello
 ##Test::AutoBuild::Output::ArtifactCopier
 ##Parse::AFP::FNC
-##Apache::Upload
 ##OpenSSL::CRL
 ##World2
 ##Lufs::Ram
 ##Acme::Void
-##Embperl::Syntax::Mail
 ##DB::IntrospectorTest
+##Embperl::Syntax::Mail
 ##Gnome::Applet
 ##XAO::DO::Atom
 ##Time::Duration
@@ -34176,23 +33144,21 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Gnome2::Wnck
 ##MMS::Mail::Parser
 ##Template::Plugin::Decode
-##Apache::Language::SW
 ##Alzabo::Runtime::CachedRow
 ##Spork
 ##CGI::Cookie
 ##Encode::TW::Unisys::SOSI1
 ##PerlBean::Method::Constructor
 ##Tk::Autoscroll
-##Apache::XMLRPC::Lite
 ##Term::ReadKey
-##WWW::Search::Ebay::ByEndDate
 ##UMMF::Export::Java
+##WWW::Search::Ebay::ByEndDate
 ##Crypt::OpenPGP::Words
 ##Psh::Builtins::Kill
 ##Algorithm::Evolutionary::Op::FullAlgorithm
 ##Tree::Simple::Visitor::ToNestedHash
-##SQL::Builder::Union
 ##DemoGuestBook
+##SQL::Builder::Union
 ##Games::Dice
 ##Net::CyanChat::Server
 ##Net::Z3950
@@ -34203,15 +33169,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Biblio::ILL::ISO::UnfilledResults
 ##Quizzer::Template
 ##CGI::Wiki::Setup::MySQL
-##KinoSearch::Index::TermInfo
 ##MyPermissionFactory
 ##HTML::SuperForm::Field::CheckboxGroup
+##KinoSearch::Index::TermInfo
 ##ASNMTAP::Asnmtap::Plugins::WebTransact
 ##Number::Phone::NANP::BB
 ##RPM4
 ##DBIx::DBO2::TableSet
 ##Meta::Distrib::File
-##Apache::MP3::L10N::ar
 ##Class::CGI::DateTime
 ##WWW::PDAScraper::Borowitz
 ##PDF::Reuse::Util
@@ -34267,8 +33232,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##UMMF::UML::MetaModel::Foundation::Data_Types::ChangeableKind
 ##WWW::Mixi::OO::Session
 ##VRML::Browser
-##Catalyst::Plugin::Session::CGISession
 ##Net::P0f::Backend::Socket
+##Catalyst::Plugin::Session::CGISession
 ##FAQ::OMatic::I18N
 ##FAQ::OMatic::Appearance
 ##WSDL::Generator::Base
@@ -34283,9 +33248,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Perl6::Rule::Parser
 ##IOC::Config::XML
 ##XML::Script::Digest
-##OpenFrame::Segment::Apache2::NoImages
 ##Class::DataStore
-##Apache::ShowStatus
 ##Net::Pcap::FindDevice
 ##Weather::Com::Finder
 ##Ananke::Template
@@ -34330,7 +33293,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SVN::Web::View
 ##status
 ##Rosetta::Engine::Example::L::en
-##Catalyst::Engine::Apache::MP19
 ##FLV::Tag
 ##Mail::SpamAssassin::TextCat
 ##SMS::Handler::Email
@@ -34358,11 +33320,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::Europe::Zaporozhye
 ##Mail::Milter::Module::ConnectDNSBL
 ##Tk::TM::wgTable
-##Apache::TestCharset
-##Authen::SASL::Cyrus::Security
 ##Chemistry::FormulaPattern
 ##WWW::Selenium::Launcher::NoLaunch
-##Apache::RegistryBB
+##Authen::SASL::Cyrus::Security
 ##Catalyst::Plugin::Alarm
 ##Net::DNSBL::MultiDaemon
 ##Data::Random::WordList
@@ -34379,7 +33339,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Graphics::ColorObject
 ##Text::EscapeDelimiters
 ##HTML::WebMake::Metadata
-##Apache::ASP::Date
 ##Meta::Db::Users
 ##Class::DBI::Test::TempDB
 ##JavaScript::Code::Expression::Op
@@ -34393,7 +33352,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Catalyst::View::SVGTTGraph
 ##GSM::SMS::Transport::NovelSoft
 ##MHonArc::CharEnt::HP_ROMAN8
-##Apache::AuthenSecurID::Auth
 ##Amethyst::Brain::Infobot::Module::Google
 ##WWW::Mixi::OO::ListFriend
 ##Games::Alak
@@ -34410,7 +33368,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Regexp::Common::number
 ##Astro::SIMBAD::Result
 ##QFont
-##Apache::PassFile
 ##DBD::PgLite::MirrorPgToSQLite
 ##Test::SimpleUnit
 ##Cache::Web::Lite
@@ -34420,7 +33377,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::lockf
 ##DBD::mysql::Install
 ##LoadHtml
-##OpenPlugin::HttpHeader::Apache2
 ##Net::SSH::Perl::AuthMgr
 ##POE::Loop::Select
 ##HTML::WebDAO
@@ -34428,16 +33384,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AFS::PTS
 ##WWW::Scraper::Opcode::FONT
 ##Perlbug::Object::Child
-##Apache::Voodoo::Valid_URL
 ##CAM::XML::Text
-##Apache::AuthenPasswdSrv
 ##PBS::PostBuild
 ##HTTP::DAV::Comms
 ##Gnome::StockIcons
 ##Paper::Specs::Avery::5160
 ##Graph::Renderer::Imager
 ##Cache::Backend
-##Apache::HeavyCGI::Debug
 ##Class::DBI::Iterator
 ##DateTime::TimeZone::Asia::Novosibirsk
 ##Pots::Thread
@@ -34507,12 +33460,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Catalyst::Model::Gedcom
 ##ModPerl::BuildMM
 ##TabAwareEditor
-##Apache::AuthDigest::API
 ##XML::OPML
 ##Tk::TM::Try
 ##Pod::ParseLink
-##Devel::Caller
 ##App::SVNBinarySearch
+##Devel::Caller
 ##Config::IniFiles::Import
 ##MonetDB::CLI::MapiPP
 ##Net::DNS::Method::Pool
@@ -34567,7 +33519,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::standard::a3
 ##WebService::MusicBrainz::Artist
 ##X10::Server
-##Apache2::Upload
 ##Data::Presenter::Combo::Intersect
 ##Text::MetaText
 ##Catalyst::Helper::View::Enzyme::TT
@@ -34591,11 +33542,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Number::Bytes::Human
 ##Gettext
 ##Penguin::Easy
-##Apache2::SiteControl::GrantAllRule
 ##Bio::Das::ProServer::SourceAdaptor::image
 ##Kwiki::PrinterFriendly
-##Log::Funlog::Lang
 ##UMMF::UML::Export::Perl::Tangram::Schema
+##Log::Funlog::Lang
 ##PDF::API2::Resource::XObject::Form::BarCode::codabar
 ##SPOPS::DBI::SQLite
 ##Data::Quantity
@@ -34610,14 +33560,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Business::TPGPost::Data
 ##GD::Graph::colour
 ##Video::DVDRip::Audio
-##DocSet::Doc::Common
 ##CGI::Session::CookieJar::DBI
+##DocSet::Doc::Common
 ##Date::Easter
 ##Config::Fast
 ##ValueTree
 ##HTML::Widgets::NavMenu::Predicate
 ##Bio::MAGE::Protocol::ProtocolApplication
-##Apache::MP3::L10N::fa
 ##Acme::Playmate
 ##Data::Stag::ITextParser
 ##CookBookB::Struct1
@@ -34643,10 +33592,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Embperl::Form::Control::table
 ##Repository::Simple::Type::Value
 ##DBIx::TextSearch
-##Text::TransMetaphone::ja_hiragana
 ##Convert::DUDE
+##Text::TransMetaphone::ja_hiragana
 ##Tk::JBrowseEntry
-##Apache2::CmdParms
 ##Catalyst::View::HTML::Template
 ##Linux::CDROM::Cookbook
 ##HTML::PopupTreeSelect
@@ -34663,7 +33611,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##InnerHTML
 ##WebFetch::LinuxTelephony
 ##XML::Schematron
-##Apache::AuthzPasswd
 ##CGI::Application::Plugin::Authentication::Driver::CDBI
 ##Wombat::Authenticator::BasicAuthenticator
 ##Audio::OSS
@@ -34680,7 +33627,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Gtk2::Ex::FormFactory::ProgressBar
 ##POE::Framework::MIDI::Interval
 ##Weather::Com::Location
-##Apache::DAV::Resource
 ##Tk::LabEntry
 ##Class::StructTemplate
 ##Astro::NED::Response::Objects
@@ -34691,8 +33637,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SWF::Header
 ##Paper::Specs::Avery::5930
 ##Tie::Ispell
-##Video::PlaybackMachine::TimeLayout::GranularTimeLayout
 ##Class::MakeMethods::Autoload
+##Video::PlaybackMachine::TimeLayout::GranularTimeLayout
 ##Bot::BasicBot::Pluggable::Module::Excuse
 ##Config::Scoped::Precomp
 ##CGI::Session::Authenticator::LDAP
@@ -34716,11 +33662,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CPAN::Search::Lite::Lang::es
 ##Graphics::VTK::Tk::vtkImageWindow
 ##Parrot::Configure::RunSteps
-##Net::RRP::Response
 ##UMMF::MOF_1_3::Model::Reflective::RefAssociation
 ##Gtk2::Ex::MindMapView::Connection
 ##VFS::Filesystem::Unix
-##Apache::Mysql
+##Net::RRP::Response
 ##PANT::Cvs
 ##Querylet::CGI::Auto
 ##Devel::Monitor::Trace
@@ -34732,17 +33677,16 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::Locale::gez_ER
 ##Net::XMPP::IQ
 ##Filter::Include
-##Apache2::MPM
 ##Math::Random::MT
 ##Palm::Memo32
 ##XML::CompareML
 ##DateTime::Locale::it
-##Unix::Conf::Bind8::DB::Record
 ##Search::Xapian::MSet
 ##MRP::Interface
 ##WWW::PDAScraper::Yahoo::World
 ##Pipe::Tube::Say
 ##Video::PlaybackMachine::PlayerBackEnd
+##Unix::Conf::Bind8::DB::Record
 ##Catalyst::Plugin::Textile
 ##DateTime::TimeZone::Europe::Lisbon
 ##Hook::WrapSub
@@ -34755,9 +33699,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Feed::Find
 ##Time::Piece::DB2
 ##App::Widget::Toolbar
-##Excel::Template::Container::Outline
 ##DBIx::XMLServer
 ##ObjStore::Path::Ref
+##Excel::Template::Container::Outline
 ##Crypt::ElGamal
 ##DBIx::Simple::OO
 ##XAO::testcases::FS::base
@@ -34768,7 +33712,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Utils::Text::Unique
 ##MHonArc::UTF8::AppleArabic
 ##NetworkInfo::Discovery::Rendezvous
-##Apache::PageKit::Content
 ##UI::Dialog::Backend::ASCII
 ##Tree::Simple::VisitorFactory
 ##Chart::Clicker::Renderer::Line
@@ -34794,14 +33737,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::Template::Associate
 ##Bio::Tools::Run::PiseApplication::clustalw
 ##Net::SCP
-##URI::rtspu
 ##UMMF::MOF_1_3::Model::Class
-##Config::ApacheExtended
+##URI::rtspu
 ##Meta::Db::Defs
 ##CGI::Graph::Layout
 ##FLAT::Legacy::FA::PFA
 ##Class::ParamParser
-##Apache::AuthzGender
 ##Win32::Process::Info
 ##Bio::MAGE::BioAssayData::DesignElementDimension
 ##OurNet::BBS::NNTP::Article
@@ -34837,7 +33778,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Siesta::Send::Test
 ##Graph::Easy
 ##NewSpirit::CIPP::Include
-##Apache::AdBlocker
 ##DBIx::DBSchema::DBD::Pg
 ##Finance::OATS
 ##UMMF::UML::MetaModel::Foundation::Core::Node
@@ -34848,7 +33788,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Netscape::HistoryURL
 ##Tangram::Driver::Sybase::Statement
 ##HTML::Merge::Ext
-##Apache2::AuthTicket
 ##Geo::StreetAddress::US
 ##DCE::rgybase
 ##POE::Component::Server::HTTPServer::BasicAuthenHandler
@@ -34920,8 +33859,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::AutoClass::Args
 ##XML::Template::Element::Block
 ##DateTime::Format::Builder::Parser::Quick
-##Time::Progress
 ##Statistics::Basic
+##Time::Progress
 ##WWW::Link::Repair::Mapper
 ##Jifty::Web::Form
 ##Async
@@ -35082,8 +34021,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Pipeline::Segment::Async
 ##Image::XFace
 ##Test::Depends
-##Bio::ASN1::EntrezGene
 ##Net::DBus::RemoteService
+##Bio::ASN1::EntrezGene
 ##VRML::VRML1::Standard
 ##MIDI::XML::SequenceNumber
 ##Tangram::Type::Abstract::Coll
@@ -35117,8 +34056,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBD::iPod::parser
 ##Pangloss::Language::Error
 ##Class::Param::Callback
-##Module::Install::PMC
 ##HH::Unispool::Config::DateFormat
+##Module::Install::PMC
 ##Oak::Web::HTML::Iframe
 ##CPANPLUS::Internals::Report
 ##XMMS::InfoPipe::Playlist
@@ -35134,12 +34073,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Editor::Vip::Buffer::Plugins::InsertDelete
 ##Bio::Tools::Run::PiseApplication::pima
 ##CGI::Safe
-##Apache::Perldoc
 ##Tie::FlipFlop
 ##Kwiki::RecentChangesRSS
 ##Getopt::CallingName
-##DBIx::dbMan::Extension::DeviceOutput
 ##PatchReader::FixPatchRoot
+##DBIx::dbMan::Extension::DeviceOutput
 ##CGI::Session::Driver::db_file
 ##Business::Bof::Server::Fw
 ##GO::Handlers::lexanalysis2sql
@@ -35152,8 +34090,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Geography::States
 ##PerlIO::via::Pod
 ##Math::Geometry::Planar::GPC
-##Text::Shellwords::Cursor
 ##Expirable
+##Text::Shellwords::Cursor
 ##PDF::API2::Content::Text::Markup
 ##DBIx::Class::PK::Auto
 ##Astro::FITS::HdrTrans::IRCAM
@@ -35208,7 +34146,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::Widget::JavaScript::Constraint::HTTP
 ##Devel::AutoProfiler
 ##Mail::Transport::Send
-##Apache::Quota::DB_File::Lock
 ##HTML::Widget::SideBar
 ##Catalyst::Utils
 ##Jifty::Web::Form::Field::Radio
@@ -35239,8 +34176,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ResourcePool::LoadBalancer::LeastUsage
 ##Babble::DataSource::DBI
 ##PDF::Template::Base
-##OurNet::BBS::BBSAgent::BBS
 ##Acme::Morse
+##OurNet::BBS::BBSAgent::BBS
 ##Net::ICal::Parameter
 ##Ace::Graphics::Glyph::dot
 ##Kwiki::Kwiki::Command
@@ -35276,7 +34213,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##GD::Image::Thumbnail
 ##DBIx::DBSchema::DBD::Oracle
 ##Tk::BootSplash
-##Apache2::Cookie
 ##Bio::Tools::Run::Hmmer
 ##Data::Vitals::Frame
 ##Meta::Projects::Dbman::Page
@@ -35335,7 +34271,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Expression::Microarray::Affymetrix::Data
 ##Template::Plugin::Format
 ##Paper::Specs::standard::b5_jis
-##Apache::RegistryNG
 ##Net::Proxy::Connector::connect
 ##Tk::Buttonplus
 ##aliased
@@ -35382,7 +34317,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::Pretty
 ##Net::OpenID::JanRain::Consumer
 ##HTML::Content::TokeParserTokenizer
-##Apache::DAV
 ##URI::pop
 ##MIME::Decoder::Base64
 ##Text::WikiFormat::Blocks
@@ -35398,7 +34332,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##KIF::Bootloader::aboot
 ##AFS::CM
 ##Switch::Perlish::Smatch::Code
-##Apache::Emulator::Apache::TableHash
 ##Text::NSP::Measures::2D
 ##NetworkInfo::Discovery::Register
 ##UMMF::MOF_1_4_1::Model::Integer
@@ -35427,7 +34360,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::America::Indiana::Vevay
 ##KinoSearch::Search::PhraseQuery
 ##Tie::Hash::Layered
-##Apache::FakeTable
 ##Net::SSH::Perl::Cipher
 ##Bryar::Collector
 ##XML::Spew::XHTML
@@ -35453,8 +34385,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##forks::BerkeleyDB::shared::handle
 ##Babble
 ##RTx::Shredder::Plugin::Base
-##Apache::Session::Daemon
-##Apache::MP3::L10N
 ##Froody::Request::CGI
 ##HH::Unispool::Config::Entry::RemoteSystem::8
 ##Catalyst::Plugin::Unicode::Encoding
@@ -35519,7 +34449,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##VCS::Lite
 ##HTML::HTPL::ACL
 ##CGI::Session::Encrypted
-##Apache::AuthenDBI
 ##Quilt
 ##Games::Tournament::RoundRobin
 ##Bio::Expression::FeatureSet
@@ -35531,7 +34460,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::SeqIO::pir
 ##DBD::AnyData
 ##Lingua::BrillTagger
-##Apache::Wyrd::Request
 ##RT::Client::Object
 ##Bio::Tools::WWW
 ##Mail::SendEasy
@@ -35552,10 +34480,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::Tested::Value::Marked
 ##Class::Meta::Constructor
 ##Data::Tabular::Table::Group
-##Kwiki::Users
 ##MKDoc::SQL::Condition
 ##XML::DOM::Lite::Document
 ##ETL::Pequel
+##Kwiki::Users
 ##UMMF::UML::MetaModel::Foundation::Core::TemplateParameter
 ##RDFStore::Stanford::Digest
 ##XML::Parser::Style::Tree
@@ -35642,7 +34570,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Component::Jabber
 ##dTemplate
 ##Make::Cache
-##Apache::TestHarnessPHP
 ##Games::LMSolve::Plank::Base
 ##Genetics::Map
 ##Geo::TigerLine::Record::5
@@ -35671,7 +34598,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Introspector::Visitor
 ##Bio::Tools::Run::PiseApplication::checktrans
 ##RDF::Query::Model
-##Apache::Registry
 ##HTML::WikiConverter::PbWiki
 ##ExtUtils::XSBuilder::PODTemplate
 ##Bio::ConnectDots::DB::ConnectorSet
@@ -35741,7 +34667,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::standard::b5
 ##POE::Framework::MIDI::Rule::Utility
 ##QPushButton
-##Catalyst::Engine::Apache::MP20::Apreq
 ##Myco::Entity::Meta::UI::View::Test
 ##HTML::Template::Pro::Extension::DOC
 ##Regexp::Fields
@@ -35763,12 +34688,11 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SVL::Command::Search
 ##Mail::Box::Parser::C
 ##Business::OnlinePayment::SecureHostingUPG
-##Apache::DebugInfo
 ##Bio::Structure::Residue
 ##Win32::Palm::UsersDat
 ##Text::MetaText::Directive
-##Symbol
 ##Parse::AFP::Triplet::FF
+##Symbol
 ##Test::Signature
 ##Meta::Utils::List
 ##Courier::Filter::Logger::File
@@ -35801,7 +34725,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Image::ExifTool::ID3
 ##LWP::Simple
 ##DateTime::TimeZone::Asia::Kashgar
-##XML::Directory::Apache
 ##auto::pack
 ##Parser
 ##Jabber::Connection
@@ -35864,7 +34787,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Amethyst::Message
 ##Pangloss::Search::Filter::Base
 ##Puppet::VcsTools::File
-##CPANXR::Apache
 ##ObjStore::AV::QSet
 ##XML::SAX::Expat::Incremental
 ##HTTP::DAVServer::PROPPATCH
@@ -35886,7 +34808,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Embperl::Form::Control::submit
 ##CGI::Extratags
 ##Pangloss::Segment::Decline::NoListUsers
-##Apache::RandomLocation
 ##Language::Zcode::Runtime::IO
 ##Handel::Currency
 ##Win32::ShellExt::CopyHook
@@ -35894,13 +34815,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tk::Browser
 ##ZooZ::DefaultArgs
 ##Oak::Web::HTML::Br
-##SQCAS::Apache::NewUser
 ##UMMF::UML::MetaModel::Foundation::Data_Types::Expression
 ##WWW::Search::AltaVista::DE
 ##ExtUtils::ModuleMaker::PBP::Interactive
 ##MKDoc::Authz::Plugin::UserEdit
-##slackget10::Network::Connection::FTP
 ##SMIL::Region
+##slackget10::Network::Connection::FTP
 ##Thread::Conveyor::Tied
 ##App::Info::Handler::Carp
 ##PostScript::Font::TTtoType42
@@ -35928,7 +34848,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::OddCodes
 ##Win32::ShellExt::QueryInfo::LineCount
 ##Oak::Web::HTML::Span
-##Apache::UploadSvr
 ##CAM::SQLObject
 ##MRTG::Parse
 ##Mail::Box
@@ -35945,7 +34864,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##WWW::Search::Scraper::BayAreaHelpWanted
 ##Config::ReadAndCheck
 ##IPDevice::RouterBase::Card
-##Apache::URI
 ##Class::DBI::Factory
 ##Wx::Perl::HtmlWizardPage
 ##Posy::Plugin::YamlConfig
@@ -35987,7 +34905,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Kwiki::UserMessage::CDBI
 ##Module::CPANTS::Kwalitee::Files
 ##IPC::ChildSafe
-##Apache::TestConfig
 ##DateTime::Locale::kk
 ##Maypole::Redirect
 ##Acme::VarMess
@@ -35997,8 +34914,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Soundex
 ##WWW::Selenium::CommandBridge::Backend
 ##DateTime::Format::W3CDTF
-##Graph::Layout::Aesthetic::Force::MinEdgeIntersect
 ##Verilog::CodeGen
+##Graph::Layout::Aesthetic::Force::MinEdgeIntersect
 ##Thread::Queue::Any::Monitored
 ##Math::Polygon
 ##WWW::Mechanize::Image
@@ -36006,7 +34923,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DemoTiger
 ##SyslogScan::FilterUser
 ##DateTime::Locale::de
-##Apache::MP3::L10N::nb
 ##Math::Symbolic::ExportConstants
 ##Lingua::EN::Cardinal
 ##Formatter::HTML::Textile
@@ -36017,8 +34933,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DRI::Protocol::Gandi::Web
 ##Net::Server::Multiplex
 ##Filesys::mntent
-##Apache::SOAP
-##Apache::App::Mercury::Message::DBI
 ##Curses::UI::Language::french
 ##Locale::RecodeData::INIS
 ##Date::Ethiopic::ET
@@ -36054,7 +34968,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::America::Barbados
 ##XMail::Ctrl
 ##JOAP::Proxy::Package
-##Apache::ScoreboardGraph
 ##Text::Hyphenate
 ##Paper::Specs::photo::12x10
 ##Net::Rexec
@@ -36075,9 +34988,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Term::Newt
 ##XUL::Node::Application::PeriodicTable::Splitters
 ##Acme::Time::Asparagus
-##DateTime::Locale::pa
 ##Class::DBI::Column
 ##UMMF::UML::MetaModel::Behavioral_Elements::State_Machines::State
+##DateTime::Locale::pa
 ##DateTime::Locale::en_ZW
 ##StatsView::Graph::Oracle
 ##POE::Component::Server::HTTP
@@ -36092,7 +35005,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::Server::Fork
 ##LWPx::Protocol::https_paranoid
 ##Bio::Variation::IO::xml
-##Apache::AxKit::Plugin::AddXSLParams::BasicSession
 ##App::Widget::JSApp::Date
 ##AddressBook::DB::BBDB
 ##Fax::DataFax
@@ -36110,7 +35022,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Getopt::Long::GUI
 ##Env
 ##HTML::BBCode
-##Apache::Wyrd::Interfaces::Stealth
 ##Win32::MCI::CD
 ##Geo::ShapeFile::Point
 ##HTML::Widget::Container
@@ -36142,7 +35053,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Gtk2::Ex::Simple::TiedList
 ##WordNet::Similarity::wup
 ##flo::plugin::Shop::Basket::Del
-##Apache::DayLimit
 ##DBIx::Class::Schema::Loader::Generic
 ##Mail::Audit::KillDups
 ##Sub::Signatures
@@ -36171,7 +35081,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Kwiki::Users::TypeKey
 ##TypeLessTranslator
 ##Plucene::Plugin::FileDocument
-##Apache::AxKit::Plugin::QueryStringCache
 ##Data::Freezer::Tomato
 ##Mail::Abuse::Processor
 ##Mail::OpenRelay::Simple
@@ -36191,8 +35100,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Catalyst::View::TT::FunctionGenerator
 ##Neural
 ##XML::Smart::XPath
-##Bio::Map::MappableI
 ##OpenCA::Token::OpenSSL
+##Bio::Map::MappableI
 ##IOC::Visitor::SearchForContainer
 ##Plagger::Plugin::Publish::MSAgent
 ##UMMF::UML_1_5::OCL::Expressions::ModelPropertyCallExp
@@ -36212,7 +35121,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##IPDevice::RouterBase::BGPNeighbor
 ##Object::Capsule
 ##Bio::Factory::SequenceStreamI
-##Apache::Wyrd::Input
 ##Bio::Ontology::SimpleGOEngine
 ##App::Serializer::XMLDumper
 ##WWW::Search::MSN
@@ -36229,15 +35137,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Querylet
 ##Iglu::LMLM::Types::Perl_IL
 ##Net::DPAP::Client::Image
-##Apache::Voodoo::Loader::Dynamic
-##Module::CPANTS::Generator::Backpan
 ##Genetics::API::Analysis::Linkage
 ##Locale::RecodeData::GREEK_CCITT
+##Module::CPANTS::Generator::Backpan
 ##PApp::ECMAScript
 ##HTML::EP::Install
 ##Win32::EventLog::Carp
 ##Maypole::FormBuilder::Model::Base
-##Apache::Wyrd::Form
 ##TeX::Hyphen
 ##DBIx::Class::CDBICompat::LazyLoading
 ##Log::Message::Simple
@@ -36280,7 +35186,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##POE::Component::IRC::Plugin::Connector
 ##Locale::RecodeData::IBM905
 ##SVK::Command
-##Apache2::Process
 ##My::EmployeeR
 ##Unix::Conf::Bind8::DB::A
 ##Net::Peep::Mail
@@ -36313,15 +35218,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PatchReader::DiffPrinter::template
 ##BrowserObjects
 ##CGI::QuickApp
-##Apache::AuthenNIS
 ##Gantry::Utils::ModelHelper
 ##Class::Meta::Types::Perl
 ##WWW::Pipeline::Services::RunModes
 ##DBIx::Class::FormTools
 ##Patch::SREZIC::Tk::FBox
 ##Rose::DB::Object::MakeMethods::Time
-##Apache::Wyrd::Interfaces::Setter
-##Apache::Server
 ##Template::Plugin::Class
 ##Paper::Specs::Avery::8253
 ##AI::Categorizer::Learner::Guesser
@@ -36375,12 +35277,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Plucene::Analysis::WhitespaceAnalyzer
 ##Locales::Country::hi
 ##MailBot::UUEncode
-##DateTime::TimeZone::Atlantic::Madeira
 ##Statistics::LogRank
+##DateTime::TimeZone::Atlantic::Madeira
 ##DateTime::TimeZone::Pacific::Galapagos
 ##Regexp::Common::URI::fax
-##DateTime::TimeZone::Atlantic::St_Helena
 ##BingoX::Carbon
+##DateTime::TimeZone::Atlantic::St_Helena
 ##Tux
 ##Class::Std
 ##LaBrea::Tarpit::Util
@@ -36400,9 +35302,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::DNS::RR::EID
 ##Net::LDAPI
 ##SQL::Amazon::Tables::SimilarProducts
-##Apache::Request::I18N
 ##Psh::Strategy::Debug
-##Apache::LogMail
 ##Luka::Exceptions
 ##Data::Tabular::Row::Group
 ##yagg::Grammar
@@ -36424,7 +35324,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DBIx::Class::UUIDMaker::Win32API::GUID
 ##Tk::MARC
 ##Tk::MonitorBar
-##Apache::AuthPOP3
 ##Vector2D
 ##Net::Packet::Desc
 ##UMMF::UML::MetaModel::Foundation::Core::Enumeration
@@ -36508,7 +35407,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Jako::Construct::Declaration
 ##FreePAN::Config
 ##Data::Quantity::Abstract::InstanceIndex
-##Apache::Wyrd::Chart
 ##Catalyst::Helper::View::TTControllerLocal
 ##VMS::Misc
 ##HTML::Template::Pro::Extension::ObjBase
@@ -36517,7 +35415,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Template::Multilingual::Parser
 ##SGML::DTDParse::DTD
 ##PerlIO::locale
-##Apache2::URI
 ##Mail::DKIM::PrivateKey
 ##Template::Provider::Encode
 ##AI::Categorizer::FeatureSelector::DocFrequency
@@ -36542,14 +35439,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Packed::Array
 ##Auth::Krb5Afs
 ##Nmap::Scanner::Backend::XML
-##Apache::Session::Flex
 ##Text::Diff3::ListMixin
 ##Text::Smart
 ##Net::Amazon::Response::Seller
 ##Acme::Snark
 ##DBD::InterBase
 ##Biblio::ILL::ISO::GeneralProblem
-##Apache::ChooseLanguage
 ##DBD::Ovrimos
 ##Biblio::Citation::Parser::Jiao
 ##Language::XSB
@@ -36584,10 +35479,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Gtk2::Spell
 ##Pod::POM::Nodes
 ##Bio::SAGE::Comparison
-##Apache::PrettyPerl
 ##XML::Comma::Storage::Location::Abstract_file
-##Bio::Cluster::FamilyI
 ##CORBA
+##Bio::Cluster::FamilyI
 ##ORM::Filter::Interval
 ##Thread::Apartment::Closure
 ##Biblio::ILL::ISO::TransactionIdProblem
@@ -36596,7 +35490,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##SQL::Catalog
 ##File::Extract::Plain
 ##DateTime::TimeZone::America::Tegucigalpa
-##Apache2::TieBucketBrigade
 ##CGI::CookieSerial
 ##Win32::MSI::DB
 ##Slash
@@ -36606,7 +35499,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Module::Starter::XSimple
 ##CGI::Enurl
 ##XML::Filter::CharacterChunk
-##MyApache::Apache2Handler
 ##Nmap::Scanner::Util
 ##Graphics::Simple::PostScript
 ##OpenGL::Simple
@@ -36694,7 +35586,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##NetServer::SMTP
 ##Data::CTable::ProgressLogger
 ##Dicop::Data::Group
-##Apache::DAV::HooksLocks
 ##TiVo::HME::CONST
 ##XAO::Objects
 ##Win32::CtrlGUI::State
@@ -36720,7 +35611,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Catalyst::Controller
 ##DbFramework::Util
 ##xDash::Spool::Dir
-##Apache::AxKit::Language
 ##Code::Perl::Expr::Perl
 ##Class::ObjectTemplate::DB
 ##GD::Barcode::QRcode
@@ -36735,7 +35625,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Acme::MetaSyntactic::dancers
 ##Mail::DKIM::PublicKey
 ##QLineEdit
-##Apache::Gateway
 ##XTM::PSI
 ##HTML::EP::Examples::Glimpse
 ##OurNet::Query
@@ -36769,7 +35658,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##FOO
 ##Tie::History
 ##Convert::Binary::C
-##Apache::AuthenCache
 ##Taco::Dispatcher
 ##Net::RRP::Response::n555
 ##Replication::Recall::Server
@@ -36777,7 +35665,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Lingua::Stem::EnBroken
 ##PostScript::FontInfo
 ##Devel::Tokenizer::C
-##Apache::Backend::POE::Message
 ##Tie::Cache
 ##Perl::Metrics::Plugin::Core
 ##AxKit::App::TABOO::Data::Plurals::Articles
@@ -36879,7 +35766,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Locale::RecodeData::IBM874
 ##PITA
 ##Bot::BasicBot::Pluggable::Module::Magic8Ball
-##Apache::AuthenN2
 ##Acme::Oil::Ashed::Scalar
 ##Mail::Abuse
 ##Acme::MorningMusume::KagoAi
@@ -36891,7 +35777,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::ConvertParam::OngetJIS
 ##Gestinanna::Schema::Repository
 ##NewSubst
-##Apache::iNcom
 ##Inline::Java::JNI
 ##AI::NaiveBayes1
 ##ResourcePool::Factory::DBI
@@ -36905,7 +35790,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##CGI::WeT::Theme
 ##Ace::Browser::TreeSubs
 ##OpenFrame::WebApp::Segment::User
-##Apache::MP3::L10N::ko
 ##Data::Serializer::Storable
 ##XML::Liberal::Remedy::StandaloneAttribute
 ##Rose::HTML::Form::Field::OptionGroup
@@ -36942,8 +35826,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MHonArc::CharEnt::KOI8_B
 ##Tree::Visualize::Connector::Factory
 ##Meta::Ds::Array
-##DateTime::Format::Japanese
 ##PApp::I18n
+##DateTime::Format::Japanese
 ##WWW::REST
 ##WWW::Restaurant::Menu
 ##Finance::Quote::Platinum
@@ -36973,7 +35857,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::ICQV5
 ##HTML::Template::Compiled::Filter
 ##Text::Forge
-##ePortal::Apache
 ##CGI::Application::Plugin::RateLimit
 ##Gtk2::Phat
 ##Mail::IspMailGate::Filter::PGP
@@ -36984,7 +35867,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Parse::AFP::MSU
 ##Data::Stag::IndentWriter
 ##SRU::Utils
-##OpenFrame::Segment::Apache2
 ##PBibTk::RefDialog
 ##Audio::MPEG
 ##HH::Unispool::Config::OS
@@ -37001,7 +35883,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MT::Import::Mbox::Importer
 ##Log::Log4perl::Appender::RRDs
 ##Font::Metrics::HelveticaBoldOblique
-##Apache::AppCluster
 ##Myco::Base::Entity::Meta::UI::List::Test
 ##CGI::Application::Mailform
 ##QMultiLineEdit
@@ -37016,13 +35897,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Unicode::Lite
 ##Config::Setting::Chunk
 ##LWPx::Protocol::http_paranoid
-##Plagger::Plugin::Filter::Romanize::Japanese
 ##Perlbal::Test::WebClient
 ##Aw::Client
+##Plagger::Plugin::Filter::Romanize::Japanese
 ##Template::Plugin::Table
 ##Tie::Comma
-##Jifty::DBI::HasFilters
 ##Bio::DB::SQL::SeqAdaptor
+##Jifty::DBI::HasFilters
 ##Net::Delicious::Iterator
 ##MMDS::Output::Html
 ##Net::Z3950::AsyncZ::ZSend
@@ -37082,20 +35963,19 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::America::Adak
 ##File::System::Passthrough
 ##x::hello_world
-##Net::HTTPServer
 ##Win32::OLE::OPC
+##Net::HTTPServer
 ##Pod::PlainText
 ##Class::MVC
 ##Text::NASA_Ames::FFI2010
 ##init::optimize
 ##Microarray::Config
 ##UMMF::UML::MetaModel::Foundation::Data_Types::String
-##CGI::WeT::Theme::Loader::WeT
 ##DateTime::TimeZone::Africa::Khartoum
+##CGI::WeT::Theme::Loader::WeT
 ##Chart::Clicker::Axis
 ##Variable::Strongly::Typed::Hash
 ##Bio::ExtractNE::Events
-##Apache::AxKit::ConfigReader
 ##Rose::DB::SQLite
 ##LinuxRealTime
 ##Oak::Web::HTML::Col
@@ -37114,7 +35994,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Mail::Toaster::Setup
 ##XML::Quote
 ##Net::RRP::Response::n542
-##Apache::GzipChain
 ##Bio::ConnectDots::ConnectorSet
 ##Bio::MAGE::DesignElement::FeatureReporterMap
 ##Lingua::ZH::Summarize
@@ -37126,7 +36005,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tree::XPathEngine::NodeSet
 ##bytes
 ##Net::MAC
-##XML::ApacheFOP
 ##Mail::Message::TransferEnc::Binary
 ##Net::TL1::Alcatel
 ##Image::Filter::Oilify
@@ -37147,15 +36025,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HTML::Table
 ##DBIx::dbMan::Extension::CmdMacros
 ##Class::DBI::Plugin::TimePiece
-##Apache::DoCoMoProxy
 ##Devel::ebug::Plugin::Basic
 ##Games::Poker::HistoryParser::Output::HTML
 ##SAP::BC::Iface
 ##DBD::iPod
 ##Net::DRI::Protocol::RRP::Core::Domain
 ##DateTime::TimeZone::America::Grenada
-##Paper::Specs::standard::b4_envelope
 ##ebXML::Message::SOAPWriter
+##Paper::Specs::standard::b4_envelope
 ##HTTP::OAI::UserAgent
 ##AI::NeuralNet
 ##YAML::Dumper::Syck
@@ -37180,8 +36057,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XML::Generator::DBI
 ##DateTime::Locale::ti_ET
 ##Fry::Lib::CDBI::Outline
-##DBD::Informix::TypeInfo
 ##Crypt::Mimetic
+##DBD::Informix::TypeInfo
 ##UMMF::UML::MetaModel::Foundation::Core::Classifier
 ##DateTime::Locale::is
 ##Lingua::RU::Antimat
@@ -37207,7 +36084,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Moose
 ##Win32::Security::ACL
 ##DBIx::dbMan::Extension::HelpCommands
-##Apache::Mailtrack
 ##MIME::Words
 ##MKDoc::Setup::Auth
 ##Gestinanna::Schema::Authz
@@ -37221,7 +36097,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##APR::Base64
 ##Rose::DB
 ##DBIx::DBO2::ColumnSet
-##Apache::Taco
 ##IPDevice::RouterBase::ISIS
 ##Net::SSH::Perl::Auth::RSA
 ##Proc::SyncExec
@@ -37239,7 +36114,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Compress::LZV1
 ##Myco::Entity::SampleEntityBase
 ##DBIx::Tree::NestedSet::Manage
-##Apache::HeavyCGI::UnmaskQuery
 ##WWW::SMS::IE::o2sms
 ##POE::Component::Connection::Keepalive
 ##HTML::Merge::Error
@@ -37247,7 +36121,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Heap::Simple::Number
 ##Module::Starter::Plugin::DirStore
 ##Authen::SASL
-##Apache::MP3::L10N::it
 ##WWW::Gazetteer::Getty
 ##EOL
 ##DateTime::TimeZone::Asia::Bangkok
@@ -37279,7 +36152,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Das::Feature
 ##HTML::WebMake::MetadataContent
 ##SVK::Command::Patch
-##Apache::Session::Memcached
 ##HTTP::WebTest::Test
 ##ModPerl::MapUtil
 ##Class::DBI::Plugin::HTML
@@ -37339,8 +36211,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::Spec::Link
 ##Class::Param::Compound
 ##Exporter::Cluster
-##w3http
 ##Authen::Ticket
+##w3http
 ##OpenInteract::Handler::GenericDispatcher
 ##SQL::Builder::Iterator
 ##RPC::XML::Server
@@ -37377,13 +36249,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Net::PSYC::MMP::State
 ##Class::Class
 ##Module::Install::Admin
-##File::HomeDir::Darwin
 ##PDL::PP::Signature
+##File::HomeDir::Darwin
 ##Chart::PNGgraph::Convert
 ##Net::IRC::Event
 ##Math::MatrixSparse
-##XML::FOAF
 ##Tie::Mounted
+##XML::FOAF
 ##SPOPS::DBI::MySQL
 ##Album::Tutorial
 ##Text::NSP::Measures::2D::CHI::phi
@@ -37394,7 +36266,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Class::MakeMethods::Template::Ref
 ##XML::XMetaL::Utilities::Iterator
 ##Weather::NWS::NDFDgenByDay
-##MasonX::Apache2Handler
 ##VBTK::Pop3
 ##Tk::Shell
 ##Devel::SelfStubber
@@ -37411,7 +36282,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::Slurp::SmallFile
 ##Gnome2::Print
 ##Devel::ebug::Backend::Plugin::StackTrace
-##Apache::StripSession
 ##HTML::DBForm
 ##Coro::MakeMaker
 ##WWW::Baseball::NPB::Game
@@ -37447,15 +36317,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Hash::Flatten
 ##DB::Introspector::Util::RelInspect
 ##Net::ACL::Rule
-##Apache::HTTunnel
 ##Log::Log4perl::Layout::XMLLayout
 ##Template::Timer
 ##JSAN::Index::Extractable
 ##XML::CSV
 ##Number::Format
 ##CGI::Kwiki::Javascript
-##Slash::Gallery
 ##HH::Unispool::Config::Entry::Device::0
+##Slash::Gallery
 ##Data::All::Base
 ##Digest::Adler32
 ##DateTime::Locale::ms_BN
@@ -37505,7 +36374,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PDF::API2::Basic::PDF::String
 ##Empire::Land
 ##Search::Xapian::TermIterator
-##Apache2::SiteControl::ManagerFactory
 ##Spork::Template::Mason
 ##Geo::PostalAddress
 ##Tk::TOTD
@@ -37526,8 +36394,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::Pacific::Tongatapu
 ##Meta::Comm::Soap::Server
 ##ifdef
-##Data::Package::SQLite
 ##Gantry::Template::TT
+##Data::Package::SQLite
 ##HTML::Widgets::Index::Javascript
 ##cPanel
 ##Haver::Session
@@ -37545,8 +36413,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AI::Categorizer::Learner::NaiveBayes
 ##Algorithm::Evolutionary::Individual::Vector
 ##Wx::WidgetMaker
-##Slauth::Config
 ##Ace::Graphics::Glyph::triangle
+##Slauth::Config
 ##Config::IniFiles
 ##HH::Unispool::Config::File::Token::Numbered::Device::3
 ##Business::Associates::Data
@@ -37594,8 +36462,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Rose::DB::Pg
 ##Data::Denter
 ##Sys::Virt
-##XML::Generator::RFC822::RDF
 ##Net::Jabber::Namespaces
+##XML::Generator::RFC822::RDF
 ##DBIx::SQLEngine::Row::Set
 ##Myco::Entity::SampleEntityAddress
 ##Sledge::Plugin::TemplatePrePostProcess
@@ -37654,7 +36522,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::Tools::Run::PiseApplication::align2model
 ##RT::View::Tree
 ##Unicode::Japanese
-##Apache::AxKit::Provider::RDBMS::ContentProvider
 ##Inline::Struct::grammar
 ##MLDBM::Easy
 ##Aspect::Library::Profiler
@@ -37672,12 +36539,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::TimeZone::EST
 ##Logfile
 ##Lufs::Test
-##CPANXR::Apache::ClassBrowser
 ##ETL::Pequel::Type::Date
 ##ASNMTAP::Asnmtap::Plugins::Mail
 ##Text::UberText::Modules::Info
 ##Buscador::Thread
-##Apache2::SourceTables
 ##Image::ExifTool::Exif
 ##AEAE::CommandErroneous
 ##WWW::Scraper::ISBN::Driver
@@ -37685,14 +36550,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PLP::Tie::Delay
 ##MathsQuestion
 ##SWISH::Stemmer
-##Apache::MP3::L10N::tr
 ##Spoon::Base
 ##DBIx::Transaction
 ##SVK::Util
 ##Convert::Base
 ##JaM::GUI::Component
-##CGI::XMLApplication
 ##Bio::Tools::Run::PiseApplication::interface
+##CGI::XMLApplication
 ##Plagger::Plugin::Notify::SSTP
 ##Paper::Specs::Avery::74650
 ##SVG::SVG2zinc::Backend
@@ -37702,8 +36566,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Date::WeekOfYear
 ##POE::Component::YahooMessenger
 ##DBIx::Class::Schema
-##Win32::CtrlGUI::State::loop
 ##Acme::Magpie
+##Win32::CtrlGUI::State::loop
 ##Genezzo::Block::RDBlock
 ##Tie::Hash::StructKeyed
 ##XML::ASX::File
@@ -37825,7 +36689,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Sub::WrapPackages
 ##RDF::Redland::Statement
 ##Bio::DB::Failover
-##HTML::Mason::Resolver::File::ApacheHandler2
 ##Spreadsheet::WriteExcelXML::Utility
 ##Class::DBI::Plugin::DistinctValues
 ##Template::Multilingual
@@ -37840,9 +36703,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##File::Spec::OS2
 ##Posy::Plugin::LinkExtra
 ##SQL::Translator::Producer
-##Apache::AxKit::Language::YPathScript
 ##POE::Wheel
-##Apache::ErrorControl
 ##Workflow::State
 ##Tree::Simple::Visitor
 ##Config::Sofu
@@ -37857,13 +36718,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##JUNOS::Trace
 ##File::pushd
 ##CGI::Wiki::Store::Pg
-##Apache::Session::Serialize::YAML
-##Parse::EBNF
 ##Biblio::ILL::ISO::Damaged
-##Apache::Session::Serialize::Sybase
+##Parse::EBNF
 ##text
 ##Win32::OLE::Const
-##Apache::OpenIndex
 ##Gestinanna::POF::Secure::Gestinanna::RepositoryObject
 ##Gtk2::Ex::MindMapView::HotSpot::ToggleFactory
 ##DBIx::SQLEngine::Criteria::Not
@@ -37875,8 +36733,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##auto::gmp
 ##Persistent::DBM
 ##AMF::Perl
-##OpenOffice::OODoc::Text
 ##Astro::FITS::HdrTrans::FITS
+##OpenOffice::OODoc::Text
 ##Barcode::Cuecat
 ##UMMF::UML_1_5::Foundation::Data_Types::AggregationKind
 ##BBCode::Tag::QUOTE
@@ -37902,9 +36760,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DCOP::Amarok
 ##Win32::Resources::Update
 ##DateTime::Locale::zh_Hans
-##HTML::Mason::Compiler
 ##Wx::Package::Win32
 ##Net::PSYC::Tie::AbbrevHash
+##HTML::Mason::Compiler
 ##SNMP::Info::CiscoVTP
 ##IO::Pager::Buffered
 ##Inline::C2XS
@@ -37930,8 +36788,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Text::Hatena::FootnoteNode
 ##Net::FS::Flickr::Access
 ##PApp::XSLT::LibXSLT
-##Meta::Xml::Parsers::Xoptions
 ##X500::DN::Parser
+##Meta::Xml::Parsers::Xoptions
 ##MailBot::MailBot
 ##Module::Install::RTx
 ##Bio::MAGE::BioAssayData::CompositeSequenceDimension
@@ -37963,7 +36821,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##PersonManager
 ##Text::PORE::Object
 ##VCS::Rcs::YappRcsParser
-##Apache2::Translation::DB
 ##Bio::MAGE::BioAssayData
 ##Parse::Pidl::Samba4::NDR::Parser
 ##Business::ISSN
@@ -37994,7 +36851,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Games::Chess
 ##Net::DNS::ValueDomain::DDNS
 ##URI::URL::nntp
-##Apache::HTPL::Lib
 ##HTML::HTPL::Graph
 ##Class::PObject::Driver::file
 ##Bio::Tools::Run::PiseApplication::predator
@@ -38055,7 +36911,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DB2::Row
 ##Class::ArrayObjects
 ##MKDoc::SQL::Type::ALL
-##Apache::Session::Memorycached
 ##Net::IPP::IPP
 ##Games::Backgammon
 ##ePortal::App::dummy
@@ -38073,9 +36928,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##XAO::DO::Indexer::IncrFoo
 ##Graphics::VTK::IO
 ##Class::MakeMethods::Standard::Inheritable
-##GSM::SMS::OTA::OTA
 ##SMS::Handler::Blackhole
 ##XTM::association
+##GSM::SMS::OTA::OTA
 ##File::DirCompare
 ##Solaris::DeviceTree::Filesystem
 ##Biblio::ILL::ISO::UnitsPerMediumType
@@ -38100,10 +36955,9 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##HtDig::Htsearch
 ##Meta::Baseline::Rsh
 ##Net::SDP::Media
-##DateTime::TimeZone::Europe::Gibraltar
 ##Bio::Tools::Run::PiseApplication::cap
+##DateTime::TimeZone::Europe::Gibraltar
 ##WebFS::FileCopy
-##Apache::Singleton::Process
 ##Archive::Chm
 ##Catalyst::Plugin::Authentication::Store::HTTP::Backend
 ##Module::Mask::Deps
@@ -38114,15 +36968,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##GD::Graph::sparklines
 ##Bio::GMOD::Query::FlyBase
 ##ObjStore::ServerInfo
-##POE::Component::Win32::Service
 ##Lingua::ES::Silabas
+##POE::Component::Win32::Service
 ##Video::DVDRip::GUI::Cluster::Control
 ##Test::Reporter::Mail::Util
 ##flo::plugin::Shop::Order::SecPay
 ##Curses::UI::Language::polish
 ##HTML::Prototype::Js
 ##Kwiki::UserPhoto
-##Apache::ParseLog
 ##CORBA::Fixed
 ##AI::Categorizer
 ##LWP::MainLoop
@@ -38162,8 +37015,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Win32::MMF::Shareable
 ##E2::Node
 ##Mac::EyeTV
-##Lingua::JA::Romanize::Kana
 ##Bigtop::Docs::Modules
+##Lingua::JA::Romanize::Kana
 ##Myco::Entity::Meta::UI::List::Test
 ##Oak::Web::Additional::SimpleList
 ##Math::Polygon::Clip
@@ -38220,8 +37073,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::Locale::lv
 ##DBM_Filter::int32
 ##Crypt::Vigenere
-##Apache::Checksum
-##Apache::Session::DB_File
 ##SystemC::Template
 ##Parse::AFP::BCF
 ##Pangloss::Application::ConceptEditor
@@ -38269,9 +37120,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##gen::makefiles
 ##DBIx::dbMan::Extension::CmdOutputToFile
 ##PPI::Statement::Expression
+Apache
 ##Jifty::Web::Form::Field::InlineButton
-##Geo::TigerLine::Record::C
 ##Petal::Hash::Test
+##Geo::TigerLine::Record::C
 ##Device::Conrad::RelaisCard
 ##Oracle::Loader
 ##OurNet::BBS::External::BBS
@@ -38293,14 +37145,12 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Graph::Vertex
 ##DBIx::SQLEngine::Criteria::HashGroup
 ##Rosetta::Utility::SQLParser::L::en
-##Apache::GTopLimit
 ##Net::Amazon::Response::Exchange
 ##Syntax::Highlight::HTML
 ##DateTime::Locale::fr_LU
 ##Bio::Tools::Run::PiseApplication::pepcoil
 ##SQCAS::Admin
 ##Net::IP::Match::XS
-##Apache::Request::PageKit
 ##bigrat
 ##Astro::Catalog::IO::UKIRTBS
 ##SWF::Element
@@ -38340,8 +37190,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Bio::MAGE::BioAssay::Channel
 ##Net::Irate::Downloader
 ##POE::XUL::ChangeManager
-##Geo::GPS::Data::Storage::MySQL
 ##AutoCode::ModuleModel
+##Geo::GPS::Data::Storage::MySQL
 ##Locale::Object::Currency
 ##Business::Bof::Server::Task
 ##XML::XForms::Generator::UserInterface
@@ -38383,7 +37233,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##AxKit::XSP::Session
 ##Arch::Registry
 ##DBIx::SimpleQuery::Object
-##Apache::App::Mercury::Controller
 ##ebXML::Message
 ##Rose::DB::Generic
 ##HTML::MobileConverter
@@ -38397,11 +37246,10 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##ShiftJIS::X0213::MapUTF
 ##Math::RPN
 ##ResourcePool::Resource::SOAP::Lite
-##Apache::Voodoo::Handler
 ##HTML::HTPL::Mem
 ##CPANPLUS::Internals::Source
-##MARC::Charset::Hebrew
 ##SyslogScan::Summary
+##MARC::Charset::Hebrew
 ##Games::3D::Signal
 ##Thread::Tie::Thread
 ##AFS::Command::FS
@@ -38413,7 +37261,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Regexp::Assemble
 ##Bio::ConnectDots::ConnectorSet::MG_U74Av2_annot_csv
 ##Tie::DxHash::FromText
-##Apache::XPointer
 ##Kwiki::Template::TT2
 ##Net::EPP::Frame::Command::Create
 ##VUser::ExtLib
@@ -38427,7 +37274,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Tk::Pod::Tree
 ##ClearCase::CRDB
 ##Win32::Security::ACE
-##Apache::AxKit::Language::PassiveTeX
 ##LibWeb::Admin
 ##Lingua::Shakespeare
 ##DateTime::Locale::uz_AF
@@ -38461,7 +37307,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##MHonArc::UTF8::BIG5_ETEN
 ##Perldoc::DOM::Text
 ##Win32::ShellExt::CtxtMenu::Tar
-##PurpleWiki::Apache2NidHandler
 ##VBTK::InputStream
 ##Volity::GameRecord
 ##Module::Release::ModuleBuild
@@ -38491,7 +37336,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##DateTime::Locale::pl_PL
 ##KinoSearch::Index::DelDocs
 ##Encode::InCharset::adobeZdingbat
-##CIPP::Compile::Apache
 ##MasonX::Buffer2
 ##World_Option
 ##Games::Rezrov::ZIO_Generic
@@ -38526,15 +37370,14 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Lingua::EN::Tagger
 ##TestApReq::request
 ##XML::XOXO::Node
-##Time::Consts
 ##HTTP::MobileAgent::Plugin::Extension
+##Time::Consts
 ##OpenInteract::Package
 ##WebService::CIA::Source::DBM
 ##HTML::Info
 ##Net::RRP::Entity::Owner
 ##Locale::RecodeData::GEORGIAN_PS
 ##Audio::Gramofile
-##Apache::Wyrd::Interfaces::Mother
 ##Object::Enum
 ##OurNet::BBS::Firebird3::FileGroup
 ##Class::MakeMethods::Template::ClassVar
@@ -38549,8 +37392,8 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Nagios::NSCA::DataPacket
 ##Encode::JP::H2Z
 ##Shell::Command
-##App::Widget::IconPaneSelector
 ##PV
+##App::Widget::IconPaneSelector
 ##Document::Info
 ##OzDB
 ##Net::DRI::Data::Contact::EURid
@@ -38569,14 +37412,13 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Meta::Xml::Parsers::Enum
 ##Module::Start
 ##Tie::OffsetArray
-##Apache::Opcode
 ##ETL::Pequel::Param
 ##Thread::Isolate::Map::Hash
 ##Date::DayOfWeek::Nails
 ##Handel::Checkout::Plugin::MarkOrderSaved
 ##Tie::Simple::Scalar
-##WWW::Search::AcronymFinder
 ##Authen::Krb5::Easy
+##WWW::Search::AcronymFinder
 ##Data::Tabular::Row::Extra
 ##PAR::WebStart
 ##POE::Component::Client::Ping
@@ -38597,7 +37439,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Heap::Simple::Less
 ##Data::Serializer::Data::Dumper
 ##Prospect::File
-##Apache::Wyrd::Lattice::Grid
 ##Net::Delicious::Constants::Api
 ##OODoc::Template
 ##CGI::Application::Plugin::CompressGzip
@@ -38637,7 +37478,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Paper::Specs::standard::b8
 ##perl5lib
 ##Oracle::Debug
-##Apache::RedirectLogFix
 ##Class::Tables::Pg
 ##HTML::HTPL::Stream
 ##Business::FedEx::ShipRequest
@@ -38647,9 +37487,7 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##Win32::MIDI::API
 ##Net::Lyskom::Time
 ##XUL::Node::Application::MenuListExample
-##Apache::TempFile
 ##Bio::DB::SQL::SeqFeatureAdaptor
-##Apache::SWIT::Test::ModuleTester
 ##Location::Area::DoCoMo::iArea::Next
 ##Nokia::File::NFB
 ##Toolbox::Simple
@@ -38708,13 +37546,13 @@ This Bundle package will install all of the modules listed, if they're not comme
 
 =head1 SEE ALSO
 
-I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>
+I<L<Bundle::Modules>>, I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::Apache>>, I<L<Bundle::Modules::Apache::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>, I<L<Bundle::Modules::Acme::Everything::Unique::Unstable>>
 
 =head1 AUTHORS
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0516
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0517
 
 perl
 

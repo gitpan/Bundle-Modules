@@ -2,7 +2,7 @@ package Bundle::Modules;
 
 use 5.005;
 
-our $VERSION = 2006.0516; ## (YYYY.MMDD)
+our $VERSION = 2006.0517; ## (YYYY.MMDD)
 
 1;
 
@@ -21,7 +21,6 @@ cpan B<-i Bundle::Modules>
 =head1 CONTENTS
 
 Bundle::DBD::InterBase
-Bundle::Apache2
 Bundle::BDFOY
 Bundle::SNMP::MIB::Compiler
 Bundle::Business::Shipping::DataTools
@@ -33,7 +32,6 @@ Bundle::NiceSleep
 Bundle::Perl6
 Bundle::HTMLWikiConverter
 Bundle::Text::Query::BuildSQL
-Bundle::Apache::ASP
 Bundle::TreeDumper
 Bundle::Net::Nessus
 Bundle::Tie::FormA
@@ -62,7 +60,6 @@ Bundle::Cascade
 Bundle::Math::Random
 Bundle::CPANPLUS::Test::Reporter
 Bundle::Lingua::PT
-Bundle::Apache::Wombat
 Bundle::Starlink::Base
 Bundle::MP3
 Bundle::Egrail
@@ -128,7 +125,6 @@ Bundle::Devel
 Bundle::Rose
 Bundle::Business::Shipping::Basic
 Bundle::Minivend
-Bundle::Apache::ASP::Extra
 Bundle::AMBS
 Bundle::DBD::CSV
 Bundle::Business::Shipping::UPS_Offline
@@ -152,8 +148,6 @@ Bundle::Pugs::SmokeKit
 Bundle::OS2_default5
 Bundle::Combust
 Bundle::myxCal
-Bundle::Apache::Roaming
-Bundle::ABH::Apache
 ##Bundle::WWW::Scraper::Housing
 Bundle::Template::Magic
 Bundle::Msql
@@ -167,11 +161,10 @@ Bundle::Tie::DB_File::SplitHash
 Bundle::Net::SXIP::Homesite
 Bundle::Link_Controller
 Bundle::Zoidberg
-Bundle::Interchange
 Bundle::Math::Symbolic
+Bundle::Interchange
 Bundle::PerlPoint
 Bundle::OS2_default1
-Bundle::Apache
 Bundle::DBD::JDBC
 Bundle::Sites::BetterScm
 Bundle::Business::Shipping::USPS_Online
@@ -193,7 +186,6 @@ Bundle::libnet
 Bundle::Query
 Bundle::LWP
 Bundle::CVSMonitor
-Bundle::ApacheTest
 Bundle::Math::Expression
 Bundle::OS2_default4
 Bundle::DBD::mysql
@@ -226,13 +218,13 @@ This Bundle package will install all of the modules listed, if they're not comme
 
 =head1 SEE ALSO
 
-I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>
+I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Apache>>, I<L<Bundle::Modules::Apache::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>, I<L<Bundle::Modules::Acme::Everything::Unique::Unstable>>
 
 =head1 AUTHORS
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0516
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0517
 
 perl
 

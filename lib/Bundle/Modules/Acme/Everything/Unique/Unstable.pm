@@ -2,7 +2,7 @@ package Bundle::Modules::Acme::Everything::Unique::Unstable;
 
 use 5.005;
 
-our $VERSION = 2006.0516; ## (YYYY.MMDD)
+our $VERSION = 2006.0517; ## (YYYY.MMDD)
 
 1;
 
@@ -22,7 +22,6 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 
 ##Array::Reform
 ##SQL::Routine
-##Apache::WDB
 ##VMS::ICC
 ##NexTrieve::Index
 ##HtDig::Htsearch
@@ -34,14 +33,11 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##Log::Check
 ##Config::Ini
 ##Business::OnlinePayment::E2Payments
-##Apache::Sybase::DBlib
 ##VMS::Device
 ##DBD::RDB
 ##VMS::Priv
 ##RFID::EPC
 ##Religion::Package
-##Apache::Safe
-##Apache::SawAmpersand
 ##NexTrieve::Querylog
 ##Astro::SkyCoords
 ##TeX::Convert::Image
@@ -78,7 +74,6 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##CORBA::XPIDL
 ##PostScript::Basic
 ##Oak
-##Apache::MimeDBI
 ##VMS::Queue
 ##CGI::SimpleCache
 ##Filesys::mntent
@@ -89,13 +84,10 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##MIME::IO
 ##Finance::Shares::MySQL
 ##MOP
-##Apache::Timeit
 ##Object::Info
-##Apache2::PageKit
 ##SGML::SPGrove
 ##Tie::PerfectHash
 ##BizTalk
-##Apache::AuthzGender
 ##IPC::UPDmsg
 ##Boulder
 ##Tk::DBIx
@@ -113,7 +105,6 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##X11::Xforms
 ##Linksys::Config
 ##Find::File::Object
-##Apache::LowerCaseGETs
 ##Glade
 ##NexTrieve::Resource
 ##Device::SerialPort::Xmodem
@@ -133,7 +124,6 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##NexTrieve::HTML
 ##Math::Matrix::SVD
 ##Search::Kinosearch
-##Apache::AnonProxy
 ##Cz::Speak
 ##CfgTie
 ##DBD::Google
@@ -142,15 +132,11 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##Tie::Assert
 ##Finance::Shares::Chart
 ##Exporter::Import
-##Apache::AuthenRaduis
-##Apache::Log::Spread
 ##NexTrieve::DBI
 ##PDF::PlainLayout
 ##PostScript::Barcode
-##Apache::MsqlProxy
 ##Interface::Param
 ##Archive::Parity
-##Apache::AdBlocker
 ##NexTrieve::Docseq
 ##Image::ASCII
 ##BoxBackup
@@ -159,7 +145,6 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##WebService::BabelFish
 ##SVN::Look
 ##Plugin::Language::DML
-##Apache::Handler
 ##CORBA::Python
 ##Font::TTF
 ##Data::Dumper::HTML
@@ -168,24 +153,21 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##Mobile::WURFL
 ##File::ManualFlock
 ##X11::Toolkit
-##AFS
 ##Games::Go::GoPair
+##AFS
 ##Getopt::Long::File
 ##Algorithm::Munkre
 ##Mail::MH
 ##CGI::Query
-##Apache2::DBI
 ##HtDig
 ##Class::Eroot
 ##Tk::SignOnDialog
-##Apache::LogMail
 ##NexTrieve::Collection::Index
 ##VMS::Persona
 ##CGI::Base
 ##Math::Geometry
 ##PDF::Report::Table
 ##Math::FresnalZone
-##Apache::MIME
 ##Fax::DataFax
 ##Text::Parser
 ##Math::Nocarry
@@ -203,10 +185,8 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##Authorizenet
 ##Filesys::dfent
 ##Lingua::PT
-##Apache::NavBar
 ##CGI::Session::Encrypted
 ##Lingua::FeatureSet
-##Apache::AuthenDBI
 ##Tk::Multi
 ##Net::DHCP
 ##RFID::Matrics
@@ -226,12 +206,10 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##Gemstone
 ##Thread::Group
 ##Tie::Plural::Scalar
-##Apache::TicketAccess
 ##Bleach
 ##Bio::SAGE
 ##MSSQL::DBlib
 ##Datascope
-##Apache::Checksum
 ##OpenCA
 ##Time::JulianDateTime
 ##BnP
@@ -242,31 +220,26 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##Tk::ImageButton
 ##Fortran::NameList
 ##Net::Mac::Vendor
-##SOOP
 ##Tk::FlatCheckbox
+##SOOP
 ##VMS::Fileutils::Root
 ##SICStus
 ##PerlPoint::Package
 ##NexTrieve::RFC822
 ##NexTrieve::Hitlist::Hit
 ##Win32::ODBC
-##Apache::AuthzAge
 ##RFID::Alien
 ##DBD::Altera
 ##DBD::FreeTDS
-##Apache::DayLimit
 ##NexTrieve::Targz
 ##Hardware::Simulator
-##Apache::ModBT
 ##Tie::Mem
 ##Win32::Perfmon
 ##Attribute::Abstract
 ##HTML::Info
 ##Pod::MIF
-##Apache::Servlet
 ##Verilog::GetInfo
 ##HTML::Stripper
-##Apache::AccessLimitNum
 ##Orac
 ##Tern::Size::Heuristic
 ##Win32::FUtils
@@ -288,7 +261,6 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##Proc::PID::File::Fcntl
 ##Filesys::statfs
 ##NexTrieve::Collection
-##Apache::PATCH
 ##Mac::Serial
 ##RTF::Generator
 ##PixDraw
@@ -300,14 +272,13 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##Win32::GD
 ##SQL::Builder
 ##CGI::FormManager
-##Apache::Htaccess
 ##MSSQL::Sqllib
 ##Sort::PolySort
 ##VMS::Monitor
 ##Tree::Menu
 ##PDL::LAPACK
-##Oracle::OCI
 ##MARC
+##Oracle::OCI
 ##Proc::ExitStatus
 ##DBIx::TableAdapter
 ##GD::Barcode::Code93
@@ -323,7 +294,6 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##FileSys::Tree
 ##Neural
 ##Synergy
-##Apache::DCELogin
 ##Text::Wigwam
 ##MSDOS::SysCalls
 ##VMS::Fileutils::SafeName
@@ -342,11 +312,9 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##WWW::TVguide::NL
 ##Convert::Base
 ##DBD::SQLrelay
-##Apache::AddrMunge
 ##NexTrieve::Daemon
 ##EventServer::Signal
 ##Exporter::Options
-##Apache::QuickCMS
 ##EventServer::Functions
 ##CGI::FormFactory
 ##Win32::Pipe
@@ -374,49 +342,39 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##Tie::Array::Huge
 ##PHP::MySQL_Session
 ##Math::SimpleInterest
-##Apache::AuthzDBI
 ##PDL::Slatec
 ##WWW::ShopBot
-##Apache::BlockAgent
-##Apache::StripSession
 ##HTML::Debug
 ##Crypt::OpenSSL::BN
 ##X11::XRT
 ##Finance::Bank::DE::SpardaBank
-##Apache::MimeXML
 ##Python
-##NexTrieve::Search
 ##NexTrieve::Replay
+##NexTrieve::Search
 ##CGI::BasePlus
 ##NexTrieve::Message
 ##CGI::MiniSvr
-##Apache::Command
 ##Frontier::RPC
 ##Win32::MSI
 ##Lemonldap::Portal
 ##Perl6::Doc
-##Apache::AuthzSSL
 ##PGP
 ##CGI::DBTables
 ##NexTrieve::MIME
 ##CGI::CList
-##Apache::SpeedLimit
 ##Physics::Solar::VSO
 ##Class::TOM
-##Mail::Vacation::LDAP
 ##FameHLI
+##Mail::Vacation::LDAP
 ##WWW::Search::Excite
 ##VMS::User
 ##Business::OnlinePayment::Moneris
-##Apache::Forward
 ##Clips
-##Bio::Genex
 ##AI::NeuralNet
+##Bio::Genex
 ##Getopt::Help
 ##Chatbot::RiveScript
 ##Gtk::Dialog
-##Apache::AuthAny
-##Apache::AuthNISPlus
 ##Getopt::Gnu
 ##DBA::Backup::mysql
 ##Splash::DB
@@ -424,12 +382,10 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##Remedy::AR
 ##File::MultiTail
 ##Watchdog::MysqlService
-##Apache::Upload
 ##Devel::DebugAPI
 ##RPM::Headers
 ##File::Atomic
 ##Quiz::Question
-##Apache::AxKit
 ##Scalar::Footnote
 ##Crypt::Camellia
 ##Slash
@@ -444,7 +400,6 @@ cpan B<-i Bundle::Modules::Acme::Everything::Unique::Unstable>
 ##NexTrieve::UTF8
 ##Crypt::ElGamal
 ##DBIx::SchemaView
-##Apache::Magick
 
 =head1 CHANGES
 
@@ -474,13 +429,13 @@ This Bundle package will install all of the modules listed, if they're not comme
 
 =head1 SEE ALSO
 
-I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>
+I<L<Bundle::Modules>>, I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Apache>>, I<L<Bundle::Modules::Apache::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>
 
 =head1 AUTHORS
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0516
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0517
 
 perl
 

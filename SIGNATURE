@@ -16,13 +16,16 @@ Hash: SHA1
 
 SHA1 29dc236beecaadd424c67d8fc4c04166b23bbcc6 2006_MMDD
 SHA1 b79bbdc2607e13352bbe4d4fb1b93cd681661f39 Build.PL
+SHA1 0b184ad51ba2a79e85d2288d5fcf8a1ea0481ea4 COPYING
 SHA1 72371f3217c31e8c92331c90cc2153a04f3b07bf INSTALL
-SHA1 ec8bca738e3b158be021e44bf75ef97bf4d6ad33 MANIFEST
-SHA1 0e5d2bb06b42b6501e36ee3d7f441fd76187663c MANIFEST.SKIP
-SHA1 d06204edb9bc17b612be4798725230e941c4c6e0 META.yml
-SHA1 005ed7bceb7fde6d64db99400b599d8de3e5e95a Makefile.PL
+SHA1 8a4cc68aefc429099afcd3c546f60e2e9298d2e3 MANIFEST
+SHA1 ee85c8ea4af1a0b6ae79e34b4a82a40b31abb83f MANIFEST.SKIP
+SHA1 c29b598dcdadebcb15a988994595e4f37b6f5cf0 META.yml
+SHA1 e70f5911ea082dbe454229b27e1868a85a84d575 Makefile.PL
 SHA1 d2c3c3e43e00d51ddf6bcf6ec472eaad9ef9aee8 README
+SHA1 0bb5ddbe64424d40536acdee2f09e853ab39087d inc/Module/AutoInstall.pm
 SHA1 e28cf2d3ba35f6ca3a448acc7bee191b7c390379 inc/Module/Install.pm
+SHA1 d7013668911c86af441cad115b897fc675a472de inc/Module/Install/AutoInstall.pm
 SHA1 e7c1c86f57b6778f4bdc7fd8c1b950e60ef41bc0 inc/Module/Install/Base.pm
 SHA1 cb9aba1d2d38aeced33c6d74e9175577f31af79c inc/Module/Install/Build.pm
 SHA1 e1829448769445cdaac384a888bf9ccf42e0d89a inc/Module/Install/Can.pm
@@ -35,22 +38,23 @@ SHA1 9a903a1d178954ad864c7dcc98f9fa5c005d1553 inc/Module/Install/WriteAll.pm
 SHA1 f0ebc594cf8ba858ee9a840c344d9b7ea2c3c6f4 inc/Test/Builder.pm
 SHA1 6bb30e9867f6dbcada80acca07cb727fa09fc3a0 inc/Test/Builder/Module.pm
 SHA1 07c750f370de7a44ee7b0ed9ec30a7e89c24c9b9 inc/Test/More.pm
-SHA1 f2b2d5608b9c8a823d2cad9b3c76a199ec7a3512 lib/Bundle/Modules.pm
-SHA1 6410dbc0c8d9715bab799c5c9fb5adbb12514afa lib/Bundle/Modules/Acme/Everything.pm
-SHA1 a560243a9c299563a6418abf70a0c64d1eb1afad lib/Bundle/Modules/Acme/Everything/Unique.pm
-SHA1 8c86892068cf5ab8b04a1ca621e45970603c77a2 lib/Bundle/Modules/Acme/Everything/Unique/Unstable.pm
-SHA1 e978eb12ee025015cfebff0b660b513ea90a15cc lib/Bundle/Modules/Acme/Everything/Unstable.pm
-SHA1 3ab2e1d3fe030510061dcf31fe9df7b61b645cc0 lib/Bundle/Modules/CPAN.pm
-SHA1 2e590a0b73b41d6f5bc04fb591a0ffd0c720da24 lib/Bundle/Modules/CPAN/Unstable.pm
-SHA1 851a8ce82bf4498f8e976439e3b69941ec39190b lib/Bundle/Modules/Unstable.pm
+SHA1 d255d4962b83eeb42fd9070222978954d4cba6ab lib/Bundle/Modules.pm
+SHA1 fa57e557caeaaf23a6300167929e7a87f8d45a3e lib/Bundle/Modules/Acme/Everything.pm
+SHA1 68ae5cce4856cda3e7d6a18dc8433bfd738938a9 lib/Bundle/Modules/Acme/Everything/Unique.pm
+SHA1 d0c6aabab0ee8809add8c281d6b47b5c3c46a645 lib/Bundle/Modules/Acme/Everything/Unique/Unstable.pm
+SHA1 ba8c980ace83ebfd3d4254d35a2547cdea03dff1 lib/Bundle/Modules/Acme/Everything/Unstable.pm
+SHA1 e32bae0d4c6f57469fec237b1fdeb53073197aa1 lib/Bundle/Modules/Apache.pm
+SHA1 d1900a722cc50367a9c959a8d5e98bb7064cf745 lib/Bundle/Modules/Apache/Unstable.pm
+SHA1 e9573c52dfa88f78f93a14ecfa490e024bb27dd1 lib/Bundle/Modules/CPAN.pm
+SHA1 6262ea6f7dd90322975fca1b267b1fd126f5b3b3 lib/Bundle/Modules/CPAN/Unstable.pm
+SHA1 1ca34b470eab627df5754b9574592e6ee2982d8d lib/Bundle/Modules/Unstable.pm
 SHA1 aaa5ae75f6e123869524eb3c2b1a3963c88924fb public_keys/ERMEYERS2005.pub
-SHA1 37e858c51409a297ef5d3fb35dc57cd3b57f9a4d public_keys/PAUSE2003.pub
 SHA1 8f9fa0f00546860b393746825af0832a571e043e t/test0.pl.t
 SHA1 16aefcee72dd01da9fd8743e71b6de7be6e6a4e9 t/use_me/test0.pl.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.2.2 (GNU/Linux)
 
-iEYEARECAAYFAkRpUBoACgkQmYhyuYPOgKOYtgCdFqXPID+NmBnvfnakY0mhfsFM
-ejQAniJHq4GgaJ0EFCNkN2AjJtFp52h1
-=wuhI
+iEYEARECAAYFAkRrQqYACgkQmYhyuYPOgKPODgCdHz5nQG07V9FEmTCc974HnJsv
+gGoAn0arJehn7JoCMgFn6yVn2T56HVSd
+=xwye
 -----END PGP SIGNATURE-----

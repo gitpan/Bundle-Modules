@@ -2,7 +2,7 @@ package Bundle::Modules::Unstable;
 
 use 5.005;
 
-our $VERSION = 2006.0516; ## (YYYY.MMDD)
+our $VERSION = 2006.0517; ## (YYYY.MMDD)
 
 1;
 
@@ -50,7 +50,6 @@ Bundle::WWW::Scraper::Housing
 ##Bundle::Math::Interface
 ##Bundle::MyLibrary
 ##Bundle::Sites::BetterScm
-##Bundle::ABH::Apache
 ##Bundle::TreeDumper
 ##Bundle::MP3
 ##Bundle::Knetrix
@@ -63,7 +62,6 @@ Bundle::WWW::Scraper::Housing
 ##Bundle::Lingua::PT
 ##Bundle::MusicBrainz::Server
 ##Bundle::PlRPC
-##Bundle::Apache::ASP::Extra
 ##Bundle::CpanTestDummies
 ##Bundle::Math::Base
 ##Bundle::RT
@@ -87,7 +85,6 @@ Bundle::WWW::Scraper::Housing
 ##Bundle::OpenSRF
 ##Bundle::Business::Shipping::UPS_Offline
 ##Bundle::Olive
-##Bundle::Apache::ASP
 ##Bundle::Latemp
 ##Bundle::Tie::FormA
 ##Bundle::OS2_default6
@@ -110,7 +107,6 @@ Bundle::WWW::Scraper::Housing
 ##Bundle::DBD::Informix
 ##Bundle::SDK::COG
 Bundle::POE::All
-##Bundle::Apache2
 ##Bundle::SNMP::MIB::Compiler
 ##Bundle::CVSMonitor
 ##Bundle::BioPerl
@@ -174,11 +170,8 @@ Bundle::POE::All
 ##Bundle::Zavitan
 ##Bundle::Math::Statistics
 ##Bundle::Math::Matrix
-##Bundle::Apache
 ##Bundle::Math::Financial
 ##Bundle::Tk_OS2src
-##Bundle::Apache::Wombat
-##Bundle::ApacheTest
 ##Bundle::SPOPS
 ##Bundle::CPANPLUS::Dependencies
 ##Bundle::HTTP::WebTest
@@ -190,10 +183,9 @@ Bundle::Cobalt
 ##Bundle::Business::Shipping::DataTools
 ##Bundle::DBD::CSV
 ##Bundle::Cascade
-##Bundle::OS2_default5
 ##Bundle::Math
+##Bundle::OS2_default5
 ##Bundle::DBI
-##Bundle::Apache::Roaming
 ##Bundle::WWW::Mechanize::Shell
 ##Bundle::Bonsai
 Bundle::WWW::Search::Scraper::Housing
@@ -226,13 +218,13 @@ This Bundle package will install all of the modules listed, if they're not comme
 
 =head1 SEE ALSO
 
-I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>
+I<L<Bundle::Modules>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Apache>>, I<L<Bundle::Modules::Apache::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>, I<L<Bundle::Modules::Acme::Everything::Unique::Unstable>>
 
 =head1 AUTHORS
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0516
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0517
 
 perl
 

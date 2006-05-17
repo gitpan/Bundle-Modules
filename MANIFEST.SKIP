@@ -6,6 +6,12 @@
 ^Build$
 ^_build/
 ^_bin/
+##added
+[.].+[~]$
 [.]bak$
-[.]pl$
 [.]kdev.+$
+^templates/
+CVS/
+[.]pl$
+[.]tar$
+[.]tar[.]gz$
