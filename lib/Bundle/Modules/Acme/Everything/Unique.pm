@@ -2,7 +2,7 @@ package Bundle::Modules::Acme::Everything::Unique;
 
 use 5.005;
 
-our $VERSION = 2006.0517; ## (YYYY.MMDD)
+our $VERSION = 2006.0519; ## (YYYY.MMDD)
 
 1;
 
@@ -435,7 +435,7 @@ I<L<Bundle::Modules>>, I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPA
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0517
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0519
 
 perl
 

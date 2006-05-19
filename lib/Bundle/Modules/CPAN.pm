@@ -2,7 +2,7 @@ package Bundle::Modules::CPAN;
 
 use 5.005;
 
-our $VERSION = 2006.0517; ## (YYYY.MMDD)
+our $VERSION = 2006.0519; ## (YYYY.MMDD)
 
 1;
 
@@ -34,8 +34,8 @@ AutoCode::Unimplemented
 CSS::Selector
 UMMF::UML::MetaModel::Model_Management::Model
 NBU
-Gtk::Gdk
 OpenCA::XML::Cache
+Gtk::Gdk
 Business::PayPal::API::DirectPayments
 Bio::Tools::Run::PiseApplication::pyreval
 POE::Component::IKC::Responder
@@ -51,8 +51,8 @@ Parrot::BuildUtil
 KinoSearch::Store::Lock
 Games::Cards::Poker
 Gtk2::CodeGen
-POE::Request::Return
 Video::Info::MPEG::Constants
+POE::Request::Return
 Exporter::Cluster
 Module::Build::Platform::cygwin
 WWW::BookBot::Chinese::Agriculture::GreenHouse::Tech
@@ -27478,7 +27478,6 @@ Draft::Protozoa::Eml
 SVN::Log::Index
 DBIx::Class::Schema::Loader::DB2
 Mknod
-##Apache
 Nmap::Scanner::Scanner
 SQL::Generator::Lang::MYSQL
 Video::DVDRip::Term::Main
@@ -37552,7 +37551,7 @@ I<L<Bundle::Modules>>, I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPA
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0517
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0519
 
 perl
 

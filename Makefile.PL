@@ -11,22 +11,17 @@ use inc::Module::Install;
 
 require Date::Format;
 
-require File::Spec;
-
 require FindBin; chdir( $FindBin::Bin );
 
 ##require Getopt::Long;
 
 ##Getopt::Long::GetOptions();
 
-my @tests = glob File::Spec->catfile( 't', '*.pl.t' );
+##require File::Spec;
 
-push( @tests, glob File::Spec->catfile( 't', 'use_me', '*.pl.t' ) );
+##my @tests = glob File::Spec->catfile( 't', '*.pl.t' );
 
-requires( 'perl' => '5.005' );
-
-requires( qw(
-) );
+##push( @tests, glob File::Spec->catfile( 't', 'use_me', '*.pl.t' ) );
 
 my $param =
 {
@@ -40,50 +35,38 @@ my $param =
 };
 
 name( $param->{'NAME'} );
+
 author( $param->{'AUTHOR'} );
+
 version( $param->{'VERSION'} );
+
 license( $param->{'LICENSE'} );
+
 abstract( $param->{'ABSTRACT'} );
 
-all_from( 'lib/Bundle/Modules.pm' );
+##no##all_from( 'lib/Bundle/Modules.pm' );
 
-system( "$FindBin::Bin/_bin/create_bundle_modules.plx $param->{'VERSION'}" );
+unlink( "MANIFEST.bak" );
 
-my @missing;
+unlink( "$param->{'NAME'}-$param->{'VERSION'}.tar.gz" );
 
-my @nice = qw( Test::Pod Test::Memory::Cycle Test::Warn Test::Taint );
-
-foreach my $nice ( @nice )
+if ( -d "$FindBin::Bin/_bin" ) ## won't exist in distribution
 {
-    eval "require $nice";
-
-    push( @missing, $nice ) if $@;
-
-} ## end foreach
-
-if ( @missing )
-{
-    @missing = map { "\t$_\n" } @missing;
-
-    print <<"EOT";
-
-$param->{'NAME'}-$param->{'VERSION'} likes to have a lot of test modules for some of its tests.
-
-The following are modules that would be nice to have, but are not required.
-
-@missing
-
-EOT
+   system( "$FindBin::Bin/_bin/create_bundle_modules.plx $param->{'VERSION'}" );
 
 } ## end if
 
-locate_gpg();
+requires
+(
+   'perl' => '5.005',
 
-feature( 'Shell.pm', '-default' => 0, recommends( qw( Shell ) ) ) unless can_run( 'sh' );
+);
 
-auto_install( 'prerequisites_policy' => 'follow' );
+feature( 'Shell.pm', '-default' => 0, recommends( 'Shell' ) ) unless can_run( 'sh' );
 
 build_requires( 'Test::More' => 0.34 );
+
+auto_install( 'prerequisites_policy' => 'follow' );
 
 auto_include_deps();
 
@@ -91,14 +74,14 @@ sign();
 
 WriteAll();
 
+locate_gpg();
+
 ##
 ## Thanks Audrey Tang
 ##
 END {
 
    print "##\n## Thanks to Mr. Audrey Tang, for being the first person to send me an encrypted email.\n##\n";
-
-   my $make = eval { require Config; $Config::Config{'make'} } || 'make';
 
    print "Now, please enter 'Build' to make all, 'Build test' to test, and 'Build install' to install.\n";
 
@@ -140,5 +123,38 @@ sub locate_gpg
    return;
 
 } ## end sub
+
+##
+## make a sub
+##
+=cut
+my @missing;
+
+my @nice = qw( Test::Pod Test::Memory::Cycle Test::Warn Test::Taint );
+
+foreach my $nice ( @nice )
+{
+    eval "require $nice";
+
+    push( @missing, $nice ) if $@;
+
+} ## end foreach
+
+if ( @missing )
+{
+    @missing = map { "\t$_\n" } @missing;
+
+    print <<"EOT";
+
+$param->{'NAME'}-$param->{'VERSION'} likes to have a lot of test modules for some of its tests.
+
+The following are modules that would be nice to have, but are not required.
+
+@missing
+
+EOT
+
+} ## end if
+=cut
 
 __END__

@@ -2,7 +2,7 @@ package Bundle::Modules::CPAN::Unstable;
 
 use 5.005;
 
-our $VERSION = 2006.0517; ## (YYYY.MMDD)
+our $VERSION = 2006.0519; ## (YYYY.MMDD)
 
 1;
 
@@ -37120,7 +37120,6 @@ cpan B<-i Bundle::Modules::CPAN::Unstable>
 ##gen::makefiles
 ##DBIx::dbMan::Extension::CmdOutputToFile
 ##PPI::Statement::Expression
-Apache
 ##Jifty::Web::Form::Field::InlineButton
 ##Petal::Hash::Test
 ##Geo::TigerLine::Record::C
@@ -37552,7 +37551,7 @@ I<L<Bundle::Modules>>, I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPA
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0517
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0519
 
 perl
 
