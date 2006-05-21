@@ -2,7 +2,7 @@ package Bundle::Modules::Apache;
 
 use 5.005;
 
-our $VERSION = 2006.0519; ## (YYYY.MMDD)
+our $VERSION = 2006.0520; ## (YYYY.MMDD)
 
 1;
 
@@ -242,8 +242,8 @@ Apache::RequestNotes
 Apache2::Protocol::ESMTP
 Apache::AuthDigest::API::Multi
 Apache::Application::Plus
-Apache2::PPI::HTML
 Apache::TestHarness
+Apache2::PPI::HTML
 Apache::MP3::L10N::no_no
 Slauth::Config::Apache
 Apache::DnsZone::AuthCookie
@@ -261,6 +261,7 @@ Apache::AxKit::Plugin::Session
 Apache::JAF
 CPANXR::Apache::Util
 Apache::Voodoo::Valid_URL
+Apache::Scriptor::Simple
 Apache::FakeSSI
 Apache::DAV::PropCtx
 Apache::Sandwich
@@ -290,6 +291,7 @@ Apache2::Geo::IP::Record
 Apache::DAV::HooksLiveprop
 Apache::ACEProxy
 Apache::Access::Headers
+Bundle::Modules::Apache
 Apache::TestRunParrot
 Apache::SWIT::Subsystem::Generator
 Apache2::ShowStatus
@@ -352,8 +354,8 @@ Apache::CVS::Diff
 Apache::Session::SharedMem
 Apache::Archive
 Apache::ShowRequest
-Apache::Language::SW
 Apache::Blog
+Apache::Language::SW
 Apache::AutoLogin
 Apache::MP3::L10N::no
 Apache::iNcom::CartManager
@@ -511,6 +513,7 @@ Apache::WebSNMP
 Apache::Util
 Apache::Syntax::Highlight::Perl
 Apache::Language::PlainFile
+Bundle::Modules::Apache::Unstable
 Apache::PassFile
 Apache::Request::Redirect
 Apache::Clickable
@@ -546,9 +549,9 @@ Apache::MP3::L10N::fa
 Apache::MP3::L10N::cs
 Apache::RedirectLogFix
 Apache::SecSess::Cookie::URL
+Apache::AxKit::Plugin::OpenOffice
 Apache::Session::SQLite
 Apache2::AUS::RequestRec
-Apache::AxKit::Plugin::OpenOffice
 Apache::AutoIndex
 Apache::Session::Serialize::Storable
 Apache::Voodoo::Loader::Static
@@ -844,6 +847,7 @@ Apache::Opcode
 Apache::Wombat::Response
 Apache::AxKit::Exception
 Apache2::ParseSource
+Xmldoom::ORB::Apache
 Apache::AxKit::Plugin::QueryStringCache
 Apache::AuthCookieDBIRadius
 Apache::Mmap::Handle
@@ -978,6 +982,7 @@ Apache::MP3
 Apache::AuthenURL::Cache
 Apache::DoCoMoUID
 Apache::MiniWiki
+Apache::Scriptor
 Apache::AxKit::Provider::Scalar
 Apache::AxKit::Provider::RDBMS::ContentProvider::MultiSQL
 ENH::Apache
@@ -1108,15 +1113,15 @@ XML::Directory::Apache
 Apache::Geo::IP::Record
 Apache::Session::CacheAny
 Apache::Wyrd::Form::Preload
-Apache::SessionX::Manager
 Apache::Emulator::Apache::Constants
+Apache::SessionX::Manager
 Apache::ParseLog
 Apache::Wyrd::CGICond
 Apache::AuthTypeKey
 Apache::ASP::Response
+MKDoc::Apache_Cache
 Apache::Wombat::Request
 Apache::JAF::Cookies
-MKDoc::Apache_Cache
 Apache2::ModBT
 Apache::LogF
 CPANXR::Apache::Visualizer
@@ -1181,7 +1186,7 @@ I<L<Bundle::Modules>>, I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPA
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0519
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0520
 
 perl
 
@@ -1189,6 +1194,6 @@ This program is free software; you can redistribute it and/or modify it under th
 
 =head1 COPYRIGHT
 
-Copyright (c) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
+Copyright (C) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
 

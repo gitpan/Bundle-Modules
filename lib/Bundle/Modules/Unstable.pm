@@ -2,7 +2,7 @@ package Bundle::Modules::Unstable;
 
 use 5.005;
 
-our $VERSION = 2006.0519; ## (YYYY.MMDD)
+our $VERSION = 2006.0520; ## (YYYY.MMDD)
 
 1;
 
@@ -90,6 +90,7 @@ Bundle::WWW::Scraper::Housing
 ##Bundle::OS2_default6
 ##Bundle::Search::InvertedIndex
 ##Bundle::Template::Magic
+Bundle::Kwiki
 ##Bundle::Slash
 ##Bundle::CPAN
 ##Bundle::LWP
@@ -128,7 +129,6 @@ Bundle::POE::All
 ##Bundle::CGI::Builder::Complete
 ##Bundle::Combust::Extras
 ##Bundle::Perl6
-##Bundle::Kwiki
 ##Bundle::OS2_default1_2
 ##Bundle::SDK::SIMON
 ##Bundle::Net::SXIP::Homesite
@@ -224,7 +224,7 @@ I<L<Bundle::Modules>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::U
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0519
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0520
 
 perl
 
@@ -232,6 +232,6 @@ This program is free software; you can redistribute it and/or modify it under th
 
 =head1 COPYRIGHT
 
-Copyright (c) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
+Copyright (C) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
 

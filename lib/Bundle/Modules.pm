@@ -2,7 +2,7 @@ package Bundle::Modules;
 
 use 5.005;
 
-our $VERSION = 2006.0519; ## (YYYY.MMDD)
+our $VERSION = 2006.0520; ## (YYYY.MMDD)
 
 1;
 
@@ -76,7 +76,6 @@ Bundle::CPANPLUS::Dependencies
 Bundle::Math::Big
 Bundle::PPT
 Bundle::Math::Approx
-Bundle::Kwiki
 Bundle::SPOPS
 Bundle::Markup
 ##Bundle::WWW::Search::Scraper::Housing
@@ -120,6 +119,7 @@ Bundle::IspMailGate
 Bundle::perlWebSite
 Bundle::COG
 Bundle::InterchangeKitchenSink
+##Bundle::Kwiki
 Bundle::XML
 Bundle::Devel
 Bundle::Rose
@@ -224,7 +224,7 @@ I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Module
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0519
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0520
 
 perl
 
@@ -232,6 +232,6 @@ This program is free software; you can redistribute it and/or modify it under th
 
 =head1 COPYRIGHT
 
-Copyright (c) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
+Copyright (C) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
 

@@ -2,7 +2,7 @@ package Bundle::Modules::CPAN;
 
 use 5.005;
 
-our $VERSION = 2006.0519; ## (YYYY.MMDD)
+our $VERSION = 2006.0520; ## (YYYY.MMDD)
 
 1;
 
@@ -34,8 +34,8 @@ AutoCode::Unimplemented
 CSS::Selector
 UMMF::UML::MetaModel::Model_Management::Model
 NBU
-OpenCA::XML::Cache
 Gtk::Gdk
+OpenCA::XML::Cache
 Business::PayPal::API::DirectPayments
 Bio::Tools::Run::PiseApplication::pyreval
 POE::Component::IKC::Responder
@@ -51,8 +51,8 @@ Parrot::BuildUtil
 KinoSearch::Store::Lock
 Games::Cards::Poker
 Gtk2::CodeGen
-Video::Info::MPEG::Constants
 POE::Request::Return
+Video::Info::MPEG::Constants
 Exporter::Cluster
 Module::Build::Platform::cygwin
 WWW::BookBot::Chinese::Agriculture::GreenHouse::Tech
@@ -346,6 +346,7 @@ Upload
 Crypt::OpenSSL::X509
 Bio::Tools::Run::PiseWorkflow
 Curses::Widgets::ListBox::MultiColumn
+DBIx::Romani::Query::Where
 Net::Starnet::DataAccounting
 HTTP::Proxy::Engine::ScoreBoard
 GD::Barcode::Industrial2of5
@@ -603,6 +604,7 @@ Template::Plugin::Pagination
 Bio::ExtractNE::SplitSentence
 Bio::Search::Hit::GenericHit
 Rudesind::Gallery
+Bio::Phylo::Treedrawer::Svg
 HTML::Controls
 MHonArc::UTF8::AppleIceland
 Y::Widget
@@ -639,6 +641,7 @@ AI::Categorizer::Document
 SoggyOnion::Plugin::RSS
 WebCache::Digest
 AFS::Object::User
+WWW::Blogger
 MyTimer
 Net::IPP::IPP
 Data::ObjectDriver::Driver::DBD::mysql
@@ -684,6 +687,7 @@ Tie::PerFH
 CGI::Session::Driver::file
 RFID::Alien::Reader::Serial
 init::manifest
+Xmldoom::Object
 Catalyst::Plugin::Authentication::Credential::CHAP
 SWF::File
 IOC::Interfaces
@@ -760,6 +764,7 @@ Class::MakeMethods::Utility::DiskCache
 Math::Bezier
 Class::MakeMethods::Utility::TextBuilder
 Business::GestPayCrypt
+DBIx::Romani::Query::Function::Now
 XAO::DO::Web::Debug
 Pod::Simple::PullParserStartToken
 Net::OSCAR::XML::Template
@@ -893,6 +898,7 @@ Win32::ShellExt::CopyHook::Veto
 Algorithm::Dependency::Objects
 POE::Component::IRC::Plugin::Console
 DBD::EmpressNet
+Config::Model::Report
 URI::URL::telnet
 Statistics::RankOrder
 Genezzo::Row::RSTab
@@ -925,6 +931,7 @@ DBIx::DBSchema::Table
 Watchdog::Base
 Data::Page::Set
 Devel::CallTrace
+Launcher::Cascade::Printable
 CPANPLUS::Tools::Check
 HTML::EscapeEvil::AllowAll
 CGI::Simple::Cookie
@@ -1001,6 +1008,7 @@ Mail::DKIM::Canonicalization::Base
 Regex::Generate
 HDB::Parser
 XRI
+Roma::Query::XML::Function
 APR::Request::Param
 POE::Component::Server::IRC::OperServ
 String::RexxParse
@@ -1031,6 +1039,7 @@ Font::Metrics::TimesItalic
 DateTime::Locale::eo
 POE::Component::Lightspeed::Hack::Kernel
 Tangram::CookedDateTime
+Roma::Query::XML::SQL
 Bio::Chaos::Handler::gff3_to_chaos
 Paper::Specs::Avery::8931_1
 Tie::StorableDir::BackedScalar
@@ -1046,13 +1055,13 @@ Gnome
 DateTime::TimeZone::Pacific::Niue
 MKDoc::SQL::Type::VarChar
 CGI::Application::Dispatch::BuildURI
-CGI::Test::Form::Widget::Input::Password
 Catalyst::View::Chart::Strip::Example
+CGI::Test::Form::Widget::Input::Password
 MMM::OracleDump
 VBTK::Wrapper::Prtdiag
 Prima::PS::Drawable
-PApp::Callback
 HTTPD::GroupAdmin::DBM
+PApp::Callback
 XML::Schematron::LibXSLT
 WWW::Mechanize::Plugin::Retry
 Dimedis::Ddl::Index::dim_mssql
@@ -1208,6 +1217,7 @@ Arch::Test::Tree
 RTSP::Error
 Text::PORE::Parser
 POE::Component::Server::Qotd
+WWW::YouTube::ML
 XAO::TestUtils
 DateTime::Locale::pl_PL
 Messaging::Courier::TextMessage
@@ -1468,6 +1478,7 @@ WWW::Scraper::CraigsList
 Net::hostent
 Jako::Construct::Label
 Perlbug::Object::Child
+Rubric::CLI
 URI::Fetch::Response
 CSS::SAC::Selector::ProcessingInstruction
 Wx::Perl::VirtualTreeCtrl
@@ -1576,6 +1587,7 @@ Data::Favorites
 Project::Gantt::TimeSpan
 DB::Introspector::RelInspectTest
 Sledge::Plugin::Cache
+CGI::WebIn
 IDfCheckinOperation
 Bio::Expression::Microarray::Affymetrix::Mas50Data
 Paper::Specs::Avery::3268
@@ -1989,6 +2001,7 @@ Graph::Easy::Base
 SVK::Command::Copy
 Psh::Options
 Tie::Hash::Sorted
+Bio::Phylo::Parsers::Fastnexus
 Bio::Coordinate::MapperI
 Palm::Progect::Converter::CSV
 Math::Calc::Units::Convert::Metric
@@ -2035,6 +2048,7 @@ Geo::GPS::Data::Storage
 DBIx::dbMan::Extension::CmdClear
 AutoSQL::EasyArgv
 PBib::BibItemStyle::InderScience
+DBIx::Romani::PreparedStatement
 Meta::Baseline::Lang::Temp
 Games::YASudoku::Square
 Net::FTP::File
@@ -2072,10 +2086,10 @@ Business::BancaSella::Decode::Gestpay
 Geography::NationalGrid::IE
 Date::Japanese::Holiday
 Module::Rename
-SVG::Graph::Glyph::bar
 Math::Zap::Rectangle
-WWW::SMS::Enel
+SVG::Graph::Glyph::bar
 Example::DB
+WWW::SMS::Enel
 CC::Folder
 BigInteger
 LWP::Parallel::Protocol::https
@@ -2209,6 +2223,7 @@ HTML::WTweb
 Perlcast::Interviews::008
 Pod::Simple::RTF
 File::HomeDir::Windows
+WWW::YouTube::Com
 Plagger::Plugin::Publish::Maildir
 Bio::Tools::Run::Alignment::Lagan
 Acme::Pr0n::Automate::Fetcher::Free6
@@ -2267,6 +2282,7 @@ DateTime::Locale::ka_GE
 Event::ExecFlow
 MKDoc::Forum::Plugin::Post
 Mail::LMLM::Types::Ezmlm
+Plagger::Plugin::CustomFeed::YouTube
 ExtUtils::Constant::Base
 Mail::SpamAssassin::AutoWhitelist
 Net::BGP::Policy
@@ -2454,6 +2470,7 @@ IO::Pty
 blib
 Digest::SHA256
 XPlanner::Iteration
+Module::CPANTS::Site::Controller::Dist
 SQL::Builder::Join
 Authen::SASL
 KGS::Listener
@@ -2499,6 +2516,7 @@ Data::Grouper
 Posy::Plugin::Canonical
 UMMF::UML_1_5::Foundation::Data_Types::MappingExpression
 Parse::AFP::MDR
+DBIx::Romani::Query::SQL::Literal
 Data::RandomPerson::Names::ArabicMale
 Video::RTjpeg
 Text::WagnerFischer::Amharic
@@ -2538,6 +2556,7 @@ SQL::Amazon::Spool
 UMMF::UML_1_5::OCL::Expressions::AssociationEndCallExp
 ePortal::HTML::Dialog
 RPM2::LocalInstalled
+Roma::Query::Operator
 PostScript::PrinterFontMetrics
 Data::HTMLDumper
 Posy::Plugin::CgiFile
@@ -2654,6 +2673,7 @@ Bio::DB::SQL::DBLinkAdaptor
 Dimedis::Ddl::PrimaryKey::Sybase
 Lingua::FeatureMatrix::Implicature
 Template::Plugin::MP3
+DBIx::Romani::Query::Variable
 RayApp::mod_perl
 Bio::AlignIO::maf
 UMMF::MOF_1_3::Model::Reference
@@ -2663,6 +2683,7 @@ Quantum::Random
 Gantry::Utils::ModelHelper
 UMMF::UML::MetaModel::OCL::Expressions::SendAction
 XML::Parser::PerlSAX
+Module::CPANTS::DB::Run
 Proc::PID_File
 Paper::Specs::Avery::5377
 minimalapp
@@ -2683,6 +2704,7 @@ Class::MakeMethods::Template::Universal
 IOC::Service::Literal
 Statistics::Contingency
 PBS::Depend
+DBIx::Romani::Query::Select::Result
 CIPP::CGI
 Unix::PID
 Net::DAAP::Server
@@ -2779,6 +2801,7 @@ Parrot::IO::File
 Compress::LZF
 Data::Validate::IP
 Linux::TunTap
+Geo::ReadGRIB
 DBIx::XML_RDB
 Text::Query::SolveSQL
 MasonX::Request::ExtendedCompRoot
@@ -2815,6 +2838,7 @@ Games::Rezrov::ZOptions
 vptk_w::VPTK_Widget::LabFrame
 Tk::Dialog
 Unicode::String
+DBIx::Romani::Query::SQL::TTT::Join
 Acme::MetaSyntactic::pop2
 UMMF::UML::MetaModel::OCL::Expressions::StringLiteralExp
 Alzabo::Create::ForeignKey
@@ -2928,6 +2952,7 @@ MMDS::Output::Html
 CGI::Untaint::isbn
 Dunce::Files
 DB::Introspector::SerializeUtil
+Bio::Phylo::Unparsers::Nexus
 Test::C2FIT::RowFixture
 Lingua::PT::Speaker::Numbers
 BingoX::Time
@@ -3007,6 +3032,7 @@ Perl6::Pugs::Config
 Lingua::Phonology::Segment::Rules
 PurpleWiki::Sequence
 Petal::TranslationService::h4x0r
+WWW::YouTube::ML::API
 Tk::ResizeButton
 InfoSys::FreeDB::Response::Stat
 Net::ICQ
@@ -3174,6 +3200,7 @@ OpenGuides::Search
 Plagger::Plugin::Search::Estraier
 DBIx::dbMan::Extension::Connections
 NewSpirit::CIPP::CGI
+Term::Size::Win32
 QGroupBox
 Goo::Thing::bug::Lister
 TripleStore::Query::Clause
@@ -3199,7 +3226,9 @@ MIPSIM::Pipeline::Register
 Video::DVDRip::GUI::Component
 File::Tail::FAM
 DWH_File::Kernel
+DBIx::Romani::Query::XML::Select
 App::Context::Cmd
+Parrot::Docs::Section::Compilers
 XML::XPathEngine::Variable
 Mail::Salsa::Action::Subscribe
 Pangloss::Segment::ShowStore
@@ -3253,6 +3282,7 @@ Net::RVP::Session
 Language::Prolog::Types::overload
 HTTP::WebTest::Plugin::Delay
 Gantry::Control::Model::auth_group_members
+Xmldoom::Criteria::Property
 Colloquy::Bot::Simple
 Carp::Datum::Assert
 Encode::InCharset::jis0212
@@ -3407,6 +3437,7 @@ Dimedis::Ddl::Constraint::Oracle
 Async::Group
 Meta::Db::Constraint
 SWISH::API::Remote::Result
+Roma::Driver::mysql
 IPC::Cmd
 Embperl::Form::Validate::FQDN_IPAddr
 HH::Unispool::Config::File::Token::Numbered::Device::5
@@ -3716,6 +3747,7 @@ Template::Plugin::Color
 Net::BitTorrent::File
 OpenPlugin::Exception::Template
 MHonArc::UTF8::ISO8859_11
+Launcher::Cascade::Simple
 Lingua::Zompist::Kebreni
 Wx::build::Config::MacOSX_GCC
 SQL::Translator::Schema::Graph::HyperEdge
@@ -3856,6 +3888,7 @@ BBCode::TagSet
 PurpleWiki::Search::Interface
 Gcode
 OpenPlugin::Application
+Time::UTC::Now
 Geo::GPS::Data::Collection
 Lingua::EN::MatchNames
 HTML::HTPL::Select
@@ -3980,6 +4013,7 @@ ExtUtils::Installed
 Perlbug::Object::Fixed
 lib
 IPC::Run3::ProfReporter
+Kwiki::JSON
 JOAP::Proxy::Package
 Image::Caption
 BugCli::Help
@@ -4123,24 +4157,24 @@ GD::Arrow
 mcoder
 File::Split
 Mod_EUCJP
-Paw::Line
 Myco::Entity::Meta::UI::List
-Snort::Rule
+Paw::Line
 Net::RRP::Request::Status
+Snort::Rule
 Video::DVDRip::GUI::Project::ClipZoom
 XML::Smart
 IDfQueryResultItem
 Hook::Queue
 Zoidberg::Shell
-Net::RRP::Response::n545
 DateTime::TimeZone::Australia::Darwin
-Test::Unit::GTestRunner
+Net::RRP::Response::n545
 BerkDB
+Test::Unit::GTestRunner
 Parse::Vipar::Graph
 Data::Stag::StagI
 Silly::Werder::Shakespeare
-WWW::Webrobot::UserAgentConnection
 Tie::MAB2::Dualdb::Recno
+WWW::Webrobot::UserAgentConnection
 OpenCA::Session
 OpenFrame::Slot::HTML
 Getopt::Tabular
@@ -4148,8 +4182,8 @@ Locale::RecodeData::ISO_8859_14
 OnSearch::StringSearch
 SVK::Resolve::GtkDiff
 Plagger::Template
-XML::LibXML
 SVN::Web::Browse
+XML::LibXML
 OpenFrame::WebApp::Error::Abstract
 Bio::DB::QueryI
 Bio::Tools::Run::PiseApplication::shuffleseq
@@ -4507,6 +4541,7 @@ ACME::Error::HTML
 Tangram::Hash
 SQL::QueryBuilder::Simple
 testcases::basic
+WWW::YouTube::HTML::API
 Bio::ConnectDots::ConnectorSet::HG_U133A_annot_csv
 Handel::DBI
 SQL::Translator::Schema::Graph
@@ -4752,6 +4787,7 @@ HP200LX::DBgui::card
 Logfile::Wn
 Zen::Koan
 Devel::PreProcessor
+Xmldoom::Definition::Table
 Video::Info::MPEG::System
 Jifty::DBI::Collection::Unique
 Graph::Reader::Dot
@@ -4802,6 +4838,7 @@ Shell::Source
 Alzabo::ObjectCache::Store::Null
 Devel::LeakTrace
 VCS::PVCS::Commands
+Kwiki::Formatter::CaptionedImage
 NexTrieve::Docseq
 WebFetch::32BitsOnline
 HTML::HTPL::Client
@@ -5005,6 +5042,7 @@ CGI::XMLPost
 HTML::WebMake::WMLinkGlossary
 Games::Mines
 XML::Handler::2Simple
+Data::Average
 x2
 DBIx::Wrapper::Delegator
 App::Packer::Backend::DemoPack
@@ -5246,6 +5284,7 @@ Business::OnlinePayment::StoredTransaction::Unstore
 Persistent::Hash::Dumper
 Modem::Vgetty
 DBIx::dbMan::Extension::SQLResultPreprocess
+Xmldoom::Criteria::XML
 Net::TcpDumpLog
 Inline::Filters
 WebService::StreetMapLink::Catcha
@@ -5453,6 +5492,7 @@ ObjStore::AV::Set
 Template::Plugin::ShellQuote
 Class::DBI::Plugin::AsFdat
 Image::Magick::Brand
+Kwiki::JSLog
 Data::ObjectDriver::Driver::Partition
 Net::Scan::Ftp::Anonymous
 ObjStore::Lib::PDL
@@ -5473,6 +5513,7 @@ Bio::MAGE::Experiment::FactorValue
 Win32::AD::Constant
 Astro::GCN::Util::SWIFT
 VCS::LibCVS::FileBranch
+Roma::Query::XML::Select
 Notes::Document
 Net::Rsh
 Bio::Root::Vector
@@ -5801,6 +5842,7 @@ Patch::SREZIC::Tk::FBox
 MacOSX::File::Spec
 Encode::InCharset::8859_4
 Text::Context::EitherSide
+Catalyst::Plugin::CRUD::DBIC
 Rosetta::Utility::SQLParser::L::en
 Net::Dict
 Python::Serialise::Pickle
@@ -5884,6 +5926,7 @@ Parse::AFP::Triplet::ESI
 LibZip::CORE
 Mail::Transport
 CGI::Untaint
+Roma::Driver
 HTML::RefMunger
 CGI::WeT
 KinoSearch::Searcher
@@ -5953,6 +5996,7 @@ Bio::Das::TestParser
 JSAN::Mini
 DBIx::Roles::RaiseError
 UMMF::UML::MetaModel::Foundation::Core::Binding
+Launcher::Cascade::ListOfStrings
 Net::RRP::Exception::AttributeValueIsNotUnique
 Lingua::TT::Yanalif
 XAO::DO::Data::Category
@@ -6096,6 +6140,7 @@ XML::XPath::Root
 UMMF::UML_1_5::Foundation::Core::PresentationElement
 Luka::Mailer
 Miniperl
+InSilicoSpectro::Spectra::Filter::MSFilterDirectValue
 Gedcom
 Pod::Text::Termcap
 Math::Calc::Units::Convert::Base2Metric
@@ -6467,6 +6512,7 @@ Luka::Conf
 Wombat::Core::HostValve
 Net::YahooMessenger::ServerIsAlive
 Event::ExecFlow::Scheduler::SimpleMax
+Roma::Query::Function::Count
 XML::Feed::ErrorHandler
 Wais
 NewsClipper::Globals
@@ -6554,6 +6600,7 @@ LWP::Protocol::GHTTP
 Math::Polygon::Transform
 Mail::SpamAssassin::Conf
 Text::Hatena::AutoLink::HatenaIdea
+Roma::Query::Function::Now
 Mac::Sound
 PANT::Cvs
 Meta::Projects::Weblog::Item
@@ -6687,6 +6734,7 @@ CGI::Kwiki::Backup::Rcs
 XML::XBEL::node
 HTML::WebMake::Contents
 init::hints::dec_osf
+Roma::Connection::Base
 Parse::YALALR::Kernel
 CPANPLUS::Internals::Source
 Parse::Pidl::Samba::NDR::Client
@@ -6775,6 +6823,7 @@ Bio::Tools::Run::Genewise
 OpenSSL::Rand
 PHP::MySQL_Session
 Catalyst::Helper::View::JSON
+Roma::Query::SQL::Null
 Bigtop::Backend::Control::Gantry
 Bio::Genex::Scanner
 RDF::Service::Dispatcher
@@ -6848,6 +6897,7 @@ POE::Resources::Aliases
 Net::SinFP::DB::PatternBinary
 Kwiki::Weather
 HTML::Template::Extension::DO_NOTHING
+Parallel::Forker::Process
 Embperl::Form::Control::addremove
 Data::Password::Check
 Module::Build::Notes
@@ -6878,6 +6928,7 @@ Pixmaps
 Tie::VecArray
 Regexgene
 Net::Z3950::Manager
+DBIx::Romani::Query::XML::Util
 Mail::DomainKeys::Key::Private
 Pod::ProjectDocs::Template
 Language::Zcode::Runtime::Input
@@ -6918,6 +6969,7 @@ Perlbug::Interface::Web
 Logfile::EPrints::arXiv
 Mail::Server::IMAP4
 SGMLS::Refs
+CGI::Application::Plugin::Authentication::Driver::Authen::Simple
 Scalar::Properties
 Paper::Specs::Avery::3260
 XML::RSS::Headline::PerlJobs
@@ -7120,6 +7172,7 @@ OpenFrame::Server::HTTP
 Regex::CodeGen
 Text::NASA_Ames::FFI4010
 Excel::Template::Container::Shadow
+Roma::Query::XML::Where
 testcases::requires
 OurNet::BBSApp::Templator
 MARC::Charset::Greek
@@ -7344,6 +7397,7 @@ Games::Nintendo::Mario::SMB3
 File::Find::Object::internal
 Tk::BrowseEntry
 Acme::MetaSyntactic::robin
+Linux::Bootloader::Elilo
 Encode::InCharset::euc_cn
 Authen::Krb4
 IO::Mux::Handle
@@ -7372,6 +7426,7 @@ Audio::TagLib::Ogg::Vorbis::File
 Kwiki::Email
 Lingua::Klingon::Recode
 PDL::Pod::Html
+Xmldoom::Definition::Database
 Cvs::Result::Commit
 Spreadsheet::Perl
 ePortal::AuthCookieHandler
@@ -7448,6 +7503,7 @@ Text::Hatena::SectionNode
 OpenInteract::Template::Plugin
 Mail::Action
 Test::Params
+DBIx::Romani::Query::SQL::Null
 Hook::Filter::Hook
 SQL::Preproc
 Net::CyanChat::Server
@@ -7499,6 +7555,7 @@ Attribute::Types
 Bio::ClusterIO::unigene
 Language::m4::Input
 Code::Dumper
+Rubric::CLI::Command
 PDF::PlainLayout
 ClearCase::CRDB
 XML::XPathEngine::Function
@@ -7566,6 +7623,7 @@ Bot::BasicBot::Pluggable::Module::IMDB
 WWW::Orphea
 SPOPS::Import::DBI::Table
 CGI::Application::Plugin::Authentication
+Module::CPANTS::DB::Dist
 DBIx::Sequence
 Meta::Pdmt::Listen
 Proc::Killfam
@@ -7801,6 +7859,7 @@ Tangram::Driver::Sybase
 CPAN::FirstTime
 Win32::AD::Control::DirSync
 Uttu
+Kwiki::QuickWAFL
 SPOPS::DBI::InterBase
 Plucene::Store::OutputStream
 JaM::Filter::IO
@@ -7846,6 +7905,7 @@ MHonArc::CharEnt::AppleTurkish
 Search::InvertedIndex::Update
 CGI::Test::Page::Text
 BingoX::Argon
+Roma::Query::SQL::TTT::Function
 PBS::Build::NodeBuilder
 Paper::Specs::standard::a2
 Geo::TigerLine::Record::6
@@ -7978,6 +8038,7 @@ VCS::Lite::Delta
 Authen::ACE
 Sudo
 Geo::TigerLine::Record::C
+Linux::Bootloader::Yaboot
 Text::Tokenizer
 Database::Wrapper::Postgres
 ETL::Pequel::Type::Macro
@@ -8132,6 +8193,7 @@ Wx::Perl::FSHandler::LWP
 WWW::Webrobot::MyEncode
 SQL::Parser
 InfoSys::FreeDB::Entry::Track
+Roma::Query::Select::Result
 Parse::RandGen::Rule
 Lingua::LinkParser::Linkage::Word
 Games::Go::TDEntry
@@ -8143,6 +8205,7 @@ CookBookA::Ex6
 WebService::TestSystem
 Bio::Taxonomy::Taxon
 VBTK::Actions::Email::Page
+InSilicoSpectro::Spectra::Filter::MSFilterAlgorithm
 Bio::Metabolic::Network
 Phenyx::Utils::LSF::Submission
 Test::WWW::Mechanize::CGI
@@ -8224,66 +8287,67 @@ Template::TAL::Output::HTML
 DocSet::Source::POD
 KinoSearch::InvIndexer
 Embedix::ECD::Group
-DBIx::Migration
 CGI::Builder::HTMLtmpl
-XML::PatAct::Amsterdam
+DBIx::Migration
 HTML::FormTemplate
+XML::PatAct::Amsterdam
 ePortal::HTML::List
-CQL::BooleanNode
 Bio::Das::Request::Types
+CQL::BooleanNode
 PDF::API2::Resource::XObject::Form::BarCode::ean13
-PBJ::JNI::Util
 ACME::Error
+PBJ::JNI::Util
 Petal::Cache::Memory
 DIME::Identifier
-WWW::PDAScraper::ABC
 AddressBook::DB::LDAP
+WWW::PDAScraper::ABC
 MRP::Text
 Bio::GMOD::Archive
 WebService::StreetMapLink::Google
 Net::Friends
-Meta::Baseline::Lang::Epsx
 Arc::Command::Uptime
+Meta::Baseline::Lang::Epsx
 Catalyst::Plugin::FormValidator
 Language::Basic::Token
 Algorithm::Evolutionary::Individual::String
-OODoc::Text::Chapter
 Games::3D::Signal
+OODoc::Text::Chapter
 Bio::Das::Request
 assertions::activate
 XML::Template::Element::Condition
-MP3::Tag::ID3v2
 Chart::Composite
-Imager::Album
+MP3::Tag::ID3v2
 Class::DBI::Loader::GraphViz
+Imager::Album
 Tie::Scalar::Sticky
-Regexp::Common::URI::fax
 IO::File::CompressOnClose::Zip
+Regexp::Common::URI::fax
 Event::ExecFlow::Scheduler
 PDL::Demos::Transform_demo
 DBIx::Class::Storage::DBI::DB2
 Math::Complex
 File::Mode
-Net::Scan::HTTP::Server::Directory
-Mail::SMTP::Honeypot
 Mail::RBL
+Mail::SMTP::Honeypot
+Net::Scan::HTTP::Server::Directory
 Class::Colon
 threads::shared
 Mail::Abuse::Filter
 CallGraph
 Gemstone
 Plagger::Plugin::CustomFeed::FlickrSearch
-SGML::ISO8859::S2
 OpenPlugin::Authenticate::Template
+SGML::ISO8859::S2
 Myco::Query::Part
-Oak::Web::HTML::Caption
 Chemistry::PointGroup::C6v
+Oak::Web::HTML::Caption
 Slash
 WWW::Search::Scraper::Response::Auction
 Meta::Projects::Movie::Person
 POE::TIKC
-DWH_File::Tie::Subscripted
+Roma::Query::SQL::TTT::Operator
 Arch::Tarball
+DWH_File::Tie::Subscripted
 Bio::ExtractNE::GAPSCORE::TokenFilter::PatternFilter
 UMMF::MOF_1_4_1::Model::Operation
 vptk_w::VPTK_Widget::Scale
@@ -8340,6 +8404,7 @@ Net::Server::INET
 Net::DNS::Check::Test::ns_count
 Biblio::ILL::ISO::Overdue
 DBD::Oracle::GetInfo
+Roma::PreparedStatement
 Template::Plugin::JavaScript::Compactor
 Openview::Message
 Data::FormValidator::Results
@@ -8574,6 +8639,7 @@ Crypt::OpenPGP::Key::Secret::ElGamal
 Tangram::Expr::CursorObject
 AI::FANN
 Image::ExifTool::TagLookup
+Kwiki::TableOfContents::Print
 XML::Spew
 Oak::Persistent
 Parse::AFP::BPS
@@ -8623,6 +8689,7 @@ HTTPD::AdminBase
 Convert::Ethiopic::System
 Prima::Markup
 Data::Pageset
+DBIx::Romani::Driver::sqlite
 XML::Encoding
 AxKit::XSP::ESQL
 App::GUI::Notepad
@@ -8682,6 +8749,7 @@ Win32::SystemInfo
 WWW::Mixi::OO::TableHistoryListPage
 Hints::Base::svplus
 Net::Msmgr::Connection
+HTML::Dojo::src
 UMMF::UML::MetaModel1
 PerlPoint::Package
 Statistics::Basic::Correlation
@@ -8933,6 +9001,7 @@ Proc::Command
 Net::Libdnet
 Ogg::Vorbis::Header::PurePerl
 Regex::CodeGen::IMCC
+Linux::Bootloader::Grub
 Fame::LANG
 Math::Rand48
 My::Pod::Simple::HTML
@@ -9006,6 +9075,7 @@ Bio::Das::FeatureIterator
 WWW::PDAScraper::Yahoo::Health::MedicationsAndDrugs
 Data::Freezer::Steak
 TestHandler
+WWW::Blogger::XML::API
 CAD::Drawing::Manipulate
 XML::SAX::Writer
 Kwiki::Theme::CPB
@@ -9047,6 +9117,7 @@ Lingua::GA::Gramadoir::Languages::cy
 DateTime::Locale::sid
 CGI::Application::Plugin::Authentication::Driver::HTPasswd
 Data::Dumper::Simple
+DBIx::Romani::Query::XML::TTT
 Mail::ListDetector
 Net::Peep::Client::Pinger
 Messaging::Courier::Config
@@ -9327,6 +9398,7 @@ Business::NoChex
 Rose::HTML::Form::Field::Compound
 Chess::ICClib
 Algorithm::Evolutionary::Op::DeltaTerm
+Kwiki::Scriptaculous
 Graph::Easy::Layout
 Bio::Tools::Run::PiseApplication::alistat
 SQL::Preproc::Runtime
@@ -9361,6 +9433,7 @@ Convert::Base32
 Digest::ManberHash
 Win32::Security::Recursor
 Net::Google
+Roma::PreparedQuery
 Crypt::License
 POE::Framework::MIDI::Utility
 Maypole::Model::CDBI
@@ -9417,6 +9490,7 @@ Schedule::Load::Hold
 PDL::Options
 Parse::CPAN::Packages
 GO::IO::RDFXML
+DBIx::Romani::Query::SQL::TTT::Operator
 DBIx::Easy
 JaM::GUI::Search
 WWW::Search::Scraper::theWorksUSA
@@ -9534,6 +9608,7 @@ Lingua::ZH::CEDICT::MySQL
 OurNet::BBS::Cola::Article
 Mail::SPF::Mod
 DateTime::TimeZone::Africa::Abidjan
+Launcher::Cascade::ListOfStrings::Context
 Bio::Chaos::Parser::gff3
 CGI::Application::Plugin::RateLimit
 CGI::Test::Input::Multipart
@@ -9736,6 +9811,7 @@ BitstringSearch
 version::AlphaBeta
 WWW::Shorten::TinyClick
 MHonArc::UTF8::KOI_0
+Wiki::Toolkit::Plugin::Diff
 DateTime::Locale::ky_KG
 Parrot::OpTrans::CPrederef
 Brackup::Target::Filesystem
@@ -9848,8 +9924,8 @@ WWW::Scraper::Response::generic
 xDash::Logger::Dumb
 Unix::Conf::Bind8::Conf::Controls
 Catalyst::Plugin::Session::State
-DateTime::Locale::or_IN
 HTTP::GetImages
+DateTime::Locale::or_IN
 HH::Unispool::Config::File::Token::Comment::Date
 MP3::ID3v1Tag
 Net::AIM
@@ -9954,6 +10030,7 @@ Tkx
 Goo::DatabaseThing::Editor
 Plagger::Plugin::Publish::Speech
 Fwctl::Services::ftp
+Linux::Bootloader
 Authen::SimplePam
 Bio::ConnectDots::ConnectorQuery::Operator::CsRootConstraint
 DateTime::Locale::om
@@ -10005,6 +10082,7 @@ Algorithm::Combinatorics::C
 Sort::PolySort
 Net::Netflix
 FabForce::DBDesigner4
+Kwiki::TableOfContents
 TimeOut
 Math::Calculus::Differentiate
 DBD::iPod::st
@@ -10088,6 +10166,7 @@ Rose::HTML::Form::Field::Set
 Text::DHCPparse
 Docs::Site_SVD::Data_Startup
 XML::FXN
+Device::Serdisp
 Algorithm::Evolve
 Perl::Critic::Policy::InputOutput::ProhibitTwoArgOpen
 X::Osd
@@ -10232,6 +10311,7 @@ MIME::Body
 Net::DownloadMirror
 Net::DAAP::Client::Auth::Protocol
 PerlBean::Style
+Business::iDEAL::Mollie
 SQL::Translator::Parser
 Net::Gopher::Response::XML
 CPAN::Search::Lite::Extract
@@ -10462,6 +10542,7 @@ Plucene::Plugin::Analyzer::SnowballAnalyzer
 Font::Metrics::TimesBoldItalic
 Wifi::WDevIw
 your
+Wiki::Toolkit::Plugin::Locator::Grid
 Image::Shoehorn
 PerlBean::Attribute::Multi::Ordered
 AxKit::XSP::ObjectTaglib::Demo
@@ -10494,6 +10575,7 @@ SPOPS::Import::DBI::Data
 Algorithm::CheckDigits::M10_008
 WWW::CheckSite
 Slurp
+Module::CPANTS::Site::Model::DBIC
 MKDoc::XML::TreeBuilder
 Audio::Moosic
 SCUBA::Table::NoDeco
@@ -11095,6 +11177,7 @@ Term::EditLine
 Tangram::Type::Array::FromOne
 Bio::Tools::Run::PiseApplication::wordcount
 Encode::InCharset::cp737
+Module::CPANTS::Site::Controller::Kwalitee
 Lingua::ZH::CEDICT::Textfile
 Astro::Coords::Fixed
 Algorithm::Munkres
@@ -11221,6 +11304,7 @@ POE::Component::Win32::EventLog
 DBI::Shell
 Stream::DataOutputStream
 WWW::Search::Null::Empty
+Module::CPANTS::DB::Uses
 HTTPD::GroupAdmin::Text
 Test::WWW::Mechanize::Maypole
 Audio::File::MP3::Tag
@@ -11381,6 +11465,7 @@ Pangloss::Segment::TemplateMapper
 DBD::MaxDB::TypeInfoAscii
 Zoidberg::Fish::Intel
 Text::CSV2TXT
+Plagger::Plugin::Subscription::PlanetINI
 UNIVERSAL::require
 Bot::BasicBot::Pluggable::Module::Infobot
 Crypt::CBCeasy
@@ -11514,6 +11599,7 @@ Biblio::ILL::ISO::ILL_ASN_types_list
 RDF::Query::Stream
 Oak::IO::Log::Syslog
 OurNet::BBS::MAPLE2::Board
+DBIx::Romani::Driver::sqlite::IdGenerator
 JavaScript
 IRC::Bot::Hangman::Response
 BBDB::Export
@@ -11865,6 +11951,7 @@ Paper::Specs::Avery::8253
 testcases::Web
 HTML::Widget::Element::Textarea
 PDL::Graphics::TriD::Cube
+Linux::Bootloader::Detect
 Convert::BER::BER
 Perl::Critic::Policy::Miscellanea::ProhibitTies
 Math::Approx::Symbolic
@@ -11977,6 +12064,7 @@ Bio::Expression::Microarray::Affymetrix::dChipArray
 Chemistry::PointGroup::Ci
 Heap::Elem::Num
 No::Telenor
+Data::FormValidator::Constraints::Japanese
 Flash::FLAP::IO::InputStream
 Bio::Matrix::PSM::IO::mast
 Tree::Persist::Base
@@ -12026,6 +12114,7 @@ Data::Eacherator
 Tree::Simple::Visitor
 DBD::Yaswi
 Set::Infinite
+Roma::Query::Variable
 Text::Cipher::KeywordAlphabet
 Net::FTP::AutoReconnect
 Mail::SpamAssassin::PluginHandler
@@ -12155,6 +12244,7 @@ TestApp10
 Data::Stag::PerlWriter
 Image::ExifTool::GIF
 Sort::Topological
+Roma::ResultSet
 Repository::Simple::Type::Property
 PXR::Utils
 Rose::DB::Object::Metadata::Auto::Generic
@@ -12368,6 +12458,7 @@ MMDS
 Tk::Application::Stadaf
 Image::Info::XBM
 Bio::SeqIO::largefasta
+DBIx::Romani::Query::Comparison
 Net::DRI
 CDF::Probe
 Parse::Syslog::Mail
@@ -12504,8 +12595,8 @@ Lingua::ZH::Toke
 Audio::LADSPA::Plugin::Play
 Event
 Paper::Specs::Avery::3277
-Bio::MAGE::BioSequence::SequencePosition
 Audio::LADSPA::Plugin::Sequencer4
+Bio::MAGE::BioSequence::SequencePosition
 Email::Filter
 SPOPS::Exception::LDAP
 DNS::Zone::File
@@ -12996,6 +13087,7 @@ Parse::AFP::Triplet::T2FRMT
 HTML::Widget::JavaScript
 CGI::Persist::Cache
 SerialNumber::Sequence
+Kwiki::Formatter::Note
 Test::TAP::Model::File::Consolidated
 KGS::Listener::Game
 DBIx::dbMan::Extension::SimpleMacros
@@ -13023,6 +13115,7 @@ Frontier::RPC2
 PostScript::MailLabels::BasicData
 Gestinanna::Schema::XSLT
 Tk::Win32RotLabel
+HTML::Dojo::editions
 Locale::RecodeData::MACTHAI
 Graph::Layout::Aesthetic::Include
 Penguin::Channel::TCP
@@ -13148,7 +13241,6 @@ LWP::UserAgent::FramesReady
 PDF::API2::Basic::PDF::Dict
 XUL::Node::Application::HelloWorld
 Paper::Specs::Avery
-Log::SimpleLog
 Mail::Header
 Benchmark::Harness
 DublinCore::Element
@@ -13377,6 +13469,7 @@ WWW::Webrobot::AssertDefault
 Device::Cdio::ISO9660::IFS
 SWF::Builder::Character::MovieClip
 Data::Alias
+Xmldoom::Definition::DatabaseSAXHandler
 Bio::Assembly::IO
 POE::Filter::FastCGI
 mqs::header
@@ -13489,6 +13582,7 @@ Log::Log4perl::JavaMap::FileAppender
 Plagger::Rule::Always
 Aut
 WWW::Search::Ebay::ByEndDate
+Rubric::CLI::Command::db
 AI::NNEasy::NN::feedforward
 SyslogScan::SyslogEntry
 PerlIO::nline
@@ -13600,6 +13694,7 @@ Ace::Sequence::Feature
 Config::Inetd
 JavaScript::Code::Expression::Op::LessEqual
 Zanas::Request
+Rubric::Entry::Formatter
 PostScript::FontMetrics
 Audio::CD
 Image::Info::BMP
@@ -13881,6 +13976,7 @@ DBIx::SQLEngine::Driver::NullP
 SVK::Command::List
 My::Genre
 APR::BucketType
+Bio::Phylo::Util::Exceptions
 Meta::Projects::Fortune::Node
 WWW::AdServer::Logger
 Language::Zcode::Runtime::Opcodes
@@ -13994,6 +14090,7 @@ Gnome2::Print
 MHonArc::CharEnt::ISO8859_9
 VCS::Cvs::Version
 Paper::Specs::Avery::5998
+Roma::Query::XML::Util
 BSD::Resource
 Handel::L10N
 Oak::Web::Additional::MaskedInput
@@ -14101,6 +14198,7 @@ FormValidator::Simple::Constraints
 Tree::Visualize::Connector::IConnector
 Image::XBin
 App::Serializer::TextArray
+WWW::YouTube::HTML
 Net::IRR
 Language::Basic::Common
 HTTP::Server::Simple::CGI
@@ -14176,6 +14274,7 @@ Font::TTF::Kern
 MRP::BaseClass
 Gedcom::Record
 SAP::WAS::SOAP
+Roma::Query::SQL::TTT::Join
 IO::All::DBM
 HTML::WikiConverter::PhpWiki
 PBS::Distributor
@@ -14217,6 +14316,7 @@ ESplit
 Test::Metadata
 Term::ProgressBar
 Perlbal::Service
+InSilicoSpectro::Spectra::Filter::MSFilterCollection
 Text::Column
 Date::Convert::French_Rev
 Tk::Zinc::TraceErrors
@@ -14323,12 +14423,14 @@ Class::EHierarchy
 DateTime::TimeZone::Atlantic::Cape_Verde
 User
 MyModule
-Digest::MD5::Reverse
 HTTP::MobileAgent::Plugin::Extension
+Digest::MD5::Reverse
+Bio::SCF
 Text::Patch
 MailBox::Test::51folder::Definition
 DateTime::Locale::fa_AF
 Net::Jabber::Protocol
+Roma::Query::Select
 Games::YASudoku::Board
 File::ReadBackwards
 Arch::Tree
@@ -14338,6 +14440,7 @@ DNS::Config::File
 Tree::Visualize::GraphViz::Layouts::Binary::Tree
 Graph::Kruskal
 Unix::Syslog
+Xmldoom::Criteria
 Tk::FcyEntry
 SPOPS::Import::DBI::TableTransform::Pg
 OpenThought::Serializer
@@ -14754,8 +14857,8 @@ Text::Decorator::Filter
 Encode::InCharset::cp775
 Device::ParallelPort::drv
 List::Object
-HTML::Display::Phoenix
 HTTP::Headers::ETag
+HTML::Display::Phoenix
 Crypt::RSA::Errorhandler
 POE::Filter::PPPHDLC
 Language::Zcode::Runtime::State
@@ -14808,6 +14911,7 @@ Volity::Server
 MyConText::File
 Devel::ebug::Backend::Plugin::Output
 Net::Lyskom
+Perl::Critic::Policy::BuiltinFunctions::ProhibitUniversalIsa
 Net::Blogger::Engine::Blogger
 Boulder::Blast
 Kwiki::NewPage
@@ -14869,6 +14973,7 @@ Quizzer::FrontEnd::Noninteractive
 Pipe::Tube::Csv
 Bio::MAGE::BioMaterial::BioMaterial
 Algorithm::Evolutionary::Op::TournamentSelect
+Xmldoom::Criteria::Comparison
 Dicop::Data::Jobtype
 Pod::PXML
 Astro::FITS::CFITSIO::Simple::Image
@@ -15062,6 +15167,7 @@ Oak::Web::HTML::B
 DAML
 Gedcom::Date::Simple
 Win32::IPC
+SystemC::Vregs::Output::Layout
 Net::IP::CMatch
 Wx::build::Utils
 Ace::Graphics::Glyph::primers
@@ -15079,6 +15185,7 @@ Class::DBI::Plugin::RandomStringColumn
 WWW::Scraper::Beaucoup
 VCS::LibCVS
 Test::C2FIT::ParseException
+DBIx::Romani::Query::Operator
 Meta::Baseline::Lang::Conf
 Encode::InCharset::adobeSymbol
 Wombat::Core::WrapperFacade
@@ -15335,8 +15442,8 @@ Senna::Cursor
 DBD::mysqlPP
 Goo::Thing::pm::PackageProfileOption
 XTM::Path
-CORBA::ULongLong
 Bio::OntologyIO::Handlers::InterPro_BioSQL_Handler
+CORBA::ULongLong
 JaM::GUI::Config
 Myco::Base::Entity::Meta
 Workflow::State
@@ -15390,6 +15497,7 @@ DateTime::TimeZone::Africa::Addis_Ababa
 Pangloss::Search::Filter::Keyword
 Meta::Tool::Dvi
 Data::Quantity::Abstract::InstanceIndex
+DBIx::Romani::IdGenerator
 Fwctl::Services::udp_pkt
 Catalyst::Helper::View::TTControllerLocal
 Video::PlaybackMachine::DB
@@ -15580,6 +15688,7 @@ Test::Deep::HashKeys
 Class::DBI::Plugin::DateTime
 Astro::Catalog::IO::JCMT
 Net::XMPP::Message
+Module::CPANTS::Site::View::TT
 OpenFrame::WebApp::Segment::Template::Loader
 QPen
 Mail::Message::Field::Flex
@@ -15639,6 +15748,7 @@ OpenPlugin::Datasource::DBI
 Benchmark::Harness::SAX
 Astro::Catalog::IO::ASCII
 Net::Rendezvous
+Module::CPANTS::DB::Prereq
 DateTime::Event::NameDay
 Make::Cache::Obj
 LockFile::Manager
@@ -15658,6 +15768,7 @@ VCS::LibCVS::WorkingFile
 Parse::AFP::MCC
 Net::Peep::Client::Sysmonitor::Disk
 Class::Method::Auto
+Xmldoom::Object::Property
 GraphViz::XML
 DWH_File::Registry::Class
 WWW::BookBot::Chinese
@@ -16375,6 +16486,7 @@ UMMF::MOF_1_3::Model::Reflective::NamedValueList
 Graph::Layout::Aesthetic::Monitor::GnuPlot
 Text::Highlight::CPP
 Log::Dispatch::Win32EventLog
+Plagger::Plugin::Filter::FindEnclosures
 Tk::IPEntry
 OurNet::BBS::MELIX::ArticleGroup
 VCS::CMSynergy::Helper
@@ -16406,6 +16518,7 @@ SVK::Resolve::KDiff3
 POE::Filter::Y
 Bio::Tk::SeqCanvas
 Convert::Recode
+WWW::Google::Calculator
 Remedy::Ar::Server
 UI::Dialog::Backend::KDialog
 Geo::Walkabout::Chain
@@ -16465,22 +16578,22 @@ Mail::Action::Address
 DBIx::HTMLView::PostSet
 Lingua::EN::Keywords::Yahoo
 Finance::Quote::UserAgent
-ORM::Filter::Interval
 Batch::Batchrun::Retain
+ORM::Filter::Interval
 Attribute::Curried
-SVK::Resolve::Vim
 Mail::Box::Locker::DotLock
+SVK::Resolve::Vim
 PDL::IO::Pic
 IPC::Run3::ProfLogger
 HTML::Tested::Value::Upload
-Math::Currency::GBP
 Acme::MetaSyntactic::donmartin
-Cdk::Label
+Math::Currency::GBP
 Bio::PopGen::IO::csv
-Sman::Swishe
+Cdk::Label
 MKDoc::SQL::Type::BigInt
-TripleStore::Driver::SQL
+Sman::Swishe
 Plagger::Plugin::Filter::tDiaryComment
+TripleStore::Driver::SQL
 App::Index
 XML::TreeBuilder
 DateTime::Locale::so_SO
@@ -16489,57 +16602,58 @@ Bio::Tools::Run::Phylo::Phylip::Neighbor
 test_1_sub_3_d
 LifeWidget
 Data::Grove::Visitor
-XUL::Node::EventManager
 Net::FreeDB2::Response::Query
+XUL::Node::EventManager
 Plagger::Plugin::Subscription::Planet
-VCS::LibCVS::Datum::DirectoryName
 Bio::Tools::Run::PiseApplication::nrscope
+VCS::LibCVS::Datum::DirectoryName
 WWW::Shorten::TinyURL
 Test::NoWarnings::Warning
-Net::PSYC::Hook
 DateTime::Locale::mn
-Test::Data::Scalar
-Plagger::Plugin::Filter::ResolveRelativeLink
+Net::PSYC::Hook
 Net::FreeDB2::Connection::CDDBP
-XML::DOM::YYLex
+Plagger::Plugin::Filter::ResolveRelativeLink
+Test::Data::Scalar
 SQL::Interpolate::Macro
+XML::DOM::YYLex
 Bio::Tools::Run::PiseApplication::quicktree
 Mail::Box::Locker
 POE::Request::Upward
 Buscador::Root
-PApp::DataRef
 Bio::DB::GFF::Aggregator::ucsc_refgene
+PApp::DataRef
 HTML::Strip::Whitespace
 PApp::PCode
 SQL::AnyDBD::Pg
 Video::DVDRip::Probe
 SyslogScan::Delivery
+SVK::Log::Filter::Stats
 Games::Alak
-Object::POOF::User
 IDfCopyNode
+Object::POOF::User
 Thread::Rand
 DateTime::TimeZone::America::Jamaica
 MKDoc::SQL::Type::SmallInt
 HTML::Widgets::NavMenu::Url
 XML::XBEL::Bookmark
-Bio::Matrix::PSM::SiteMatrixI
 Date::Language::Brazilian
+Bio::Matrix::PSM::SiteMatrixI
 DateTime::Calendar::FrenchRevolutionary
 Anarres::Mud::Driver::Compiler::Lex
 P6C::Tree
-POE::Component::LaDBI::Commands
 Paper::Specs::Avery::5662
+POE::Component::LaDBI::Commands
 FFmpeg::Stream
-Lingua::EN::NameParse
 FastGlob
+Lingua::EN::NameParse
 POE::Component::Server::Syslog::UDP
-LiveGeez::Services
 Catalyst::Log::Log4perl
-SDL::Build::Darwin
+LiveGeez::Services
 Meta::Utils::File::Dir
+SDL::Build::Darwin
 GD
-POSIX::strptime
 Catalyst::Helper::Prototype
+POSIX::strptime
 Devel::TraceCalls
 WWW::AdServer::Logger::DevNull
 Unicode::RecursiveDowngrade
@@ -16547,22 +16661,23 @@ Bio::Search::Hit::HMMERHit
 Tree::XPathEngine::LocationPath
 CGI::Wiki::Simple::Plugin::NodeList
 Test::TAP::Model::Consolidated
-Mail::Toaster
 Coro::Signal
-XTM::LTM::MemoryBuilder
+Mail::Toaster
 Perlcast::Interviews::014
+XTM::LTM::MemoryBuilder
 UMMF::UML::MetaModel::Foundation::Core::Constraint
 SQL::Builder::Delete
 Text::Editor::Vip::Buffer::Plugins::InsertDelete
 SQL::Builder::Junction
 Net::Connection::Simple
 Kwiki::User::HatenaAuth
-WWW::Google::PageRank
-Petal::Hash::Var
 AI::ExpertSystem::Simple::Goal
+Petal::Hash::Var
+WWW::Google::PageRank
 Video::Frequencies
 Geography::NationalGrid::TW
 Template::Plugin::PerlTidy
+WWW::Blogger::HTML::API
 VCS::LibCVS::Client::Response
 Parse::RecDescent::XTM::LTM::CParser
 File::FnMatch
@@ -16616,14 +16731,15 @@ SQL::Translator::Schema::Graph::CompoundEdge
 Perlbal::TCPListener
 Test::JavaScript
 Template::Plugin::Data::HTMLDumper
-Aspect::Advice
 CORBA::MICO::IR2Dia
+Aspect::Advice
 UMMF::UML_1_5::Behavioral_Elements::Common_Behavior::Stimulus
 CGI::ConvertParam::OngetUTF8
 DBIx::Browse::CGI
 Tibco::Rv::Inline
 Tree::Simple::View::HTML
 XML::Merge
+WWW::YouTube::XML::API
 X11::Auth
 HTML::Template::Set
 Class::Phrasebook::Perl
@@ -16793,6 +16909,7 @@ Bio::MAGE::Measurement::MassUnit
 OpenSSL
 Net::HTTPServer::Request
 Handel::Constraints
+Roma::Query::Function
 WWW::Find
 HTTP::MobileAgent::Request
 DateTime::Format::Duration
@@ -16821,6 +16938,7 @@ Event::group
 DBIx::YAWM
 Plucene::Plugin::WeightedQueryParser
 Graph::TransitiveClosure::Matrix
+Gantry::Utils::AuthCDBI
 POE::Framework::MIDI::Musician
 Object::InsideOut::Util
 MIME::Latin1
@@ -17392,8 +17510,8 @@ CGI::Session::Serialize::default
 Microarray::Config
 App::SessionObject::RepositoryObjectSet
 Module::Starter::Plugin::DirStore
-HTTP::MobileAgent::Ex
 App::Condition::IsCreator
+HTTP::MobileAgent::Ex
 Algorithm::CheckDigits::MXX_006
 Glib::GenPod
 Class::Unique
@@ -17621,6 +17739,7 @@ XML::Directory::SAX
 Crypt::PGPSimple
 Net::Gnutella::Packet::Reply
 DateTime::Locale::ar_KW
+Acme::Math::Google
 Paper::Specs::Avery::5376
 URI::Find::Iterator
 Wombat::Authenticator::AuthenticatorBase
@@ -17973,6 +18092,7 @@ B::Module::Info
 Graph::Easy::As_txt
 CGI::Panel::MainPanel
 SOAP::Transport::ActiveWorks::AutoInvoke::Server
+Xmldoom::Definition::Property
 HTTP::Body::MultiPart
 Bio::ConnectDots::DB::ConnectorTable
 JavaScript::Code::Expression::Op
@@ -18128,6 +18248,7 @@ VMS::Lock
 Embperl::Run
 Net::Amazon::Response::Exchange
 Locale::PO
+DBIx::Jello::Class
 Net::FTPServer::Proxy::DirHandle
 DateTime::Locale::ms_BN
 CGI::Application::Plugin::Config::Simple
@@ -18174,6 +18295,7 @@ Parse::AFP::IDD
 Time::TAI64
 MIPSIM::Stack
 Test::Prereq
+DBIx::Romani::Query::Delete
 Aspect::Library::Listenable
 Net::OSCAR::Callbacks
 Text::NSP::Measures::3D
@@ -18292,6 +18414,7 @@ Audio::File::MP3
 OpenPlugin::Config::Template
 Set::Array
 Win32::Exe::Resource::Icon
+Roma::Query::Update
 DateTime::Locale::tr_TR
 Cache::CacheBenchmark
 Kwiki::Theme::GreenHouse
@@ -18497,6 +18620,7 @@ WWW::Webrobot::Print::MakeTestplan
 gen::config_h
 Language::Prolog::Types
 Qt
+Catalyst::Plugin::CRUD
 Bio::DasLite::UserAgent
 MacOSX::File::Copy
 Test::Deep::Boolean
@@ -18537,8 +18661,8 @@ Ekahau::Response::StopAreaTrackOK
 MasonX::Request2
 Mac::AppleScript::Glue::Application
 Games::Go::TDFinder
-Bio::MAGE::BioMaterial::BioSource
 CORBA::XMLSchemas::xsd
+Bio::MAGE::BioMaterial::BioSource
 PogoLink
 GnuPG::Signature
 Gantry::Control::C::Groups
@@ -18589,6 +18713,7 @@ WWW::SMS::IE::meteorsms
 Net::DNS::RR::NSAP
 XML::Filter::XSLT::LibXSLT
 IRC::Bot::Hangman::Response::Profanity
+DBIx::Romani::Query::Select::Join
 Net::DRI::Protocol::AFNIC::Email::Domain
 DBIx::Roles::Transaction
 Meta::Info::Email
@@ -18977,8 +19102,8 @@ Net::RVP::Sink
 LWP::Conn::FILE
 XML::Schema::Exception
 Search::Xapian::PositionIterator
-DBIx::Class::PK::Auto::Oracle
 Text::Editor::Vip::Buffer::Constants
+DBIx::Class::PK::Auto::Oracle
 XAO::testcases::FS::placeholders
 Math::Calc::Euro
 Module::Checkstyle::Check::Whitespace
@@ -19239,6 +19364,7 @@ Sys::Ptrace
 Language::Prolog::Interpreter
 WWW::Mechanize::FormFiller::Value::Default
 OpenSSL::RSAkey::SMS
+Plagger::Enclosure
 Algorithm::Knap01DP
 Stem::Event
 POE::Class::Conn
@@ -19476,8 +19602,8 @@ Paper::Specs::standard::b0
 Petal::Utils::Or
 Sub::MicroSig
 XUL::Node::Session
-AnyData::Format::Text
 Text::CPP
+AnyData::Format::Text
 Bio::Tools::Run::PiseApplication::tacg
 Device::MX240
 XML::OPML::SimpleGen
@@ -19622,8 +19748,8 @@ HTML::Widget::JavaScript::Constraint::String
 Acme::MetaSyntactic::apollo
 ORM::TjoinNull
 PDF::API2::Resource::Font::CoreFont::courieroblique
-DBIx::DBO2::ColumnSet
 Text::Diff3::Diff3
+DBIx::DBO2::ColumnSet
 Test::Smoke::SourceTree
 Device::Ericsson::AccessoryMenu::Slider
 Text::xSV
@@ -19778,8 +19904,8 @@ News::FormReply
 Parse::AFP::Triplet::OSFE
 LSF::JobInfo
 Set::Scalar::Universe
-Oracle::SQLLoader
 Text::Diff3::List
+Oracle::SQLLoader
 Biblio::ILL::ISO::Returned
 Glade2::Widget
 XML::RSS::Parser
@@ -19933,6 +20059,7 @@ Encode::InCharset::cp1047
 Bio::Tools::Run::PiseApplication::twofeat
 Devel::TraceMethods
 Win32API::File::Time
+Bio::Phylo::Unparsers::Mrp
 HTML::FormEngine::DBSQL::SkinClassicConfirm
 Pixie::LiveObjectManager
 DBIx::Class::Loader::ADO
@@ -19950,6 +20077,7 @@ UMMF::UML_1_5::Foundation::Core::Artifact
 DB::Introspector::Base::BooleanColumn
 Language::Prolog
 POE::Class::Server::PreFork
+Serdisp
 Jifty::Continuation
 Lemonldap::Handlers::GenericMH1
 Text::Positional::Ngram
@@ -20147,6 +20275,7 @@ Mail::Box::Message::Destructed
 Servlet::ServletRequest
 SGML::Entity
 vptk_w::VPTK_Widget::NoteBookFrame
+DBIx::Romani::Driver::mysql::IdGenerator
 ETL::Pequel::Main
 PDL::PP::Signature
 SQL::Statement::RAM
@@ -20165,8 +20294,8 @@ Date::Ethiopic::gez
 Devel::Fail::MakeTest
 Catalyst::Model::DBIC::Plain
 Festival::Client::Async
-FAQ::OMatic::dispatch
 testcases::Errors
+FAQ::OMatic::dispatch
 EC::PasswordDialog
 Solaris::DeviceTree::Node
 Tangram::Type::Dump::Any
@@ -20365,6 +20494,7 @@ Tangram::Driver::mysql
 TipJar::MTA::queue
 Pod::ParseLink
 Meta::Baseline::Lang::Lyxx
+WWW::Blogger::ML::API
 MQSeries::ErrorLog::Tail
 POE::Component::Client::Keepalive
 Memoize::ExpireFile
@@ -20482,8 +20612,8 @@ NewSpirit::LKFile
 Regexp::Tr
 Class::DBI::Plugin::Backtickify
 Tangram::Storage
-Perldoc::EventBuffer
 testcases::WebCondition
+Perldoc::EventBuffer
 Anarres::Mud::Driver::Compiler::Preprocess
 kalyptusDataDict
 Encode::InCharset::big5_eten
@@ -20754,6 +20884,7 @@ Data::Pageset::Variable
 Text::MultiPhone::no
 RDFStore::Resource
 FormValidator::Simple::Iterator
+Roma::IdGenerator
 Tie::Counter
 Volity::WinnersList
 Win32::Security::SID
@@ -20995,10 +21126,11 @@ Acme::Current::Forever
 Config::Abstract::Ini
 SQL::String
 Astro::Coords::Calibration
+Catalyst::Helper::View::GD::Barcode::QRcode
 Catalyst::Plugin::Redirect
 Continuity::Server
 ORM::Order
-Log::SimpleLog::CaptureLog
+Xmldoom::Definition::Object
 Event::ExecFlow::Job::Group
 Net::PSYC::Datagram
 DBD::DB2::Constants
@@ -21083,6 +21215,7 @@ DateTime::TimeZone::America::Pangnirtung
 Video::PlaybackMachine::DatabaseWatcher
 testcases::placeholders
 Date::Spoken::German
+DBIx::Romani::Query::Update
 Genezzo::Tablespace
 DesignPattern::Factory::ConcreteCreator
 PerlIO::via::symlink
@@ -21098,6 +21231,7 @@ Acme::Goedelize
 Email::LocalDelivery::Maildir
 Spreadsheet::TieExcel
 Catalyst::Plugin::Acme::Scramble
+Roma::Driver::sqlite
 Convert::CharMap::UCM
 Mail::ListDetector::Detector::Smartlist
 Net::IMAP::Simple
@@ -21140,6 +21274,7 @@ Tibco::Rv::Timer
 URI::https
 Encode::InCharset::cp424
 Class::AutoDB::Registry
+DBIx::Romani::Query::SQL::Generate
 AI::FuzzyLogic::MetaSubset
 DateTime::TimeZone::Pacific::Tarawa
 Parse::AFP::PTX::STC
@@ -21294,9 +21429,9 @@ Log::Log4perl::Appender::Buffer
 Bio::Tools::Phylo::PAML::Result
 Device::QuickCam
 PDL::Graphics::TriD::GoBoard
+Text::AutoLink::Plugin
 Locale::Language
 Net::FTP::Versioning
-Text::AutoLink::Plugin
 Data::Vitals::Chest
 Lingua::EN::Segmenter::Baseline
 App::Widget::HierView
@@ -21335,6 +21470,7 @@ Quizzer::Template
 Locale::RecodeData::IBM281
 Plucene::Index::SegmentsTermEnum
 Quizzer::Config
+Boost::Graph
 HTML::Latemp::GenMakeHelpers
 Rose::DB::Object::MakeMethods::Time
 XML::Schema::Test
@@ -21390,6 +21526,7 @@ Catalyst::Engine::Server
 Parse::Pyapp::Parser
 POE::Component::Basement
 UMMF::UML_1_5::Behavioral_Elements::Common_Behavior::Instance
+Data::Average::BoundedExpires
 XML::XMetaL::Mock::DOMText
 Net::DRI::Protocol::EPP::Extensions::PL
 News::AutoReply
@@ -21592,6 +21729,7 @@ Tangram::IntrArray
 Env::PS1
 Sort::Maker
 OpenFrame::Constants
+Image::Flight::Suborbital
 Meta::Utils::File::Iter
 XML::Schema::Type::Provider
 Curses::UI::TextEditor
@@ -21654,6 +21792,7 @@ NEXT
 Astro::FITS::Header
 PDL::Graphics::TriD::Polygonize
 OpenInteract::Config::PerlFile
+DBIx::Romani::Query::XML::SQL
 Prima::VB::CoreClasses
 Sort::Array
 OurNet::BBS::PTT::ArticleGroup
@@ -21693,6 +21832,7 @@ Parse::AFP::Triplet::C
 Pod::POM::Test
 SMS::Handler::Ping
 Crypt::Cipher
+Roma::Query::SQL::Column
 AFS::Command::BOS
 Psh::Builtins::Option
 Number::Phone::NANP::BB
@@ -21755,6 +21895,7 @@ Image::Seek
 IMAP::BodyStructure
 Digest::Pearson::PurePerl
 LSF::JobHistory
+HTML::Dojo
 Bio::ExtractNE::Filter
 CGI::Test::Input::URL
 News::NNTPAuth
@@ -21976,6 +22117,7 @@ Net::Download::Queue::Download
 HTML::ToDocBook
 Slauth::Storage::Session_DB
 MySQL::Backup
+Parse::Colloquy::Bot
 Games::Poker::TexasHold::em
 Term::Prompt
 DBIx::MySQLSequence
@@ -22146,6 +22288,7 @@ DateTime::Locale::dv
 Audio::Mad::Resample
 SQL::QueryBroker
 Lingua::SoundChange
+Roma::Driver::sqlite::IdGenerator
 Aspect::Library::Memoize
 Devel::Cover::Condition_and_2
 Net::RRP::Response::n556
@@ -22318,6 +22461,7 @@ Net::SFTP::Buffer
 PerlIO::subfile
 Sys::AlarmCall
 Test::C2FIT::fat::ExampleFixture
+Roma::Query::Delete
 URI::ssh
 Bio::SearchIO::Writer::ResultTableWriter
 PDF::API2::Resource::Font
@@ -22343,6 +22487,7 @@ Test::Unit::tests::TestTest
 Win32::MSAgent
 html::homepage
 InfoSys::FreeDB::Response::LsCat
+Xmldoom::Definition::Property::Simple
 CGI::Kwiki::Driver
 MyTest::HasAttrs
 SQL::Dialects::CSV
@@ -22412,8 +22557,8 @@ Parrot::AssemblyTokenizer
 Acme::MetaSyntactic::jerkcity
 Video::DVDRip::Job::MergeAudio
 Imager::Color::Table
-Java::Build::Tasks
 Text::Emoticon::GoogleTalk
+Java::Build::Tasks
 Server::Initialize::Daemon
 Net::DRI::Data::Contact
 URI::URL::tn3270
@@ -22524,8 +22669,8 @@ Bio::MAGE::QuantitationType::ConfidenceIndicator
 Rose::DB::Object::Metadata::Column::Integer
 AFS::CM
 Net::SSH::Perl::Util::SSH1MP
-RDFStore::Vocabulary::RSS
 Text::Diff3::Factory
+RDFStore::Vocabulary::RSS
 Uttu::Test
 UMMF::UML_1_5::Foundation::Data_Types::ProcedureExpression
 Bio::Metabolic::Reaction
@@ -22623,6 +22768,7 @@ Business::Shipping::UPS_XML
 Games::Checkers::Board
 Bio::ASN1::Sequence::Indexer
 NewSpirit::CIPP::Include
+SVK::Log::Filter::Babelfish
 Config::Directory
 Sledge::Plugin::Affiliate
 Bio::SeqI
@@ -22844,6 +22990,7 @@ Bio::Das::ProServer::SourceAdaptor::Transport::getz
 Posy
 Inline::denter
 Meta::Projects::Dbman::Section
+Rubric::Entry::Formatter::Nil
 Embperl::Recipe::XalanXSLT
 Bank::Holidays
 Mail::SpamAssassin::Message::Node
@@ -22851,6 +22998,7 @@ Meta::Baseline::Lang::Bins
 Meta::Baseline::Lang::Targ
 Tk::HideCursor
 Class::StrongSingleton
+DBIx::Romani::Query::SQL::TTT::Keyword
 Aspect
 XML::Schema::Factory
 PBS::Rules::Dependers
@@ -23025,6 +23173,7 @@ Rubric::WebApp::Login
 Win32::IE::Mechanize
 Class::Translucent
 Finance::YahooQuote
+Roma::Query::SQL::Generate
 Text::ParagraphDiff
 Plagger::Plugin::Publish::Planet
 Lingua::ZH::Segment
@@ -23045,6 +23194,7 @@ AnyEvent::Impl::Coro
 Catalog::mysql::schema
 Encode::InCharset::x0213_1
 VCS::Rcs::YappRcsParser
+Roma::Query::SQL::TTT::Keyword
 Notify::Notice
 Ctype
 Chart::Strip
@@ -23054,6 +23204,7 @@ Chess::PGN::Moves
 TreeHash
 Net::OpenID::VerifiedIdentity
 Code::Perl::Expr::Number
+Module::CPANTS::Site::Controller::Highscores
 POE::Resources
 Test::Harness
 Quilt::Context
@@ -23078,6 +23229,7 @@ Kwiki::Attachments
 Kwiki::Theme::HLB
 Config::DBI
 QToolTip
+Plagger::Plugin::Filter::FetchEnclosure
 Inline::Pugs
 SQL::Builder::List
 CPANPLUS::Tools::Cmd
@@ -23089,6 +23241,7 @@ WWW::2ch::Cache::File
 Class::HPLOO::Base
 Lingua::GA::Gramadoir::Languages::vi
 MARC::Detrans
+WWW::YouTube::XML
 Algorithm::C3
 Net::HL7
 CGI::Utils
@@ -23124,6 +23277,7 @@ XML::Generator::vCard
 Album
 XML::Handler::CanonXMLWriter
 Net::RRP::Response::n501
+Bigtop::Docs::TOC
 Net::RRP::Response::n534
 Siesta::Plugin::Archive
 CMS::MediaWiki
@@ -23169,8 +23323,8 @@ Bio::GMOD::Adaptor::generic
 Meta::Utils::Net::Mail
 Microarray::DataMatrix::AnySizeDataMatrix
 Tie::Constrained
-Acme::BeyondPerl::ToSQL::SQLite
 testcases::FS
+Acme::BeyondPerl::ToSQL::SQLite
 Authen::Krb5::KDB_H
 Imager::Plot
 Bio::Range
@@ -23275,6 +23429,7 @@ Chroniton::Restore
 DBIx::Tree::NestedSet::MySQL
 RayApp::CGIWrapper
 Bio::Variation::DNAMutation
+Linux::Bootloader::Lilo
 Catalyst::Plugin::SanitizeUrl::PrepAction
 DBIx::Objects
 Geo::WeatherNWS
@@ -23290,8 +23445,8 @@ Ace::Browser::SiteDefs
 DateTime::Locale::dz_BT
 RDFStore::Vocabulary::DCT
 PDL::Dbg
-DBIx::dbMan::Extension::SQLOutputPlain
 Text::BibTeX::File
+DBIx::dbMan::Extension::SQLOutputPlain
 Config::Cascade
 Nabaztag
 HTTP::WebTest::Plugin::HarnessReport
@@ -23306,6 +23461,7 @@ Archive::Any
 File::Locate
 PDL::IO::Dicom
 Video::DVDRip::Job::ExtractPS1
+Module::CPANTS::ProcessCPAN
 SDL::Music
 Catalyst::Engine::HTTP::Restarter::Watcher
 Prima::ImageViewer
@@ -23644,7 +23800,6 @@ Maypole::Plugin::Authorization
 Template::Plugin::BioChrome
 Mail::Audit::KillDups
 Net::Server::Proto::SSL
-Math::TrulyRandom
 Net::DNS::RR::MG
 Bio::Species
 StatsView::Graph
@@ -23681,6 +23836,7 @@ Config::Find::Any
 Image::WMF::Constants
 File::Find::Rule::PPI
 XML::ASX::Entry
+Roma::Connection
 WWW::Search::Verity
 Module::Build::Platform::MPEiX
 Parse::AFP::PTX::STO
@@ -23748,6 +23904,7 @@ Process::Serializable
 Business::Payroll::Base
 CGI::FormFactory
 Date::Language::Norwegian
+DBIx::Romani::Connection::Factory
 SVK::Resolve::P4WinMerge
 Video::PlaybackMachine::TimeManager
 CGI::FormBuilder::Field::select
@@ -23939,9 +24096,9 @@ OurNet::BBS::MAPLE2::BoardGroup
 RePrec::EP_ND
 Excel::Template::Container::Locked
 Lemonldap::Portal::Sslsso
+Text::FormatTable
 CQL::TermNode
 HTML::TocInsertor
-Text::FormatTable
 Audio::TagLib::FileRef::FileTypeResolver
 Geo::Proj4
 MHonArc::UTF8::AppleCenteuro
@@ -24145,6 +24302,7 @@ DBIx::Class::CDBICompat::DestroyWarning
 Sub::Caller
 Net::Packet::TCP
 Audio::TagLib::ByteVector
+Plagger::Plugin::Filter::RewriteEnclosureURL
 Quizzer::Element::Web::Password
 DateTime::TimeZone::Asia::Oral
 Arch::Session
@@ -24219,6 +24377,7 @@ Kwiki::ConfigBlocks
 Mac::PropertyList
 MKDoc::Text::Structured::P
 XML::CompareML::DTD::Generate
+Xmldoom::Criteria::Search
 WebService::MusicBrainz::Response::Release
 Net::FreeDB2::Response::Hello
 IO::Socket::INET
@@ -24345,7 +24504,6 @@ Bio::ExtractNE::GAPSCORE::TokenFilter
 TiVo::HME::IO
 CGI::WML
 Video::DVDRip::Audio
-FEAR::API::URLPool
 Pod::MultiLang::Html
 HTML::Macro::Loop
 Class::DBI::Search::Basic
@@ -24577,6 +24735,7 @@ Rose::DB::Object::ConventionManager
 vptk_w::VPTK_Widget
 Time::ZoneInfo
 ExtUtils::MM_AIX
+Xmldoom::ResultSet
 Mail::Stats
 Net::ACL::Match::Scalar
 Docs::Site_SVD::Tie::FormA
@@ -24653,8 +24812,8 @@ rlib
 Uttu::Config
 Embperl::Syntax::Embperl
 Ex1::Storage
-Getopt::ArgvFile
 Text::Editor::Vip::View
+Getopt::ArgvFile
 SPOPS::Utility
 X11::Athena
 BBCode::Body
@@ -24942,9 +25101,9 @@ SQL::Translator::Producer::ClassDBI
 HTML::TableExtract
 Net::ICal::Daylight
 OpenCA::Token::LunaCA3
+Text::Aligner
 Net::SSL
 Notify::NoticePool
-Text::Aligner
 HTML::SuperForm::Field
 DateTime::Locale::ca_ES
 Date::Tolkien::Shire
@@ -25204,8 +25363,8 @@ MARC::SubjectMap::Rule
 Bio::SeqFeature::PositionProxy
 Net::DNS::Check::Test::soa_serial_compare
 Digest::SHA
-StatsView::Oracle::DataDictionaryCache
 testcases::WebClipboard
+StatsView::Oracle::DataDictionaryCache
 EB::Utils
 ExtUtils::MakeMaker::vmsish
 GCC::Node::Declaration
@@ -25217,6 +25376,7 @@ Pugs::Runtime::Grammar
 FAQ::OMatic::search
 Astro::FITS::Header::CFITSIO
 Lingua::JA::Sort::JIS
+Class::STL::Trace
 Class::Meta::Types::Numeric
 Catalyst::Engine::SpeedyCGI
 Crypt::DSA
@@ -25408,6 +25568,7 @@ Verby::Config::Hub
 DBIx::HTMLView::Log
 Net::Peep::Host
 FFmpeg::Stream::Video
+CGI::WebOut
 UMMF::UML_1_5::Foundation::Data_Types::OrderingKind
 Biblio::ILL::ISO::ISODate
 Tibco::Rv
@@ -25415,8 +25576,8 @@ Locale::RecodeData::IBM273
 CGI::WeT::Modules::Documentation
 XML::XOXO::Node
 Text::Hatena::TagNode
-POE::Watcher
 Text::FillIn
+POE::Watcher
 DBIx::Class
 Net::HTTP::NB
 Probe::MachineInfo::IpAddress::Linux
@@ -25780,6 +25941,7 @@ XML::XMetaL::Base
 Meta::Pdmt::Nodes::PerlChecker
 TestApReq::inherit
 DBA::Backup::mysql
+DBIx::Romani::PreparedQuery
 Bio::Tools::Run::PiseApplication::tranalign
 HTTP::DAVServer
 Net::SMTP_auth
@@ -25817,6 +25979,7 @@ gen::icu
 Template::Plugin::File
 POE::Component::Pool::Thread
 XML::Parser::Grove
+Kwiki::Theme::BlueOcean
 Debian::Debarnacle::Python
 CGI::Session::Driver::DBI
 XML::STX::Base
@@ -25861,6 +26024,7 @@ Games::Tournament::BlackJack::Player::HumanPlayer
 List::Util
 Net::Analysis
 CPAN::Unwind
+Launcher::Cascade::Container
 Ptty
 WWW::Webrobot::Print::FilterHTTP
 Test::Unix::User
@@ -25961,6 +26125,7 @@ Psh::Builtins::Tieopt
 HTML::WebMake::CGI::FindWmkf
 Address::DBI
 Unicode::Regex::Set
+Wiki::Toolkit::Plugin::RSS::Reader
 Data::Dump
 Bio::SeqFeature::Generic
 HTTP::Server::Simple::Static
@@ -26097,8 +26262,10 @@ Finance::Quote::USFedBonds
 Bio::Tools::Run::PiseApplication::showalign
 Bio::LiveSeq::Intron
 Bio::Ontology::RelationshipFactory
+Roma::Query::XML::TTT
 ExtUtils::Command::MM
 Tree::Smart
+Kwiki::Edit::ContentionManagement
 Text::Graphics
 PBS::PostBuild
 DateTime::Locale::it
@@ -26174,6 +26341,7 @@ XML::Grove::Visitor
 CGI::Untaint::telephone
 Config::Find::WinAny
 Gtk2::Ex::FormFactory::Menu
+Kwiki::Edit::BackgroundSave
 Oraperl
 Tivoli
 Encode::InCharset::x0213_2
@@ -26199,6 +26367,7 @@ Finance::Quote::Troweprice
 WWW::PDAScraper::Yahoo::Health::SeniorsAndAging
 Net::POP3
 Finance::Bank::Commerzbank
+Roma::Query::SQL::Literal
 LWPx::ParanoidAgent
 Maypole::Model::CDBI::AsForm
 SPOPS::Tool::UTFConvert
@@ -26261,6 +26430,7 @@ WWW::SearchBroker::Broker
 OurNet::BBS::MELIX::BoardGroup
 Kwiki::Notify::Mail
 HTML::HTPL
+Rubric::CLI::Command::user
 UMMF::Object::Extent
 Net::XMPP::JID
 ePortal::ThePersistent::DataType::Date
@@ -26373,8 +26543,8 @@ Tree::Binary::Visitor::Base
 CGI::Prototype::Docs::Resources
 Win32::MultiLanguage
 HTTP::ProxyCheck
-Paper::Specs::standard::c5_envelope
 Text::Diff3::Range2
+Paper::Specs::standard::c5_envelope
 UMMF::UML_1_5::Behavioral_Elements::Use_Cases::Actor
 Biblio::Catalog::XML
 HH::Unispool::Config::File::Token::Numbered::Device::4
@@ -26393,8 +26563,8 @@ Win32::CtrlGUI::Criteria::pos
 Kolab::Mailer
 Algorithm::CheckDigits::M10_011
 VUser::Test
-Gtk2::Ex::MindMapView::HotSpot::Grip::RightAngle
 Text::BasicTemplate
+Gtk2::Ex::MindMapView::HotSpot::Grip::RightAngle
 PurpleWiki::InlineNode
 Net::FreeDB2::Response::Read
 Class::DBI::Template
@@ -26414,6 +26584,7 @@ SysConfig
 DBIx::SQLEngine::Criteria::Greater
 Gtk2::Helper
 WWW::SMS::SFR
+Data::Average::Expires
 BitArray
 Glist
 Plucene::Search::PrefixQuery
@@ -26536,6 +26707,7 @@ Db::Mediasurface::ReadConfig
 Persistent::mSQL
 Sys::Filesystem::Aix
 HTML::Tested::Test::Value
+Roma::Query::Insert
 DBI::Format::SQLMinus
 Myco::Constants
 Image::ExifTool::RIFF
@@ -26570,6 +26742,7 @@ Myco::Test::EntityTest
 Net::Analysis::EventLoop
 Devel::TypeCheck::Type::Zeta
 Misc::Quality
+Launcher::Cascade::Base
 Object::Generic::Session
 auto::memalign
 Bio::ExtractNE::GAPSCORE::TokenFilter::SpecificWordFilter
@@ -26596,6 +26769,7 @@ Text::CSV::Separator
 HTTP::Server::Simple::Mason
 Math::Calc::Units::Convert::Combo
 Parse::AFP::Triplet::OCL
+Text::Abbreviate
 DateTime::Locale::so_KE
 Lingua::ZH::Keywords
 Tk::Date
@@ -26622,6 +26796,7 @@ SIL::Shoe::Data
 BFD
 OurNet::BBS::CVIC::Group
 Kwiki::MindMap
+Parrot::Test::Harness
 Sman::Man::Cache::DB_File
 WWW::Search::Scraper::TidyXML
 Log::Log4perl::Appender::TestArrayBuffer
@@ -26662,6 +26837,7 @@ Catalyst::Plugin::Authentication::Store::Htpasswd::Backend
 App::Widget::FileTreeSelector
 FileMetadata::Store::DBI
 HTML::Clean
+WWW::Blogger::ML
 RDFStore::SetModel
 HTML::ResolveLink
 Text::Convert::ToImage
@@ -26849,6 +27025,7 @@ Text::FixEOL
 Net::RRP::Exception::MissingRequiredEntity
 Astro::FITS::HdrTrans::CGS4
 DBD::Informix
+WWW::Resource
 UMMF::UML::MetaModel::Foundation::Data_Types::OrderingKind
 Psh::Strategy::Fallback_builtin
 Document::Info
@@ -27361,6 +27538,7 @@ Net::RRP::Server
 Lingua::FI::Transcribe
 Device::Ericsson::AccessoryMenu::Menu
 Net::Gnutella::Server
+Xmldoom::Object::XMLGenerator
 XML::Parser::Style::RDF
 DBIx::Class::Storage::DBI::Oracle
 NetStumbler::Wap
@@ -27555,6 +27733,7 @@ POE::Loop::Epoll
 Cdk::Scroll
 File::Repl
 Class::MOP::Class
+DBIx::Romani::Driver
 Meta::Development::Patch
 Myco::Util::Misc
 File::BLOB
@@ -27625,6 +27804,7 @@ MySQL::GUI::connector
 Net::DNS::Check::Test::host_ip_vs_ip_orig
 Class::XPath
 Device::Ericsson::AccessoryMenu
+DBIx::Romani::Connection
 myconfig
 Games::Rezrov::ZFrame
 Silly::Werder::English
@@ -27682,6 +27862,7 @@ UMMF::UML::MetaModel::Foundation::Core::Element
 Bio::Map::Position
 Log::Simple
 DateTime::TimeZone::America::Noronha
+Module::CPANTS::Site::Model::Kwalitee
 List::Compare::Functional
 Acme::RedShirt
 Lingua::EN::GeniaTagger
@@ -27721,6 +27902,7 @@ XML::ASX::Repeat
 OpenFrame::WebApp::Segment::User
 Bio::Phenotype::OMIM::OMIMentry
 Maypole::Plugin::Authentication::Abstract
+Rubric::CLI::Command::commands
 Math::FFT
 Bio::Tools::Run::PiseApplication::splitter
 Business::BancaSella::Ris::Mysql
@@ -27802,8 +27984,8 @@ HTML::CheckArgs::option
 Mail::Object
 InSilicoSpectro::InSilico::PMFMatch
 POE::Driver
-DocSet
 Text::FixedLength::Extra
+DocSet
 Paper::Specs::Avery::5960
 Shell::Meta
 Sms::Token::PDUTYPE
@@ -28262,6 +28444,7 @@ Tree::Simple::VisitorFactory
 ePortal::App::SquidAcnt
 Win32::Printer
 Win32::ProcFarm::Parent
+Xmldoom::Definition
 Mac::Types
 Graph::Template::Iterator
 CGI::Session::Tutorial
@@ -28616,6 +28799,7 @@ AI::Categorizer::Storable
 Lingua::ZH::TaBE
 Anarres::Mud::Driver::Compiler
 Regexp::Common::list
+Roma::Query::Where
 XML::SAX::Writer::XML
 Win32::FileSecurity
 ASNMTAP::Asnmtap::Applications::CGI
@@ -28639,6 +28823,7 @@ OOPS::OOPS1001::mysql
 WWW::PDAScraper::Yahoo::Tech::Communications
 Paper::Specs::Avery::3263
 WebService::Technorati::Exception
+Bigtop::Docs::TentTut
 Finance::Card::Citibank
 Config::Objective
 Bio::MAGE::Protocol::Protocol
@@ -28655,6 +28840,7 @@ XML::Perl2SAX
 MARC::HTML
 Tree::R
 WebFetch::SiteNews
+Bio::Phylo::Util::IDPool
 Encode::InCharset::cp1258
 Chemistry::PointGroup::Cs
 Text::Query::Solve
@@ -28733,9 +28919,9 @@ Text::Brew
 Win32::MMF
 Config::Objective::List
 Bio::Seq::SeqWithQuality
+Text::BibTeX
 BBCode::Tag::LIST
 ServBase
-Text::BibTeX
 Config::Maker::Config
 Bloom16
 WWW::PDAScraper::Yahoo::Sport::Tennis
@@ -28901,6 +29087,7 @@ SDL::App::FPS::Timer
 AI::Perceptron
 JSAN::Index::Author
 SETI::Stats
+DBIx::Romani::Query::SQL::Column
 Image::ExifTool::QuickTime
 Rose::DB::Object::Metadata
 Bio::SearchIO::Writer::HSPTableWriter
@@ -28962,6 +29149,7 @@ Music::Harmonics
 Spoon::Hub
 WebService::Validator::HTML::W3C::Warning
 Catalyst::Plugin::AtomPP
+Catalyst::Helper::Model::CRUD
 ETL::Pequel::Type::Db::Oracle
 MHonArc::UTF8::ISO8859_10
 PDL::Graphics::TriD::Control3D
@@ -29032,6 +29220,8 @@ IPC::SysV::ShmDS
 UMMF::UML::MetaMetaModel::Util
 POE::Component::IRC::Service::Hybrid
 File::Copy::Link
+DBIx::Romani::Query::Function::Count
+Perl::Critic::Policy::Modules::ProhibitAutomaticExportation
 CAD::Calc
 ORM::Meta::ORM::Date
 PPI::Statement::Data
@@ -29047,6 +29237,7 @@ Authen::Simple::RADIUS
 RDQL::Parser
 DateTime::TimeZone::America::Mazatlan
 Catalyst::Plugin::Browser
+Kwiki::Prototype
 Lingua::MSWordSpell
 Dimedis::Ddl::Reference
 XML::Filter::DOMFilter::LibXML
@@ -29125,6 +29316,7 @@ PerlPoint::Template
 Tie::LDAP::Entry
 LWP::LastURI
 Any::Template::Backend::Text::MicroMason
+Kwiki::Formatter::Emphasis
 Net::RRP::Response::n210
 Geo::GPS::Data::Storage::RAM
 SPOPS::Error
@@ -29156,8 +29348,8 @@ POE::Component::Lightspeed::Introspection
 File::Overwrite
 Inline::MzScheme
 POE::Resources::SIDs
-Bio::ExtractNE::GAPSCORE::Scorer::GeneralCase
 Text::Forge::ModPerl
+Bio::ExtractNE::GAPSCORE::Scorer::GeneralCase
 Text::MicroMason::DoubleQuote
 Regexp::Common::IRC
 Win32::MIDI::API
@@ -29184,6 +29376,7 @@ Kwiki::Notify::IRC
 Crypt::Keys
 Acme::Terror
 Class::Inspector
+Roma::Connection::Factory
 Encode::InCharset::adobeZdingbat
 Quizzer::FrontEnd::Gtk
 SNMP::APCUPS
@@ -29244,6 +29437,7 @@ VRML::Color
 Class::Accessor::Lvalue::Fast
 Class::Tree
 Lingua::EN::Infinitive
+Xmldoom::Criteria::UnknownObject
 VRML::Browser
 Expect::Simple
 Mail::DKIM::Signer
@@ -29262,10 +29456,12 @@ Paper::Specs::Avery::2163_2
 Games::WordFind
 Test::Cmd
 WWW::PDAScraper::Yahoo::Business::Economy
+Launcher::Cascade
 RDF::Query::Model::RDFCore
 XML::Grove::Scalar::Iter
 PDF::API2::Resource::Font::CoreFont::trebuchetbold
 cPanel
+Class::STL::ClassMembers::SingletonConstructor
 DBomb::Generator
 ShopCard
 Bio::Structure::IO
@@ -29377,6 +29573,7 @@ DBIx::DBO2::Column
 SMIL::Head
 CAM::SOAPApp::Std
 Plucene::Search::PhrasePositions
+Roma::Query::Select::Join
 Sledge::Plugin::TemplatePrePostProcess
 DateTime::TimeZone::America::Moncton
 Imager::DTP::Letter
@@ -29416,6 +29613,7 @@ Filter::Crypto
 Search::InvertedIndex::Query
 HTML::Latemp::NavLinks::GenHtml::Text
 Catalyst::Request::Upload
+Date::ISO8601
 Doc::Perlish::EventBuffer
 DateTime::Locale::th
 Schedule::Chronic::Tab
@@ -29517,6 +29715,7 @@ Bio::ConnectDots::ConnectorQuery::Operator::Source
 Graph::Layout::Aesthetic::Force::Perl
 Lingua::EN::Keywords
 VCS::LibCVS::Client
+DBIx::Romani::Query::Function
 Parse::RecDescent::DBI::Dumper::Grammar
 Scripting
 Lingua::Zompist::Verdurian
@@ -29551,6 +29750,7 @@ NSNMP::Agent
 UMMF::UML::MetaMetaModel::Config
 Acme::Drunk
 Device::Citizen3540
+DBIx::Romani::Driver::mysql
 Net::LDAP::Shell::Desc
 Biblio::ILL::ISO::SearchType
 HTML::Widget::Element::Hidden
@@ -29635,6 +29835,7 @@ Module::Install::AutoInstall
 Games::LMSolve::Input
 Parse::AFP::BIM
 Bio::ConnectDots::ConnectorSet::loc2go
+DBIx::Romani::ResultSet
 Wx::RadioBox
 Time::Interval
 Bio::Tools::Gel
@@ -29656,6 +29857,7 @@ ModPerl::RegistryCooker
 Data::ICal::Entry::FreeBusy
 TestApp6
 OnSearch::CGIQuery
+DBIx::Romani::Query::Insert
 Acme::MetaSyntactic::amber
 Linux::MemInfo
 Crypt::OpenPGP::SessionKey
@@ -29679,6 +29881,7 @@ OurNet::BBS::MELIX::Session
 Acme::MetaSyntactic::pumpkings
 autorequire
 Kwiki::PrinterFriendly
+WWW::Blogger::HTML
 FAQ::OMatic::stats
 PDF::API2::Resource::XObject::Image::JPEG
 DateTime::TimeZone::America::Guyana
@@ -29688,6 +29891,7 @@ RT::Record
 Bio::Tools::Run::PiseApplication::showorf
 GO::Handlers::obj_storable
 Catalyst::Plugin::Session::DynamicExpiry
+Xmldoom::Criteria::Attribute
 Rose::DB::Object::Metadata::Auto::MySQL
 Devel::FastProf
 RandomFileSimpleDirOption
@@ -29781,12 +29985,13 @@ Meta::Pdmt::Handlers::Dtd2Html
 Win32::Exe::Section::Imports
 Net::IANA::Registry
 Graph::Template::Element::XLabel
+Bio::SCF::Arrays
 POE::Filter::LZW
 Bio::SeqFeatureI
 OpenGuides::Statistics
+testcases::search
 ExtUtils::XSSymSet
 Net::Packet::ARP
-testcases::search
 Win32::Exe::ResourceEntry::Id
 Tie::OffsetArray
 HTML::Content::ContentExtractor
@@ -29901,6 +30106,7 @@ Bio::Symbol::Symbol
 Location::Area::DoCoMo::iArea::Next
 MHonArc::CharEnt::ISO8859_5
 Math::BaseCnv
+WWW::YouTube
 Bio::Taxonomy::Tree
 Text::BibTeX::BibSort
 Test::RandomResults
@@ -29953,6 +30159,7 @@ WWW::Mixi::OO::Session
 DateTime::TimeZone::Europe::Zurich
 Package::Install::Configure
 Net::DNS::RR::NXT
+DBIx::Romani::Query::SQL::TTT::Function
 Bio::MAGE::BioMaterial::LabeledExtract
 Lyrics::Fetcher::AstraWeb
 Net::Packet::Layer2
@@ -29991,6 +30198,7 @@ Markup::MatchNode
 Device::SCSI
 Algorithm::CheckDigits::M23_002
 Plucene::Analysis::Token
+Kwiki::Edit::AdvisoryLock
 WDDX::Datetime
 Meta::Xml::Parsers::Defs
 XML::STX::STXPath
@@ -30312,6 +30520,7 @@ Embperl::Form::Validate::Select
 DBIx::Class::CDBICompat::HasA
 Cdk::Scale
 Text::Smart
+Launcher::Cascade::ListOfStrings::Errors
 Goo::Thing::pm::Runner
 UMMF::UML::MetaModel::Foundation::Data_Types::Expression
 MP3::Player::PktConcert
@@ -30429,8 +30638,8 @@ Bio::Tools::Run::PiseApplication::prettyplot
 QPaintDevice
 CPANPLUS::Internals
 IDfQueueItem
-Term::ReadLine::Zoid::ISearch
 Text::BibTeX::Structure
+Term::ReadLine::Zoid::ISearch
 WWW::Pipeline::Example
 DirHandle
 Bio::SeqIO::Raw
@@ -30672,14 +30881,15 @@ XML::Mini::Element::Header
 HTML::WebMake::FormatConvert
 SPOPS::Import::DBI::TableTransform::Oracle
 DateTime::Locale::es_EC
+Rubric::Entry::Formatter::HTMLEscape
 Astro::VO::VOEvent
 Perl::Critic::Policy
 RPM::Header
 AFS::Object::Partition
 IDfQueryResultEvent
 Goo::DatabaseObject
-auto::alignptrs
 Text::DoubleMetaphone
+auto::alignptrs
 XUL::Node::Application::SplitterExample
 XML::Filter::Sort
 Tk::MultiMediaControls
@@ -30757,7 +30967,9 @@ Wombat::Exception
 HTML::Mason::Exceptions
 Games::Chess::Coverage::GD::Move
 SystemC::Netlist::Class
+DBIx::Romani::Query::XML::Function
 Mail::Abuse::Processor::ArchiveDBI
+Module::CPANTS::DB::Author
 Class::Date
 Glist::Send
 Catalyst::Helper::Model::DBIC::Plain
@@ -30809,6 +31021,7 @@ Math::Expr::Node
 TestBusted2
 UMMF::XForm::Merge
 IPTables::IPv4::DBTarpit::Tools
+Xmldoom::Definition::ObjectSAXHandler
 XMLRPC::Transport::POP3
 FileInfo
 Ace::Browser::GeneSubs
@@ -31345,6 +31558,7 @@ Tk::TM::DataObjSet
 JPL::Class
 Locale::RecodeData::ISO_5427_EXT
 Quilt::Writer::HTML
+DBIx::Romani::Connection::Base
 HTML::Widgets::Index::Format::Item
 B::C
 MHonArc::CharEnt::CP1258
@@ -31380,6 +31594,7 @@ JavaScript::MochiKit::Visual
 Notes::Database
 Devel::ModInfo::ParamArray
 Class::DBI::FromCGI
+Xmldoom::Criteria::Literal
 Conjury::C::Darwin
 Sirc::URL
 Lingua::EO::Supersignoj
@@ -31456,6 +31671,7 @@ Win32::GuiTest
 Cvs
 Image::Xpm
 XML::Filter::Dispatcher
+CGI::Embedder
 Net::HTTP
 Net::OAI::ListIdentifiers
 PostScript::FontInfo
@@ -31492,6 +31708,7 @@ GO::Parsers::go_def_parser
 Text::MetaMarkup::HTML
 HH::Unispool::Config::File::Token::Comment::NetDesc
 XTM::variant
+Bigtop::Backend::SQL::MySQL
 XML::Seamstress
 CGI::Application::NetNewsIface::Cache::DBI
 Bio::Tk::bioTk_Map
@@ -31510,6 +31727,7 @@ XML::Comma::Storage::Output::Gzip
 OpenOffice::OODoc::File
 MusicBrainz::Client
 Net::DBus::Service
+Class::STL::ClassMembers::Constructor
 Parse::AFP::Triplet::MMPN
 Gopher::Mechanize::History
 Kwiki::PreformattedBlocks
@@ -31523,8 +31741,8 @@ Arch::Run
 Data::Sync::Advanced
 Devel::Carnivore
 CGI::Kwiki::I18N
-DateTime::Locale::kok_IN
 Text::BarGraph
+DateTime::Locale::kok_IN
 Crypt::Simple
 Event::semaphore
 Class::Tangram::Generator
@@ -31533,6 +31751,7 @@ DateTime::TimeZone::Africa::Conakry
 Bio::Das::ProServer::SourceAdaptor::simple
 POE::Framework::MIDI::Bar
 WAIT::Query::Base
+Module::CPANTS::DB::Modules
 RT::Template
 Gantry::Engine::MP20
 Net::IANA::PortNumber
@@ -31625,6 +31844,7 @@ PDF::API2::Basic::TTF::GSUB
 Net::DNS::RR::HINFO
 Term::ReadKey
 Bio::Das::ProServer::SourceAdaptor::cosmic
+DBIx::Romani::Query::XML::Where
 Maypole::Headers
 InfoSys::FreeDB::Response::Motd
 DateTime::Format::W3CDTF
@@ -31647,6 +31867,7 @@ POE::Wheel::ReadLine
 Tangram::mysql
 Class::Proxy
 Teradata::BTET
+##Math::TrulyRandom
 Zoidberg::Utils::GetOpt
 Text::Hyphenate
 Thesaurus
@@ -31718,10 +31939,10 @@ HTTP::Proxy::HeaderFilter::simple
 Servlet::Http::HttpServlet
 Chart::Points
 VBTK::Wrapper::DiskFree
+TestCGI
 Business::Bof::Server::Session
 Math::Zap::Vector2
 SQL::Schema::Package
-TestCGI
 Font::TTF::Mort::Subtable
 Device::Cdio::ISO9660::FS
 Digest::MD4
@@ -31771,6 +31992,7 @@ Gimp::Compat
 UMMF::UML_1_5::OCL::Types::SetType
 IO::Tokenized
 Petal::Utils::Printf
+Plagger::Plugin::Filter::HEADEnclosureMetadata
 Boulder::Swissprot
 Bio::Cluster::SequenceFamily
 Paper::Specs::Avery::5889
@@ -31830,6 +32052,7 @@ JSAN::Index::Distribution
 Chemistry::Bond
 PerlBean::Method::Factory
 Interface::Param
+Bio::Phylo::Util::CONSTANT
 Gtk2::Ex::FormFactory::Layout
 Paper::Specs::standard::b4_envelope
 xDash::Archive::Pg
@@ -31897,8 +32120,8 @@ Bio::PopGen::IO::prettybase
 WWW::Cache::Google::Imode
 DBIx::ProcedureCall::Oracle
 WWW::Blog::Identify
-HTTP::MobileAgent::NonMobile
 Bot::BasicBot::Pluggable::Module::Status
+HTTP::MobileAgent::NonMobile
 Attribute::Deprecated
 POE::Component::CD::Detect
 Finance::Quote::Fidelity
@@ -31913,6 +32136,7 @@ EC::ECConfig
 Astro::STSDAS::Table::HeaderPars
 RandomLine
 UMMF::UML_1_5::Behavioral_Elements::Common_Behavior::Signal
+Class::STL::ClassMembers::Disable
 Bio::Tools::Run::AnalysisFactory::soap
 Search::InvertedIndex::AutoLoader
 DateTime::TimeZone::America::Cambridge_Bay
@@ -31978,6 +32202,7 @@ PostScript::MailLabels
 HTTPD::UserAdmin::Text::cern
 Bio::Tools::Run::PiseApplication::map
 GD::Barcode::IATA2of5
+Tk::TimePick
 DateTime::Locale::ar_EG
 Template::TAL::TALES
 yagg::Config
@@ -32068,6 +32293,7 @@ Text::Decorator::Filter::URIFind
 DBIx::dbMan::Extension::DeviceOutput
 Math::Fibonacci
 Pod::Simple::PullParser
+RT::Extension::CommandByMail
 RT::Action::NotifyGroup
 Net::SMS::Mtnsms
 WWW::Topica::Reply
@@ -32165,9 +32391,9 @@ Win32::API::OutputDebugString
 Math::Business::EMA
 File::Operator
 CAM::UserApp
+Text::Cipher
 Net::SDP
 Rose::DB::Object::Metadata::Relationship::OneToMany
-Text::Cipher
 Video::DVDRip::Task::CreateVobsub
 DBIx::DBSchema::DBD::Sybase
 PDL::Graphics::TriD::ButtonControl
@@ -32246,8 +32472,8 @@ Metadata::SOIF
 CGI::Lite::Request
 CGI::ProgressBar
 Schedule::Chronic::Constraint::Xscreensaver
-Preferences
 Text::DeSupercite
+Preferences
 Zoidberg
 Devel::TypeCheck::Util
 DemoMailForm
@@ -32270,8 +32496,8 @@ Script::Toolbox::Util::Formatter
 Regexp::Common::balanced
 Crypt::Discordian
 Chronos::Action::Showweek
-Docs::US_DOD::SDD
 Text::Diff3::Range3
+Docs::US_DOD::SDD
 Mail::LMLM::Types::Base
 MP3::Tag::File
 Spreadsheet::WriteExcel::FromXML
@@ -32338,9 +32564,9 @@ OODoc::Text::Structure
 Encode::Arabic::ArabTeX::Verbatim
 esmith::config
 DateTime::TimeZone::Africa::Asmera
+Text::Contraction
 Oak::Web::HTML::Th
 RePrec::Ceiling
-Text::Contraction
 WIN32::MSI::SummaryInfo
 Archive::Ipkg
 File::Comments
@@ -32354,6 +32580,7 @@ Authen::PAAS::ConsoleCallback
 Pod::Index
 Petal::Canonicalizer::XML
 Devel::TypeCheck::Type::TSub
+Xmldoom::Definition::Property::Object
 Kwiki::Preferences
 X::Motif
 Sms::Token::SCA
@@ -32420,6 +32647,7 @@ QFileDialog
 Bio::SeqIO::pir
 PDL::RandVar
 PPI::Token::ArrayIndex
+DBIx::Romani::Query::Select
 Bio::Phylo::Parsers::Nexus
 Lingua::Rhyme
 GO::Model::CrossProduct
@@ -32440,6 +32668,7 @@ SLOOPS::SchemaGenerator
 Tk::DateEntry
 MIPSIM::Pipeline::Emulator
 UMMF::UML_1_5::Behavioral_Elements::State_Machines::Transition
+Roma::Query::Comparison
 Kwiki::ListPages
 HTML::Controls::SingleChoice
 URI::Fetch::SimpleCache
@@ -32699,6 +32928,7 @@ Sparse::Vector
 Image::ExifTool::NikonCapture
 Net::NIS
 Object::POOF::Constants
+CGI::WebGzip
 Parrot::Test::Punie
 XML::Filter::SAXT
 Math::TotalBuilder::Common
@@ -32725,8 +32955,8 @@ Lingua::Stem::Da
 Net::DNS::Resolver::Cygwin
 GBPVR::CDBI::RecordingSchedule
 Font::FreeType::Glyph
-HTTP::OAI::ResumptionToken
 Date::Holidays
+HTTP::OAI::ResumptionToken
 CGI::AppBuilder
 Lingua::Zompist::Cadhinor
 Net::YahooMessenger::NullEvent
@@ -32895,53 +33125,53 @@ Math::Symbolic::Custom::Transformation
 KinoSearch::Index::IndexFileNames
 Net::Whois::ARIN::Organization
 Netscape::eg::Noop
-WWW::Search::Monster
-HTML::Widget::Constraint
 CGI::Application::Demo::Four
+HTML::Widget::Constraint
+WWW::Search::Monster
 CIPP::InputHandle
-XML::Essex::Event
 Gantry::Utils::HTML
-HTML::Myasp
+XML::Essex::Event
 Fcntl
+HTML::Myasp
 Games::Rezrov::ZConst
 DateTime::TimeZone::Antarctica::Mawson
 QRect
 UMMF::MOF_1_3::Model::MultiplicityType
-Process::Delegatable
 Tangram::Coll
+Process::Delegatable
 SVK::Editor::Combine
-IPA
 Mail::Message::Head::Partial
+IPA
 Tk::ObjEditorDialog
 APR::Request::Error
 HTML::WebDAO::Comp::Label
-Algorithm::CheckDigits::M11_003
 AxKit::XSP::L10N
-DateTime::Locale::az
+Algorithm::CheckDigits::M11_003
 Net::UPnP::AV::Container
+DateTime::Locale::az
 Imager::TimelineDiagram
 Babble::Processors::Extra
-DateTime::TimeZone::America::Aruba
-MHonArc::CharEnt::CP1255
 Perlcast::Interviews::004
+MHonArc::CharEnt::CP1255
+DateTime::TimeZone::America::Aruba
 Search::ContextGraph
-Petal::TranslationService::MOFile
 Test::TAP::Model
+Petal::TranslationService::MOFile
 HTML::Base
 Pangloss::Segment::Decline::NoTerm
 Jako::Compiler
 SWF::NeedsRecompile
 Win32::FetchCommand
-Decision::Markov::State
-Crypt::RC6
 StatsView::Oracle::DynamicExtension
+Crypt::RC6
+Decision::Markov::State
 Astro::FITS::HdrTrans::UKIRTNew
-Bio::MAGE::Protocol::Parameterizable
 LWP::Simple::Post
-BabelObjects::Runner::RunData
+Bio::MAGE::Protocol::Parameterizable
 Solaris::DeviceTree::Libdevinfo::Impl
-Video::DVDRip::Job::Mplex
+BabelObjects::Runner::RunData
 CGI::Formalware
+Video::DVDRip::Job::Mplex
 Net::FTPServer::InMem::FileHandle
 AsciiDB::TagFile
 ePortal::App::OffPhones::Department
@@ -32950,14 +33180,14 @@ Error
 SQL::Dialects::Google
 Graph::Easy
 Net::RRP::Protocol
-Date::Ethiopic::ER
 LWP::Conn
+Date::Ethiopic::ER
 Bopomofo
-Chess::Piece
 RandomFileMethodBase
-EB::Booking
-Servlet::ServletException
+Chess::Piece
 Sledge::Authorizer::BasicAuth
+Servlet::ServletException
+EB::Booking
 WWW::Comic::Plugin::Dilbert
 asynchronous::universal::set_callback
 Acme::Oppai
@@ -32965,8 +33195,8 @@ Teamspeak::Telnet
 Text::MicroMason::AllowGlobals
 Bio::AlignIO::stockholm
 XML::SAX::PurePerl::DebugHandler
-Workflow::Wfmc::Test::Order
 Mail::Outlook::Folder
+Workflow::Wfmc::Test::Order
 Devel::TypeCheck::Type::Upsilon
 win
 Business::SEDOL
@@ -32976,8 +33206,8 @@ Tie::FieldVals::Join::Row
 Net::DRI::Protocol::EPP::Extensions::SE
 Docs::US_DOD::STD
 PDL::Graphics::TriD::ArcBall
-BBCode::Tag::FONT
 Bryar
+BBCode::Tag::FONT
 Alvis::Pipeline::Write
 Driver::BaseClass
 Pod::ToDemo
@@ -32987,52 +33217,52 @@ Term::Clui::FileSelect
 HTTP::Cookies::Mozilla
 WWW::RobotRules::AnyDBM_File
 Gestinanna::Shell::Schema::Def
-CPANPLUS::Daemon
 Plucene::Index::SegmentTermDocs
-DBIx::FullTextSearch
+CPANPLUS::Daemon
 Carp::Indeed
-Geo::Proj
-Meta::Baseline::Lang::Pyob
+DBIx::FullTextSearch
 SRU
+Meta::Baseline::Lang::Pyob
+Geo::Proj
 YAML::Base
 LaBrea::Tarpit::Get
 Filter::NumberLines::Simple
-DBIx::SQLEngine::AnyData
 ll
+DBIx::SQLEngine::AnyData
 Test::Unit::tests::TestInnerClass
-Lemonldap::Handlers::MatrixPolicy
 PurpleWiki::Search::Arts
+Lemonldap::Handlers::MatrixPolicy
 HTML::AsSubs
 PDF::Labels
 WebService::Upcoming::Object::Event
 ASNMTAP::Time
 RDFStore::NodeFactory
-VCS::SnapshotCM::Tools
-ExtUtils::CBuilder::Platform::Windows
-Device::ParallelPort::drv::auto
 Astro::Catalog::IO::SExtractor
-Win32::Security::Raw
-Mail::Classifier::GrahamSpam
+Device::ParallelPort::drv::auto
+ExtUtils::CBuilder::Platform::Windows
+VCS::SnapshotCM::Tools
 MIME::Words
-WebFetch::LinuxDevNet
+Mail::Classifier::GrahamSpam
+Win32::Security::Raw
 SWF::Builder::Character::Bitmap::Lossless::GDPixel
+WebFetch::LinuxDevNet
 Devel::ebug
-AI::Categorizer::KnowledgeSet
 Catalyst::Request
+AI::Categorizer::KnowledgeSet
 UMMF::UML_1_5::OCL::Expressions::IntegerLiteralExp
 Safe::World::Compartment
-Bio::Expression::Microarray::Affymetrix::dChipXLS
 Net::IRC::EventQueue
-XMLRPC::Lite
-Algorithm::Graphs::TransitiveClosure
+Bio::Expression::Microarray::Affymetrix::dChipXLS
 Penguin::PGP
+Algorithm::Graphs::TransitiveClosure
+XMLRPC::Lite
 VCS::Hms::Dir
 Archive::Zip
 HPUX::Ioscan
 Meta::Template
 DateTime::Locale::fr_BE
-ePortal::App::Organizer::Anniversary
 OpenCA::AC
+ePortal::App::Organizer::Anniversary
 Chatbot::RiveScript
 Oak::SOAP::Connector
 UMMF::UML::MetaModel::Model_Management::Subsystem
@@ -33040,14 +33270,14 @@ Language::AttributeGrammar
 Env::Path
 Gtk2::CV::Plugin::RCluster
 Filesys::statfs
-UMMF::UML_1_5::Behavioral_Elements::Common_Behavior::LinkObject
 Goo::Thing::pm::Perl5Compiler
+UMMF::UML_1_5::Behavioral_Elements::Common_Behavior::LinkObject
 XML::Atom::Syndication::Content
 Net::YahooMessenger::ChangeState
-Geo::Coordinates
-DBM::Deep::Hash
-IO::Socket::TIPC::Sockaddr
 orac_Sybase
+IO::Socket::TIPC::Sockaddr
+DBM::Deep::Hash
+Geo::Coordinates
 Date::Language::Tigrinya
 Class::Eroot
 POE::Loop::Wx
@@ -33055,30 +33285,31 @@ Parrot::Docs::Section::BigNum
 Audio::BASSXS
 Kwiki::Trackback
 Biblio::Citation::Parser::Citebase
-Gnome2::VFS
-DPKG::Parse
 DateTime::Locale::nl_NL
+DPKG::Parse
+Gnome2::VFS
 ObjStore::REP::Ring
 App::Widget::TreeView
 Test::C2FIT::GenericArrayAdapter
-Clone::Any
 Meta::Baseline::Lang::Txtx
-Curses::UI::Buttonbox
+Clone::Any
 Bio::Tools::Run::Alignment::StandAloneFasta
+Curses::UI::Buttonbox
 XML::Template::Source::DBI
-BabelObjects::Component::Test::BabelObjects::Test
 Bio::Biblio::Service
+BabelObjects::Component::Test::BabelObjects::Test
 Data::ToruCa
 File::Binary
 Graphics::ColourNames
 Cache::BDB
-Coy
 Any::Template::Backend::TemplateToolkit
+Coy
 Lingua::PT::Speaker
-CGI::Application::Plugin::Stream
 Class::DBI::Relationship
+CGI::Application::Plugin::Stream
 Text::EtText::EtText2HTML
 Template::Plugin::Abuse
+RT::Interface::Email::Filter::TakeAction
 Bio::GMOD::Util::CheckVersions
 WWW::Scraper::ISBN::TWCwbook_Driver
 QBrush
@@ -33097,16 +33328,16 @@ Games::Shogi::Wa
 DBIx::Web
 Tk::Pod::Styles
 Se::PersonNr
-XUL::Node::Server
-XML::LibXML::Fixup
 Win32API::File
+XML::LibXML::Fixup
+XUL::Node::Server
 POE::Component::Client::Whois
-WWW::Webrobot::Recur::Browser
 MQSeries::PubSub::AdminMessage
+WWW::Webrobot::Recur::Browser
 Tie::Hash::Layered
 Tk::WaitBox
-XML::RDB
 Bio::ASN1::Sequence
+XML::RDB
 File::Spec::Epoc
 SWF::Builder::Character::Font::FreeType
 Class::Field
@@ -33122,8 +33353,8 @@ Proc::Spawn
 Solaris::Disk::SVM
 w3pdfuri
 Memoize::Storable
-Graph::Clique
 Bio::SeqIO::asciitree
+Graph::Clique
 OpenOffice::Parse::SXC
 Image::ParseGIF
 Locale::RecodeData::ISO_8859_2
@@ -33256,6 +33487,7 @@ DateTime::TimeZone::America::Edmonton
 Mail::Abuse::Processor::TableDBI
 IPTables::IPv6
 DBIx::dbMan::Extension::CmdClipboard
+Launcher::Cascade::FileReader
 Cache::BaseCacheTester
 Data::Search
 Text::TransMetaphone::am
@@ -33294,6 +33526,7 @@ Crypt::PGP2
 Net::ACL::Set::Add
 URI::http
 XML::XSH2::LibXMLCompat
+Bio::Phylo::Parsers::Fastnewick
 DBIx::DBH::SQLite
 XML::Validator::Schema
 Imager::DTP::Line::Vertical
@@ -33305,8 +33538,8 @@ Y::Menu
 SyslogScan::SendmailLineTrans
 Gtk2::Ex::MindMapView::HotSpot::Toggle::Round
 HTML::Merge::Mail
-Coro::Event
 Convert::Wiki::Node
+Coro::Event
 Paper::Specs::standard::c0
 Treemap::Simple
 Syndicate::Channel::item
@@ -33325,6 +33558,7 @@ Jemplate::Parser
 Blatte
 XUL::Node::Application::PeriodicTable::Labels
 Net::IRC::EventQueue::Entry
+Xmldoom::Definition::Property::PlaceHolder
 Goo::Thing::bug::Maker
 Catalyst::Alarm
 Quine
@@ -33511,6 +33745,7 @@ Math::GMatrix
 DBIx::Broker
 Pangloss::Segment::RemoveUser
 Bio::Search::Hit::HitI
+Module::CPANTS::DB::Kwalitee
 Chemistry::PointGroup::S6
 Math::Cephes::Polynomial
 Class::DBI::Cacheable
@@ -33655,10 +33890,10 @@ HTML::BarGraph
 Tk::CollapsableFrame
 Net::EPP::Frame::Hello
 Test::Unit::Exception
-Text::EtText::HTML2EtText
 Net::Address::Ethernet
 Module::Check_Args
 Acme::Laugh
+Text::EtText::HTML2EtText
 Class::Multimethods::Pure
 MP3::ID3Lib
 Acme::Time::DimSum
@@ -33679,6 +33914,7 @@ Mac::iTunes::AppleScript
 Net::NBName::NameQuery
 Unicode::Indic::Gurmukhi
 HTML::TokeParser::Simple::Token::ProcessInstruction
+Roma::Query::Select::OrderBy
 Net::SDP::Time
 LWP::EventLoop
 MHonArc::UTF8::ISO8859_7
@@ -33740,8 +33976,8 @@ P4::C4::Cache
 News::NNTPFetchProgress
 Bio::Search::Result::GenericResult
 IPTables::IPv4::DBTarpit::Inst
-testcases::WebUtility
 Parallel::Pvm
+testcases::WebUtility
 Test::Deep::Any
 Tie::Hash::Approx
 Concurrent
@@ -33946,6 +34182,7 @@ Wx::Perl::TextValidator
 Imager::Matrix2d
 autobox
 EB::Booking::Delete
+Catalyst::Plugin::Authentication::Credential::PAM
 HTML::Widgets::DateEntry
 Tk::NBFrame
 Text::Flowchart::Script::Parser
@@ -33957,8 +34194,8 @@ UnixODBC
 Data::Type::Facet
 Games::Board::Space
 Math::FixedPrecision
-Text::AutoLink::Plugin::CPAN
 Mail::ListDetector::Detector::CommuniGate
+Text::AutoLink::Plugin::CPAN
 Finance::SE::OMX
 WWW::Scraper::Opcode::BR
 XML::Template::Util
@@ -34102,6 +34339,7 @@ Games::Console
 File::Copy
 vptk_w::VPTK_Widget::Frame
 Mail::Message::Field::URIs
+Boost::Graph::Undirected
 HTML::CheckArgs::email
 Search::FreeText::LexicalAnalysis::Stop
 Puppet::Show
@@ -34150,9 +34388,9 @@ Net::FTP::I
 Statistics::Hartigan
 Crypt::Blowfish_PP
 HTTP::Message
-Text::Document
 Authen::Simple::Log
 DateTime::TimeZone::America::Yellowknife
+Text::Document
 Path::Class
 Template::Plugin::Directory
 Tangram::Schema::ClassHash
@@ -34204,6 +34442,7 @@ Net::Delicious::Object
 Video::DVDRip::CheckedEntry
 Bio::ConnectDots::ConnectorSet::gse_series
 XML::XSH2::Grammar
+Acme::MetaSyntactic::userfriendly
 Docs::US_DOD::SPS
 Net::XRC::Data::complex
 Bio::MAGE::Array
@@ -34222,6 +34461,7 @@ Heap::Binomial
 Myco::Entity::Meta::Attribute
 PerlBean::Described
 DBIx::dbMan::Extension::Output
+DBIx::Jello
 Net::FTPServer::PWP::Handle
 SVK::Editor::Merge
 Brackup::Test
@@ -34255,6 +34495,7 @@ Parse::AFP::Triplet::TS
 Bio::Tools::Run::PiseApplication::restrict
 DirDB::FTP
 PApp::Storable
+Launcher::Cascade::FileReader::Seekable
 XAO::ImageCache
 Image::Caa::DitherOrdered8
 Wiki::Gateway
@@ -34275,6 +34516,7 @@ Biblio::ILL::ISO::ReasonNotAvailable
 DBIx::dbMan::Extension::CmdPager
 XML::RSS::Parser::Lite
 Net::Lyskom::StaticSession
+WWW::Blogger::Com
 Mail::Transport::Receive
 Dimedis::Ddl::Table::mysql
 OpenFrame::WebApp::Segment::User::SessionLoader
@@ -34459,8 +34701,8 @@ LWP::UserAgent::iTMS_Client
 Parse::AFP::ECF
 DBIx::Class::CDBICompat::Pager
 inter::exp
-Text::AutoLink::Plugin::FTP
 Curses::Forms
+Text::AutoLink::Plugin::FTP
 POE::Pipe
 Cache::MemoryBackend
 Mail::Outlook
@@ -34654,11 +34896,11 @@ Gestinanna::POF::Iterator
 Quizzer::Element::Web::Multiselect
 LWP::Socket
 IDfAssembly
-Text::CSV::Simple
 Rosetta::Engine::Example::L::en
 Plagger::Plugin::Widget::HatenaBookmark
 Data::Phrasebook::Loader::YAML
 FAQ::OMatic::Set
+Text::CSV::Simple
 WebService::NoPaste
 RDBAL
 Sys::Manage::Cmd
@@ -34670,6 +34912,7 @@ Oryx::DBI::Class
 CGI::Test::Form::Widget::Box::Radio
 CGI::Application::Plugin::Stash
 XML::ESISParser
+Boost::Graph::Directed
 Courier::Error
 Volity::Player
 SQCAS
@@ -34716,8 +34959,8 @@ SVG::Graph::Glyph::wedge
 Graph::Writer::GraphViz
 Finance::Quote::ZI
 DBD::Excel
-testcases::incremental
 Lingua::TR::Hyphenate
+testcases::incremental
 Math::Matlab::Engine
 Test::Deep::Regexp
 Docs::Site_SVD::File_Drawing
@@ -34866,8 +35109,8 @@ Audio::Beep::Win32::API
 Net::ParseWhois::Domain
 APR::URI
 WWW::Yahoo::DrivingDirections
-DateTime::Locale::tr
 HTTP::OAI::Header
+DateTime::Locale::tr
 Mail::VersionTracker::Utils
 WordNet::Similarity
 Business::BancaSella::Gestpay
@@ -34907,9 +35150,9 @@ GedNav
 Rose::DB::Object::Metadata::Column::Numeric
 version::vxs
 Email::Find
-Text::Decorator::Node
 Bio::SeqFeature::FeaturePair
 Audio::TagLib
+Text::Decorator::Node
 Prima::DetailedList
 Gtk2::TestHelper
 HTML::WebDAO::Comp::VertMenu
@@ -35071,6 +35314,7 @@ PatchReader
 Tk::Olwm
 JOAP::Proxy::Class
 PDF::API2::Basic::TTF::Feat
+Catalyst::View::GD::Barcode::QRcode
 Bio::Event::EventGeneratorI
 Test::DatabaseRow
 Biblio::ILL::ISO::ItemType
@@ -35223,6 +35467,7 @@ DBIx::Class::UUIDMaker::UUID
 Cvs::Result::RdiffList
 Locale::RecodeData::IEC_P27_1
 CGI::Simple
+Roma::Driver::mysql::IdGenerator
 Dicop::Item
 SDL::sdlpl
 PDF::API2::Basic::TTF::Coverage
@@ -35269,6 +35514,7 @@ Tk::MARC::Field
 PDL::NamedArgs
 IO::AIO
 Gtk2::Ex::FormFactory::Context
+Perl::Critic::Policy::ControlStructures::ProhibitUnreachableCode
 JavaScript::Squish
 Video::PlaybackMachine::TimeLayout
 ASNMTAP::IO
@@ -35416,8 +35662,8 @@ WebFetch::Freshmeat
 Audio::File::Tag
 Net::Z3950::ResultSet
 Data::Paginate
-Text::Editor::Vip::Buffer::Plugins::PageUpDown
 Bio::Annotation::Collection
+Text::Editor::Vip::Buffer::Plugins::PageUpDown
 Parallel::Queue
 Config::Model::HashId
 Wx::Mozilla
@@ -35492,8 +35738,8 @@ Business::TPGPost
 Inline::Java::Protocol
 Bio::Das::AGPServer::SQLStorage
 SOAP::Transport::IO
-Text::Flowed
 File::Path::Localize
+Text::Flowed
 OurNet::BBS::CVIC::Session
 Coro::RWLock
 Oak::Web::Page
@@ -35639,6 +35885,7 @@ WWW::Search::Result
 SGML::ISO8859::S4
 User::Identity::Archive::Plain
 Template::Extract::Run
+Perl::Critic::Policy::BuiltinFunctions::ProhibitUniversalCan
 Froody::Server::Standalone
 TestApReq::cookie
 HTML::WebMake::File
@@ -35939,8 +36186,8 @@ Courier::Filter::Logger::File
 Font::TTF::Kern::ClassArray
 XML::Catalog
 JavascriptProfiler
-Crypt::Shark
 HTTP::OAI::Record
+Crypt::Shark
 RayApp::String
 Font::Metrics::Helvetica
 Net::DNS::RR::RT
@@ -35950,6 +36197,7 @@ Email::Received
 Language::Prolog::Stack
 Business::GestPayCryptHS
 PPI::Structure::Condition
+InSilicoSpectro::Spectra::Filter::MSFilter
 OpenFrame::WebApp::Segment::Decline::UserInStore
 WWW::Search::Scraper::ZIPplus4
 Cache::SizeAwareMemoryCache
@@ -36136,9 +36384,9 @@ Inline::CPR
 Config::Frontend
 POE::Component::Server::FTP::DataSession
 XML::LibRSVG
-testcases::WebAction
 Sub::ParamFrame
 Chemistry::Reaction
+testcases::WebAction
 Bio::Matrix::PSM::SiteMatrix
 Crypt::OpenPGP::Buffer
 WWW::Scraper::TidyXML
@@ -36205,8 +36453,8 @@ Date::Transform::Constants
 DBD::Redbase::DataStream
 Oracle::Loader
 Notify::Email
-Text::Context
 DateTime::Locale::ru_RU
+Text::Context
 Class::PObject::Type::CHAR
 Bio::Tools::Run::PiseApplication::plotorf
 Moose::Meta::TypeConstraint
@@ -36237,6 +36485,7 @@ Pod::Wordlist
 Oak::Web::HTML::H4
 Class::groups
 Auth::Krb5Afs
+Data::Average::Bounded
 Tk::CodeText::Perl
 Oak::Web::HTML::Sub
 Moose::Util::TypeConstraints
@@ -36604,6 +36853,7 @@ Net::EPP::Frame::Command::Check
 XML::TMX::Query
 Devel::Profiler::Test
 Oak::Web::HTML::Table
+Net::Scan::SMTP::Banner
 Lingua::Phonology::Boundary
 CGI::Kwiki::Changes
 Bio::Prospect::ThreadSummary
@@ -36786,6 +37036,7 @@ Time::Piece::DB2
 PerlPoint::Generator
 File::Find::Rule::TTMETA
 Net::DAAP::Client::v2
+CGI::Builder::PathInfoMagic
 Genetics::Phenotype
 Trinket::DataType
 SQL::Translator::Parser::Storable
@@ -36837,6 +37088,7 @@ WWW::Agent::Plugins::Focus
 Net::Vypress::Chat
 Tangram::Type::Integer
 PNGgraph
+Plagger::Plugin::Subscription::XPath
 XML::Schema::Particle::Sequence
 XAO::testcases::FS::linkage
 CGI::FormBuilder::Template::Text
@@ -36874,7 +37126,6 @@ Gtk2::Ex::MindMapView::Layout::Balanced
 Translate::Perl6
 DateTime::TimeZone::Africa::Algiers
 ESPPlus::Storage
-Class::STL::DataMembers
 XML::Atom::Syndication::Source
 XML::Parser::Wrapper
 DBIx::OracleSequence
@@ -37100,6 +37351,7 @@ Macro::Micro
 Win32::Event
 Games::Maze::SVG::Rect
 Bio::ConnectDots::DotQuery::Constraint
+Module::CPANTS::Site::Controller::Author
 Net::RVP::Server
 HTML::FormEngine::SkinComplexConfirm
 SystemC::Vregs::Language
@@ -37232,6 +37484,7 @@ Video::DVDRip::Job::CountFramesInFile
 Encode::TW::Unisys::SOSI1
 Mail::Milter::Module::MailDomainDotMX
 Amethyst::Brain::Infobot::Module::Fortune
+HTML::Dojo::common
 Meta::Tool::Openjade
 Class::DBI::Plugin::DateFormat::Oracle
 Descriptions
@@ -37249,6 +37502,7 @@ Perl::Critic::Policy::TestingAndDebugging::RequireUseWarnings
 HTML::Perlinfo::Credits
 Psh::Builtins::Fc
 Feed::Find
+DBIx::Romani::Query::Select::OrderBy
 SQL::Schema
 PurpleWiki::Database::User
 Encode::TECkit
@@ -37337,6 +37591,7 @@ Win32API::CommPort
 Bio::Tools::Profile
 IDfClient
 Chart::Sequence::Layout
+Catalyst::Plugin::CRUD::CDBI
 CPAN::Unpack
 Win32::Process::Perf
 Convert::CEGH::Gematria
@@ -37365,6 +37620,7 @@ AnyData::Storage::TiedHash
 DBI::Const::GetInfo::ANSI
 File::Slurp
 XML::Parser::Lite
+WWW::Blogger::XML
 Chart::Graph::XrtUtils
 HH::Unispool::Config::Entry::Device::3
 Crypt::RSA::Key::Public::SSH
@@ -37551,7 +37807,7 @@ I<L<Bundle::Modules>>, I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPA
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0519
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0520
 
 perl
 
@@ -37559,6 +37815,6 @@ This program is free software; you can redistribute it and/or modify it under th
 
 =head1 COPYRIGHT
 
-Copyright (c) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
+Copyright (C) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
 

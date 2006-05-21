@@ -2,7 +2,7 @@ package Bundle::Modules::Acme::Everything::Unique;
 
 use 5.005;
 
-our $VERSION = 2006.0519; ## (YYYY.MMDD)
+our $VERSION = 2006.0520; ## (YYYY.MMDD)
 
 1;
 
@@ -318,7 +318,6 @@ RFID::Base
 Config::Ini
 Unix::UserAdmin
 IPC::Shm::Simple
-PDF::Template
 Tk::PhotoRotate
 DBIx::XMLMEssage
 Fax::DataFax
@@ -435,7 +434,7 @@ I<L<Bundle::Modules>>, I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPA
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0519
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0520
 
 perl
 
@@ -443,6 +442,6 @@ This program is free software; you can redistribute it and/or modify it under th
 
 =head1 COPYRIGHT
 
-Copyright (c) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
+Copyright (C) 2006 by Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
 

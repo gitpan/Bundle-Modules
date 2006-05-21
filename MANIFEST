@@ -1,21 +1,5 @@
-2006_MMDD
 Build.PL
 COPYING
-inc/Module/AutoInstall.pm
-inc/Module/Install.pm
-inc/Module/Install/AutoInstall.pm
-inc/Module/Install/Base.pm
-inc/Module/Install/Build.pm
-inc/Module/Install/Can.pm
-inc/Module/Install/Fetch.pm
-inc/Module/Install/Include.pm
-inc/Module/Install/Makefile.pm
-inc/Module/Install/Metadata.pm
-inc/Module/Install/Win32.pm
-inc/Module/Install/WriteAll.pm
-inc/Test/Builder.pm
-inc/Test/Builder/Module.pm
-inc/Test/More.pm
 INSTALL
 lib/Bundle/Modules.pm
 lib/Bundle/Modules/Acme/Everything.pm
@@ -33,7 +17,6 @@ MANIFEST.SKIP
 META.yml
 public_keys/ERMEYERS2005.pub
 README
-SIGNATURE
 t/test0.pl.t
 t/use_me/test0.pl.t
 SIGNATURE    Added here by Module::Build

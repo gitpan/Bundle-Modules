@@ -21,3 +21,8 @@ CVS/
 [.]out$
 hide/
 ##local##
+^_Unstable/
+^_Apache/
+^_CPAN/
+^_Acme/
+

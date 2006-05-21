@@ -14,47 +14,31 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 d4f51cd30c6cb3fe87b093a389d79571e03f54ec 2006_MMDD
-SHA1 b79bbdc2607e13352bbe4d4fb1b93cd681661f39 Build.PL
+SHA1 a08e5449037e6722087bdd029582d61fbdef12c9 Build.PL
 SHA1 0b184ad51ba2a79e85d2288d5fcf8a1ea0481ea4 COPYING
 SHA1 72371f3217c31e8c92331c90cc2153a04f3b07bf INSTALL
-SHA1 8a4cc68aefc429099afcd3c546f60e2e9298d2e3 MANIFEST
-SHA1 83e10695abc4f9ba4fd32a98fa0ce5dc4d40a820 MANIFEST.SKIP
-SHA1 6789323dda5b20e1b4ffd318b9db1d4767a69807 META.yml
-SHA1 93bd9290504a6c8315b9fe03283c42b9f02d583b Makefile.PL
+SHA1 3c716580f646f1697824b3a99ffe7b05668332d4 MANIFEST
+SHA1 afc6961f3c38abf924619ab8ee51b99c9c158c04 MANIFEST.SKIP
+SHA1 61e70d13966ce8e00da31c20de7866f0f9394dde META.yml
+SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
 SHA1 67ad0b789f4fd60472a1f1abba36e7a741b29c73 README
-SHA1 0bb5ddbe64424d40536acdee2f09e853ab39087d inc/Module/AutoInstall.pm
-SHA1 e28cf2d3ba35f6ca3a448acc7bee191b7c390379 inc/Module/Install.pm
-SHA1 d7013668911c86af441cad115b897fc675a472de inc/Module/Install/AutoInstall.pm
-SHA1 e7c1c86f57b6778f4bdc7fd8c1b950e60ef41bc0 inc/Module/Install/Base.pm
-SHA1 cb9aba1d2d38aeced33c6d74e9175577f31af79c inc/Module/Install/Build.pm
-SHA1 e1829448769445cdaac384a888bf9ccf42e0d89a inc/Module/Install/Can.pm
-SHA1 70aa5e2055e8e38b4eecc5fc8c91762c0e97f551 inc/Module/Install/Fetch.pm
-SHA1 8d88f2cb120f2e64f374136df2e25d0bb6f0595b inc/Module/Install/Include.pm
-SHA1 8ac832baf4f9e8e72d3e8f103cee6e8a94ac80e1 inc/Module/Install/Makefile.pm
-SHA1 0807e79d6dbfda4fcd3db0fc7df2e33e0cba263b inc/Module/Install/Metadata.pm
-SHA1 4da0a1fce2339cc3f8c296c7716480d2564d9470 inc/Module/Install/Win32.pm
-SHA1 9a903a1d178954ad864c7dcc98f9fa5c005d1553 inc/Module/Install/WriteAll.pm
-SHA1 f0ebc594cf8ba858ee9a840c344d9b7ea2c3c6f4 inc/Test/Builder.pm
-SHA1 6bb30e9867f6dbcada80acca07cb727fa09fc3a0 inc/Test/Builder/Module.pm
-SHA1 07c750f370de7a44ee7b0ed9ec30a7e89c24c9b9 inc/Test/More.pm
-SHA1 b0dc2e735f64eccbdf938cb259bbae61385680ea lib/Bundle/Modules.pm
-SHA1 7c89047c74ceb147ae628e84bf7005f9b8f26e24 lib/Bundle/Modules/Acme/Everything.pm
-SHA1 675f77f84b9e125873f3b560d21e37e830d94bf9 lib/Bundle/Modules/Acme/Everything/Unique.pm
-SHA1 e4838271e21681151558b9aeaf09ddaf6fef2393 lib/Bundle/Modules/Acme/Everything/Unique/Unstable.pm
-SHA1 88c6c825cf576b94b4292213b4001ad8cb934488 lib/Bundle/Modules/Acme/Everything/Unstable.pm
-SHA1 3f19dff912beb7e817d04be0a4d2980fdc23e4b1 lib/Bundle/Modules/Apache.pm
-SHA1 c0e6f46a27fe8a7f942bd704a354019d6be5dab4 lib/Bundle/Modules/Apache/Unstable.pm
-SHA1 0377b835a166764e840c1d801f0bd8c4ff8d66f1 lib/Bundle/Modules/CPAN.pm
-SHA1 ec197d2b8a4673fa23eeccca89f33bd9d1fba7f8 lib/Bundle/Modules/CPAN/Unstable.pm
-SHA1 16ab13918467196c0318ce12195cc9d5f66cc680 lib/Bundle/Modules/Unstable.pm
+SHA1 fce36571e6f7d9028b562292749cd33552fb3f15 lib/Bundle/Modules.pm
+SHA1 06e0790024ba377fb00892c5bcfab8d002e14732 lib/Bundle/Modules/Acme/Everything.pm
+SHA1 e00bc06bac3e50b83184ae5fecb87cdb74ad7a7b lib/Bundle/Modules/Acme/Everything/Unique.pm
+SHA1 bb518a1ca6737f662d1ee8217c0781e04b833fa3 lib/Bundle/Modules/Acme/Everything/Unique/Unstable.pm
+SHA1 abdb4e87cc06addd2c790e06e749fac60de2a75e lib/Bundle/Modules/Acme/Everything/Unstable.pm
+SHA1 ae07f33cbd01d9d40a22ca50ff941982608b2642 lib/Bundle/Modules/Apache.pm
+SHA1 4747e36def7f63a6dcff52f7b690aecffd85f02a lib/Bundle/Modules/Apache/Unstable.pm
+SHA1 2a1a84bca1492ed463ec16ad21eb154b1e09c9e1 lib/Bundle/Modules/CPAN.pm
+SHA1 3c9631ccd3316dbb6562ec877024aeeda95b5649 lib/Bundle/Modules/CPAN/Unstable.pm
+SHA1 5d0f26f037547e334d6acccc659323ee2dc2ce88 lib/Bundle/Modules/Unstable.pm
 SHA1 aaa5ae75f6e123869524eb3c2b1a3963c88924fb public_keys/ERMEYERS2005.pub
 SHA1 8f9fa0f00546860b393746825af0832a571e043e t/test0.pl.t
 SHA1 16aefcee72dd01da9fd8743e71b6de7be6e6a4e9 t/use_me/test0.pl.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.2.2 (GNU/Linux)
 
-iEYEARECAAYFAkRtiKIACgkQmYhyuYPOgKNzsACfUiXqRHHDL+m8EgCNbmXvhu+o
-0IoAn0/i7f32GDwD3jSpJy/ikVaD1Es5
-=zC2/
+iEYEARECAAYFAkRvwp8ACgkQmYhyuYPOgKNOngCfQZCDtIbZtx74Tb8/fW3DfrRa
+IQIAn1zHUHTg4oX4/K8DYWJEpzjJ6bk+
+=wjPx
 -----END PGP SIGNATURE-----
