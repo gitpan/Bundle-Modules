@@ -1,8 +1,234 @@
+#!/usr/bin/perl -w
+##
+
 package Bundle::Modules;
 
 use 5.005;
 
-our $VERSION = 2006.0520; ## (YYYY.MMDD)
+our $VERSION = 2006.0521; ## (YYYY.MMDD)
+
+##
+## Bundle::Modules
+##
+
+package main;
+
+use strict;
+
+use warnings;
+
+use CPANPLUS::Backend;
+
+my $plus = CPANPLUS::Backend->new();
+
+my $conf = $plus->configure_object();
+
+$conf->set_conf( 'force' => 0 );
+
+$conf->set_conf( 'timeout' => 1 );
+
+$plus->reload_indices( 'update_source' => 1, 'verbose' => 1 );
+
+my @module = ();
+
+
+
+push( @module, 'Bundle::DBD::InterBase' );
+push( @module, 'Bundle::BDFOY' );
+push( @module, 'Bundle::SNMP::MIB::Compiler' );
+push( @module, 'Bundle::Business::Shipping::DataTools' );
+push( @module, 'Bundle::DBD::Informix' );
+push( @module, 'Bundle::ParallelUA' );
+push( @module, 'Bundle::Cisco::Conf' );
+push( @module, 'Bundle::MusicBrainz::Server' );
+push( @module, 'Bundle::NiceSleep' );
+push( @module, 'Bundle::Perl6' );
+push( @module, 'Bundle::HTMLWikiConverter' );
+push( @module, 'Bundle::Text::Query::BuildSQL' );
+push( @module, 'Bundle::TreeDumper' );
+push( @module, 'Bundle::Net::Nessus' );
+push( @module, 'Bundle::Tie::FormA' );
+push( @module, 'Bundle::Math::Numeric' );
+push( @module, '##Bundle::Cobalt' );
+push( @module, 'Bundle::OurNet' );
+push( @module, 'Bundle::Maypole' );
+push( @module, 'Bundle::DataMint' );
+push( @module, 'Bundle::DBD::mSQL' );
+push( @module, 'Bundle::SNMP::Monitor' );
+push( @module, 'Bundle::Interchange4' );
+push( @module, 'Bundle::OS2_default6' );
+push( @module, 'Bundle::DBD::DB2' );
+push( @module, 'Bundle::Latemp' );
+push( @module, 'Bundle::DateTime::Complete' );
+push( @module, 'Bundle::KohaSupport' );
+push( @module, 'Bundle::Wombat' );
+push( @module, 'Bundle::Phalanx100' );
+push( @module, 'Bundle::SSH' );
+push( @module, 'Bundle::Search::InvertedIndex' );
+push( @module, 'Bundle::Math::Base' );
+push( @module, 'Bundle::OpenInteract' );
+push( @module, 'Bundle::BricolagePlus' );
+push( @module, 'Bundle::CPANPLUS' );
+push( @module, 'Bundle::Cascade' );
+push( @module, 'Bundle::Math::Random' );
+push( @module, 'Bundle::CPANPLUS::Test::Reporter' );
+push( @module, 'Bundle::Lingua::PT' );
+push( @module, 'Bundle::Starlink::Base' );
+push( @module, 'Bundle::MP3' );
+push( @module, 'Bundle::Egrail' );
+push( @module, 'Bundle::Urchin' );
+push( @module, 'Bundle::SQL::Translator' );
+push( @module, 'Bundle::Business::Shipping::UPS_Online' );
+push( @module, 'Bundle::QuadPres' );
+push( @module, 'Bundle::Bugzilla' );
+push( @module, 'Bundle::RT' );
+push( @module, 'Bundle::WormBase' );
+push( @module, 'Bundle::HTML::Mason' );
+push( @module, 'Bundle::Math::Fractal' );
+push( @module, 'Bundle::CPANPLUS::Dependencies' );
+push( @module, 'Bundle::Math::Big' );
+push( @module, 'Bundle::PPT' );
+push( @module, 'Bundle::Math::Approx' );
+push( @module, 'Bundle::SPOPS' );
+push( @module, 'Bundle::Markup' );
+push( @module, '##Bundle::WWW::Search::Scraper::Housing' );
+push( @module, 'Bundle::LawMonkey' );
+push( @module, 'Bundle::Sledge::I18N' );
+push( @module, 'Bundle::Math' );
+push( @module, 'Bundle::DBD::Yaswi' );
+push( @module, 'Bundle::CGI::Builder::Complete' );
+push( @module, 'Bundle::BioPerl' );
+push( @module, 'Bundle::OS2_default3' );
+push( @module, 'Bundle::Business::Shipping' );
+push( @module, 'Bundle::Schwern' );
+push( @module, 'Bundle::Math::Statistics' );
+push( @module, 'Bundle::Posy' );
+push( @module, 'Bundle::Xmms' );
+push( @module, 'Bundle::ePortal' );
+push( @module, 'Bundle::Mail::IspMailGate' );
+push( @module, 'Bundle::MusicBrainz::Client' );
+push( @module, 'Bundle::CPAN' );
+push( @module, 'Bundle::W3C::Validator' );
+push( @module, 'Bundle::Combust::Extras' );
+push( @module, 'Bundle::Knetrix' );
+push( @module, 'Bundle::Math::Financial' );
+push( @module, 'Bundle::libservlet' );
+push( @module, 'Bundle::SDK::COG' );
+push( @module, 'Bundle::WWW::Mechanize::Shell' );
+push( @module, 'Bundle::Tree::Simple' );
+push( @module, 'Bundle::Wizard' );
+push( @module, 'Bundle::Gnome2' );
+push( @module, 'Bundle::Slash' );
+push( @module, 'Bundle::Wizard::LDAP' );
+push( @module, 'Bundle::SDK::SIMON' );
+push( @module, 'Bundle::Expect' );
+push( @module, 'Bundle::CpanTestDummies' );
+push( @module, 'Bundle::Math::Calculus' );
+push( @module, 'Bundle::Zavitan' );
+push( @module, 'Bundle::Test' );
+push( @module, 'Bundle::Math::Matrix' );
+push( @module, '##Bundle::POE::All' );
+push( @module, 'Bundle::IspMailGate' );
+push( @module, 'Bundle::perlWebSite' );
+push( @module, 'Bundle::COG' );
+push( @module, 'Bundle::InterchangeKitchenSink' );
+push( @module, '##Bundle::Kwiki' );
+push( @module, 'Bundle::XML' );
+push( @module, 'Bundle::Devel' );
+push( @module, 'Bundle::Rose' );
+push( @module, 'Bundle::Business::Shipping::Basic' );
+push( @module, 'Bundle::Minivend' );
+push( @module, 'Bundle::AMBS' );
+push( @module, 'Bundle::DBD::CSV' );
+push( @module, 'Bundle::Business::Shipping::UPS_Offline' );
+push( @module, 'Bundle::Ovid' );
+push( @module, 'Bundle::GMOD' );
+push( @module, 'Bundle::WING' );
+push( @module, 'Bundle::ebx' );
+push( @module, 'Bundle::OpenILS' );
+push( @module, 'Bundle::OS2_default' );
+push( @module, 'Bundle::Delivery' );
+push( @module, 'Bundle::Email' );
+push( @module, 'Bundle::HTTP::WebTest' );
+push( @module, 'Bundle::Everything' );
+push( @module, 'Bundle::Net::LDAP' );
+push( @module, 'Bundle::HTML::EP' );
+push( @module, 'Bundle::Pgreet' );
+push( @module, 'Bundle::Alphamail' );
+push( @module, 'Bundle::Bricolage' );
+push( @module, 'Bundle::OpenSRF' );
+push( @module, 'Bundle::Pugs::SmokeKit' );
+push( @module, 'Bundle::OS2_default5' );
+push( @module, 'Bundle::Combust' );
+push( @module, 'Bundle::myxCal' );
+push( @module, '##Bundle::WWW::Scraper::Housing' );
+push( @module, 'Bundle::Template::Magic' );
+push( @module, 'Bundle::Msql' );
+push( @module, 'Bundle::OS2_default2' );
+push( @module, 'Bundle::OS2_default7' );
+push( @module, 'Bundle::MMS::Mail::Parser' );
+push( @module, 'Bundle::Pipe' );
+push( @module, 'Bundle::Mysql' );
+push( @module, 'Bundle::ABH' );
+push( @module, 'Bundle::Tie::DB_File::SplitHash' );
+push( @module, 'Bundle::Net::SXIP::Homesite' );
+push( @module, 'Bundle::Link_Controller' );
+push( @module, 'Bundle::Zoidberg' );
+push( @module, 'Bundle::Math::Symbolic' );
+push( @module, 'Bundle::Interchange' );
+push( @module, 'Bundle::PerlPoint' );
+push( @module, 'Bundle::OS2_default1' );
+push( @module, 'Bundle::DBD::JDBC' );
+push( @module, 'Bundle::Sites::BetterScm' );
+push( @module, 'Bundle::Business::Shipping::USPS_Online' );
+push( @module, 'Bundle::Math::Geometry' );
+push( @module, 'Bundle::OpenInteract2' );
+push( @module, 'Bundle::CUFTS' );
+push( @module, 'Bundle::Tk_OS2src' );
+push( @module, 'Bundle::MyLibrary' );
+push( @module, 'Bundle::Sledge' );
+push( @module, 'Bundle::Bonsai' );
+push( @module, 'Bundle::Application::Magic' );
+push( @module, 'Bundle::OS2_default1_2' );
+push( @module, 'Bundle::Catalog' );
+push( @module, 'Bundle::PlRPC' );
+push( @module, 'Bundle::DBI' );
+push( @module, 'Bundle::Math::Interface' );
+push( @module, 'Bundle::Olive' );
+push( @module, 'Bundle::libnet' );
+push( @module, 'Bundle::Query' );
+push( @module, 'Bundle::LWP' );
+push( @module, 'Bundle::CVSMonitor' );
+push( @module, 'Bundle::Math::Expression' );
+push( @module, 'Bundle::OS2_default4' );
+push( @module, 'Bundle::DBD::mysql' );
+
+fisher_yates_shuffle( \@module );
+
+for ( my $i = 0; $i <= $#module; $i++ )
+{
+   my $mi = $plus->module_tree( $module[$i] ); $mi->install();
+
+} ## end for
+
+##
+## fisher_yates_shuffle - cookbook's inplace array permutation
+##
+sub fisher_yates_shuffle
+{
+   my $a = shift;
+
+   for ( my $i = @$a; $i--; )
+   {
+      my $j = int( rand( $i + 1 ) );
+
+      next if ( $i == $j );
+
+      @$a[$i,$j] = @$a[$j,$i];
+
+   } ## end for
+
+} ## end sub fisher_yates_shuffle
 
 1;
 
@@ -20,175 +246,7 @@ cpan B<-i Bundle::Modules>
 
 =head1 CONTENTS
 
-Bundle::DBD::InterBase
-Bundle::BDFOY
-Bundle::SNMP::MIB::Compiler
-Bundle::Business::Shipping::DataTools
-Bundle::DBD::Informix
-Bundle::ParallelUA
-Bundle::Cisco::Conf
-Bundle::MusicBrainz::Server
-Bundle::NiceSleep
-Bundle::Perl6
-Bundle::HTMLWikiConverter
-Bundle::Text::Query::BuildSQL
-Bundle::TreeDumper
-Bundle::Net::Nessus
-Bundle::Tie::FormA
-Bundle::Math::Numeric
-##Bundle::Cobalt
-Bundle::OurNet
-Bundle::Maypole
-Bundle::DataMint
-Bundle::DBD::mSQL
-Bundle::SNMP::Monitor
-Bundle::Interchange4
-Bundle::OS2_default6
-Bundle::DBD::DB2
-Bundle::Latemp
-Bundle::DateTime::Complete
-Bundle::KohaSupport
-Bundle::Wombat
-Bundle::Phalanx100
-Bundle::SSH
-Bundle::Search::InvertedIndex
-Bundle::Math::Base
-Bundle::OpenInteract
-Bundle::BricolagePlus
 Bundle::CPANPLUS
-Bundle::Cascade
-Bundle::Math::Random
-Bundle::CPANPLUS::Test::Reporter
-Bundle::Lingua::PT
-Bundle::Starlink::Base
-Bundle::MP3
-Bundle::Egrail
-Bundle::Urchin
-Bundle::SQL::Translator
-Bundle::Business::Shipping::UPS_Online
-Bundle::QuadPres
-Bundle::Bugzilla
-Bundle::RT
-Bundle::WormBase
-Bundle::HTML::Mason
-Bundle::Math::Fractal
-Bundle::CPANPLUS::Dependencies
-Bundle::Math::Big
-Bundle::PPT
-Bundle::Math::Approx
-Bundle::SPOPS
-Bundle::Markup
-##Bundle::WWW::Search::Scraper::Housing
-Bundle::LawMonkey
-Bundle::Sledge::I18N
-Bundle::Math
-Bundle::DBD::Yaswi
-Bundle::CGI::Builder::Complete
-Bundle::BioPerl
-Bundle::OS2_default3
-Bundle::Business::Shipping
-Bundle::Schwern
-Bundle::Math::Statistics
-Bundle::Posy
-Bundle::Xmms
-Bundle::ePortal
-Bundle::Mail::IspMailGate
-Bundle::MusicBrainz::Client
-Bundle::CPAN
-Bundle::W3C::Validator
-Bundle::Combust::Extras
-Bundle::Knetrix
-Bundle::Math::Financial
-Bundle::libservlet
-Bundle::SDK::COG
-Bundle::WWW::Mechanize::Shell
-Bundle::Tree::Simple
-Bundle::Wizard
-Bundle::Gnome2
-Bundle::Slash
-Bundle::Wizard::LDAP
-Bundle::SDK::SIMON
-Bundle::Expect
-Bundle::CpanTestDummies
-Bundle::Math::Calculus
-Bundle::Zavitan
-Bundle::Test
-Bundle::Math::Matrix
-##Bundle::POE::All
-Bundle::IspMailGate
-Bundle::perlWebSite
-Bundle::COG
-Bundle::InterchangeKitchenSink
-##Bundle::Kwiki
-Bundle::XML
-Bundle::Devel
-Bundle::Rose
-Bundle::Business::Shipping::Basic
-Bundle::Minivend
-Bundle::AMBS
-Bundle::DBD::CSV
-Bundle::Business::Shipping::UPS_Offline
-Bundle::Ovid
-Bundle::GMOD
-Bundle::WING
-Bundle::ebx
-Bundle::OpenILS
-Bundle::OS2_default
-Bundle::Delivery
-Bundle::Email
-Bundle::HTTP::WebTest
-Bundle::Everything
-Bundle::Net::LDAP
-Bundle::HTML::EP
-Bundle::Pgreet
-Bundle::Alphamail
-Bundle::Bricolage
-Bundle::OpenSRF
-Bundle::Pugs::SmokeKit
-Bundle::OS2_default5
-Bundle::Combust
-Bundle::myxCal
-##Bundle::WWW::Scraper::Housing
-Bundle::Template::Magic
-Bundle::Msql
-Bundle::OS2_default2
-Bundle::OS2_default7
-Bundle::MMS::Mail::Parser
-Bundle::Pipe
-Bundle::Mysql
-Bundle::ABH
-Bundle::Tie::DB_File::SplitHash
-Bundle::Net::SXIP::Homesite
-Bundle::Link_Controller
-Bundle::Zoidberg
-Bundle::Math::Symbolic
-Bundle::Interchange
-Bundle::PerlPoint
-Bundle::OS2_default1
-Bundle::DBD::JDBC
-Bundle::Sites::BetterScm
-Bundle::Business::Shipping::USPS_Online
-Bundle::Math::Geometry
-Bundle::OpenInteract2
-Bundle::CUFTS
-Bundle::Tk_OS2src
-Bundle::MyLibrary
-Bundle::Sledge
-Bundle::Bonsai
-Bundle::Application::Magic
-Bundle::OS2_default1_2
-Bundle::Catalog
-Bundle::PlRPC
-Bundle::DBI
-Bundle::Math::Interface
-Bundle::Olive
-Bundle::libnet
-Bundle::Query
-Bundle::LWP
-Bundle::CVSMonitor
-Bundle::Math::Expression
-Bundle::OS2_default4
-Bundle::DBD::mysql
 
 =head1 CHANGES
 
@@ -218,13 +276,13 @@ This Bundle package will install all of the modules listed, if they're not comme
 
 =head1 SEE ALSO
 
-I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Apache>>, I<L<Bundle::Modules::Apache::Unstable>>, I<L<Bundle::Modules::Acme::Everything>>, I<L<Bundle::Modules::Acme::Everything::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>, I<L<Bundle::Modules::Acme::Everything::Unique::Unstable>>
+I<L<Bundle::Modules::Unstable>>, I<L<Bundle::Modules::CPAN>>, I<L<Bundle::Modules::CPAN::Unstable>>, I<L<Bundle::Modules::Apache>>, I<L<Bundle::Modules::Apache::Unstable>>, I<L<Bundle::Modules::Acme::Everything::Unique>>, I<L<Bundle::Modules::Acme::Everything::Unique::Unstable>>
 
 =head1 AUTHORS
 
 Eric R. Meyers E<lt>ermeyers@adelphia.netE<gt>
 
-=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0520
+=head1 LICENSE for http://www.cpan.org/authors/id/E/ER/ERMEYERS/Bundle-Modules-2006.0521
 
 perl
 

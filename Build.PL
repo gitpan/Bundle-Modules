@@ -71,11 +71,17 @@ if ( -d "$FindBin::Bin/_bin" ) ## won't exist in distribution
    $build->dispatch( 'test', 'verbose' => 1 );
    $build->dispatch( 'install' );
 
+   ##debug##
+   locate_gpg();
+
+}
+else
+{
+   locate_gpg();
+
+   print "Now, please enter 'Build' to make all, 'Build test' to test, and 'Build install' to install.\n";
+
 } ## end if
-
-locate_gpg();
-
-print "Now, please enter 'Build' to make all, 'Build test' to test, and 'Build install' to install.\n";
 
 ##
 ## can_run
