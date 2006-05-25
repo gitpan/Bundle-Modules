@@ -17,27 +17,29 @@ Hash: SHA1
 SHA1 791132bb839f7e1c5896e8b44f39ee8c6b842a60 Build.PL
 SHA1 0b184ad51ba2a79e85d2288d5fcf8a1ea0481ea4 COPYING
 SHA1 72371f3217c31e8c92331c90cc2153a04f3b07bf INSTALL
-SHA1 2cd411b83fe5c95f939daa82d11f802542812d7b MANIFEST
-SHA1 8a168bd9a6d6c24ffd5c710b0ba2a27386fb403b MANIFEST.SKIP
-SHA1 8997bffe91eb47e6dd66debef3af22d418f28c26 META.yml
+SHA1 e9553135fa788768ca3a345acd2354b9d47663b4 MANIFEST
+SHA1 78235fb37bf1e821302ecc2c15d942863d49ba0f MANIFEST.SKIP
+SHA1 d6c3114eca25cae5a3c8330af2eab9dfa28133fd META.yml
 SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
 SHA1 67ad0b789f4fd60472a1f1abba36e7a741b29c73 README
-SHA1 b9b37153df85cbd19f6db7b8bed4d6b07f53d76f lib/Bundle/Modules.pm
-SHA1 70ce44a95f64bbd004622370d3b25f18f43e9993 lib/Bundle/Modules/Acme/Everything/Unique.pm
-SHA1 e5b6c5e6f38fcc4b1c33e45d88c6b50f4d8cb0fa lib/Bundle/Modules/Acme/Everything/Unique/Unstable.pm
-SHA1 2dbcdb190aabdfbe3a8e7934b1d24d2c16d42aa1 lib/Bundle/Modules/Apache.pm
-SHA1 3a1d0b4fcf6a1d566131253ff62a96b82707c4be lib/Bundle/Modules/Apache/Unstable.pm
-SHA1 0ba209e963c4d596f8868e480ce517eec92bb58b lib/Bundle/Modules/CPAN.pm
-SHA1 581695e55c2de7e7bcf7b96144dde2fe80adfa28 lib/Bundle/Modules/CPAN/Unstable.pm
-SHA1 daf8b76de0f5a725ad2b7b587d16c41e47de68fb lib/Bundle/Modules/Unstable.pm
+SHA1 d6e8d112d0929e1a9ff5cae13afb68bc3274d92c lib/Bundle/Modules.pm
+SHA1 701269589c22b8d9755f3efe30c01ded9f6e78d8 lib/Bundle/Modules/Acme/Everything/Unique.pm
+SHA1 dfab5a39f80202952120eddf590a9fa18ecfa9de lib/Bundle/Modules/Acme/Everything/Unique/Unstable.pm
+SHA1 2d2f38dd6758601cbda416f265f4bcba5d63eddd lib/Bundle/Modules/Apache.pm
+SHA1 8aa7d8d922ba119289a2f1179fd89522337718c2 lib/Bundle/Modules/Apache/Unstable.pm
+SHA1 b4206acc7d4d88723de1a9e5adf6c6729a05f190 lib/Bundle/Modules/CPAN.pm
+SHA1 3a02b0692ffc4d31b7c5ca358207ff6482ab54ee lib/Bundle/Modules/CPAN/Unstable.pm
+SHA1 95c7cba6d09c68cd8d9991ecc8fe43018c76c9b6 lib/Bundle/Modules/Test/Reporter.pm
+SHA1 d3581fba19c34a06c0721a048f26122259e2631d lib/Bundle/Modules/Unstable.pm
 SHA1 09a2bf1797287143d4f0340e86b0d37b52de7b99 local/bin/bundle_modules
 SHA1 aaa5ae75f6e123869524eb3c2b1a3963c88924fb public_keys/ERMEYERS2005.pub
+SHA1 e28b20869521c9f9c10fffe56d1e57de8f77fdad t/reporter.t
 SHA1 8f9fa0f00546860b393746825af0832a571e043e t/test0.pl.t
 SHA1 1136f81a11f54144f481db8bfd1aef9ee5270ebe t/use_me/test0.pl.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.2.2 (GNU/Linux)
 
-iEYEARECAAYFAkRzwXkACgkQmYhyuYPOgKMFEgCfQQoBJ4iGrOQETTocsobPmJqr
-2q4An3dRegZVZ+HDY7sfPDMMXVJzy+ki
-=Pdux
+iEYEARECAAYFAkR1GHsACgkQmYhyuYPOgKN1fwCcDw3zQjEknhlk/Qy7oBEjqNUu
+eBoAn39dYprlmfTpqpFy/03N/WkMI0Ts
+=uL98
 -----END PGP SIGNATURE-----

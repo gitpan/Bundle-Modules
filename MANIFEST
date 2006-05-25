@@ -8,6 +8,7 @@ lib/Bundle/Modules/Apache.pm
 lib/Bundle/Modules/Apache/Unstable.pm
 lib/Bundle/Modules/CPAN.pm
 lib/Bundle/Modules/CPAN/Unstable.pm
+lib/Bundle/Modules/Test/Reporter.pm
 lib/Bundle/Modules/Unstable.pm
 local/bin/bundle_modules
 Makefile.PL
@@ -16,7 +17,7 @@ MANIFEST.SKIP
 META.yml
 public_keys/ERMEYERS2005.pub
 README
-SIGNATURE
+t/reporter.t
 t/test0.pl.t
 t/use_me/test0.pl.t
 SIGNATURE    Added here by Module::Build
