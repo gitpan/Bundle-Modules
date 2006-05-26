@@ -2,14 +2,12 @@ Build.PL
 COPYING
 INSTALL
 lib/Bundle/Modules.pm
-lib/Bundle/Modules/Acme/Everything/Unique.pm
-lib/Bundle/Modules/Acme/Everything/Unique/Unstable.pm
+lib/Bundle/Modules/Unstable.pm
 lib/Bundle/Modules/Apache.pm
 lib/Bundle/Modules/Apache/Unstable.pm
 lib/Bundle/Modules/CPAN.pm
 lib/Bundle/Modules/CPAN/Unstable.pm
 lib/Bundle/Modules/Test/Reporter.pm
-lib/Bundle/Modules/Unstable.pm
 local/bin/bundle_modules
 Makefile.PL
 MANIFEST			This list of files

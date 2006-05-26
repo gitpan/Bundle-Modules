@@ -1,7 +1,7 @@
 # $Revision: 1.20 $
 # $Id: Reporter.pm,v 1.20 2003/03/05 09:15:53 afoxson Exp $
 
-# Bundle::Modules::Test::Reporter - sends test results to ermeyers@adelphia.net
+# Bundle::Modules::Test::Reporter - sends test results to automata@adelphia.net
 # Copyright (c) 2003 Adam J. Foxson. All rights reserved.
 
 # This program is free software; you can redistribute it and/or modify
@@ -38,7 +38,7 @@ sub new {
 	my $class = ref($type) || $type;
 	my $self  = {
 		'_mx'                => ['mx1.x.perl.org', 'mx2.x.perl.org'],
-		'_address'           => 'ermeyers@adelphia.net',
+		'_address'           => 'automata@adelphia.net',
 		'_grade'             => undef,
 		'_distribution'      => undef,
 		'_report'            => undef,
@@ -171,9 +171,10 @@ sub grade {
 	warn __PACKAGE__, ": grade\n" if $self->debug();
 
 	my %grades    = (
-		'stable'    => "all tests passed",
-		'unstable'  => "one or more tests failed",
-		'signature' => "distribution did not include signature",
+		'installed' => "already installed",
+		'stable'    => "installed with a trusted signature",
+		'signature' => "installed without a trusted signature",
+		'unstable'  => "install failed",
 	);
 
 	return $self->{_grade} if scalar @_ == 1;
@@ -397,7 +398,7 @@ sub _send_smtp {
 
 			if (@bad) {
 				warn __PACKAGE__, ": Will not attempt to cc the following recipients since perl.org MX's will not relay for them. Either install Mail::Send, use other MX's, or only cc address ending in cpan.org or perl.org: ${\(join ', ', @bad)}.\n";
-			
+			}
 
 			@recipients = @tmprecipients;
 		}
@@ -603,7 +604,7 @@ sub _prompt {
 
 =head1 NAME
 
-Bundle::Modules::Test::Reporter - sends test results to ermeyers@adelphia.net
+Bundle::Modules::Test::Reporter - sends test results to automata@adelphia.net
 
 =head1 SYNOPSIS
 
@@ -705,12 +706,12 @@ will usually figure this out automatically.
 Gets or sets the success or failure of the distributions's 'make test'
 result. This must be one of:
 
-  grade     meaning
-  -----     -------
-  pass      all tests passed
-  fail      one or more tests failed
-  na        distribution will not work on this platform
-  unknown   distribution did not include tests
+                grade          meaning
+                -----          -------
+		'installed' => "already installed",
+		'stable'    => "installed with a trusted signature",
+		'signature' => "installed without a trusted signature",
+		'unstable'  => "install failed",
 
 =item * B<distribution>
 
@@ -719,7 +720,7 @@ Foo-Bar-0.01. There are no restrictions on what can be put here.
 
 =item * B<send>
 
-Sends the test report to ermeyers@adelphia.net and cc's the e-mail to the
+Sends the test report to automata@adelphia.net and cc's the e-mail to the
 specified recipients, if any. If you do specify recipients to be cc'd and
 you do not have Mail::Send installed be sure that you use the author's
 @cpan.org address otherwise they will not be delivered. You must check
@@ -749,7 +750,7 @@ in Bundle::Modules::Test::Reporter itself.
 =item * B<address>
 
 Optional. Gets or sets the e-mail address that the reports will be
-sent to. By default, this is set to ermeyers@adelphia.net. You shouldn't
+sent to. By default, this is set to automata@adelphia.net. You shouldn't
 need this unless the CPAN Tester's change the e-mail address to send
 report's to.
 

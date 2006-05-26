@@ -6,7 +6,7 @@ use Bundle::Modules::Test::Reporter;
 
 BEGIN { plan tests => 54 }
 
-my $distro = sprintf "Test-Reporter-%s", $Bundle::Modules::Test::Reporter::VERSION;
+my $distro = sprintf "Bundle-Modules-Test-Reporter-%s", $Bundle::Modules::Test::Reporter::VERSION;
 
 my $reporter = Bundle::Modules::Test::Reporter->new();
 ok(ref $reporter, 'Bundle::Modules::Test::Reporter');
