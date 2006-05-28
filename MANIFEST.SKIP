@@ -21,5 +21,7 @@ CVS/
 [.]out$
 hide/
 ##local##
+[.]xml$
+[.]xml[.]gz$
 ^stable[.]Bundle
 

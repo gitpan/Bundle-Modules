@@ -174,6 +174,7 @@ sub grade {
 		'installed' => "already installed",
 		'stable'    => "installed with a trusted signature",
 		'signature' => "installed without a trusted signature",
+                'unsigned'  => "missing SIGNATURE",
 		'unstable'  => "install failed",
 	);
 
@@ -711,6 +712,7 @@ result. This must be one of:
 		'installed' => "already installed",
 		'stable'    => "installed with a trusted signature",
 		'signature' => "installed without a trusted signature",
+                'SIGNATURE' => "missing SIGNATURE",
 		'unstable'  => "install failed",
 
 =item * B<distribution>

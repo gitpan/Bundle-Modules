@@ -123,7 +123,35 @@ sub locate_gpg
 
       return ( 1 ) if grep { /^--installdeps/ } @ARGV;
 
-      if ( ExtUtils::MakeMaker::prompt( "Import CPAN Author $param->{'CPANID'}'s public key into GnuPG?", 'n' ) =~ /^y/i )
+      my $perm = undef;
+
+      eval
+      {
+         local $SIG{'ALRM'} = sub { die( "alarm\n" ) };
+
+         alarm 10;
+
+         $perm = ExtUtils::MakeMaker::prompt( "Import CPAN Author $param->{'CPANID'}'s public key into GnuPG?", 'n' );
+
+         alarm 0;
+
+      }; ## end eval
+
+      if ( $@ )
+      {
+         ##
+         ## timeout
+         ##
+
+         die( $@ ) unless ( $@ eq "alarm\n" );
+
+         $perm = 'n';
+
+         print "\n";
+
+      } ## end if
+
+      if ( $perm =~ /^y/i )
       {
          print 'Importing public key into GnuPG keyring... ';
 
@@ -137,7 +165,7 @@ sub locate_gpg
 
    } ## end if
 
-   print 'GnugPG not found anywhere in your PATH, "eek," said Mr. Audrey Tang.'."\n";
+   print 'GnugPG not found anywhere in your PATH, "eek," said Audrey Tang.'."\n";
 
    return;
 
