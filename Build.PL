@@ -24,14 +24,22 @@ my $param =
 
 };
 
+if ( -d './_bin' ) ## won't exist in distribution
+{
+   system( "./_bin/create_bundle_modules.plx $param->{'VERSION'}" );
+
+} ## end if
+
 my $build = Module::Build->new
    (
       'dist_name' => $param->{'NAME'},
       'dist_author' => $param->{'AUTHOR'},
       'dist_version' => Date::Format::time2str( '%Y.%m%d', time() ),
+      'dist_version_from' => 'lib/Bundle/Modules.pm',
       'license' => $param->{'LICENSE'},
       'dist_abstract' => $param->{'ABSTRACT'},
       'create_makefile_pl' => 'passthrough',
+      'create_readme' => 1,
       'sign' => 1,
       'recursive_test_files' => 1,
       'build_requires' =>
@@ -62,13 +70,12 @@ $build->create_build_script();
 
 if ( -d './_bin' ) ## won't exist in distribution
 {
-   system( "./_bin/create_bundle_modules.plx $param->{'VERSION'}" );
-
    $build->dispatch( 'build' );
    $build->dispatch( 'test', 'verbose' => 1 );
    $build->dispatch( 'install' );
 
-   ##debug## gpg_me();
+   ##debug##
+   gpg_me();
 
 }
 else
@@ -117,7 +124,31 @@ sub gpg_me
 
       return ( 1 ) if grep { /^--installdeps/ } @ARGV;
 
-      if ( $build->prompt( "Import CPAN Author $param->{'CPANID'}'s public key into GnuPG?", 'n' ) =~ /^y/i )
+      my $prmt = "Import CPAN Author $param->{'CPANID'}'s public key into GnuPG?";
+
+      my $perm = 'n';
+
+      eval
+      {
+         local $SIG{'ALRM'} = sub { die( "alarm\n" ) };
+
+         alarm 30;
+
+         $perm = $build->prompt( $prmt, $perm );
+
+         alarm 0;
+
+      }; ## end eval
+
+      if ( $@ )
+      {
+         die( $@ ) unless ( $@ eq "alarm\n" );
+
+         print "\n";
+
+      } ## end if
+
+      if ( $perm =~ m/^y/i )
       {
          print 'Importing public key into GnuPG keyring... ';
 
@@ -136,3 +167,4 @@ sub gpg_me
    return ( 0 );
 
 } ## end sub gpg_me
+

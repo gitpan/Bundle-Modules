@@ -1,2 +1,143 @@
-pre-alpha
-TBD
+NAME
+    Bundle::Modules - All current *stable* bundles of modules in CPAN
+
+SYNOPSIS
+    cpanp -i Bundle::Modules ## This installs it
+
+    perl -MBundle::Modules ## This runs it
+
+    NOTE[1]: This is a VERY NEW and DIFFERENT TYPE of bundle, and it's
+    completely unlike previously known bundles.
+
+    NOTE[2]: perl -MCPAN -e 'install Bundle::Modules' ## This will look like
+    an old bundle, and simply loads the Pod's few 'CONTENTS' as listed.
+
+    NOTE[3]: perl -MCPANPLUS -e 'install Bundle::Modules' ## This behaves
+    like a new bundle, and actually installs The Bundle::Modules suite.
+
+    NOTE[4]: perl -MBundle::Modules ## This will behave much differently,
+    like a 'new type' of bundle should, and installs modules according to
+    its Bundle::Modules context.
+
+    NOTE[5]: Please READ this document fully, before criticizing The
+    Bundle::Modules suite, something new and much different than what you've
+    expected to find in a bundle.
+
+CONTENTS
+Bundle::CPAN
+Bundle::CPANPLUS
+Bundle::Expect
+Bundle::Test
+CHANGES
+    2006.0510 (YYYY.MMDD)
+        Initial version of: Bundle::Modules-2006.0510
+
+        This Bundle::Modules component package is in pre-alpha state with
+        hash ordering.
+
+        The ordering of listed modules will eventually be prioritized for
+        efficiency and completeness.
+
+        Modules excluded from this module list are either *unstable* or
+        *stable* in the Bundle::Modules context.
+
+        Optimistically, if there are a lot of modules excluded, then they
+        are *stable*, and we're listing *unstable* context.
+
+        Optimistically, if there are a few of modules excluded, then they
+        are *unstable*, and we're listing *stable* context.
+
+    2006.0520
+        This contains a newly refined concept of: Bundle::Modules-2006.0520
+
+        This Bundle::Modules component package is in pre-alpha state with
+        randomized hash ordering.
+
+        The ordering of listed modules is now shuffled randomly on each run
+        for better efficiency and completeness.
+
+        Modules are no longer listed in CONTENTS, like other 'Bundle::'
+        bundles out there. I just list a few like Bundle::CPANPLUS.
+
+        I support the idea of testing installations in mass, and I'll use
+        the information provided by CPANPLUS test reports.
+
+        The Bundle::Modules suite has *stable* and *unstable* listings that
+        will be updated using the information provided by the testers.db
+
+        The Bundle::Modules suite uses Module::Build in its Build.PL, and
+        generates a compatible Makefile.PL.
+
+        The Bundle::Modules suite uses the CPANPLUS::Backend to create its
+        own random-ordered installations.
+
+    2006.0605
+        This now contains a derivative of Test::Reporter, called
+        Bundle::Modules::Test::Reporter.
+
+        Bundle::Modules::Test::Reporter sends reports used to create an
+        install.db, like the testers.db.
+
+        The install.db will keep track of Installation Security and
+        Stability Issues affecting user installations.
+
+              fetch()                   install.db
+              extract()                 |        |
+              create()                  |        |
+              test()         testers.db |        |
+              install()                 install.db
+
+        Did the fetch() result with a good CHECKSUM?
+
+        Did the extract() result with a good SIGNATURE and a good MANIFEST?
+
+        Did the create() succeed in order to proceed into testing?
+
+        Did the test() result really deserve the grade('pass') in
+        testers.db, or was that FAILED just the user's imagination?
+
+        Did the install() result in the user having succeeded in actually
+        getting the distribution, or were we just throwing electron's
+        around?
+
+        Basically, I'm trying to capture whatever can be captured, so as to
+        characterize the distribution's Security and Stability.
+
+        The Stable bundles will go into Bundle::Modules; and, the Unstable
+        bundles will go into Bundle::Modules::Unstable. The Stable modules
+        will go into Bundle::Modules::CPAN; and, the Unstable modules will
+        go into Bundle::Modules::CPAN::Unstable.
+
+        I'll be focusing large groups of modules out of
+        Bundle::Modules::CPAN into Bundle::Modules::Apache, Win32, etc.
+
+        The Stable modules will go into Bundle::Modules::Apache; and, the
+        Unstable modules will go into Bundle::Modules::Apache::Unstable. The
+        Stable modules will go into Bundle::Modules::Win32; and, the
+        Unstable modules will go into Bundle::Modules::Win32::Unstable.
+
+        Since I'm not a Win32 user, I'll depend on the install.db data,
+        generated from the automated reports I get from the Win32
+        installers.
+
+DESCRIPTION
+    This Bundle::Modules component will install all of the modules listed,
+    based on the stability/instability context.
+
+SEE ALSO
+    *Bundle::Modules::Unstable*, *Bundle::Modules::CPAN*,
+    *Bundle::Modules::CPAN::Unstable*, *Bundle::Modules::Apache*,
+    *Bundle::Modules::Apache::Unstable*
+
+AUTHORS
+    Eric R. Meyers <ermeyers@adelphia.net>
+
+LICENSE
+    perl
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+COPYRIGHT
+    Copyright (C) 2006 by Eric R. Meyers <ermeyers@adelphia.net>
+
